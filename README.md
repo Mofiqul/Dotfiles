@@ -1,3 +1,3 @@
 # Dotfiles
 
-![screenshot](~/Documents/screenshots.png)
+![screenshot](./screenshots.png)
