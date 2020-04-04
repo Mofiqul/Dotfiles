@@ -1,0 +1,121 @@
+
+# i3status configuration file
+# see "man i3status" for documentation.
+
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# If the above line is not correctly displayed, fix your editor first!
+
+general {
+	colors = true
+	color_good = "#55ba79"
+	color_bad = "#e14245"
+	color_degraded = "#f67400"
+	interval = 2
+}
+
+order += "volume master"
+#order += "load"
+order += "memory"
+order += "cpu_usage"
+#order += "cpu_temperature 0"
+#order += "cpu_temperature 1"
+#order += "cpu_temperature 2"
+#order += "cpu_temperature 3"
+order += "disk /"
+order += "disk /media/media"
+#order += "ethernet eth0"
+order += "wireless wlp7s0"
+order += "battery 0"
+order += "tztime local"
+#order += "ipv6"
+#order += "run_watch DHCP"
+#order += "run_watch VPN"
+
+volume master {
+	format = "  %volume  " 
+	device = "default"
+	mixer = "Master"
+	mixer_idx = 0
+}
+
+load {
+	format = "  %1min "
+}
+
+memory {
+        format = "  %used"
+#        threshold_degraded = "10%"
+#        format_degraded = "MEMORY: %free"
+}
+
+cpu_usage {
+	format = "  %usage "
+}
+
+battery 0 {
+        format = "%status%percentage "
+ #       format = "%status %percentage %remaining %emptytime"
+        format_down = "No battery"
+        status_chr = "  "
+        status_bat = "  "
+        status_unk = "  "
+        status_full = "  "
+        path = "/sys/class/power_supply/BAT%d/uevent"
+        low_threshold = 10
+}
+
+
+cpu_temperature 0 {
+	format = " ± %degrees°"
+	path = "/sys/devices/platform/coretemp.0/temp2_input"
+	max_threshold = 95
+}
+
+cpu_temperature 1 {
+	format = "%degrees°"
+	path = "/sys/devices/platform/coretemp.0/temp3_input"
+	max_threshold = 95
+}
+
+cpu_temperature 2 {
+	format = "%degrees°"
+	path = "/sys/devices/platform/coretemp.0/temp4_input"
+	max_threshold = 95
+}
+
+cpu_temperature 3 {
+	format = "%degrees° "
+	path = "/sys/devices/platform/coretemp.0/temp5_input"
+	max_threshold = 95
+}
+
+disk "/" {
+	format = "  %avail / " 
+}
+
+disk "/media/media" {
+	format = " ¨ %avail:m "
+}
+
+wireless wlp7s0 {
+	format_up = " 直 %quality at %essid "
+	format_down = " 睊  Disconnected "
+}
+
+ethernet eth0 {
+	format_up =  "   Connected "
+	format_down = "   Disconnected "
+}
+
+run_watch DHCP {
+	pidfile = "/var/run/dhclient*.pid"
+}
+
+run_watch VPN {
+	pidfile = "/var/run/vpnc/pid"
+}
+
+tztime local {
+	format = "   %h-%d %I:%M %p  "
+}

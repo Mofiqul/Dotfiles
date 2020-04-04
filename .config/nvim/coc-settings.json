@@ -1,0 +1,14 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "json",
+    "html",
+    "javascriptvue",
+    "css",
+    "vue",
+    "Markdown"
+  ],
+  "vetur.trace.server": "verbose",
+  "vetur.validation.template": false
+}
