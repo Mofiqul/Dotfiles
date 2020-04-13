@@ -1,0 +1,86 @@
+general {
+        output_format = "i3bar"
+        colors = false
+        markup = pango
+        interval = 5
+        color_good = '#2f343f'
+		color_degraded = '#ebcb8b'
+		color_bad = '#ba5e57'
+}
+
+#order += "load"
+order += "cpu_temperature 0"
+order += "memory"
+order += "cpu_usage"
+order += "disk /"
+#order += "disk /home"
+#order += "ethernet enp19s0"
+order += "wireless wlp7s0"
+order += "volume master"
+order += "battery 0"
+order += "tztime local"
+
+load {
+        format = "<span background='#f59335'>  %5min </span>"
+}
+
+memory {
+        format = "<span background='#f59335'>  %used </span>"
+#        threshold_degraded = "10%"
+#        format_degraded = "MEMORY: %free"
+}
+
+cpu_usage {
+	format = "<span background='#db2a7d'>   %usage </span>"
+}
+
+
+cpu_temperature 0 {
+        format = "<span background='#db2a7d'> 﨎 %degrees °C </span>"
+        path = "/sys/class/thermal/thermal_zone0/temp"
+}
+
+disk "/" {
+        format = "<span background='#ca555f'>  %free </span>"
+}
+
+disk "/home" {
+        format = "<span background='#a1d569'>  %free Free </span>"
+}
+
+ethernet enp19s0 {
+        format_up = "<span background='#88c0d0'>  %ip </span>"
+        format_down = "<span background='#88c0d0'>  Disconnected </span>"
+}
+
+wireless wlp7s0 {
+        format_up = "<span background='#a8c87c'> ﬉ %essid </span>"
+        format_down = "<span background='#ca555f'> ﬉ Disconnected </span>"
+}
+
+volume master {
+        format = "<span background='#d4cb83'>  %volume </span>"
+        format_muted = "<span background='#d4cb83'> 婢 Muted </span>"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}
+
+battery 0 {
+	last_full_capacity = true
+        format = "<span background='#6fb0ab'>   %status %percentage </span>"
+        format_down = "No Battery"
+        status_chr = "Char"
+        status_bat = "Bat"
+        status_unk = "Unknown"
+        status_full = "Full"
+        path = "/sys/class/power_supply/BAT%d/uevent"
+        low_threshold = 10
+}
+
+tztime local {
+		format = "<span background='#4285f4'> %time </span>"
+		format_time = " %a %-d %b %I:%M%p"
+}
+
+

@@ -12,16 +12,14 @@ general {
 	color_bad = "#e14245"
 	color_degraded = "#f67400"
 	interval = 2
+	markup = "pango"
 }
 
 order += "volume master"
 #order += "load"
 order += "memory"
 order += "cpu_usage"
-#order += "cpu_temperature 0"
-#order += "cpu_temperature 1"
-#order += "cpu_temperature 2"
-#order += "cpu_temperature 3"
+order += "cpu_temperature 0"
 order += "disk /"
 order += "disk /media/media"
 #order += "ethernet eth0"
@@ -33,79 +31,59 @@ order += "tztime local"
 #order += "run_watch VPN"
 
 volume master {
-	format = "  %volume  " 
+	format = " %volume" 
 	device = "default"
 	mixer = "Master"
 	mixer_idx = 0
 }
 
 load {
-	format = "  %1min "
+	format = " %1min "
 }
 
 memory {
-        format = "  %used"
+        format = " %used"
 #        threshold_degraded = "10%"
 #        format_degraded = "MEMORY: %free"
 }
 
 cpu_usage {
-	format = "  %usage "
+	format = "  %usage"
 }
 
 battery 0 {
-        format = "%status%percentage "
+        format = "%status%percentage"
  #       format = "%status %percentage %remaining %emptytime"
         format_down = "No battery"
-        status_chr = "  "
-        status_bat = "  "
-        status_unk = "  "
-        status_full = "  "
+        status_chr = " "
+        status_bat = " "
+        status_unk = " "
+        status_full = " "
         path = "/sys/class/power_supply/BAT%d/uevent"
         low_threshold = 10
 }
 
-
 cpu_temperature 0 {
-	format = " ± %degrees°"
-	path = "/sys/devices/platform/coretemp.0/temp2_input"
-	max_threshold = 95
-}
-
-cpu_temperature 1 {
-	format = "%degrees°"
-	path = "/sys/devices/platform/coretemp.0/temp3_input"
-	max_threshold = 95
-}
-
-cpu_temperature 2 {
-	format = "%degrees°"
-	path = "/sys/devices/platform/coretemp.0/temp4_input"
-	max_threshold = 95
-}
-
-cpu_temperature 3 {
-	format = "%degrees° "
-	path = "/sys/devices/platform/coretemp.0/temp5_input"
-	max_threshold = 95
+        format = "﨎%degrees°C"
+        path = "/sys/class/thermal/thermal_zone0/temp"
 }
 
 disk "/" {
-	format = "  %avail / " 
+	format = " %avail /" 
 }
 
 disk "/media/media" {
-	format = " ¨ %avail:m "
+	format = "¨ %avail:m"
 }
 
 wireless wlp7s0 {
-	format_up = " 直 %quality at %essid "
-	format_down = " 睊  Disconnected "
+	format_up = "﬉%quality at %essid"
+	format_down = "睊 Disconnected"
 }
 
 ethernet eth0 {
-	format_up =  "   Connected "
-	format_down = "   Disconnected "
+	format_up =  "  Connected"
+	format_down = "  Disconnected"
 }
 
 run_watch DHCP {
@@ -117,5 +95,5 @@ run_watch VPN {
 }
 
 tztime local {
-	format = "   %h-%d %I:%M %p  "
+	format = "  %a %h-%d %I:%M %p "
 }
