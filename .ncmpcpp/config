@@ -77,7 +77,8 @@ now_playing_suffix = "$8$/b"
 song_columns_list_format = "(6)[]{} (23)[red]{a} (26)[yellow]{t|f} (40)[green]{b} (4)[blue]{l}"
 
 #song_list_format = " $7%l  $2%t $R$5%a "
-song_list_format = "$1> $2%a$8 - $3%b - $8%t $R $3%l  "
+#song_list_format = "$1> $2%a$8 - $3%b - $8%t $R $3%l  "
+song_list_format = "$1> $2%a$8 - $8%t $R $3%l  "
 
 song_status_format = "$b$7♫ $2%a $8- $3%b $8- $8%t "
 song_window_title_format = " {%a} - {%t}"
