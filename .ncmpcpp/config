@@ -142,4 +142,4 @@ song_window_title_format = " {%a} - {%t}"
 
 startup_slave_screen=visualizer
 
-execute_on_song_change="notify-send "Now playing" "$(ncmpcpp --current-song="{%a - }{%t}|{%f}")""
+execute_on_song_change="notify-send "Now playing" "$(ncmpcpp -q --current-song="{%a - }{%t}|{%f}")""
