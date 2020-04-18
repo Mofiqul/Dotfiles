@@ -203,6 +203,7 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
+#
 #bar {
     #status_command i3status
 	#font pango: EnvyCodeR Nerd Font 10 
@@ -240,3 +241,4 @@ exec ~/.local/bin/betterlockscreen -w
 exec xrandr --output LVDS-0 --brightness .6
 exec dunst
 exec ~/Github/i3-battery-popup/i3-battery-popup -m "Low battery" -s ~/Github/i3-battery-popup/i3-battery-popup.wav -n -i ~/.local/share/icons/Newaita-dark/status/48/battery-low.svg &
+udiskie &
