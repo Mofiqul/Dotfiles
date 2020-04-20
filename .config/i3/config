@@ -49,8 +49,9 @@ bindsym $mod+Shift+x exec ~/.local/bin/betterlockscreen -l blur
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-bindsym $mod+Shift+m exec  kill -s USR1 $(pidof deadd-notification-center)
-
+#bindsym $mod+Shift+m exec  kill -s USR1 $(pidof deadd-notification-center)
+# scrot & gimp - root
+bindsym $mod+Print exec spactacle
 
 # change focus
 bindsym $mod+j focus left
@@ -251,3 +252,4 @@ exec ~/Github/i3-battery-popup/i3-battery-popup -m "Low battery" -s ~/Github/i3-
 
 exec udiskie &
 exec /home/devops/.local/bin/deadd-notification-center &
+exec xinput set-prop 14 306 1
