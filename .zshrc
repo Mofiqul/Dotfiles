@@ -15,6 +15,7 @@ export ZSH="/home/devops/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+#ZSH_THEME="powerlevel10k/powerlevel10k"
 ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
@@ -132,7 +133,7 @@ export EDITOR="$VISUAL"
 
 alias tmux="tmux -u"
 alias vim="nvim"
-alias m="ncmpcpp"
+alias music="ncmpcpp -q"
 alias b="~/.brightnes.sh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -155,7 +156,7 @@ setopt PROMPT_SUBST
 # Note the single quotes
 RPS1='${MODE_INDICATOR_PROMPT}' 
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
-alias ls="lsd"
+#alias ls="lsd"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

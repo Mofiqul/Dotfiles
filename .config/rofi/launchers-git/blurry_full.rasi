@@ -8,7 +8,7 @@
  */
 
 configuration {
-    font:                           "Zeroes 3 12";
+    font:                           "Ubuntu 10";
     show-icons:                     true;
 	icon-theme: 					"Newaita";
     drun-display-format:            "{name}";
@@ -25,8 +25,8 @@ configuration {
     background-color:               #00000066;
     background-entry:               #00000033;
     background-alt:                 #f2f2f215;
-    foreground:                     #f2f2f2EE;
-    foreground-selected:            #ffffffFF;
+    foreground:                     #eeffff;
+    foreground-selected:            #eeffff;
     urgent:                         #E91E6366;
     urgent-selected:                #E91E6377;
 }

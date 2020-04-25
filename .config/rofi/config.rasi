@@ -2,7 +2,7 @@
 
 configuration {
   show-icons:         true;
-  icon-theme:         "Papirus";
+  icon-theme:         "Newatita";
   location: 5;
   yoffset: -50;
   xoffset: -20;

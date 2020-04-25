@@ -1,22 +1,22 @@
 def blood(c, options = {}):
     palette = {
         'background': '#212121',
-        'background-alt': '#393939', 
+        'background-alt': '#313131', 
         'background-attention': '#181920',
         'border': '#212121',
-        'current-line': '#4285f4',
-        'selection': '#4285f4',
-        'foreground': '#c4c7d1',
+        'current-line': '#82aaff',
+        'selection': '#82aaff',
+        'foreground': '#eeffff',
         'foreground-alt': '#eff0f1',
         'foreground-attention': '#ffffff',
-        'comment': '#35434d',
-        'cyan': '#35434d',
+        'comment': '#393939',
+        'cyan': '#393939',
         'green': '#c3e88d',
         'orange': '#ffb86c',
         'pink': '#ff79c6',
         'purple': '#bd93f9',
-        'red': '#eb606d',
-        'yellow': '#f7eb95'
+        'red': '#f07178',
+        'yellow': '#ffcb6b'
     }   
 
     spacing = options.get('spacing', {

@@ -1,0 +1,49 @@
+configuration {
+  display-drun: "";
+  display-window: "";
+  display-ssh: "";
+  show-icons: true;
+  drun-display-format: "{icon} {name}";
+}
+
+* {
+  font: "icomoon\-feather 12";
+  icon-font: "icomoon\-feather 24";
+  padding: 3px 5px;
+  background-color: rgba(33, 33, 33, 0);
+  color: #eeffff;
+}
+
+window {
+  background-color: rgba(33, 33, 33, 0.75);
+  transparency: "real";
+  x-offset: -25%;
+  y-offset: -25%;
+  height: 50%;
+  width: 50%;
+}
+
+listview {
+  padding: 0px 5px 0px 5px;
+  spacing: 0.2em;
+}
+
+#element {
+  padding: 5px 0px 5px 0px;
+}
+
+element-icon {
+  size: 24px;
+  border: 0px;
+}
+
+element-text {
+  expand: true;
+  vertical-align: 0.5;
+}
+
+#element selected {
+  border-radius: 2px;
+  background-color: rgba(130,170,255,0.75);
+  color: rgba(33, 33, 33, 1);
+}

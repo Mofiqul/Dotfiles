@@ -42,10 +42,9 @@ bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
 bindsym $mod+d exec ~/.config/rofi/launchers-git/launcher.sh
-
+bindsym F8 exec rofi -show window -theme material.rasi
 # Lockscreen
-# Need to put absolute path for some reason
-bindsym $mod+Shift+x exec ~/.local/bin/betterlockscreen -l blur
+bindsym $mod+Shift+x exec mantablockscreen
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -153,7 +152,17 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -f 'EnvyCodeR Nerd Font' -m 'Please select' -B 'Logout' 'i3-msg exit' -B 'Suspend' 'systemctl suspend' -B 'Restart' 'restart' -B 'Shutdown' 'poweroff'"
+#bindsym $mod+Shift+e exec "i3-nagbar -t warning -f 'EnvyCodeR Nerd Font' -m 'Please select' -B 'Logout' 'i3-msg exit' -B 'Suspend' 'systemctl suspend' -B 'Restart' 'restart' -B 'Shutdown' 'poweroff'"
+
+bindsym $mod+Shift+e qdbus org.kde.ksmserver/KSMServer org.kde.KSMServerInterface.logout -1 -1 -1
+
+# read 1 character and mark the current window with this character
+bindsym $mod+m exec i3-input -F 'mark %s' -l 1 -P 'Mark: '
+# read 1 character and go to the window with the character
+bindsym $mod+g exec i3-input -F '[con_mark="%s"] focus' -l 1 -P 'Goto: '
+# read 1 character unmark the window with the character
+bindsym $mod+u exec i3-input -F 'unmark %s' -l 1 -P 'Unmark:'
+
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -163,10 +172,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -192,11 +201,11 @@ bindsym $mod+r mode "resize"
            #background #212121
         #statusline #ffffff
 
-		#focused_workspace  #659DF4 #4285f4 #ffffff
-        ##active_workspace   #4285f4 #4285f4 #ffffff
-        ##inactive_workspace #fde76e #fde76e #212121
-        ##urgent_workspace   #e14245 #e14245 #ffffff
-        ##binding_mode       #e14245 #e14245 #ffffff
+		#focused_workspace  #82aaff #82aaff #eefff
+        ##active_workspace   #82aaff #82aaff #eeffff
+        ##inactive_workspace #ffcb6b #ffdb6b #212121
+        ##urgent_workspace   #f07178 #f07178 #eeffff
+        ##binding_mode       #f07178 #f07178 #eeffff
 		
 		## Default color
 		##focused_workspace  #4C7899 #285577 #FFFFFF
@@ -207,14 +216,20 @@ bindsym $mod+r mode "resize"
        #}
 #}
 
+workspace_auto_back_and_forth yes
+
 for_window [class=".*"] border pixel 2
-gaps inner 10
+gaps inner 8
 gaps outer 0
+# print all window titles bold
+for_window [class=".*"] title_format "<b> %title</b>"
 
+# Color settings
+# class                 border  backgr  text    indicator child_border
+client.focused 			#82aaff #82aaff #212121 #82aaff   #82aaff
+client.unfocused 		#212121 #212121 #eeffff #212121   #212121
+client.focused_inactive #212121 #212121 #eeffff #212121   #212121
 
-client.focused #7dc6bf #80cbc4 #ffffff #393939 #393939
-client.unfocused #333333 #222222 #ffffff #212121 #212121
-client.focused_inactive #333333 #222222 #ffffff #212121 #212121
 
 ####################
 # Auto startup #####
@@ -223,8 +238,8 @@ client.focused_inactive #333333 #222222 #ffffff #212121 #212121
 exec ~/.config/polybar/launch.sh
 # Compositor
 exec ~/Github/compton/compton --config ~/.config/compton/compton.conf
-# Wallpaper and lockscreen
-exec ~/.local/bin/betterlockscreen -w
+# Wallpaper 
+exec feh --bg-fill /home/devops/Pictures/cyborg-girl-pink-hair-short-hair-4k-au-3840x2160.jpg  
 # Birghtness
 exec xrandr --output LVDS-0 --brightness .6
 
