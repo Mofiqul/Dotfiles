@@ -30,7 +30,6 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 #exec --no-startup-id nm-applet
 
-
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -42,7 +41,8 @@ bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
 bindsym $mod+d exec ~/.config/rofi/launchers-git/launcher.sh
-bindsym F8 exec rofi -show window -theme material.rasi
+bindsym Ctrl+space exec dmenu_run -nb '#212121' -sf '#212121' -sb '#82aaff' -nf '#eeffff' 
+bindsym F8 exec rofi -show drun window ssh -sidebar-mode ture -theme breeze-dark.rasi
 # Lockscreen
 bindsym $mod+Shift+x exec mantablockscreen
 # There also is the (new) i3-dmenu-desktop which only displays applications
@@ -98,6 +98,12 @@ bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
+
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+minus move scratchpad
+
+# Show the first scratchpad window
+bindsym $mod+minus scratchpad show
 
 # focus the child container
 bindsym $mod+Shift+d focus child
@@ -163,6 +169,8 @@ bindsym $mod+g exec i3-input -F '[con_mark="%s"] focus' -l 1 -P 'Goto: '
 # read 1 character unmark the window with the character
 bindsym $mod+u exec i3-input -F 'unmark %s' -l 1 -P 'Unmark:'
 
+# Swaps the focused container with the container marked »m«.
+bindsym $mod+Shift+Return swap container with mark m
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -201,7 +209,7 @@ bindsym $mod+r mode "resize"
            #background #212121
         #statusline #ffffff
 
-		#focused_workspace  #82aaff #82aaff #eefff
+		#focused_workspace  #82aaff #82aaff #eeffff
         ##active_workspace   #82aaff #82aaff #eeffff
         ##inactive_workspace #ffcb6b #ffdb6b #212121
         ##urgent_workspace   #f07178 #f07178 #eeffff
@@ -234,22 +242,25 @@ client.focused_inactive #212121 #212121 #eeffff #212121   #212121
 ####################
 # Auto startup #####
 ####################
+#polkit
+exec /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
+
 # Status bar
 exec ~/.config/polybar/launch.sh
 # Compositor
 exec ~/Github/compton/compton --config ~/.config/compton/compton.conf
 # Wallpaper 
-exec feh --bg-fill /home/devops/Pictures/cyborg-girl-pink-hair-short-hair-4k-au-3840x2160.jpg  
+exec feh --bg-fill /home/devops/Pictures/fantasy-landscape-digital-art-scenery-uhdpaper.com-hd-4.999.jpg 
 # Birghtness
 exec xrandr --output LVDS-0 --brightness .6
 
 # Notification
-#exec dunst
+exec dunst
 # Battery low warning
 exec ~/Github/i3-battery-popup/i3-battery-popup -m "Low battery" -s ~/Github/i3-battery-popup/i3-battery-popup.wav -n -i ~/.local/share/icons/Newaita-dark/status/48/battery-low.svg &
 # Auto usb mounting
 exec udiskie &
 # A better notification
-exec /home/devops/.local/bin/deadd-notification-center &
+#exec /home/devops/.local/bin/deadd-notification-center &
 # Enable tap to touch (Only laptop)
 exec ~/.config/i3/scripts/xinput.sh

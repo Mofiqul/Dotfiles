@@ -19,21 +19,10 @@ Plug 'ryanoasis/vim-devicons'
 "Airline and airline themes
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-"Plug 'itchyny/lightline.vim'
 
 "Vim Colorschemes
-"Plug 'arcticicestudio/nord-vim'
-"Plug 'ajh17/spacegray.vim'
-"Plug 'cormacrelf/vim-colors-github'
-"Plug 'danilo-augusto/vim-afterglow'
-"Plug 'rakr/vim-one'
-"Plug 'tomasiser/vim-code-dark'
-"Plug 'ayu-theme/ayu-vim'
 Plug 'kaicataldo/material.vim'
-"Plug 'dracula/vim', { 'as': 'dracula' }
-"Plug 'dylanaraps/wal.vim'
 
-"Plug 'ctrlpvim/ctrlp.vim'
 Plug 'benmills/vimux'
 Plug 'majutsushi/tagbar'
 Plug 'junegunn/fzf', { 'do': './install --bin' }
@@ -52,7 +41,7 @@ Plug 'scrooloose/nerdcommenter'
 " Noevim COC
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " COC extensions
-let g:coc_global_extensions = ['coc-json', 'coc-phpls', 'coc-xml', 'coc-python', 'coc-html', 'coc-tsserver', 'coc-vetur', 'coc-emmet', 'coc-spell-checker', 'coc-prettier', 'coc-snippets', 'coc-tailwindcss', 'coc-svelte', 'coc-clangd', 'coc-highlight'  ]
+let g:coc_global_extensions = ['coc-json', 'coc-phpls', 'coc-xml', 'coc-python', 'coc-html', 'coc-tsserver', 'coc-vetur', 'coc-emmet', 'coc-spell-checker', 'coc-prettier', 'coc-snippets', 'coc-tailwindcss', 'coc-svelte', 'coc-clangd', 'coc-highlight', 'coc-explorer']
 
 
 
@@ -61,7 +50,6 @@ Plug 'stanangeloff/php.vim'
 Plug 'jwalton512/vim-blade'
 
 " Vue support for vim
-"Plug 'posva/vim-vue'
 Plug 'leafOfTree/vim-vue-plugin'
 
 Plug 'mattn/emmet-vim'
@@ -83,19 +71,20 @@ Plug 'sheerun/vim-polyglot'
 
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 Plug 'metakirby5/codi.vim'
+Plug 'digitaltoad/vim-pug'
+Plug 'junegunn/goyo.vim'
+Plug 'mboughaba/i3config.vim'
+Plug 'tpope/vim-surround'
+Plug 'edkolev/tmuxline.vim'
+Plug 'mhinz/vim-startify'
 call plug#end()
 
-" Airline configueations
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#formatter = 'jsformatter'
-let g:airline#extensions#tabline#left_sep = ' '
-let g:airline#extensions#tabline#left_alt_sep = '|'
 " Auto tag rename in additional files
 let g:tagalong_additional_filetypes = ['vue']
 
 let g:rainbow_active = 1
 let g:indentLine_enabled = 1
-"let g:indentLine_setColors = 0
+let g:indentLine_setColors = 1
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
 filetype indent on
@@ -121,29 +110,28 @@ if (has('termguicolors'))
 	set termguicolors
 endif
 
+
+" Material colorscheme settings
 let g:material_terminal_italics = 1
 let g:material_theme_style = 'darker'
-"let g:afterglow_inherit_background=1
-"let g:afterglow_blackout = 1
-"let g:afterglow_italic_comments = 1
-colorscheme material
-let g:airline_theme='wombat'
-"let g:lightline = { 'colorscheme': 'material_vim' }
-set cursorline
-let g:airline_powerline_fonts = 1
-"let g:lightline = {
-"      \ 'colorscheme': 'wombat',
-"      \ 'active': {
-"      \   'left': [ [ 'mode', 'paste' ],
-"      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
-"      \ },
-"      \ 'component_function': {
-"      \   'gitbranch': 'FugitiveHead',
-"	  \   'cocstatus': 'coc#status'
-"      \ },
-"      \ }
 
- autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
+" Gruvbox Material colorscheme settings
+"set background=dark
+"let g:gruvbox_material_background = 'soft'
+"let g:gruvbox_material_enable_italic = 1
+
+colorscheme material
+set cursorline
+
+" Airline configueations
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#formatter = 'jsformatter'
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline_theme = 'material'
+let g:airline_powerline_fonts = 1
+
+autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
 
 "NERDTree 
 let g:NERDTreeFileExtensionHighlightFullName = 1
@@ -165,8 +153,11 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 set number relativenumber
 
 " Kaymap shorcuts
-map <C-n> :NERDTreeToggle<CR>
+"map <C-n> :NERDTreeToggle<CR>
 map <C-m> :TagbarToggle<CR>
+nmap <C-n> :CocCommand explorer<CR>
+
+let g:user_emmet_leader_key=','
 
 nmap <expr> <silent> <C-d> <SID>select_current_word()
 function! s:select_current_word()
@@ -393,8 +384,54 @@ map <C-g> :BLines<CR>
 
 
 " Disable arrow keys
-noremap <Up> <Nop>
-noremap <Down> <Nop>
-noremap <Left> <Nop>
-noremap <Right> <Nop>
+"noremap <Up> <Nop>
+"noremap <Down> <Nop>
+"noremap <Left> <Nop>
+"noremap <Right> <Nop>
+
+
+let g:coc_explorer_global_presets = {
+\   '.vim': {
+\      'root-uri': '~/.vim',
+\   },
+\   'floating': {
+\      'position': 'floating',
+\   },
+\   'floatingLeftside': {
+\      'position': 'floating',
+\      'floating-position': 'left-center',
+\      'floating-width': 50,
+\   },
+\   'floatingRightside': {
+\      'position': 'floating',
+\      'floating-position': 'left-center',
+\      'floating-width': 50,
+\   },
+\   'simplify': {
+\     'file.child.template': '[selection | clip | 1] [indent][icon | 1] [filename omitCenter 1]'
+\   }
+\ }
+
+
+" Keybinding 
+map <Leader>tt :vnew term://zsh<CR>
+" Remap splits navigation to just CTRL + hjkl
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+" Make adjusing split sizes a bit more friendly
+noremap <silent> <C-Left> :vertical resize +5<CR>
+noremap <silent> <C-Right> :vertical resize -5<CR>
+noremap <silent> <C-Up> :resize +5<CR>
+noremap <silent> <C-Down> :resize -5<CR>
+
+" Change 2 split windows from vert to horiz or horiz to vert
+map <Leader>th <C-w>t<C-w>H
+map <Leader>tv <C-w>t<C-w>K
+
+function! StartifyEntryFormat()
+    return 'WebDevIconsGetFileTypeSymbol(absolute_path) ." ". entry_path'
+endfunction
+
 

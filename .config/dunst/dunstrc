@@ -62,18 +62,18 @@
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the '#' and following  would be interpreted as a comment.
     background="#212121"
-    foreground="#f5f5f5"
+    foreground="#eeffff"
     timeout = 2
 
 
 [urgency_normal]
     background="#212121" #3a3a3a
-    foreground="#f5f5f5"
+    foreground="#eeffff"
     timeout = 3
 
 
 [urgency_critical]
     background="#FF5C57"
-    foreground="#f5f5f5"
+    foreground="#eeffff"
     timeout = 5
 
