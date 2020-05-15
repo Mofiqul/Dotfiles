@@ -1,0 +1,49 @@
+#! /bin/sh
+
+sxhkd &
+dunst &
+/usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
+
+~/Github/compton/compton --config ~/.config/compton/compton.conf & 
+
+polybar -c ~/.config/polybar/config.bspwm fullbar &
+
+xrandr --output LVDS-0 --brightness .6
+
+~/Github/i3-battery-popup/i3-battery-popup -m "Low battery" -s ~/Github/i3-battery-popup/i3-battery-popup.wav -n -i ~/.local/share/icons/Newaita-dark/status/48/battery-low.svg &
+
+udiskie &
+
+~/.config/i3/scripts/xinput.sh
+
+
+
+# Wallpaper
+feh --bg-fill /home/devops/Pictures/cyborg-girl-pink-hair-short-hair-4k-au-3840x2160.jpg
+
+#bspc monitor -d I II III IV V VI VII VIII IX X
+
+bspc monitor -d 1 2 3 4 5 6 7 8 9 
+bspc config border_width         2
+bspc config window_gap          10
+bspc config split_ratio          0.52
+bspc config gapless_monocle      false
+
+
+bspc config focus_follows_pointer true
+bspc config auto_alternate true
+bspc config auto_cancel true
+bspc config normal_border_color "#212121"
+bspc config active_border_color "#82aaff"
+bspc config focused_border_color "#82aaff"
+bspc config presel_border_color "#ffcb6b"
+bspc config urgent_border_color "#f07178"
+bspc config focused_locked_border_color "#ffcb6b"
+bspc config normal_frame_opacity 0.0
+
+
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=offspc config focused_frame_opacity 0.1
