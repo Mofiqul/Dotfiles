@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	alacritty
+	kitty
 
 # program launcher
 ctrl + @space
@@ -114,10 +114,14 @@ super + {o,i}
 	bspc node {older,newer} -f; \
 	bspc wm -h on
 
-# focus or send to the given desktop
-super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
+#send to the given desktop
+super + shift + {1-9,0}
+	bspc node -d '^{1-9,10}'
 
+# focus to given desktop
+super + {1-9,0}
+    desktop='^{1-9,10}'; \
+    bspc query -D -d "$desktop.focused" && bspc desktop -f last || bspc desktop -f "$desktop"
 
 #
 # preselect
@@ -165,3 +169,4 @@ super + alt + shift + {Left,Down,Up,Right}
 # move a floating window
 super + ctrl + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
