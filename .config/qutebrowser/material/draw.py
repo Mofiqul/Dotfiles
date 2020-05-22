@@ -62,7 +62,7 @@ def blood(c, options = {}):
     c.colors.completion.item.selected.border.top = palette['selection']
 
     ## Foreground color of the selected completion item.
-    c.colors.completion.item.selected.fg = palette['foreground']
+    c.colors.completion.item.selected.fg = palette['background']
 
     ## Foreground color of the matched text in the completion.
     c.colors.completion.match.fg = palette['orange']
@@ -150,7 +150,7 @@ def blood(c, options = {}):
     c.colors.prompts.border = '1px solid ' + palette['background-alt']
 
     ## Foreground color for prompts.
-    c.colors.prompts.fg = palette['cyan']
+    c.colors.prompts.fg = palette['foreground']
 
     ## Background color for the selected item in filename prompts.
     c.colors.prompts.selected.bg = palette['selection']

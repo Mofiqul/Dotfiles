@@ -14,10 +14,14 @@ settings:
   content.headers.user_agent:
     web.whatsapp.com: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
       Gecko) Chrome/69.0.3497.128 Safari/537.36
+  fonts.monospace:
+    global: '"Ubuntu","xos4 Terminus", Terminus, Monospace, "DejaVu Sans Mono", Monaco,
+      "Bitstream Vera Sans Mono", "Andale Mono", "Courier New", Courier, "Liberation
+      Mono", monospace, Fixed, Consolas, Terminal'
   statusbar.hide:
-    global: false
+    global: true
   tabs.show:
-    global: multiple
+    global: never
   url.searchengines:
     global:
       DEFAULT: https://duckduckgo.com/?q={}
