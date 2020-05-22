@@ -5,7 +5,7 @@ config.load_autoconfig()
 
 material.draw.blood(c, {
     'spacing': {
-        'vertical': 6,
+        'vertical': 2,
         'horizontal': 8
     }
 })
