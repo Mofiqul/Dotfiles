@@ -112,6 +112,7 @@ DirSelectDialog Size=841,594
 History Items[$e]=file:$HOME/Music
 
 [General]
+BrowserApplication=firefox.desktop
 ColorScheme=Materia Dark Modified
 Name=Breeze Dark
 XftHintStyle=hintslight
@@ -131,7 +132,6 @@ Theme=Newaita-dark
 ColorScheme=Breeze
 LookAndFeelPackage=org.kde.breezedark.desktop
 contrast=4
-widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -145,11 +145,11 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=true
+Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=150
+Speedbar Width=190
 View Style=Simple
 
 [WM]
@@ -157,8 +157,8 @@ activeBackground=40,40,40
 activeBlend=40,40,40
 activeFont=Ubuntu,10,-1,5,50,0,0,0,0,0,Regular
 activeForeground=223,223,223
-frame=66,133,244
+frame=57,57,57
 inactiveBackground=40,40,40
 inactiveBlend=40,40,40
 inactiveForeground=105,105,105
-inactiveFrame=253,231,110
+inactiveFrame=33,33,33

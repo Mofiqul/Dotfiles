@@ -114,7 +114,6 @@ endif
 " Material colorscheme settings
 let g:material_terminal_italics = 1
 let g:material_theme_style = 'darker'
-
 " Gruvbox Material colorscheme settings
 "set background=dark
 "let g:gruvbox_material_background = 'soft'
@@ -123,6 +122,7 @@ let g:material_theme_style = 'darker'
 colorscheme material
 set cursorline
 
+hi Normal guibg=NONE ctermbg=NONE
 " Airline configueations
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'jsformatter'
@@ -156,8 +156,14 @@ set number relativenumber
 "map <C-n> :NERDTreeToggle<CR>
 map <C-m> :TagbarToggle<CR>
 nmap <C-n> :CocCommand explorer<CR>
+nmap <space>f :CocCommand explorer --preset floating<CR>
+autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 
 let g:user_emmet_leader_key=','
+nmap <Tab> :bnext<CR>
+nmap <S-Tab> :bprevious<CR>
+
+
 
 nmap <expr> <silent> <C-d> <SID>select_current_word()
 function! s:select_current_word()

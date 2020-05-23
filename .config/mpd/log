@@ -488,3 +488,3315 @@ Apr 04 20:27 : client: [3] opened from 127.0.0.1:45510
 Apr 04 20:32 : player: played "Ivan Torrent - BEYOND LOVE ft. Lara Ausensi.mp3"
 Apr 04 20:56 : player: played "Ivan Torrent _ Neon Paradise EXTENDED.mp3"
 Apr 04 21:17 : client: [3] closed
+Apr 05 00:12 : player: played "Ivan Torrent - Icarus (feat. Julie Elven).mp3"
+Apr 05 14:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 05 14:27 : config: option 'mixer_device' on line 301 was not recognized
+Apr 05 14:27 : config: option 'mixer_control' on line 302 was not recognized
+Apr 05 14:27 : config: option 'mixer_index' on line 303 was not recognized
+Apr 05 14:27 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 05 14:27 : client: [0] opened from 127.0.0.1:49328
+Apr 05 14:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 05 14:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 05 14:32 : player: played "Poets of the Fall - Carnival of Rust (Official Video w_ Lyrics).mp3"
+Apr 05 14:36 : player: played "Sing Me to Sleep.mp3"
+Apr 05 14:42 : player: played "Star Sky - Two Steps From Hell _Lyrics_ __ PizzaCat.mp3"
+Apr 05 14:49 : player: played "Serhat Durmus - Sır (ft. Ecem Telli).mp3"
+Apr 05 14:54 : player: played "Serhat Durmus - Not Alone.mp3"
+Apr 05 14:59 : player: played "Serhat Durmus - La Câlin (JOKER).mp3"
+Apr 05 15:02 : client: [0] closed
+Apr 05 15:02 : player: played "Serhat Durmus - Hislerim ft Zerrin.mp3"
+Apr 06 16:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 06 16:23 : config: option 'mixer_device' on line 301 was not recognized
+Apr 06 16:23 : config: option 'mixer_control' on line 302 was not recognized
+Apr 06 16:23 : config: option 'mixer_index' on line 303 was not recognized
+Apr 06 16:23 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 06 16:23 : client: [0] opened from 127.0.0.1:48562
+Apr 06 16:23 : update: added /Chill-study-music.mp3
+Apr 06 16:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 06 16:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 06 16:56 : client: [0] closed
+Apr 06 16:56 : client: [1] opened from 127.0.0.1:48836
+Apr 06 16:56 : client: [1] closed
+Apr 07 00:16 : player: played "Chill-study-music.mp3"
+Apr 09 17:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 17:57 : config: option 'mixer_device' on line 301 was not recognized
+Apr 09 17:57 : config: option 'mixer_control' on line 302 was not recognized
+Apr 09 17:57 : config: option 'mixer_index' on line 303 was not recognized
+Apr 09 17:57 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 09 17:57 : client: [0] opened from 127.0.0.1:37022
+Apr 09 17:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 17:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 18:36 : client: [0] closed
+Apr 09 18:36 : client: [1] opened from 127.0.0.1:37330
+Apr 09 18:36 : client: [1] closed
+Apr 09 18:40 : player: played "Chill-study-music.mp3"
+Apr 09 18:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 18:44 : config: option 'mixer_device' on line 301 was not recognized
+Apr 09 18:44 : config: option 'mixer_control' on line 302 was not recognized
+Apr 09 18:44 : config: option 'mixer_index' on line 303 was not recognized
+Apr 09 18:44 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 09 18:45 : client: [0] opened from 127.0.0.1:39376
+Apr 09 18:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 18:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 09 19:28 : player: played "Alone _ A Chill Mix.mp3"
+Apr 09 19:30 : client: [0] closed
+Apr 10 10:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 10:43 : config: option 'mixer_device' on line 301 was not recognized
+Apr 10 10:43 : config: option 'mixer_control' on line 302 was not recognized
+Apr 10 10:43 : config: option 'mixer_index' on line 303 was not recognized
+Apr 10 10:43 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 10 10:43 : client: [0] opened from 127.0.0.1:33544
+Apr 10 10:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 10:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 10 11:21 : client: [0] closed
+Apr 10 11:21 : client: [1] opened from 127.0.0.1:33638
+Apr 10 11:21 : client: [1] closed
+Apr 10 11:21 : client: [2] opened from 127.0.0.1:33640
+Apr 10 13:38 : player: played "BÖ & Serhat Durmus - Without You.mp3"
+Apr 10 13:45 : player: played "Ecem Telli - Elimi Tut Remix.mp3"
+Apr 10 18:21 : client: [2] closed
+Apr 12 15:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 12 15:23 : config: option 'mixer_device' on line 301 was not recognized
+Apr 12 15:23 : config: option 'mixer_control' on line 302 was not recognized
+Apr 12 15:23 : config: option 'mixer_index' on line 303 was not recognized
+Apr 12 15:23 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 12 15:23 : client: [0] opened from 127.0.0.1:46538
+Apr 12 15:23 : update: added /Programming _ Coding _ Hacking music vol.17 (INFINITY)-UoPpxj77Vi0.mp3
+Apr 12 15:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 12 15:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 12 17:40 : player: played "Programming _ Coding _ Hacking music vol.17 (INFINITY)-UoPpxj77Vi0.mp3"
+Apr 12 17:44 : client: [0] closed
+Apr 13 09:37 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 13 09:37 : config: option 'mixer_device' on line 301 was not recognized
+Apr 13 09:37 : config: option 'mixer_control' on line 302 was not recognized
+Apr 13 09:37 : config: option 'mixer_index' on line 303 was not recognized
+Apr 13 09:37 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 13 09:37 : client: [0] opened from 127.0.0.1:43208
+Apr 13 09:37 : client: [1] opened from 127.0.0.1:43206
+Apr 13 09:38 : client: [0] closed
+Apr 13 09:38 : client: [1] closed
+Apr 13 09:38 : client: [2] opened from 127.0.0.1:43212
+Apr 13 09:38 : client: [3] opened from 127.0.0.1:43214
+Apr 13 09:38 : client: [4] opened from 127.0.0.1:43216
+Apr 13 09:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 13 09:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 13 09:39 : client: [2] closed
+Apr 13 09:39 : client: [3] closed
+Apr 13 09:40 : client: [5] opened from 127.0.0.1:43220
+Apr 13 09:40 : client: [6] opened from 127.0.0.1:43222
+Apr 13 09:42 : player: played "3 Doors Down - Here Without You (Official Video).mp3"
+Apr 13 09:42 : client: [5] closed
+Apr 13 09:42 : client: [6] closed
+Apr 13 09:42 : client: [7] opened from 127.0.0.1:43232
+Apr 13 09:42 : client: [8] opened from 127.0.0.1:43234
+Apr 13 09:43 : client: [7] closed
+Apr 13 09:43 : client: [8] closed
+Apr 13 09:44 : client: [9] opened from 127.0.0.1:43236
+Apr 13 09:44 : client: [10] opened from 127.0.0.1:43238
+Apr 13 09:47 : client: [9] closed
+Apr 13 09:47 : client: [10] closed
+Apr 13 09:47 : client: [11] opened from 127.0.0.1:43240
+Apr 13 09:47 : client: [12] opened from 127.0.0.1:43242
+Apr 13 09:47 : client: [11] closed
+Apr 13 09:47 : client: [12] closed
+Apr 13 09:47 : client: [13] opened from 127.0.0.1:43244
+Apr 13 09:47 : client: [14] opened from 127.0.0.1:43246
+Apr 13 09:48 : client: [13] closed
+Apr 13 09:48 : client: [14] closed
+Apr 13 09:48 : client: [15] opened from 127.0.0.1:43248
+Apr 13 09:48 : client: [16] opened from 127.0.0.1:43250
+Apr 13 09:49 : client: [15] closed
+Apr 13 09:49 : client: [16] closed
+Apr 13 09:50 : client: [17] opened from 127.0.0.1:43252
+Apr 13 09:50 : client: [18] opened from 127.0.0.1:43254
+Apr 13 09:50 : client: [17] closed
+Apr 13 09:50 : client: [18] closed
+Apr 13 09:51 : client: [19] opened from 127.0.0.1:43256
+Apr 13 09:51 : client: [20] opened from 127.0.0.1:43258
+Apr 13 09:52 : client: [19] closed
+Apr 13 09:52 : client: [20] closed
+Apr 13 09:52 : client: [21] opened from 127.0.0.1:43276
+Apr 13 09:52 : client: [22] opened from 127.0.0.1:43278
+Apr 13 09:53 : client: [23] opened from 127.0.0.1:43280
+Apr 13 09:53 : client: [24] opened from 127.0.0.1:43282
+Apr 13 09:53 : client: [25] opened from 127.0.0.1:43284
+Apr 13 09:53 : client: [26] opened from 127.0.0.1:43286
+Apr 13 09:55 : client: [25] closed
+Apr 13 09:55 : client: [26] closed
+Apr 13 09:55 : client: [23] closed
+Apr 13 09:55 : client: [24] closed
+Apr 13 09:56 : client: [21] closed
+Apr 13 09:56 : client: [22] closed
+Apr 13 09:56 : client: [27] opened from 127.0.0.1:43288
+Apr 13 09:56 : client: [28] opened from 127.0.0.1:43290
+Apr 13 09:57 : client: [27] closed
+Apr 13 09:57 : client: [28] closed
+Apr 13 09:57 : client: [29] opened from 127.0.0.1:43292
+Apr 13 09:57 : client: [30] opened from 127.0.0.1:43294
+Apr 13 09:57 : client: [29] closed
+Apr 13 09:57 : client: [30] closed
+Apr 13 09:57 : client: [31] opened from 127.0.0.1:43296
+Apr 13 09:57 : client: [32] opened from 127.0.0.1:43298
+Apr 13 10:01 : client: [4] closed
+Apr 13 10:02 : client: [31] closed
+Apr 13 10:02 : client: [32] closed
+Apr 13 10:02 : client: [33] opened from 127.0.0.1:43312
+Apr 13 10:02 : client: [34] opened from 127.0.0.1:43314
+Apr 13 10:13 : client: [33] closed
+Apr 13 10:13 : client: [34] closed
+Apr 13 10:13 : client: [35] opened from 127.0.0.1:43434
+Apr 13 10:13 : client: [36] opened from 127.0.0.1:43436
+Apr 13 10:18 : client: [35] closed
+Apr 13 10:18 : client: [36] closed
+Apr 13 10:18 : client: [37] opened from 127.0.0.1:43438
+Apr 13 10:18 : client: [38] opened from 127.0.0.1:43440
+Apr 13 10:19 : client: [37] closed
+Apr 13 10:19 : client: [38] closed
+Apr 13 10:19 : client: [39] opened from 127.0.0.1:43442
+Apr 13 10:19 : client: [40] opened from 127.0.0.1:43444
+Apr 13 10:21 : client: [39] closed
+Apr 13 10:21 : client: [40] closed
+Apr 13 10:21 : client: [41] opened from 127.0.0.1:43450
+Apr 13 10:21 : client: [42] opened from 127.0.0.1:43452
+Apr 13 10:23 : client: [41] closed
+Apr 13 10:23 : client: [42] closed
+Apr 13 10:24 : client: [43] opened from 127.0.0.1:43524
+Apr 13 10:24 : client: [44] opened from 127.0.0.1:43526
+Apr 13 10:32 : client: [43] closed
+Apr 13 10:32 : client: [44] closed
+Apr 13 10:32 : client: [45] opened from 127.0.0.1:43858
+Apr 13 10:32 : client: [46] opened from 127.0.0.1:43860
+Apr 13 10:35 : client: [45] closed
+Apr 13 10:35 : client: [46] closed
+Apr 13 10:35 : client: [47] opened from 127.0.0.1:43876
+Apr 13 10:35 : client: [48] opened from 127.0.0.1:43878
+Apr 13 10:36 : client: [47] closed
+Apr 13 10:36 : client: [48] closed
+Apr 13 10:36 : client: [49] opened from 127.0.0.1:43894
+Apr 13 10:36 : client: [50] opened from 127.0.0.1:43896
+Apr 13 10:38 : client: [49] closed
+Apr 13 10:38 : client: [50] closed
+Apr 13 10:38 : client: [51] opened from 127.0.0.1:43932
+Apr 13 10:38 : client: [52] opened from 127.0.0.1:43934
+Apr 13 10:42 : client: [51] closed
+Apr 13 10:42 : client: [52] closed
+Apr 13 10:42 : client: [53] opened from 127.0.0.1:43936
+Apr 13 10:42 : client: [54] opened from 127.0.0.1:43938
+Apr 13 10:44 : client: [53] closed
+Apr 13 10:44 : client: [54] closed
+Apr 13 10:45 : client: [55] opened from 127.0.0.1:43942
+Apr 13 10:45 : client: [56] opened from 127.0.0.1:43944
+Apr 13 10:50 : client: [55] closed
+Apr 13 10:50 : client: [56] closed
+Apr 13 10:50 : client: [57] opened from 127.0.0.1:43954
+Apr 13 10:50 : client: [58] opened from 127.0.0.1:43956
+Apr 13 10:51 : client: [57] closed
+Apr 13 10:51 : client: [58] closed
+Apr 13 10:57 : client: [59] opened from 127.0.0.1:44302
+Apr 13 10:57 : client: [60] opened from 127.0.0.1:44304
+Apr 13 10:59 : client: [59] closed
+Apr 13 10:59 : client: [60] closed
+Apr 13 10:59 : client: [61] opened from 127.0.0.1:44308
+Apr 13 10:59 : client: [62] opened from 127.0.0.1:44310
+Apr 13 11:01 : client: [61] closed
+Apr 13 11:01 : client: [62] closed
+Apr 13 11:01 : client: [63] opened from 127.0.0.1:44312
+Apr 13 11:01 : client: [64] opened from 127.0.0.1:44314
+Apr 13 11:01 : client: [63] closed
+Apr 13 11:01 : client: [64] closed
+Apr 13 11:01 : client: [65] opened from 127.0.0.1:44316
+Apr 13 11:01 : client: [66] opened from 127.0.0.1:44318
+Apr 13 11:05 : client: [65] closed
+Apr 13 11:05 : client: [66] closed
+Apr 13 11:05 : client: [67] opened from 127.0.0.1:44320
+Apr 13 11:05 : client: [68] opened from 127.0.0.1:44322
+Apr 16 10:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 16 10:44 : config: option 'mixer_device' on line 301 was not recognized
+Apr 16 10:44 : config: option 'mixer_control' on line 302 was not recognized
+Apr 16 10:44 : config: option 'mixer_index' on line 303 was not recognized
+Apr 16 10:44 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 16 10:44 : client: [0] opened from 127.0.0.1:38096
+Apr 16 10:44 : client: [0] closed
+Apr 16 10:44 : client: [1] opened from 127.0.0.1:38098
+Apr 16 10:45 : client: [2] opened from 127.0.0.1:38100
+Apr 16 10:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 16 10:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 16 10:46 : client: [3] opened from 127.0.0.1:38102
+Apr 16 10:46 : client: [3] closed
+Apr 16 14:46 : player: played "Chill-study-music.mp3"
+Apr 16 14:46 : client: [1] closed
+Apr 16 14:46 : client: [2] closed
+Apr 16 17:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 16 17:06 : config: option 'mixer_device' on line 301 was not recognized
+Apr 16 17:06 : config: option 'mixer_control' on line 302 was not recognized
+Apr 16 17:06 : config: option 'mixer_index' on line 303 was not recognized
+Apr 16 17:06 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 16 17:06 : client: [0] opened from 127.0.0.1:41376
+Apr 16 17:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 16 17:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 16 17:10 : player: played "2Scratch - Mamacita (ft. TAOG) (BASS BOOSTED).mp3"
+Apr 16 17:14 : player: played "BÖ & Serhat Durmus - Elimi Tut (ft. Ecem Telli).mp3"
+Apr 16 17:15 : client: [1] opened from 127.0.0.1:41386
+Apr 16 17:18 : player: played "BÖ & Serhat Durmus - Without You.mp3"
+Apr 16 17:22 : player: played "Fairy Tail Epic Theme (Hip Hop Remix).mp3"
+Apr 16 17:26 : player: played "Female Fitness Motivation _Never Have I Felt This_.mp3"
+Apr 16 17:30 : player: played "FIFTY VINC - WAY OF THE WARRIOR (HARD AGGRESSIVE DISS_RAP INSTRUMENTAL BANGER BEAT).mp3"
+Apr 16 18:28 : player: played "Flaer Smin - Catharsis (Music Video).mp3"
+Apr 16 18:39 : player: played "Ivan Torrent _ Neon Paradise EXTENDED.mp3"
+Apr 16 23:10 : client: [0] closed
+Apr 16 23:10 : client: [1] closed
+Apr 16 23:10 : client: [2] opened from 127.0.0.1:47912
+Apr 16 23:11 : client: [2] closed
+Apr 16 23:11 : client: [3] opened from 127.0.0.1:47914
+Apr 16 23:11 : client: [3] closed
+Apr 16 23:11 : client: [4] opened from 127.0.0.1:47916
+Apr 16 23:12 : client: [4] closed
+Apr 16 23:12 : client: [5] opened from 127.0.0.1:47918
+Apr 16 23:13 : client: [5] closed
+Apr 16 23:13 : client: [6] opened from 127.0.0.1:47920
+Apr 16 23:13 : client: [6] closed
+Apr 16 23:13 : client: [7] opened from 127.0.0.1:47922
+Apr 16 23:16 : client: [7] closed
+Apr 16 23:16 : client: [8] opened from 127.0.0.1:47940
+Apr 16 23:18 : client: [8] closed
+Apr 16 23:18 : client: [9] opened from 127.0.0.1:47942
+Apr 16 23:19 : client: [9] closed
+Apr 16 23:19 : client: [10] opened from 127.0.0.1:47944
+Apr 16 23:25 : player: played "Ivan Torrent - The Power of Will (feat. Gaby Koss).mp3"
+Apr 16 23:28 : client: [10] closed
+Apr 16 23:28 : client: [11] opened from 127.0.0.1:48224
+Apr 16 23:41 : player: played "2Scratch - Mamacita (ft. TAOG) (BASS BOOSTED).mp3"
+Apr 16 23:45 : player: played "3 Doors Down - Here Without You (Official Video).mp3"
+Apr 16 23:48 : client: [11] closed
+Apr 16 23:48 : client: [12] opened from 127.0.0.1:48376
+Apr 16 23:48 : client: [12] closed
+Apr 16 23:48 : client: [13] opened from 127.0.0.1:48378
+Apr 16 23:48 : client: [13] closed
+Apr 16 23:50 : player: played "3d Ivan Torrent - Masters of Time(Bass Boosted) _ EpicPrimeMusic.mp3"
+Apr 17 09:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 17 09:29 : config: option 'mixer_device' on line 301 was not recognized
+Apr 17 09:29 : config: option 'mixer_control' on line 302 was not recognized
+Apr 17 09:29 : config: option 'mixer_index' on line 303 was not recognized
+Apr 17 09:29 : client: [0] opened from 127.0.0.1:37330
+Apr 17 09:29 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 17 09:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 17 09:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 17 09:34 : player: played "2Scratch - Mamacita (ft. TAOG) (BASS BOOSTED).mp3"
+Apr 17 09:38 : player: played "3 Doors Down - Here Without You (Official Video).mp3"
+Apr 17 09:44 : player: played "3d Ivan Torrent - Masters of Time(Bass Boosted) _ EpicPrimeMusic.mp3"
+Apr 17 09:47 : player: played "Alec Benjamin - Let Me Down Slowly (feat. Alessia Cara) _Official Music Video_.mp3"
+Apr 17 09:53 : player: played "Alef - Sol.mp3"
+Apr 17 10:36 : player: played "Alone _ A Chill Mix.mp3"
+Apr 17 10:41 : player: played "Avril Lavigne - I Fell In Love With The Devil (Official Video).mp3"
+Apr 17 10:45 : player: played "Avril Lavigne - I'm With You (Official Music Video).mp3"
+Apr 17 10:50 : player: played "Avril Lavigne - Let Me Go ft. Chad Kroeger (Official Music Video).mp3"
+Apr 17 11:12 : player: played "BÖ & Serhat Durmus - Elimi Tut (ft. Ecem Telli).mp3"
+Apr 17 11:15 : player: played "BÖ & Serhat Durmus - Without You.mp3"
+Apr 17 11:19 : player: played "Camila Cabello - Havana (Official Audio) ft. Young Thug.mp3"
+Apr 17 11:23 : player: played "Camila Cabello - Liar (Audio).mp3"
+Apr 17 11:26 : player: played "Charlotte Lawrence - Why Do You Love Me (Acoustic) _Official Video_.mp3"
+Apr 17 11:32 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Apr 17 11:32 : player: played "Christina Perri - A Thousand Years _Official Music Video_.mp3"
+Apr 17 11:38 : player: played "Climax - Intro Scene (Supernature - Cerrone).m4a"
+Apr 17 11:42 : player: played "Coldplay - Hymn For The Weekend - Alan Walker Remix - (Music Video).mp3"
+Apr 17 11:45 : player: played "Daya - Insomnia.mp3"
+Apr 17 11:50 : player: played "Dr. Project Point Blank ~ A Song For V..mp3"
+Apr 17 11:54 : player: played "Ecem Telli - Elimi Tut Remix.mp3"
+Apr 17 15:16 : player: played "Roudeep - Moonlight.mp3"
+Apr 17 15:20 : player: played "Serhat Durmus - Alive (Official Video).mp3"
+Apr 17 17:07 : player: played "Serhat Durmus - Hislerim ft Zerrin.mp3"
+Apr 17 17:13 : player: played "Serhat Durmus - La Câlin (JOKER).mp3"
+Apr 17 17:16 : player: played "Serhat Durmus - Not Alone.mp3"
+Apr 17 17:19 : player: played "Serhat Durmus - Sır (ft. Ecem Telli).mp3"
+Apr 17 17:23 : player: played "Serhat Durmus Ft. Zerrin - Hislerim (Mustafa Güney Remix).mp3"
+Apr 17 17:26 : player: played "Sing Me to Sleep.mp3"
+Apr 17 17:27 : client: [0] closed
+Apr 17 17:28 : player: played "Star Sky - Two Steps From Hell _Lyrics_ __ PizzaCat.mp3"
+Apr 17 17:42 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 17 17:42 : config: option 'mixer_device' on line 301 was not recognized
+Apr 17 17:42 : config: option 'mixer_control' on line 302 was not recognized
+Apr 17 17:42 : config: option 'mixer_index' on line 303 was not recognized
+Apr 17 17:42 : client: [0] opened from 127.0.0.1:35272
+Apr 17 17:42 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 17 17:42 : client: [1] opened from 127.0.0.1:35274
+Apr 17 17:42 : client: [2] opened from 127.0.0.1:35276
+Apr 17 17:42 : client: [0] closed
+Apr 17 17:42 : client: [2] closed
+Apr 17 17:42 : client: [1] closed
+Apr 17 17:42 : client: [3] opened from 127.0.0.1:35280
+Apr 17 17:42 : client: [4] opened from 127.0.0.1:35282
+Apr 17 17:44 : client: [3] closed
+Apr 17 17:44 : client: [4] closed
+Apr 17 17:44 : client: [5] opened from 127.0.0.1:35300
+Apr 17 17:44 : client: [6] opened from 127.0.0.1:35302
+Apr 17 17:45 : client: [5] closed
+Apr 17 17:45 : client: [6] closed
+Apr 17 17:49 : client: [7] opened from 127.0.0.1:35304
+Apr 17 17:49 : client: [8] opened from 127.0.0.1:35306
+Apr 17 17:52 : client: [7] closed
+Apr 17 17:52 : client: [8] closed
+Apr 17 17:52 : client: [9] opened from 127.0.0.1:35374
+Apr 17 17:52 : client: [10] opened from 127.0.0.1:35376
+Apr 17 17:52 : client: [9] closed
+Apr 17 17:52 : client: [10] closed
+Apr 17 17:52 : client: [11] opened from 127.0.0.1:35380
+Apr 17 17:52 : client: [12] opened from 127.0.0.1:35382
+Apr 17 17:57 : client: [11] closed
+Apr 17 17:57 : client: [12] closed
+Apr 17 17:57 : client: [13] opened from 127.0.0.1:35482
+Apr 17 17:57 : client: [14] opened from 127.0.0.1:35484
+Apr 17 17:57 : client: [13] closed
+Apr 17 17:57 : client: [14] closed
+Apr 17 17:57 : client: [15] opened from 127.0.0.1:35486
+Apr 17 17:57 : client: [16] opened from 127.0.0.1:35488
+Apr 17 18:02 : client: [15] closed
+Apr 17 18:02 : client: [16] closed
+Apr 17 18:02 : client: [17] opened from 127.0.0.1:35492
+Apr 17 18:02 : client: [18] opened from 127.0.0.1:35494
+Apr 17 18:02 : client: [17] closed
+Apr 17 18:02 : client: [18] closed
+Apr 17 18:02 : client: [19] opened from 127.0.0.1:35500
+Apr 17 18:02 : client: [20] opened from 127.0.0.1:35502
+Apr 17 18:03 : client: [19] closed
+Apr 17 18:03 : client: [20] closed
+Apr 17 18:03 : client: [21] opened from 127.0.0.1:35512
+Apr 17 18:03 : client: [22] opened from 127.0.0.1:35514
+Apr 17 18:05 : client: [21] closed
+Apr 17 18:05 : client: [22] closed
+Apr 17 18:05 : client: [23] opened from 127.0.0.1:35516
+Apr 17 18:05 : client: [24] opened from 127.0.0.1:35518
+Apr 17 18:06 : client: [23] closed
+Apr 17 18:06 : client: [24] closed
+Apr 17 18:06 : client: [25] opened from 127.0.0.1:35520
+Apr 17 18:06 : client: [26] opened from 127.0.0.1:35522
+Apr 17 18:25 : client: [25] closed
+Apr 17 18:25 : client: [26] closed
+Apr 17 18:47 : client: [27] opened from 127.0.0.1:36066
+Apr 17 18:47 : client: [27] closed
+Apr 17 18:47 : client: [28] opened from 127.0.0.1:36068
+Apr 17 18:47 : client: [28] closed
+Apr 17 18:47 : client: [29] opened from 127.0.0.1:36070
+Apr 17 18:47 : client: [29] closed
+Apr 17 18:47 : client: [30] opened from 127.0.0.1:36072
+Apr 17 18:47 : client: [30] closed
+Apr 17 18:47 : client: [31] opened from 127.0.0.1:36074
+Apr 17 18:47 : client: [31] closed
+Apr 17 18:47 : client: [32] opened from 127.0.0.1:36076
+Apr 17 18:47 : client: [32] closed
+Apr 17 18:47 : client: [33] opened from 127.0.0.1:36078
+Apr 17 18:47 : client: [33] closed
+Apr 17 18:47 : client: [34] opened from 127.0.0.1:36080
+Apr 17 18:47 : client: [34] closed
+Apr 17 18:47 : client: [35] opened from 127.0.0.1:36082
+Apr 17 18:47 : client: [35] closed
+Apr 17 18:47 : client: [36] opened from 127.0.0.1:36084
+Apr 17 18:47 : client: [36] closed
+Apr 17 18:47 : client: [37] opened from 127.0.0.1:36086
+Apr 17 18:47 : client: [37] closed
+Apr 17 18:47 : client: [38] opened from 127.0.0.1:36088
+Apr 17 18:47 : client: [38] closed
+Apr 17 18:47 : client: [39] opened from 127.0.0.1:36092
+Apr 17 18:47 : client: [39] closed
+Apr 17 18:47 : client: [40] opened from 127.0.0.1:36094
+Apr 17 18:47 : client: [40] closed
+Apr 17 18:47 : client: [41] opened from 127.0.0.1:36096
+Apr 17 18:47 : client: [41] closed
+Apr 17 18:47 : client: [42] opened from 127.0.0.1:36098
+Apr 17 18:47 : client: [42] closed
+Apr 17 18:47 : client: [43] opened from 127.0.0.1:36100
+Apr 17 18:47 : client: [43] closed
+Apr 17 18:47 : client: [44] opened from 127.0.0.1:36102
+Apr 17 18:47 : client: [44] closed
+Apr 17 18:47 : client: [45] opened from 127.0.0.1:36104
+Apr 17 18:47 : client: [45] closed
+Apr 17 18:48 : client: [46] opened from 127.0.0.1:36106
+Apr 17 18:48 : client: [46] closed
+Apr 17 18:48 : client: [47] opened from 127.0.0.1:36108
+Apr 17 18:48 : client: [47] closed
+Apr 17 18:48 : client: [48] opened from 127.0.0.1:36110
+Apr 17 18:48 : client: [48] closed
+Apr 17 18:48 : client: [49] opened from 127.0.0.1:36112
+Apr 17 18:48 : client: [49] closed
+Apr 17 18:48 : client: [50] opened from 127.0.0.1:36114
+Apr 17 18:48 : client: [50] closed
+Apr 17 18:48 : client: [51] opened from 127.0.0.1:36116
+Apr 17 18:48 : client: [51] closed
+Apr 17 18:48 : client: [52] opened from 127.0.0.1:36118
+Apr 17 18:48 : client: [52] closed
+Apr 17 18:48 : client: [53] opened from 127.0.0.1:36120
+Apr 17 18:48 : client: [53] closed
+Apr 17 18:48 : client: [54] opened from 127.0.0.1:36122
+Apr 17 18:48 : client: [54] closed
+Apr 17 18:48 : client: [55] opened from 127.0.0.1:36124
+Apr 17 18:48 : client: [55] closed
+Apr 17 18:48 : client: [56] opened from 127.0.0.1:36126
+Apr 17 18:48 : client: [56] closed
+Apr 17 18:48 : client: [57] opened from 127.0.0.1:36128
+Apr 17 18:48 : client: [57] closed
+Apr 17 18:48 : client: [58] opened from 127.0.0.1:36130
+Apr 17 18:48 : client: [58] closed
+Apr 17 18:48 : client: [59] opened from 127.0.0.1:36132
+Apr 17 18:48 : client: [59] closed
+Apr 17 18:48 : client: [60] opened from 127.0.0.1:36134
+Apr 17 18:48 : client: [60] closed
+Apr 17 18:48 : client: [61] opened from 127.0.0.1:36136
+Apr 17 18:48 : client: [61] closed
+Apr 17 18:48 : client: [62] opened from 127.0.0.1:36138
+Apr 17 18:48 : client: [62] closed
+Apr 17 18:48 : client: [63] opened from 127.0.0.1:36140
+Apr 17 18:48 : client: [63] closed
+Apr 17 18:48 : client: [64] opened from 127.0.0.1:36142
+Apr 17 18:48 : client: [64] closed
+Apr 17 18:48 : client: [65] opened from 127.0.0.1:36144
+Apr 17 18:48 : client: [65] closed
+Apr 17 18:48 : client: [66] opened from 127.0.0.1:36146
+Apr 17 18:48 : client: [66] closed
+Apr 17 18:48 : client: [67] opened from 127.0.0.1:36148
+Apr 17 18:48 : client: [67] closed
+Apr 17 18:48 : client: [68] opened from 127.0.0.1:36150
+Apr 17 18:48 : client: [68] closed
+Apr 17 18:48 : client: [69] opened from 127.0.0.1:36152
+Apr 17 18:48 : client: [69] closed
+Apr 17 18:48 : client: [70] opened from 127.0.0.1:36154
+Apr 17 18:48 : client: [70] closed
+Apr 17 18:48 : client: [71] opened from 127.0.0.1:36156
+Apr 17 18:48 : client: [71] closed
+Apr 17 18:48 : client: [72] opened from 127.0.0.1:36158
+Apr 17 18:48 : client: [72] closed
+Apr 17 18:48 : client: [73] opened from 127.0.0.1:36160
+Apr 17 18:48 : client: [73] closed
+Apr 17 18:48 : client: [74] opened from 127.0.0.1:36162
+Apr 17 18:48 : client: [74] closed
+Apr 17 18:48 : client: [75] opened from 127.0.0.1:36164
+Apr 17 18:48 : client: [75] closed
+Apr 17 18:48 : client: [76] opened from 127.0.0.1:36166
+Apr 17 18:48 : client: [76] closed
+Apr 17 18:48 : client: [77] opened from 127.0.0.1:36168
+Apr 17 18:48 : client: [77] closed
+Apr 17 18:48 : client: [78] opened from 127.0.0.1:36170
+Apr 17 18:48 : client: [78] closed
+Apr 17 18:48 : client: [79] opened from 127.0.0.1:36172
+Apr 17 18:48 : client: [79] closed
+Apr 17 18:48 : client: [80] opened from 127.0.0.1:36174
+Apr 17 18:48 : client: [80] closed
+Apr 17 18:48 : client: [81] opened from 127.0.0.1:36176
+Apr 17 18:48 : client: [81] closed
+Apr 17 18:48 : client: [82] opened from 127.0.0.1:36178
+Apr 17 18:48 : client: [82] closed
+Apr 17 18:48 : client: [83] opened from 127.0.0.1:36188
+Apr 17 18:48 : client: [83] closed
+Apr 17 18:48 : client: [84] opened from 127.0.0.1:36190
+Apr 17 18:48 : client: [84] closed
+Apr 17 18:48 : client: [85] opened from 127.0.0.1:36192
+Apr 17 18:48 : client: [85] closed
+Apr 17 18:48 : client: [86] opened from 127.0.0.1:36194
+Apr 17 18:48 : client: [86] closed
+Apr 17 18:48 : client: [87] opened from 127.0.0.1:36196
+Apr 17 18:48 : client: [87] closed
+Apr 17 18:48 : client: [88] opened from 127.0.0.1:36198
+Apr 17 18:48 : client: [88] closed
+Apr 17 18:48 : client: [89] opened from 127.0.0.1:36200
+Apr 17 18:48 : client: [89] closed
+Apr 17 18:48 : client: [90] opened from 127.0.0.1:36202
+Apr 17 18:48 : client: [90] closed
+Apr 17 18:48 : client: [91] opened from 127.0.0.1:36204
+Apr 17 18:48 : client: [91] closed
+Apr 17 18:48 : client: [92] opened from 127.0.0.1:36206
+Apr 17 18:48 : client: [92] closed
+Apr 17 18:48 : client: [93] opened from 127.0.0.1:36208
+Apr 17 18:48 : client: [93] closed
+Apr 17 18:48 : client: [94] opened from 127.0.0.1:36210
+Apr 17 18:48 : client: [94] closed
+Apr 17 18:48 : client: [95] opened from 127.0.0.1:36212
+Apr 17 18:48 : client: [95] closed
+Apr 17 18:48 : client: [96] opened from 127.0.0.1:36214
+Apr 17 18:48 : client: [96] closed
+Apr 17 18:48 : client: [97] opened from 127.0.0.1:36216
+Apr 17 18:48 : client: [97] closed
+Apr 17 18:48 : client: [98] opened from 127.0.0.1:36218
+Apr 17 18:48 : client: [98] closed
+Apr 17 18:48 : client: [99] opened from 127.0.0.1:36220
+Apr 17 18:48 : client: [99] closed
+Apr 17 18:48 : client: [100] opened from 127.0.0.1:36222
+Apr 17 18:48 : client: [100] closed
+Apr 17 18:48 : client: [101] opened from 127.0.0.1:36224
+Apr 17 18:48 : client: [101] closed
+Apr 17 18:48 : client: [102] opened from 127.0.0.1:36226
+Apr 17 18:48 : client: [102] closed
+Apr 17 18:48 : client: [103] opened from 127.0.0.1:36228
+Apr 17 18:48 : client: [103] closed
+Apr 17 18:49 : client: [104] opened from 127.0.0.1:36230
+Apr 17 18:49 : client: [104] closed
+Apr 17 18:49 : client: [105] opened from 127.0.0.1:36232
+Apr 17 18:49 : client: [105] closed
+Apr 17 18:49 : client: [106] opened from 127.0.0.1:36234
+Apr 17 18:49 : client: [106] closed
+Apr 17 18:49 : client: [107] opened from 127.0.0.1:36236
+Apr 17 18:49 : client: [107] closed
+Apr 17 18:49 : client: [108] opened from 127.0.0.1:36238
+Apr 17 18:49 : client: [108] closed
+Apr 17 18:49 : client: [109] opened from 127.0.0.1:36240
+Apr 17 18:49 : client: [109] closed
+Apr 17 18:49 : client: [110] opened from 127.0.0.1:36242
+Apr 17 18:49 : client: [110] closed
+Apr 17 18:49 : client: [111] opened from 127.0.0.1:36244
+Apr 17 18:49 : client: [111] closed
+Apr 17 18:49 : client: [112] opened from 127.0.0.1:36246
+Apr 17 18:49 : client: [112] closed
+Apr 17 18:49 : client: [113] opened from 127.0.0.1:36248
+Apr 17 18:49 : client: [113] closed
+Apr 17 18:49 : client: [114] opened from 127.0.0.1:36250
+Apr 17 18:49 : client: [114] closed
+Apr 17 18:49 : client: [115] opened from 127.0.0.1:36252
+Apr 17 18:49 : client: [115] closed
+Apr 17 18:49 : client: [116] opened from 127.0.0.1:36254
+Apr 17 18:49 : client: [116] closed
+Apr 17 18:49 : client: [117] opened from 127.0.0.1:36256
+Apr 17 18:49 : client: [117] closed
+Apr 17 18:49 : client: [118] opened from 127.0.0.1:36258
+Apr 17 18:49 : client: [118] closed
+Apr 17 18:49 : client: [119] opened from 127.0.0.1:36260
+Apr 17 18:49 : client: [119] closed
+Apr 17 18:49 : client: [120] opened from 127.0.0.1:36262
+Apr 17 18:49 : client: [120] closed
+Apr 17 18:49 : client: [121] opened from 127.0.0.1:36264
+Apr 17 18:49 : client: [121] closed
+Apr 17 18:49 : client: [122] opened from 127.0.0.1:36266
+Apr 17 18:49 : client: [122] closed
+Apr 17 18:49 : client: [123] opened from 127.0.0.1:36268
+Apr 17 18:49 : client: [123] closed
+Apr 17 18:49 : client: [124] opened from 127.0.0.1:36270
+Apr 17 18:49 : client: [124] closed
+Apr 17 18:49 : client: [125] opened from 127.0.0.1:36272
+Apr 17 18:49 : client: [125] closed
+Apr 17 18:49 : client: [126] opened from 127.0.0.1:36274
+Apr 17 18:49 : client: [126] closed
+Apr 17 18:49 : client: [127] opened from 127.0.0.1:36276
+Apr 17 18:49 : client: [127] closed
+Apr 17 18:49 : client: [128] opened from 127.0.0.1:36278
+Apr 17 18:49 : client: [128] closed
+Apr 17 18:49 : client: [129] opened from 127.0.0.1:36280
+Apr 17 18:49 : client: [129] closed
+Apr 17 18:49 : client: [130] opened from 127.0.0.1:36282
+Apr 17 18:49 : client: [130] closed
+Apr 17 18:49 : client: [131] opened from 127.0.0.1:36284
+Apr 17 18:49 : client: [131] closed
+Apr 17 18:49 : client: [132] opened from 127.0.0.1:36286
+Apr 17 18:49 : client: [132] closed
+Apr 17 18:49 : client: [133] opened from 127.0.0.1:36288
+Apr 17 18:49 : client: [133] closed
+Apr 17 18:49 : client: [134] opened from 127.0.0.1:36290
+Apr 17 18:49 : client: [134] closed
+Apr 17 18:49 : client: [135] opened from 127.0.0.1:36292
+Apr 17 18:49 : client: [135] closed
+Apr 17 18:49 : client: [136] opened from 127.0.0.1:36294
+Apr 17 18:49 : client: [136] closed
+Apr 17 18:49 : client: [137] opened from 127.0.0.1:36296
+Apr 17 18:49 : client: [137] closed
+Apr 17 18:49 : client: [138] opened from 127.0.0.1:36298
+Apr 17 18:49 : client: [138] closed
+Apr 17 18:49 : client: [139] opened from 127.0.0.1:36300
+Apr 17 18:49 : client: [139] closed
+Apr 17 18:49 : client: [140] opened from 127.0.0.1:36302
+Apr 17 18:49 : client: [140] closed
+Apr 17 18:49 : client: [141] opened from 127.0.0.1:36304
+Apr 17 18:49 : client: [141] closed
+Apr 17 18:49 : client: [142] opened from 127.0.0.1:36306
+Apr 17 18:49 : client: [142] closed
+Apr 17 18:49 : client: [143] opened from 127.0.0.1:36308
+Apr 17 18:49 : client: [143] closed
+Apr 17 18:49 : client: [144] opened from 127.0.0.1:36310
+Apr 17 18:49 : client: [144] closed
+Apr 17 18:49 : client: [145] opened from 127.0.0.1:36312
+Apr 17 18:49 : client: [145] closed
+Apr 17 18:49 : client: [146] opened from 127.0.0.1:36314
+Apr 17 18:49 : client: [146] closed
+Apr 17 18:49 : client: [147] opened from 127.0.0.1:36316
+Apr 17 18:49 : client: [147] closed
+Apr 17 18:49 : client: [148] opened from 127.0.0.1:36318
+Apr 17 18:49 : client: [148] closed
+Apr 17 18:49 : client: [149] opened from 127.0.0.1:36320
+Apr 17 18:49 : client: [149] closed
+Apr 17 18:49 : client: [150] opened from 127.0.0.1:36322
+Apr 17 18:49 : client: [150] closed
+Apr 17 18:49 : client: [151] opened from 127.0.0.1:36324
+Apr 17 18:49 : client: [151] closed
+Apr 17 18:49 : client: [152] opened from 127.0.0.1:36326
+Apr 17 18:49 : client: [152] closed
+Apr 17 18:49 : client: [153] opened from 127.0.0.1:36328
+Apr 17 18:49 : client: [153] closed
+Apr 17 18:49 : client: [154] opened from 127.0.0.1:36330
+Apr 17 18:49 : client: [154] closed
+Apr 17 18:50 : client: [155] opened from 127.0.0.1:36332
+Apr 17 18:50 : client: [155] closed
+Apr 17 18:50 : client: [156] opened from 127.0.0.1:36334
+Apr 17 18:50 : client: [156] closed
+Apr 17 18:50 : client: [157] opened from 127.0.0.1:36336
+Apr 17 18:50 : client: [157] closed
+Apr 17 18:50 : client: [158] opened from 127.0.0.1:36338
+Apr 17 18:50 : client: [158] closed
+Apr 17 18:50 : client: [159] opened from 127.0.0.1:36340
+Apr 17 18:50 : client: [159] closed
+Apr 17 18:50 : client: [160] opened from 127.0.0.1:36342
+Apr 17 18:50 : client: [160] closed
+Apr 17 18:50 : client: [161] opened from 127.0.0.1:36344
+Apr 17 18:50 : client: [161] closed
+Apr 17 18:50 : client: [162] opened from 127.0.0.1:36346
+Apr 17 18:50 : client: [162] closed
+Apr 17 18:50 : client: [163] opened from 127.0.0.1:36348
+Apr 17 18:50 : client: [163] closed
+Apr 17 18:50 : client: [164] opened from 127.0.0.1:36350
+Apr 17 18:50 : client: [164] closed
+Apr 17 18:50 : client: [165] opened from 127.0.0.1:36352
+Apr 17 18:50 : client: [165] closed
+Apr 17 18:50 : client: [166] opened from 127.0.0.1:36354
+Apr 17 18:50 : client: [166] closed
+Apr 17 18:50 : client: [167] opened from 127.0.0.1:36356
+Apr 17 18:50 : client: [167] closed
+Apr 17 18:50 : client: [168] opened from 127.0.0.1:36358
+Apr 17 18:50 : client: [168] closed
+Apr 17 18:50 : client: [169] opened from 127.0.0.1:36360
+Apr 17 18:50 : client: [169] closed
+Apr 17 18:50 : client: [170] opened from 127.0.0.1:36362
+Apr 17 18:50 : client: [170] closed
+Apr 17 18:50 : client: [171] opened from 127.0.0.1:36364
+Apr 17 18:50 : client: [171] closed
+Apr 17 18:50 : client: [172] opened from 127.0.0.1:36366
+Apr 17 18:50 : client: [172] closed
+Apr 17 18:50 : client: [173] opened from 127.0.0.1:36368
+Apr 17 18:50 : client: [173] closed
+Apr 17 18:50 : client: [174] opened from 127.0.0.1:36370
+Apr 17 18:50 : client: [174] closed
+Apr 17 18:50 : client: [175] opened from 127.0.0.1:36372
+Apr 17 18:50 : client: [175] closed
+Apr 17 18:50 : client: [176] opened from 127.0.0.1:36374
+Apr 17 18:50 : client: [176] closed
+Apr 17 18:50 : client: [177] opened from 127.0.0.1:36376
+Apr 17 18:50 : client: [177] closed
+Apr 17 18:50 : client: [178] opened from 127.0.0.1:36378
+Apr 17 18:50 : client: [178] closed
+Apr 17 18:50 : client: [179] opened from 127.0.0.1:36380
+Apr 17 18:50 : client: [179] closed
+Apr 17 18:50 : client: [180] opened from 127.0.0.1:36382
+Apr 17 18:50 : client: [180] closed
+Apr 17 18:50 : client: [181] opened from 127.0.0.1:36384
+Apr 17 18:50 : client: [181] closed
+Apr 17 18:50 : client: [182] opened from 127.0.0.1:36386
+Apr 17 18:50 : client: [182] closed
+Apr 17 18:50 : client: [183] opened from 127.0.0.1:36388
+Apr 17 18:50 : client: [183] closed
+Apr 17 18:50 : client: [184] opened from 127.0.0.1:36390
+Apr 17 18:50 : client: [184] closed
+Apr 17 18:50 : client: [185] opened from 127.0.0.1:36394
+Apr 17 18:50 : client: [185] closed
+Apr 17 18:50 : client: [186] opened from 127.0.0.1:36402
+Apr 17 18:50 : client: [186] closed
+Apr 17 18:50 : client: [187] opened from 127.0.0.1:36414
+Apr 17 18:50 : client: [187] closed
+Apr 17 18:50 : client: [188] opened from 127.0.0.1:36416
+Apr 17 18:50 : client: [188] closed
+Apr 17 18:50 : client: [189] opened from 127.0.0.1:36556
+Apr 17 18:50 : client: [189] closed
+Apr 17 18:50 : client: [190] opened from 127.0.0.1:36558
+Apr 17 18:50 : client: [190] closed
+Apr 17 18:50 : client: [191] opened from 127.0.0.1:36560
+Apr 17 18:50 : client: [191] closed
+Apr 17 18:50 : client: [192] opened from 127.0.0.1:36562
+Apr 17 18:50 : client: [192] closed
+Apr 17 18:50 : client: [193] opened from 127.0.0.1:36564
+Apr 17 18:50 : client: [193] closed
+Apr 17 18:50 : client: [194] opened from 127.0.0.1:36566
+Apr 17 18:50 : client: [194] closed
+Apr 17 18:50 : client: [195] opened from 127.0.0.1:36568
+Apr 17 18:50 : client: [195] closed
+Apr 17 18:50 : client: [196] opened from 127.0.0.1:36570
+Apr 17 18:50 : client: [196] closed
+Apr 17 18:50 : client: [197] opened from 127.0.0.1:36572
+Apr 17 18:50 : client: [197] closed
+Apr 17 18:50 : client: [198] opened from 127.0.0.1:36574
+Apr 17 18:50 : client: [198] closed
+Apr 17 18:50 : client: [199] opened from 127.0.0.1:36576
+Apr 17 18:50 : client: [199] closed
+Apr 17 18:50 : client: [200] opened from 127.0.0.1:36578
+Apr 17 18:50 : client: [200] closed
+Apr 17 18:50 : client: [201] opened from 127.0.0.1:36580
+Apr 17 18:50 : client: [201] closed
+Apr 17 18:50 : client: [202] opened from 127.0.0.1:36582
+Apr 17 18:50 : client: [202] closed
+Apr 17 18:50 : client: [203] opened from 127.0.0.1:36584
+Apr 17 18:50 : client: [203] closed
+Apr 17 18:50 : client: [204] opened from 127.0.0.1:36586
+Apr 17 18:50 : client: [204] closed
+Apr 17 18:50 : client: [205] opened from 127.0.0.1:36588
+Apr 17 18:50 : client: [205] closed
+Apr 17 18:50 : client: [206] opened from 127.0.0.1:36590
+Apr 17 18:50 : client: [206] closed
+Apr 17 18:50 : client: [207] opened from 127.0.0.1:36592
+Apr 17 18:50 : client: [207] closed
+Apr 17 18:50 : client: [208] opened from 127.0.0.1:36594
+Apr 17 18:50 : client: [208] closed
+Apr 17 18:50 : client: [209] opened from 127.0.0.1:36596
+Apr 17 18:50 : client: [209] closed
+Apr 17 18:50 : client: [210] opened from 127.0.0.1:36598
+Apr 17 18:50 : client: [210] closed
+Apr 17 18:50 : client: [211] opened from 127.0.0.1:36600
+Apr 17 18:50 : client: [211] closed
+Apr 17 18:51 : client: [212] opened from 127.0.0.1:36602
+Apr 17 18:51 : client: [212] closed
+Apr 17 18:51 : client: [213] opened from 127.0.0.1:36604
+Apr 17 18:51 : client: [213] closed
+Apr 17 18:51 : client: [214] opened from 127.0.0.1:36606
+Apr 17 18:51 : client: [214] closed
+Apr 17 18:51 : client: [215] opened from 127.0.0.1:36608
+Apr 17 18:51 : client: [215] closed
+Apr 17 18:51 : client: [216] opened from 127.0.0.1:36610
+Apr 17 18:51 : client: [216] closed
+Apr 17 18:51 : client: [217] opened from 127.0.0.1:36612
+Apr 17 18:51 : client: [217] closed
+Apr 17 18:51 : client: [218] opened from 127.0.0.1:36614
+Apr 17 18:51 : client: [218] closed
+Apr 17 18:51 : client: [219] opened from 127.0.0.1:36616
+Apr 17 18:51 : client: [219] closed
+Apr 17 18:51 : client: [220] opened from 127.0.0.1:36618
+Apr 17 18:51 : client: [220] closed
+Apr 17 18:51 : client: [221] opened from 127.0.0.1:36620
+Apr 17 18:51 : client: [221] closed
+Apr 17 18:51 : client: [222] opened from 127.0.0.1:36622
+Apr 17 18:51 : client: [222] closed
+Apr 17 18:51 : client: [223] opened from 127.0.0.1:36624
+Apr 17 18:51 : client: [223] closed
+Apr 17 18:51 : client: [224] opened from 127.0.0.1:36626
+Apr 17 18:51 : client: [224] closed
+Apr 17 18:51 : client: [225] opened from 127.0.0.1:36628
+Apr 17 18:51 : client: [225] closed
+Apr 17 18:51 : client: [226] opened from 127.0.0.1:36630
+Apr 17 18:51 : client: [226] closed
+Apr 17 18:51 : client: [227] opened from 127.0.0.1:36632
+Apr 17 18:51 : client: [227] closed
+Apr 17 18:51 : client: [228] opened from 127.0.0.1:36634
+Apr 17 18:51 : client: [228] closed
+Apr 17 18:51 : client: [229] opened from 127.0.0.1:36636
+Apr 17 18:51 : client: [229] closed
+Apr 17 18:51 : client: [230] opened from 127.0.0.1:36638
+Apr 17 18:51 : client: [230] closed
+Apr 17 18:51 : client: [231] opened from 127.0.0.1:36640
+Apr 17 18:51 : client: [231] closed
+Apr 17 18:51 : client: [232] opened from 127.0.0.1:36642
+Apr 17 18:51 : client: [232] closed
+Apr 17 18:51 : client: [233] opened from 127.0.0.1:36644
+Apr 17 18:51 : client: [233] closed
+Apr 17 18:51 : client: [234] opened from 127.0.0.1:36646
+Apr 17 18:51 : client: [234] closed
+Apr 17 18:51 : client: [235] opened from 127.0.0.1:36648
+Apr 17 18:51 : client: [235] closed
+Apr 17 18:51 : client: [236] opened from 127.0.0.1:36650
+Apr 17 18:51 : client: [236] closed
+Apr 17 18:51 : client: [237] opened from 127.0.0.1:36652
+Apr 17 18:51 : client: [237] closed
+Apr 17 18:51 : client: [238] opened from 127.0.0.1:36654
+Apr 17 18:51 : client: [238] closed
+Apr 17 18:51 : client: [239] opened from 127.0.0.1:36656
+Apr 17 18:51 : client: [239] closed
+Apr 17 18:51 : client: [240] opened from 127.0.0.1:36658
+Apr 17 18:51 : client: [240] closed
+Apr 17 18:51 : client: [241] opened from 127.0.0.1:36660
+Apr 17 18:51 : client: [241] closed
+Apr 17 18:51 : client: [242] opened from 127.0.0.1:36662
+Apr 17 18:51 : client: [242] closed
+Apr 17 18:51 : client: [243] opened from 127.0.0.1:36664
+Apr 17 18:51 : client: [243] closed
+Apr 17 18:51 : client: [244] opened from 127.0.0.1:36666
+Apr 17 18:51 : client: [244] closed
+Apr 17 18:51 : client: [245] opened from 127.0.0.1:36668
+Apr 17 18:51 : client: [245] closed
+Apr 17 18:51 : client: [246] opened from 127.0.0.1:36670
+Apr 17 18:51 : client: [246] closed
+Apr 17 18:51 : client: [247] opened from 127.0.0.1:36674
+Apr 17 18:51 : client: [247] closed
+Apr 17 18:51 : client: [248] opened from 127.0.0.1:36678
+Apr 17 18:51 : client: [248] closed
+Apr 17 18:51 : client: [249] opened from 127.0.0.1:36680
+Apr 17 18:51 : client: [249] closed
+Apr 17 18:51 : client: [250] opened from 127.0.0.1:36682
+Apr 17 18:51 : client: [250] closed
+Apr 17 18:51 : client: [251] opened from 127.0.0.1:36684
+Apr 17 18:51 : client: [251] closed
+Apr 17 18:51 : client: [252] opened from 127.0.0.1:36686
+Apr 17 18:51 : client: [252] closed
+Apr 17 18:51 : client: [253] opened from 127.0.0.1:36688
+Apr 17 18:51 : client: [253] closed
+Apr 17 18:51 : client: [254] opened from 127.0.0.1:36690
+Apr 17 18:51 : client: [254] closed
+Apr 17 18:51 : client: [255] opened from 127.0.0.1:36692
+Apr 17 18:51 : client: [255] closed
+Apr 17 18:51 : client: [256] opened from 127.0.0.1:36694
+Apr 17 18:51 : client: [256] closed
+Apr 17 18:51 : client: [257] opened from 127.0.0.1:36696
+Apr 17 18:51 : client: [257] closed
+Apr 17 18:51 : client: [258] opened from 127.0.0.1:36698
+Apr 17 18:51 : client: [258] closed
+Apr 17 18:51 : client: [259] opened from 127.0.0.1:36700
+Apr 17 18:51 : client: [259] closed
+Apr 17 18:51 : client: [260] opened from 127.0.0.1:36702
+Apr 17 18:51 : client: [260] closed
+Apr 17 18:51 : client: [261] opened from 127.0.0.1:36704
+Apr 17 18:51 : client: [261] closed
+Apr 17 18:51 : client: [262] opened from 127.0.0.1:36706
+Apr 17 18:51 : client: [262] closed
+Apr 17 18:51 : client: [263] opened from 127.0.0.1:36708
+Apr 17 18:51 : client: [263] closed
+Apr 17 18:51 : client: [264] opened from 127.0.0.1:36710
+Apr 17 18:51 : client: [264] closed
+Apr 17 18:51 : client: [265] opened from 127.0.0.1:36712
+Apr 17 18:51 : client: [265] closed
+Apr 17 18:51 : client: [266] opened from 127.0.0.1:36714
+Apr 17 18:51 : client: [266] closed
+Apr 17 18:51 : client: [267] opened from 127.0.0.1:36716
+Apr 17 18:51 : client: [267] closed
+Apr 17 18:52 : client: [268] opened from 127.0.0.1:36718
+Apr 17 18:52 : client: [268] closed
+Apr 17 18:52 : client: [269] opened from 127.0.0.1:36720
+Apr 17 18:52 : client: [269] closed
+Apr 17 18:52 : client: [270] opened from 127.0.0.1:36722
+Apr 17 18:52 : client: [270] closed
+Apr 17 18:52 : client: [271] opened from 127.0.0.1:36724
+Apr 17 18:52 : client: [271] closed
+Apr 17 18:52 : client: [272] opened from 127.0.0.1:36726
+Apr 17 18:52 : client: [272] closed
+Apr 17 18:52 : client: [273] opened from 127.0.0.1:36728
+Apr 17 18:52 : client: [273] closed
+Apr 17 18:52 : client: [274] opened from 127.0.0.1:36730
+Apr 17 18:52 : client: [274] closed
+Apr 17 18:52 : client: [275] opened from 127.0.0.1:36732
+Apr 17 18:52 : client: [275] closed
+Apr 17 18:52 : client: [276] opened from 127.0.0.1:36734
+Apr 17 18:52 : client: [276] closed
+Apr 17 18:52 : client: [277] opened from 127.0.0.1:36736
+Apr 17 18:52 : client: [277] closed
+Apr 17 18:52 : client: [278] opened from 127.0.0.1:36738
+Apr 17 18:52 : client: [278] closed
+Apr 17 18:52 : client: [279] opened from 127.0.0.1:36740
+Apr 17 18:52 : client: [279] closed
+Apr 17 18:52 : client: [280] opened from 127.0.0.1:36742
+Apr 17 18:52 : client: [280] closed
+Apr 17 18:52 : client: [281] opened from 127.0.0.1:36744
+Apr 17 18:52 : client: [281] closed
+Apr 17 18:52 : client: [282] opened from 127.0.0.1:36746
+Apr 17 18:52 : client: [282] closed
+Apr 17 18:52 : client: [283] opened from 127.0.0.1:36748
+Apr 17 18:52 : client: [283] closed
+Apr 17 18:52 : client: [284] opened from 127.0.0.1:36750
+Apr 17 18:52 : client: [284] closed
+Apr 17 18:52 : client: [285] opened from 127.0.0.1:36752
+Apr 17 18:52 : client: [285] closed
+Apr 17 18:52 : client: [286] opened from 127.0.0.1:36754
+Apr 17 18:52 : client: [286] closed
+Apr 17 18:52 : client: [287] opened from 127.0.0.1:36756
+Apr 17 18:52 : client: [287] closed
+Apr 17 18:52 : client: [288] opened from 127.0.0.1:36758
+Apr 17 18:52 : client: [288] closed
+Apr 17 18:52 : client: [289] opened from 127.0.0.1:36760
+Apr 17 18:52 : client: [289] closed
+Apr 17 18:52 : client: [290] opened from 127.0.0.1:36762
+Apr 17 18:52 : client: [290] closed
+Apr 17 18:52 : client: [291] opened from 127.0.0.1:36764
+Apr 17 18:52 : client: [291] closed
+Apr 17 18:52 : client: [292] opened from 127.0.0.1:36766
+Apr 17 18:52 : client: [292] closed
+Apr 17 18:52 : client: [293] opened from 127.0.0.1:36768
+Apr 17 18:52 : client: [293] closed
+Apr 17 18:52 : client: [294] opened from 127.0.0.1:36770
+Apr 17 18:52 : client: [294] closed
+Apr 17 18:52 : client: [295] opened from 127.0.0.1:36772
+Apr 17 18:52 : client: [295] closed
+Apr 17 18:52 : client: [296] opened from 127.0.0.1:36774
+Apr 17 18:52 : client: [296] closed
+Apr 17 18:53 : client: [297] opened from 127.0.0.1:36776
+Apr 17 18:53 : client: [297] closed
+Apr 17 18:53 : client: [298] opened from 127.0.0.1:36778
+Apr 17 18:53 : client: [298] closed
+Apr 17 18:53 : client: [299] opened from 127.0.0.1:36780
+Apr 17 18:53 : client: [299] closed
+Apr 17 18:53 : client: [300] opened from 127.0.0.1:36782
+Apr 17 18:53 : client: [300] closed
+Apr 17 18:53 : client: [301] opened from 127.0.0.1:36784
+Apr 17 18:53 : client: [301] closed
+Apr 17 18:53 : client: [302] opened from 127.0.0.1:36786
+Apr 17 18:53 : client: [302] closed
+Apr 17 18:53 : client: [303] opened from 127.0.0.1:36788
+Apr 17 18:53 : client: [303] closed
+Apr 17 18:53 : client: [304] opened from 127.0.0.1:36790
+Apr 17 18:53 : client: [304] closed
+Apr 17 18:53 : client: [305] opened from 127.0.0.1:36792
+Apr 17 18:53 : client: [305] closed
+Apr 17 18:53 : client: [306] opened from 127.0.0.1:36794
+Apr 17 18:53 : client: [306] closed
+Apr 17 18:53 : client: [307] opened from 127.0.0.1:36796
+Apr 17 18:53 : client: [307] closed
+Apr 17 18:53 : client: [308] opened from 127.0.0.1:36798
+Apr 17 18:53 : client: [308] closed
+Apr 17 18:53 : client: [309] opened from 127.0.0.1:36800
+Apr 17 18:53 : client: [309] closed
+Apr 17 18:53 : client: [310] opened from 127.0.0.1:36802
+Apr 17 18:53 : client: [310] closed
+Apr 17 18:53 : client: [311] opened from 127.0.0.1:36804
+Apr 17 18:53 : client: [311] closed
+Apr 17 18:53 : client: [312] opened from 127.0.0.1:36806
+Apr 17 18:53 : client: [312] closed
+Apr 17 18:53 : client: [313] opened from 127.0.0.1:36808
+Apr 17 18:53 : client: [313] closed
+Apr 17 18:53 : client: [314] opened from 127.0.0.1:36810
+Apr 17 18:53 : client: [314] closed
+Apr 17 18:53 : client: [315] opened from 127.0.0.1:36814
+Apr 17 18:53 : client: [315] closed
+Apr 17 18:53 : client: [316] opened from 127.0.0.1:36816
+Apr 17 18:53 : client: [316] closed
+Apr 17 18:53 : client: [317] opened from 127.0.0.1:36818
+Apr 17 18:53 : client: [317] closed
+Apr 17 18:53 : client: [318] opened from 127.0.0.1:36820
+Apr 17 18:53 : client: [318] closed
+Apr 17 18:53 : client: [319] opened from 127.0.0.1:36822
+Apr 17 18:53 : client: [319] closed
+Apr 17 18:53 : client: [320] opened from 127.0.0.1:36824
+Apr 17 18:53 : client: [320] closed
+Apr 17 18:53 : client: [321] opened from 127.0.0.1:36826
+Apr 17 18:53 : client: [321] closed
+Apr 17 18:53 : client: [322] opened from 127.0.0.1:36828
+Apr 17 18:53 : client: [322] closed
+Apr 17 18:53 : client: [323] opened from 127.0.0.1:36830
+Apr 17 18:53 : client: [323] closed
+Apr 17 18:53 : client: [324] opened from 127.0.0.1:36832
+Apr 17 18:53 : client: [324] closed
+Apr 17 18:53 : client: [325] opened from 127.0.0.1:36834
+Apr 17 18:53 : client: [325] closed
+Apr 17 18:53 : client: [326] opened from 127.0.0.1:36836
+Apr 17 18:53 : client: [326] closed
+Apr 17 18:53 : client: [327] opened from 127.0.0.1:36838
+Apr 17 18:53 : client: [327] closed
+Apr 17 18:53 : client: [328] opened from 127.0.0.1:36840
+Apr 17 18:53 : client: [328] closed
+Apr 17 18:53 : client: [329] opened from 127.0.0.1:36842
+Apr 17 18:53 : client: [329] closed
+Apr 17 18:53 : client: [330] opened from 127.0.0.1:36844
+Apr 17 18:53 : client: [330] closed
+Apr 17 18:53 : client: [331] opened from 127.0.0.1:36846
+Apr 17 18:53 : client: [331] closed
+Apr 17 18:53 : client: [332] opened from 127.0.0.1:36848
+Apr 17 18:53 : client: [332] closed
+Apr 17 18:53 : client: [333] opened from 127.0.0.1:36850
+Apr 17 18:53 : client: [333] closed
+Apr 17 18:53 : client: [334] opened from 127.0.0.1:36852
+Apr 17 18:53 : client: [334] closed
+Apr 17 18:53 : client: [335] opened from 127.0.0.1:36854
+Apr 17 18:53 : client: [335] closed
+Apr 17 18:53 : client: [336] opened from 127.0.0.1:36856
+Apr 17 18:53 : client: [336] closed
+Apr 17 18:53 : client: [337] opened from 127.0.0.1:36858
+Apr 17 18:53 : client: [337] closed
+Apr 17 18:53 : client: [338] opened from 127.0.0.1:36860
+Apr 17 18:53 : client: [338] closed
+Apr 17 18:53 : client: [339] opened from 127.0.0.1:36862
+Apr 17 18:53 : client: [339] closed
+Apr 17 18:53 : client: [340] opened from 127.0.0.1:36864
+Apr 17 18:53 : client: [340] closed
+Apr 17 18:53 : client: [341] opened from 127.0.0.1:36866
+Apr 17 18:53 : client: [341] closed
+Apr 17 18:53 : client: [342] opened from 127.0.0.1:36868
+Apr 17 18:53 : client: [342] closed
+Apr 17 18:53 : client: [343] opened from 127.0.0.1:36870
+Apr 17 18:53 : client: [343] closed
+Apr 17 18:53 : client: [344] opened from 127.0.0.1:36872
+Apr 17 18:53 : client: [344] closed
+Apr 17 18:53 : client: [345] opened from 127.0.0.1:36874
+Apr 17 18:53 : client: [345] closed
+Apr 17 18:53 : client: [346] opened from 127.0.0.1:36876
+Apr 17 18:53 : client: [346] closed
+Apr 17 18:53 : client: [347] opened from 127.0.0.1:36878
+Apr 17 18:53 : client: [347] closed
+Apr 17 18:53 : client: [348] opened from 127.0.0.1:36880
+Apr 17 18:53 : client: [348] closed
+Apr 17 18:53 : client: [349] opened from 127.0.0.1:36882
+Apr 17 18:53 : client: [349] closed
+Apr 17 18:53 : client: [350] opened from 127.0.0.1:36884
+Apr 17 18:53 : client: [350] closed
+Apr 17 18:53 : client: [351] opened from 127.0.0.1:36886
+Apr 17 18:53 : client: [351] closed
+Apr 17 18:53 : client: [352] opened from 127.0.0.1:36888
+Apr 17 18:53 : client: [352] closed
+Apr 17 18:53 : client: [353] opened from 127.0.0.1:36890
+Apr 17 18:53 : client: [353] closed
+Apr 17 18:53 : client: [354] opened from 127.0.0.1:36892
+Apr 17 18:53 : client: [354] closed
+Apr 17 18:53 : client: [355] opened from 127.0.0.1:36894
+Apr 17 18:53 : client: [355] closed
+Apr 17 18:53 : client: [356] opened from 127.0.0.1:36896
+Apr 17 18:53 : client: [356] closed
+Apr 17 18:54 : client: [357] opened from 127.0.0.1:36898
+Apr 17 18:54 : client: [357] closed
+Apr 17 18:54 : client: [358] opened from 127.0.0.1:36900
+Apr 17 18:54 : client: [358] closed
+Apr 17 18:54 : client: [359] opened from 127.0.0.1:36902
+Apr 17 18:54 : client: [359] closed
+Apr 17 18:54 : client: [360] opened from 127.0.0.1:36904
+Apr 17 18:54 : client: [360] closed
+Apr 17 18:54 : client: [361] opened from 127.0.0.1:36906
+Apr 17 18:54 : client: [361] closed
+Apr 17 18:54 : client: [362] opened from 127.0.0.1:36908
+Apr 17 18:54 : client: [362] closed
+Apr 17 18:54 : client: [363] opened from 127.0.0.1:36910
+Apr 17 18:54 : client: [363] closed
+Apr 17 18:54 : client: [364] opened from 127.0.0.1:36912
+Apr 17 18:54 : client: [364] closed
+Apr 17 18:54 : client: [365] opened from 127.0.0.1:36914
+Apr 17 18:54 : client: [365] closed
+Apr 17 18:54 : client: [366] opened from 127.0.0.1:36916
+Apr 17 18:54 : client: [366] closed
+Apr 17 18:54 : client: [367] opened from 127.0.0.1:36918
+Apr 17 18:54 : client: [367] closed
+Apr 17 21:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 17 21:32 : config: option 'mixer_device' on line 301 was not recognized
+Apr 17 21:32 : config: option 'mixer_control' on line 302 was not recognized
+Apr 17 21:32 : config: option 'mixer_index' on line 303 was not recognized
+Apr 17 21:32 : client: [0] opened from 127.0.0.1:55730
+Apr 17 21:32 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 17 21:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 17 21:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 17 21:34 : client: [0] closed
+Apr 18 00:21 : player: played "2Scratch - Mamacita (ft. TAOG) (BASS BOOSTED).mp3"
+Apr 18 10:39 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 18 10:39 : config: option 'mixer_device' on line 301 was not recognized
+Apr 18 10:39 : config: option 'mixer_control' on line 302 was not recognized
+Apr 18 10:39 : config: option 'mixer_index' on line 303 was not recognized
+Apr 18 10:39 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 18 10:39 : client: [0] opened from 127.0.0.1:42106
+Apr 18 10:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 18 10:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 18 10:39 : client: [1] opened from 127.0.0.1:42108
+Apr 18 10:39 : client: [1] closed
+Apr 18 10:43 : client: [0] closed
+Apr 18 10:44 : client: [2] opened from 127.0.0.1:42142
+Apr 18 10:44 : client: [3] opened from 127.0.0.1:42144
+Apr 18 10:44 : client: [3] closed
+Apr 18 10:45 : player: played "2Scratch - Mamacita (ft. TAOG) (BASS BOOSTED).mp3"
+Apr 18 10:45 : client: [4] opened from 127.0.0.1:42146
+Apr 18 10:45 : client: [4] closed
+Apr 18 10:45 : client: [5] opened from 127.0.0.1:42148
+Apr 18 10:45 : client: [5] closed
+Apr 18 10:45 : client: [6] opened from 127.0.0.1:42150
+Apr 18 10:45 : client: [6] closed
+Apr 18 10:45 : client: [2] closed
+Apr 18 10:45 : client: [7] opened from 127.0.0.1:42152
+Apr 18 10:45 : client: [8] opened from 127.0.0.1:42154
+Apr 18 10:45 : client: [8] closed
+Apr 18 10:46 : client: [7] closed
+Apr 18 10:46 : client: [9] opened from 127.0.0.1:42156
+Apr 18 10:46 : client: [10] opened from 127.0.0.1:42158
+Apr 18 10:46 : client: [10] closed
+Apr 18 10:48 : client: [9] closed
+Apr 18 10:48 : client: [11] opened from 127.0.0.1:42174
+Apr 18 10:48 : client: [12] opened from 127.0.0.1:42176
+Apr 18 10:48 : client: [12] closed
+Apr 18 10:49 : client: [11] closed
+Apr 18 10:49 : client: [13] opened from 127.0.0.1:42178
+Apr 18 10:49 : client: [14] opened from 127.0.0.1:42180
+Apr 18 10:49 : client: [14] closed
+Apr 18 10:49 : client: [13] closed
+Apr 18 10:50 : player: played "BÖ & Serhat Durmus - Elimi Tut (ft. Ecem Telli) _Bass Boosted_.mp3"
+Apr 18 10:52 : client: [15] opened from 127.0.0.1:42182
+Apr 18 10:52 : client: [16] opened from 127.0.0.1:42184
+Apr 18 10:52 : client: [16] closed
+Apr 18 10:53 : client: [15] closed
+Apr 18 10:53 : client: [17] opened from 127.0.0.1:42186
+Apr 18 10:53 : client: [18] opened from 127.0.0.1:42188
+Apr 18 10:53 : client: [18] closed
+Apr 18 10:54 : player: played "BÖ & Serhat Durmus - Elimi Tut (ft. Ecem Telli).mp3"
+Apr 18 10:54 : client: [19] opened from 127.0.0.1:42190
+Apr 18 10:54 : client: [19] closed
+Apr 18 10:55 : client: [17] closed
+Apr 18 10:55 : client: [20] opened from 127.0.0.1:42192
+Apr 18 10:55 : client: [21] opened from 127.0.0.1:42194
+Apr 18 10:55 : client: [21] closed
+Apr 18 10:56 : client: [20] closed
+Apr 18 10:56 : client: [22] opened from 127.0.0.1:42196
+Apr 18 10:56 : client: [23] opened from 127.0.0.1:42198
+Apr 18 10:56 : client: [23] closed
+Apr 18 10:56 : client: [24] opened from 127.0.0.1:42200
+Apr 18 10:56 : client: [24] closed
+Apr 18 11:00 : player: played "Camila Cabello - Havana (Official Audio) ft. Young Thug.mp3"
+Apr 18 11:00 : client: [25] opened from 127.0.0.1:42284
+Apr 18 11:00 : client: [25] closed
+Apr 18 11:03 : player: played "Camila Cabello - Liar (Audio).mp3"
+Apr 18 11:03 : client: [26] opened from 127.0.0.1:42318
+Apr 18 11:03 : client: [26] closed
+Apr 18 11:04 : client: [27] opened from 127.0.0.1:42324
+Apr 18 11:04 : client: [27] closed
+Apr 18 11:04 : client: [28] opened from 127.0.0.1:42326
+Apr 18 11:04 : client: [28] closed
+Apr 18 11:04 : client: [22] closed
+Apr 18 11:05 : client: [29] opened from 127.0.0.1:42328
+Apr 18 11:05 : client: [30] opened from 127.0.0.1:42330
+Apr 18 11:05 : client: [30] closed
+Apr 18 11:05 : client: [29] closed
+Apr 18 11:06 : client: [31] opened from 127.0.0.1:42332
+Apr 18 11:06 : client: [32] opened from 127.0.0.1:42334
+Apr 18 11:06 : client: [32] closed
+Apr 18 11:07 : player: played "Charlotte Lawrence - Why Do You Love Me (Acoustic) _Official Video_.mp3"
+Apr 18 11:07 : client: [33] opened from 127.0.0.1:42336
+Apr 18 11:07 : client: [33] closed
+Apr 18 11:38 : update: added /Coffin dance Meme  _official music video -LNbijdwDOWs.mp3
+Apr 18 11:38 : client: [34] opened from 127.0.0.1:43090
+Apr 18 11:38 : client: [34] closed
+Apr 18 11:41 : player: played "Coffin dance Meme  _official music video -LNbijdwDOWs.mp3"
+Apr 18 11:44 : client: [35] opened from 127.0.0.1:43240
+Apr 18 11:44 : client: [35] closed
+Apr 18 11:48 : player: played "Coffin dance Meme  _official music video -LNbijdwDOWs.mp3"
+Apr 18 11:49 : client: [36] opened from 127.0.0.1:43258
+Apr 18 11:49 : client: [36] closed
+Apr 18 11:51 : client: [31] closed
+Apr 18 11:51 : client: [37] opened from 127.0.0.1:43260
+Apr 18 11:51 : client: [38] opened from 127.0.0.1:43262
+Apr 18 11:51 : client: [38] closed
+Apr 18 11:52 : client: [37] closed
+Apr 18 11:52 : client: [39] opened from 127.0.0.1:43264
+Apr 18 11:52 : client: [40] opened from 127.0.0.1:43266
+Apr 18 11:52 : client: [40] closed
+Apr 18 11:52 : player: played "Lily.mp3"
+Apr 18 11:52 : client: [41] opened from 127.0.0.1:43268
+Apr 18 11:52 : client: [41] closed
+Apr 18 11:53 : client: [39] closed
+Apr 18 11:53 : client: [42] opened from 127.0.0.1:43270
+Apr 18 11:53 : client: [43] opened from 127.0.0.1:43272
+Apr 18 11:53 : client: [43] closed
+Apr 18 11:54 : client: [42] closed
+Apr 18 11:54 : client: [44] opened from 127.0.0.1:43274
+Apr 18 11:54 : client: [45] opened from 127.0.0.1:43276
+Apr 18 11:54 : client: [45] closed
+Apr 18 11:56 : player: played "Low _from Step Up 2 The Streets O.S.T. _ Mail On Sunday_ (st.mp3"
+Apr 18 11:56 : client: [46] opened from 127.0.0.1:43288
+Apr 18 11:56 : client: [46] closed
+Apr 18 11:57 : update: added romantics/Selena Gomez - Good For You.mp3
+Apr 18 11:57 : update: added romantics/Charlie Puth - Marvin Gaye ft. Meghan Trainor [Official Video].mp3
+Apr 18 11:57 : update: added romantics/Ed Sheeran - Lego House [Official Video].mp3
+Apr 18 11:57 : update: added romantics/Shane Filan - Beautiful In White (Official Video).mp3
+Apr 18 11:57 : update: added romantics/Justin Timberlake - Mirrors.mp3
+Apr 18 11:57 : update: added romantics/One Direction - Night Changes.mp3
+Apr 18 11:57 : update: added romantics/Labrinth - Beneath Your Beautiful ft. Emeli Sandé (Official Video).mp3
+Apr 18 11:57 : update: added romantics/Jessie J - Flashlight (from Pitch Perfect 2) (Official Video).mp3
+Apr 18 11:57 : update: added romantics/Maroon 5 - She Will Be Loved (Official Music Video).mp3
+Apr 18 11:57 : update: added romantics/One Direction - You & I.mp3
+Apr 18 11:57 : update: added romantics/Enrique Iglesias - Hero.mp3
+Apr 18 11:57 : update: added romantics/Ed Sheeran - Give Me Love [Official Video].mp3
+Apr 18 11:57 : update: added romantics/Katy Perry - Unconditionally (Official).mp3
+Apr 18 11:57 : update: added romantics/Meghan Trainor - Like I'm Gonna Lose You (Official Music Video) ft. John Legend.mp3
+Apr 18 11:57 : update: added romantics/Zara Larsson - Uncover (Official Music Video).mp3
+Apr 18 11:57 : update: added romantics/Rihanna - California King Bed.mp3
+Apr 18 11:57 : update: added romantics/One Direction - Little Things.mp3
+Apr 18 11:57 : update: added romantics/Jason Mraz - I'm Yours (Official Video).mp3
+Apr 18 11:57 : update: added romantics/Calum Scott - You Are The Reason (Official).mp3
+Apr 18 11:57 : update: added romantics/ZAYN, Taylor Swift - I Don’t Wanna Live Forever (Fifty Shades Darker).mp3
+Apr 18 11:57 : update: added romantics/Jonas Brothers - Sucker (Official Video).mp3
+Apr 18 11:57 : client: [47] opened from 127.0.0.1:43290
+Apr 18 11:57 : client: [47] closed
+Apr 18 11:58 : client: [44] closed
+Apr 18 11:59 : client: [48] opened from 127.0.0.1:43296
+Apr 18 11:59 : client: [49] opened from 127.0.0.1:43298
+Apr 18 11:59 : client: [49] closed
+Apr 18 12:01 : client: [48] closed
+Apr 18 12:01 : client: [50] opened from 127.0.0.1:43320
+Apr 18 12:01 : client: [51] opened from 127.0.0.1:43322
+Apr 18 12:01 : client: [51] closed
+Apr 18 12:01 : client: [50] closed
+Apr 18 12:01 : player: played "romantics/Rihanna - California King Bed.mp3"
+Apr 18 12:05 : client: [52] opened from 127.0.0.1:43406
+Apr 18 12:05 : update: added romantics/Sam Smith - Stay With Me (Official Video).mp3
+Apr 18 12:05 : update: added romantics/John Legend - All of Me (Edited Video).mp3
+Apr 18 12:05 : update: added romantics/Pink Sweat$ - 17 [Official Music Video].mp3
+Apr 18 12:05 : update: added romantics/Jonah Mutono - 1949 [Live Session].mp3
+Apr 18 12:05 : update: added romantics/ABSquared, Chanique - Don't Break My Heart.mp3
+Apr 18 12:05 : update: added romantics/Beyoncé - Halo.mp3
+Apr 18 12:05 : update: added romantics/Bruno Mars - Just The Way You Are [Official Video].mp3
+Apr 18 12:05 : update: added romantics/Whitney Houston - I Will Always Love You (Official Video).mp3
+Apr 18 12:05 : update: added romantics/Lady Gaga, Bradley Cooper - Shallow (from A Star Is Born) (Official Music Video).mp3
+Apr 18 12:05 : update: added romantics/Justin Webber - Trying to Love (Official 2019 Music Video).mp3
+Apr 18 12:05 : update: added romantics/Ed Sheeran - Thinking Out Loud [Official Video].mp3
+Apr 18 12:05 : update: added romantics/Rihanna - Stay ft. Mikky Ekko.mp3
+Apr 18 12:05 : update: added romantics/ZAYN - Dusk Till Dawn ft. Sia (Official Music Video).mp3
+Apr 18 12:05 : update: added romantics/Ed Sheeran - Perfect (Official Music Video).mp3
+Apr 18 12:05 : update: added romantics/Shawn Mendes, Camila Cabello - Señorita.mp3
+Apr 18 12:05 : update: added romantics/Christina Perri - A Thousand Years [Official Music Video].mp3
+Apr 18 12:05 : update: added romantics/James Arthur - Say You Won't Let Go.mp3
+Apr 18 12:05 : update: added romantics/Charlie Puth - One Call Away [Official Video].mp3
+Apr 18 12:05 : update: added romantics/Lars Fiero - Emily [Official Video].mp3
+Apr 18 12:05 : update: added romantics/Ed Sheeran - Photograph (Official Music Video).mp3
+Apr 18 12:06 : client: [52] closed
+Apr 18 12:07 : client: [53] opened from 127.0.0.1:43460
+Apr 18 12:07 : client: [54] opened from 127.0.0.1:43462
+Apr 18 12:07 : client: [54] closed
+Apr 18 12:09 : client: [53] closed
+Apr 18 12:09 : client: [55] opened from 127.0.0.1:43466
+Apr 18 12:09 : client: [56] opened from 127.0.0.1:43468
+Apr 18 12:09 : client: [56] closed
+Apr 18 12:09 : player: played "2Scratch - Mamacita (ft. TAOG) (BASS BOOSTED).mp3"
+Apr 18 12:09 : exception: Playlist already exists
+Apr 18 12:09 : client: [55] closed
+Apr 18 12:09 : client: [57] opened from 127.0.0.1:43470
+Apr 18 12:09 : client: [58] opened from 127.0.0.1:43472
+Apr 18 12:09 : client: [58] closed
+Apr 18 12:14 : player: played "romantics/ABSquared, Chanique - Don't Break My Heart.mp3"
+Apr 18 12:14 : client: [59] opened from 127.0.0.1:43506
+Apr 18 12:14 : client: [59] closed
+Apr 18 12:15 : client: [57] closed
+Apr 18 12:15 : client: [60] opened from 127.0.0.1:43508
+Apr 18 12:15 : client: [61] opened from 127.0.0.1:43510
+Apr 18 12:15 : client: [61] closed
+Apr 18 12:15 : client: [62] opened from 127.0.0.1:43512
+Apr 18 12:15 : client: [62] closed
+Apr 18 12:16 : client: [60] closed
+Apr 18 12:16 : client: [63] opened from 127.0.0.1:43514
+Apr 18 12:16 : client: [64] opened from 127.0.0.1:43516
+Apr 18 12:16 : client: [64] closed
+Apr 18 12:16 : client: [65] opened from 127.0.0.1:43518
+Apr 18 12:16 : client: [65] closed
+Apr 18 12:16 : client: [66] opened from 127.0.0.1:43520
+Apr 18 12:16 : client: [66] closed
+Apr 18 12:16 : client: [67] opened from 127.0.0.1:43522
+Apr 18 12:16 : client: [67] closed
+Apr 18 12:16 : client: [68] opened from 127.0.0.1:43524
+Apr 18 12:16 : client: [68] closed
+Apr 18 12:20 : player: played "romantics/Bruno Mars - Just The Way You Are [Official Video].mp3"
+Apr 18 12:20 : client: [69] opened from 127.0.0.1:43540
+Apr 18 12:20 : client: [69] closed
+Apr 18 12:23 : player: played "romantics/Calum Scott - You Are The Reason (Official).mp3"
+Apr 18 12:23 : client: [70] opened from 127.0.0.1:43542
+Apr 18 12:23 : client: [70] closed
+Apr 18 12:27 : player: played "romantics/Charlie Puth - Marvin Gaye ft. Meghan Trainor [Official Video].mp3"
+Apr 18 12:27 : client: [71] opened from 127.0.0.1:43544
+Apr 18 12:27 : client: [71] closed
+Apr 18 12:31 : player: played "romantics/Charlie Puth - One Call Away [Official Video].mp3"
+Apr 18 12:31 : client: [72] opened from 127.0.0.1:43554
+Apr 18 12:31 : client: [72] closed
+Apr 18 12:36 : player: played "romantics/Christina Perri - A Thousand Years [Official Music Video].mp3"
+Apr 18 12:36 : client: [73] opened from 127.0.0.1:43564
+Apr 18 12:36 : client: [73] closed
+Apr 18 12:40 : player: played "romantics/Ed Sheeran - Give Me Love [Official Video].mp3"
+Apr 18 12:40 : client: [74] opened from 127.0.0.1:43566
+Apr 18 12:40 : client: [74] closed
+Apr 18 12:44 : player: played "romantics/Ed Sheeran - Lego House [Official Video].mp3"
+Apr 18 12:44 : client: [75] opened from 127.0.0.1:43568
+Apr 18 12:44 : client: [75] closed
+Apr 18 12:49 : player: played "romantics/Ed Sheeran - Perfect (Official Music Video).mp3"
+Apr 18 12:49 : client: [76] opened from 127.0.0.1:43572
+Apr 18 12:49 : client: [76] closed
+Apr 18 12:53 : client: [77] opened from 127.0.0.1:43582
+Apr 18 12:53 : client: [77] closed
+Apr 18 12:58 : player: played "romantics/Ed Sheeran - Thinking Out Loud [Official Video].mp3"
+Apr 18 12:58 : client: [78] opened from 127.0.0.1:43584
+Apr 18 12:58 : client: [78] closed
+Apr 18 13:02 : player: played "romantics/Enrique Iglesias - Hero.mp3"
+Apr 18 13:02 : client: [79] opened from 127.0.0.1:43586
+Apr 18 13:02 : client: [79] closed
+Apr 18 13:04 : client: [80] opened from 127.0.0.1:43604
+Apr 18 13:04 : client: [80] closed
+Apr 18 13:08 : player: played "romantics/Jason Mraz - I'm Yours (Official Video).mp3"
+Apr 18 13:08 : client: [81] opened from 127.0.0.1:43606
+Apr 18 13:08 : client: [81] closed
+Apr 18 13:11 : player: played "romantics/Jessie J - Flashlight (from Pitch Perfect 2) (Official Video).mp3"
+Apr 18 13:11 : client: [82] opened from 127.0.0.1:43608
+Apr 18 13:11 : client: [82] closed
+Apr 18 13:12 : client: [63] closed
+Apr 18 13:12 : player: played "romantics/John Legend - All of Me (Edited Video).mp3"
+Apr 18 15:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 18 15:57 : config: option 'mixer_device' on line 301 was not recognized
+Apr 18 15:57 : config: option 'mixer_control' on line 302 was not recognized
+Apr 18 15:57 : config: option 'mixer_index' on line 303 was not recognized
+Apr 18 15:57 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 18 15:57 : client: [0] opened from 127.0.0.1:55388
+Apr 18 15:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 18 15:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 18 15:57 : client: [1] opened from 127.0.0.1:55390
+Apr 18 15:57 : client: [1] closed
+Apr 18 16:09 : client: [2] opened from 127.0.0.1:55484
+Apr 18 16:09 : client: [2] closed
+Apr 18 16:09 : client: [3] opened from 127.0.0.1:55486
+Apr 18 16:09 : client: [3] closed
+Apr 18 16:28 : client: [0] closed
+Apr 18 16:28 : client: [4] opened from 127.0.0.1:55490
+Apr 18 16:28 : client: [5] opened from 127.0.0.1:55492
+Apr 18 16:30 : client: [6] opened from 127.0.0.1:55530
+Apr 18 16:30 : client: [6] closed
+Apr 18 16:33 : client: [7] opened from 127.0.0.1:55532
+Apr 18 16:33 : client: [7] closed
+Apr 18 16:34 : client: [4] closed
+Apr 18 16:34 : client: [5] closed
+Apr 18 16:42 : client: [8] opened from 127.0.0.1:55636
+Apr 18 16:42 : client: [9] opened from 127.0.0.1:55638
+Apr 18 16:42 : client: [10] opened from 127.0.0.1:55640
+Apr 18 16:42 : client: [11] opened from 127.0.0.1:55642
+Apr 18 16:42 : client: [11] closed
+Apr 18 16:42 : client: [12] opened from 127.0.0.1:55644
+Apr 18 16:42 : client: [12] closed
+Apr 18 16:42 : client: [13] opened from 127.0.0.1:55646
+Apr 18 16:42 : client: [13] closed
+Apr 18 16:43 : client: [10] closed
+Apr 18 16:43 : client: [8] closed
+Apr 18 16:43 : client: [9] closed
+Apr 19 00:27 : player: played "romantics/John Legend - All of Me (Edited Video).mp3"
+Apr 19 00:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 19 00:29 : config: option 'mixer_device' on line 301 was not recognized
+Apr 19 00:29 : config: option 'mixer_control' on line 302 was not recognized
+Apr 19 00:29 : config: option 'mixer_index' on line 303 was not recognized
+Apr 19 00:29 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 19 00:29 : client: [0] opened from 127.0.0.1:41124
+Apr 19 00:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 19 00:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 19 00:29 : client: [1] opened from 127.0.0.1:41126
+Apr 19 00:29 : client: [1] closed
+Apr 19 00:31 : client: [0] closed
+Apr 19 00:31 : client: [2] opened from 127.0.0.1:41128
+Apr 19 00:31 : client: [3] opened from 127.0.0.1:41130
+Apr 19 00:31 : client: [3] closed
+Apr 19 00:31 : client: [2] closed
+Apr 19 00:33 : player: played "romantics/ABSquared, Chanique - Don't Break My Heart.mp3"
+Apr 19 10:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 19 10:48 : config: option 'mixer_device' on line 301 was not recognized
+Apr 19 10:48 : config: option 'mixer_control' on line 302 was not recognized
+Apr 19 10:48 : config: option 'mixer_index' on line 303 was not recognized
+Apr 19 10:48 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 19 10:48 : client: [0] opened from 127.0.0.1:37192
+Apr 19 10:48 : client: [1] opened from 127.0.0.1:37194
+Apr 19 10:48 : client: [2] opened from 127.0.0.1:37196
+Apr 19 10:49 : client: [2] closed
+Apr 19 10:49 : client: [3] opened from 127.0.0.1:37200
+Apr 19 10:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 19 10:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 19 10:49 : client: [4] opened from 127.0.0.1:37202
+Apr 19 10:49 : client: [4] closed
+Apr 19 10:51 : client: [0] closed
+Apr 19 10:51 : client: [1] closed
+Apr 19 10:51 : client: [5] opened from 127.0.0.1:37204
+Apr 19 10:51 : client: [6] opened from 127.0.0.1:37206
+Apr 19 10:51 : client: [5] closed
+Apr 19 10:51 : client: [6] closed
+Apr 19 10:51 : client: [7] opened from 127.0.0.1:37208
+Apr 19 10:51 : client: [8] opened from 127.0.0.1:37210
+Apr 19 10:52 : client: [7] closed
+Apr 19 10:52 : client: [8] closed
+Apr 19 10:52 : client: [9] opened from 127.0.0.1:37212
+Apr 19 10:52 : client: [10] opened from 127.0.0.1:37214
+Apr 19 10:53 : client: [9] closed
+Apr 19 10:53 : client: [10] closed
+Apr 19 10:53 : client: [11] opened from 127.0.0.1:37216
+Apr 19 10:53 : client: [12] opened from 127.0.0.1:37218
+Apr 19 10:56 : client: [11] closed
+Apr 19 10:56 : client: [12] closed
+Apr 19 10:56 : client: [13] opened from 127.0.0.1:37266
+Apr 19 10:56 : client: [14] opened from 127.0.0.1:37268
+Apr 19 10:57 : client: [13] closed
+Apr 19 10:57 : client: [14] closed
+Apr 19 10:57 : client: [15] opened from 127.0.0.1:37270
+Apr 19 10:57 : client: [16] opened from 127.0.0.1:37272
+Apr 19 10:58 : client: [15] closed
+Apr 19 10:58 : client: [16] closed
+Apr 19 10:58 : client: [17] opened from 127.0.0.1:37274
+Apr 19 10:58 : client: [18] opened from 127.0.0.1:37276
+Apr 19 10:59 : client: [17] closed
+Apr 19 10:59 : client: [18] closed
+Apr 19 10:59 : client: [19] opened from 127.0.0.1:37290
+Apr 19 10:59 : client: [20] opened from 127.0.0.1:37292
+Apr 19 11:01 : client: [19] closed
+Apr 19 11:01 : client: [20] closed
+Apr 19 11:01 : client: [21] opened from 127.0.0.1:37298
+Apr 19 11:01 : client: [22] opened from 127.0.0.1:37300
+Apr 19 11:01 : client: [21] closed
+Apr 19 11:01 : client: [22] closed
+Apr 19 11:01 : client: [23] opened from 127.0.0.1:37302
+Apr 19 11:01 : client: [24] opened from 127.0.0.1:37304
+Apr 19 11:02 : client: [23] closed
+Apr 19 11:02 : client: [24] closed
+Apr 19 11:02 : client: [25] opened from 127.0.0.1:37306
+Apr 19 11:02 : client: [26] opened from 127.0.0.1:37308
+Apr 19 11:02 : client: [25] closed
+Apr 19 11:02 : client: [26] closed
+Apr 19 11:02 : client: [27] opened from 127.0.0.1:37310
+Apr 19 11:02 : client: [28] opened from 127.0.0.1:37312
+Apr 19 11:03 : client: [27] closed
+Apr 19 11:03 : client: [28] closed
+Apr 19 11:03 : client: [29] opened from 127.0.0.1:37314
+Apr 19 11:03 : client: [30] opened from 127.0.0.1:37316
+Apr 19 11:03 : client: [29] closed
+Apr 19 11:03 : client: [30] closed
+Apr 19 11:03 : client: [31] opened from 127.0.0.1:37318
+Apr 19 11:03 : client: [32] opened from 127.0.0.1:37320
+Apr 19 11:05 : client: [31] closed
+Apr 19 11:05 : client: [32] closed
+Apr 19 11:05 : client: [33] opened from 127.0.0.1:37322
+Apr 19 11:05 : client: [34] opened from 127.0.0.1:37324
+Apr 19 11:06 : client: [33] closed
+Apr 19 11:06 : client: [34] closed
+Apr 19 11:06 : client: [35] opened from 127.0.0.1:37326
+Apr 19 11:06 : client: [36] opened from 127.0.0.1:37328
+Apr 19 11:06 : client: [35] closed
+Apr 19 11:06 : client: [36] closed
+Apr 19 11:06 : client: [37] opened from 127.0.0.1:37330
+Apr 19 11:06 : client: [38] opened from 127.0.0.1:37332
+Apr 19 11:07 : client: [37] closed
+Apr 19 11:07 : client: [38] closed
+Apr 19 11:07 : client: [39] opened from 127.0.0.1:37334
+Apr 19 11:07 : client: [40] opened from 127.0.0.1:37336
+Apr 19 11:07 : client: [39] closed
+Apr 19 11:07 : client: [40] closed
+Apr 19 11:07 : client: [41] opened from 127.0.0.1:37338
+Apr 19 11:07 : client: [42] opened from 127.0.0.1:37340
+Apr 19 11:08 : client: [41] closed
+Apr 19 11:08 : client: [42] closed
+Apr 19 11:08 : client: [43] opened from 127.0.0.1:37342
+Apr 19 11:08 : client: [44] opened from 127.0.0.1:37344
+Apr 19 11:09 : client: [43] closed
+Apr 19 11:09 : client: [44] closed
+Apr 19 11:09 : client: [45] opened from 127.0.0.1:37354
+Apr 19 11:09 : client: [46] opened from 127.0.0.1:37356
+Apr 19 11:13 : client: [45] closed
+Apr 19 11:13 : client: [46] closed
+Apr 19 11:13 : client: [47] opened from 127.0.0.1:37416
+Apr 19 11:13 : client: [48] opened from 127.0.0.1:37418
+Apr 19 11:16 : client: [47] closed
+Apr 19 11:16 : client: [48] closed
+Apr 19 11:16 : client: [49] opened from 127.0.0.1:37552
+Apr 19 11:16 : client: [50] opened from 127.0.0.1:37554
+Apr 19 11:19 : client: [49] closed
+Apr 19 11:19 : client: [50] closed
+Apr 19 11:19 : client: [51] opened from 127.0.0.1:37596
+Apr 19 11:19 : client: [52] opened from 127.0.0.1:37598
+Apr 19 11:31 : client: [51] closed
+Apr 19 11:31 : client: [52] closed
+Apr 19 11:31 : client: [53] opened from 127.0.0.1:37852
+Apr 19 11:31 : client: [54] opened from 127.0.0.1:37854
+Apr 19 11:32 : client: [53] closed
+Apr 19 11:32 : client: [54] closed
+Apr 19 11:32 : client: [55] opened from 127.0.0.1:37860
+Apr 19 11:32 : client: [56] opened from 127.0.0.1:37862
+Apr 19 11:32 : client: [55] closed
+Apr 19 11:32 : client: [56] closed
+Apr 19 11:32 : client: [57] opened from 127.0.0.1:37864
+Apr 19 11:32 : client: [58] opened from 127.0.0.1:37866
+Apr 19 11:33 : client: [57] closed
+Apr 19 11:33 : client: [58] closed
+Apr 19 11:33 : client: [59] opened from 127.0.0.1:37868
+Apr 19 11:33 : client: [60] opened from 127.0.0.1:37870
+Apr 19 11:35 : client: [59] closed
+Apr 19 11:35 : client: [60] closed
+Apr 19 11:35 : client: [61] opened from 127.0.0.1:37872
+Apr 19 11:35 : client: [62] opened from 127.0.0.1:37874
+Apr 19 11:37 : client: [61] closed
+Apr 19 11:37 : client: [62] closed
+Apr 19 11:37 : client: [63] opened from 127.0.0.1:37876
+Apr 19 11:37 : client: [64] opened from 127.0.0.1:37878
+Apr 19 11:42 : client: [63] closed
+Apr 19 11:42 : client: [64] closed
+Apr 19 11:42 : client: [65] opened from 127.0.0.1:37926
+Apr 19 11:42 : client: [66] opened from 127.0.0.1:37928
+Apr 19 11:43 : client: [65] closed
+Apr 19 11:43 : client: [66] closed
+Apr 19 11:43 : client: [67] opened from 127.0.0.1:37930
+Apr 19 11:43 : client: [68] opened from 127.0.0.1:37932
+Apr 19 11:43 : client: [67] closed
+Apr 19 11:43 : client: [68] closed
+Apr 19 11:43 : client: [69] opened from 127.0.0.1:37934
+Apr 19 11:43 : client: [70] opened from 127.0.0.1:37936
+Apr 19 11:44 : client: [69] closed
+Apr 19 11:44 : client: [70] closed
+Apr 19 11:44 : client: [71] opened from 127.0.0.1:37948
+Apr 19 11:44 : client: [72] opened from 127.0.0.1:37950
+Apr 19 11:44 : client: [71] closed
+Apr 19 11:44 : client: [72] closed
+Apr 19 11:44 : client: [73] opened from 127.0.0.1:37984
+Apr 19 11:44 : client: [74] opened from 127.0.0.1:37986
+Apr 19 11:46 : client: [73] closed
+Apr 19 11:46 : client: [74] closed
+Apr 19 11:46 : client: [75] opened from 127.0.0.1:38044
+Apr 19 11:46 : client: [76] opened from 127.0.0.1:38046
+Apr 19 11:47 : client: [75] closed
+Apr 19 11:47 : client: [76] closed
+Apr 19 11:47 : client: [77] opened from 127.0.0.1:38048
+Apr 19 11:47 : client: [78] opened from 127.0.0.1:38050
+Apr 19 11:48 : client: [77] closed
+Apr 19 11:48 : client: [78] closed
+Apr 19 11:48 : client: [79] opened from 127.0.0.1:38052
+Apr 19 11:48 : client: [80] opened from 127.0.0.1:38054
+Apr 19 11:50 : client: [79] closed
+Apr 19 11:50 : client: [80] closed
+Apr 19 11:50 : client: [81] opened from 127.0.0.1:38076
+Apr 19 11:50 : client: [82] opened from 127.0.0.1:38078
+Apr 19 11:51 : client: [81] closed
+Apr 19 11:51 : client: [82] closed
+Apr 19 11:51 : client: [83] opened from 127.0.0.1:38080
+Apr 19 11:51 : client: [84] opened from 127.0.0.1:38082
+Apr 19 11:52 : client: [83] closed
+Apr 19 11:52 : client: [84] closed
+Apr 19 11:52 : client: [85] opened from 127.0.0.1:38084
+Apr 19 11:52 : client: [86] opened from 127.0.0.1:38086
+Apr 19 11:52 : client: [85] closed
+Apr 19 11:52 : client: [86] closed
+Apr 19 11:52 : client: [87] opened from 127.0.0.1:38088
+Apr 19 11:52 : client: [88] opened from 127.0.0.1:38090
+Apr 19 11:52 : client: [87] closed
+Apr 19 11:52 : client: [88] closed
+Apr 19 11:52 : client: [89] opened from 127.0.0.1:38092
+Apr 19 11:52 : client: [90] opened from 127.0.0.1:38094
+Apr 19 11:53 : client: [89] closed
+Apr 19 11:53 : client: [90] closed
+Apr 19 11:53 : client: [91] opened from 127.0.0.1:38096
+Apr 19 11:53 : client: [92] opened from 127.0.0.1:38098
+Apr 19 11:54 : client: [91] closed
+Apr 19 11:54 : client: [92] closed
+Apr 19 11:54 : client: [93] opened from 127.0.0.1:38100
+Apr 19 11:54 : client: [94] opened from 127.0.0.1:38102
+Apr 19 11:59 : client: [93] closed
+Apr 19 11:59 : client: [94] closed
+Apr 19 11:59 : client: [95] opened from 127.0.0.1:38202
+Apr 19 11:59 : client: [96] opened from 127.0.0.1:38204
+Apr 19 12:37 : client: [3] closed
+Apr 19 12:48 : client: [97] opened from 127.0.0.1:38316
+Apr 19 12:48 : client: [97] closed
+Apr 19 12:48 : client: [98] opened from 127.0.0.1:38318
+Apr 19 12:48 : client: [98] closed
+Apr 19 12:49 : client: [99] opened from 127.0.0.1:38320
+Apr 19 12:49 : client: [100] opened from 127.0.0.1:38322
+Apr 19 12:49 : client: [100] closed
+Apr 19 12:52 : player: played "romantics/Beyoncé - Halo.mp3"
+Apr 19 12:52 : client: [101] opened from 127.0.0.1:38338
+Apr 19 12:52 : client: [101] closed
+Apr 19 12:52 : client: [95] closed
+Apr 19 12:52 : client: [96] closed
+Apr 19 12:52 : client: [102] opened from 127.0.0.1:38340
+Apr 19 12:52 : client: [103] opened from 127.0.0.1:38342
+Apr 19 12:53 : client: [102] closed
+Apr 19 12:53 : client: [103] closed
+Apr 19 12:53 : client: [104] opened from 127.0.0.1:38344
+Apr 19 12:53 : client: [105] opened from 127.0.0.1:38346
+Apr 19 12:54 : client: [104] closed
+Apr 19 12:54 : client: [105] closed
+Apr 19 12:54 : client: [106] opened from 127.0.0.1:38348
+Apr 19 12:54 : client: [107] opened from 127.0.0.1:38350
+Apr 19 12:56 : player: played "romantics/Bruno Mars - Just The Way You Are [Official Video].mp3"
+Apr 19 12:56 : client: [108] opened from 127.0.0.1:38352
+Apr 19 12:56 : client: [108] closed
+Apr 19 12:58 : client: [106] closed
+Apr 19 12:58 : client: [107] closed
+Apr 19 12:58 : client: [109] opened from 127.0.0.1:38354
+Apr 19 12:58 : client: [110] opened from 127.0.0.1:38356
+Apr 19 12:59 : client: [109] closed
+Apr 19 12:59 : client: [110] closed
+Apr 19 12:59 : client: [111] opened from 127.0.0.1:38366
+Apr 19 12:59 : client: [112] opened from 127.0.0.1:38368
+Apr 19 12:59 : client: [111] closed
+Apr 19 12:59 : client: [112] closed
+Apr 19 12:59 : client: [113] opened from 127.0.0.1:38370
+Apr 19 12:59 : client: [114] opened from 127.0.0.1:38372
+Apr 19 13:00 : player: played "romantics/Calum Scott - You Are The Reason (Official).mp3"
+Apr 19 13:00 : client: [115] opened from 127.0.0.1:38374
+Apr 19 13:00 : client: [115] closed
+Apr 19 13:03 : player: played "romantics/Charlie Puth - Marvin Gaye ft. Meghan Trainor [Official Video].mp3"
+Apr 19 13:03 : client: [116] opened from 127.0.0.1:38464
+Apr 19 13:03 : client: [116] closed
+Apr 19 13:07 : player: played "romantics/Charlie Puth - One Call Away [Official Video].mp3"
+Apr 19 13:07 : client: [117] opened from 127.0.0.1:38476
+Apr 19 13:07 : client: [117] closed
+Apr 19 13:08 : client: [99] closed
+Apr 19 13:08 : client: [113] closed
+Apr 19 13:08 : client: [114] closed
+Apr 19 13:08 : client: [118] opened from 127.0.0.1:38478
+Apr 19 13:08 : client: [119] opened from 127.0.0.1:38480
+Apr 19 13:11 : client: [118] closed
+Apr 19 13:11 : client: [119] closed
+Apr 19 13:11 : client: [120] opened from 127.0.0.1:38482
+Apr 19 13:11 : client: [121] opened from 127.0.0.1:38484
+Apr 19 13:22 : client: [122] opened from 127.0.0.1:38624
+Apr 19 13:22 : client: [123] opened from 127.0.0.1:38626
+Apr 19 13:22 : client: [123] closed
+Apr 19 13:57 : client: [122] closed
+Apr 19 14:38 : client: [120] closed
+Apr 19 14:38 : client: [121] closed
+Apr 19 15:24 : client: [124] opened from 127.0.0.1:39852
+Apr 19 15:24 : client: [125] opened from 127.0.0.1:39854
+Apr 19 15:24 : client: [125] closed
+Apr 19 15:24 : client: [126] opened from 127.0.0.1:39856
+Apr 19 15:24 : client: [126] closed
+Apr 19 15:25 : client: [124] closed
+Apr 19 15:25 : client: [127] opened from 127.0.0.1:39858
+Apr 19 15:25 : client: [128] opened from 127.0.0.1:39860
+Apr 19 15:25 : client: [128] closed
+Apr 19 15:29 : client: [127] closed
+Apr 19 15:29 : client: [129] opened from 127.0.0.1:39862
+Apr 19 15:30 : client: [129] closed
+Apr 19 15:30 : client: [130] opened from 127.0.0.1:39864
+Apr 19 15:30 : client: [130] closed
+Apr 19 15:30 : client: [131] opened from 127.0.0.1:39866
+Apr 19 15:31 : client: [131] closed
+Apr 19 15:31 : client: [132] opened from 127.0.0.1:39868
+Apr 19 15:36 : client: [132] closed
+Apr 19 15:36 : client: [133] opened from 127.0.0.1:39886
+Apr 19 15:39 : client: [133] closed
+Apr 19 15:39 : client: [134] opened from 127.0.0.1:39888
+Apr 19 15:41 : client: [134] closed
+Apr 19 15:41 : client: [135] opened from 127.0.0.1:39890
+Apr 19 15:46 : client: [135] closed
+Apr 19 15:46 : client: [136] opened from 127.0.0.1:39900
+Apr 19 15:49 : client: [136] closed
+Apr 19 15:49 : client: [137] opened from 127.0.0.1:39902
+Apr 19 15:49 : client: [137] closed
+Apr 19 15:49 : client: [138] opened from 127.0.0.1:39906
+Apr 19 15:55 : client: [138] closed
+Apr 19 15:55 : client: [139] opened from 127.0.0.1:39920
+Apr 19 15:55 : client: [139] closed
+Apr 19 15:55 : client: [140] opened from 127.0.0.1:39922
+Apr 19 15:56 : client: [140] closed
+Apr 19 15:56 : client: [141] opened from 127.0.0.1:39924
+Apr 19 15:56 : client: [141] closed
+Apr 19 15:56 : client: [142] opened from 127.0.0.1:39930
+Apr 19 15:57 : client: [142] closed
+Apr 19 15:57 : client: [143] opened from 127.0.0.1:39932
+Apr 19 15:58 : client: [143] closed
+Apr 19 15:58 : client: [144] opened from 127.0.0.1:39934
+Apr 19 15:58 : client: [144] closed
+Apr 19 15:58 : client: [145] opened from 127.0.0.1:39936
+Apr 19 15:59 : client: [145] closed
+Apr 19 15:59 : client: [146] opened from 127.0.0.1:39938
+Apr 19 15:59 : client: [146] closed
+Apr 19 15:59 : client: [147] opened from 127.0.0.1:39940
+Apr 19 16:00 : client: [147] closed
+Apr 19 16:00 : client: [148] opened from 127.0.0.1:39942
+Apr 19 16:01 : client: [148] closed
+Apr 19 16:01 : client: [149] opened from 127.0.0.1:39944
+Apr 19 16:04 : client: [149] closed
+Apr 19 16:04 : client: [150] opened from 127.0.0.1:40044
+Apr 19 16:06 : client: [150] closed
+Apr 19 16:06 : client: [151] opened from 127.0.0.1:40046
+Apr 19 16:09 : client: [151] closed
+Apr 19 16:09 : client: [152] opened from 127.0.0.1:40048
+Apr 19 16:09 : client: [152] closed
+Apr 19 16:09 : client: [153] opened from 127.0.0.1:40050
+Apr 19 16:11 : client: [153] closed
+Apr 19 16:11 : client: [154] opened from 127.0.0.1:40052
+Apr 19 16:14 : client: [154] closed
+Apr 19 16:14 : client: [155] opened from 127.0.0.1:40144
+Apr 19 16:15 : client: [155] closed
+Apr 19 16:15 : client: [156] opened from 127.0.0.1:40146
+Apr 19 16:20 : client: [156] closed
+Apr 19 16:20 : client: [157] opened from 127.0.0.1:40158
+Apr 19 16:20 : client: [157] closed
+Apr 19 16:20 : client: [158] opened from 127.0.0.1:40160
+Apr 19 16:21 : client: [158] closed
+Apr 19 16:21 : client: [159] opened from 127.0.0.1:40162
+Apr 19 16:24 : client: [159] closed
+Apr 19 16:24 : client: [160] opened from 127.0.0.1:40212
+Apr 19 16:24 : client: [160] closed
+Apr 19 16:24 : client: [161] opened from 127.0.0.1:40214
+Apr 19 16:26 : client: [161] closed
+Apr 19 16:26 : client: [162] opened from 127.0.0.1:40256
+Apr 19 16:29 : client: [162] closed
+Apr 19 16:29 : client: [163] opened from 127.0.0.1:40262
+Apr 19 16:30 : client: [163] closed
+Apr 19 16:30 : client: [164] opened from 127.0.0.1:40266
+Apr 19 16:31 : client: [164] closed
+Apr 19 16:31 : client: [165] opened from 127.0.0.1:40268
+Apr 19 16:32 : client: [165] closed
+Apr 19 16:32 : client: [166] opened from 127.0.0.1:40270
+Apr 19 16:32 : client: [166] closed
+Apr 19 16:32 : client: [167] opened from 127.0.0.1:40272
+Apr 19 16:33 : client: [167] closed
+Apr 19 16:33 : client: [168] opened from 127.0.0.1:40274
+Apr 19 16:34 : client: [168] closed
+Apr 19 16:34 : client: [169] opened from 127.0.0.1:40284
+Apr 19 16:35 : client: [169] closed
+Apr 19 16:35 : client: [170] opened from 127.0.0.1:40286
+Apr 19 16:46 : client: [170] closed
+Apr 19 16:46 : client: [171] opened from 127.0.0.1:40304
+Apr 19 16:48 : client: [171] closed
+Apr 19 16:48 : client: [172] opened from 127.0.0.1:40306
+Apr 19 16:48 : client: [172] closed
+Apr 19 16:48 : client: [173] opened from 127.0.0.1:40308
+Apr 19 16:49 : client: [173] closed
+Apr 19 16:49 : client: [174] opened from 127.0.0.1:40314
+Apr 19 16:49 : client: [174] closed
+Apr 19 16:49 : client: [175] opened from 127.0.0.1:40316
+Apr 19 16:53 : client: [175] closed
+Apr 19 16:53 : client: [176] opened from 127.0.0.1:40402
+Apr 19 16:53 : client: [176] closed
+Apr 19 16:53 : client: [177] opened from 127.0.0.1:40404
+Apr 19 16:55 : client: [177] closed
+Apr 19 16:55 : client: [178] opened from 127.0.0.1:40414
+Apr 19 16:58 : client: [178] closed
+Apr 19 16:58 : client: [179] opened from 127.0.0.1:40430
+Apr 19 16:59 : client: [179] closed
+Apr 19 16:59 : client: [180] opened from 127.0.0.1:40432
+Apr 19 17:01 : client: [180] closed
+Apr 19 17:01 : client: [181] opened from 127.0.0.1:40434
+Apr 19 17:01 : client: [181] closed
+Apr 19 17:01 : client: [182] opened from 127.0.0.1:40436
+Apr 19 17:01 : client: [182] closed
+Apr 19 17:01 : client: [183] opened from 127.0.0.1:40438
+Apr 19 17:05 : client: [183] closed
+Apr 19 17:05 : client: [184] opened from 127.0.0.1:40440
+Apr 19 17:08 : client: [184] closed
+Apr 19 17:08 : client: [185] opened from 127.0.0.1:40522
+Apr 19 17:10 : client: [185] closed
+Apr 19 17:10 : client: [186] opened from 127.0.0.1:40524
+Apr 19 17:11 : client: [186] closed
+Apr 19 17:11 : client: [187] opened from 127.0.0.1:40526
+Apr 19 17:12 : client: [187] closed
+Apr 19 17:12 : client: [188] opened from 127.0.0.1:40528
+Apr 19 17:13 : client: [188] closed
+Apr 19 17:13 : client: [189] opened from 127.0.0.1:40530
+Apr 19 17:14 : client: [189] closed
+Apr 19 17:14 : client: [190] opened from 127.0.0.1:40532
+Apr 19 17:16 : client: [190] closed
+Apr 19 17:16 : client: [191] opened from 127.0.0.1:40576
+Apr 19 17:16 : client: [191] closed
+Apr 19 17:16 : client: [192] opened from 127.0.0.1:40578
+Apr 19 17:18 : client: [192] closed
+Apr 19 17:18 : client: [193] opened from 127.0.0.1:40586
+Apr 19 17:23 : client: [193] closed
+Apr 19 17:23 : client: [194] opened from 127.0.0.1:40674
+Apr 19 17:25 : client: [194] closed
+Apr 19 17:25 : client: [195] opened from 127.0.0.1:40688
+Apr 19 17:26 : client: [195] closed
+Apr 19 17:26 : client: [196] opened from 127.0.0.1:40690
+Apr 19 17:27 : client: [196] closed
+Apr 19 17:27 : client: [197] opened from 127.0.0.1:40692
+Apr 19 17:28 : client: [197] closed
+Apr 19 17:28 : client: [198] opened from 127.0.0.1:40694
+Apr 19 17:30 : client: [198] closed
+Apr 19 17:31 : client: [199] opened from 127.0.0.1:40778
+Apr 19 17:51 : client: [200] opened from 127.0.0.1:40978
+Apr 19 17:51 : client: [201] opened from 127.0.0.1:40980
+Apr 19 17:51 : client: [201] closed
+Apr 19 17:51 : client: [202] opened from 127.0.0.1:40982
+Apr 19 17:51 : client: [202] closed
+Apr 19 17:51 : client: [200] closed
+Apr 19 17:51 : client: [203] opened from 127.0.0.1:40984
+Apr 19 17:51 : client: [203] closed
+Apr 19 17:52 : client: [204] opened from 127.0.0.1:40986
+Apr 19 17:52 : client: [205] opened from 127.0.0.1:40988
+Apr 19 17:52 : client: [205] closed
+Apr 19 17:52 : client: [206] opened from 127.0.0.1:40990
+Apr 19 17:52 : client: [206] closed
+Apr 19 17:53 : client: [204] closed
+Apr 19 17:53 : client: [199] closed
+Apr 19 17:53 : client: [207] opened from 127.0.0.1:40998
+Apr 19 17:54 : client: [208] opened from 127.0.0.1:41050
+Apr 19 17:54 : client: [209] opened from 127.0.0.1:41052
+Apr 19 17:54 : client: [209] closed
+Apr 19 18:20 : client: [210] opened from 127.0.0.1:41300
+Apr 19 18:20 : client: [210] closed
+Apr 19 18:20 : client: [211] opened from 127.0.0.1:41302
+Apr 19 18:20 : client: [211] closed
+Apr 19 18:20 : client: [212] opened from 127.0.0.1:41304
+Apr 19 18:20 : client: [212] closed
+Apr 19 18:20 : client: [213] opened from 127.0.0.1:41306
+Apr 19 18:20 : client: [213] closed
+Apr 19 18:20 : client: [214] opened from 127.0.0.1:41308
+Apr 19 18:20 : client: [214] closed
+Apr 19 18:24 : player: played "romantics/Beyoncé - Halo.mp3"
+Apr 19 18:24 : client: [215] opened from 127.0.0.1:41316
+Apr 19 18:24 : client: [215] closed
+Apr 19 18:28 : player: played "romantics/Bruno Mars - Just The Way You Are [Official Video].mp3"
+Apr 19 18:28 : client: [216] opened from 127.0.0.1:41336
+Apr 19 18:28 : client: [216] closed
+Apr 19 18:32 : player: played "romantics/Calum Scott - You Are The Reason (Official).mp3"
+Apr 19 18:32 : client: [217] opened from 127.0.0.1:41342
+Apr 19 18:32 : client: [217] closed
+Apr 19 18:35 : player: played "romantics/Charlie Puth - Marvin Gaye ft. Meghan Trainor [Official Video].mp3"
+Apr 19 18:35 : client: [218] opened from 127.0.0.1:41552
+Apr 19 18:35 : client: [218] closed
+Apr 19 18:39 : player: played "romantics/Charlie Puth - One Call Away [Official Video].mp3"
+Apr 19 18:39 : client: [219] opened from 127.0.0.1:41634
+Apr 19 18:39 : client: [219] closed
+Apr 19 18:44 : player: played "romantics/Christina Perri - A Thousand Years [Official Music Video].mp3"
+Apr 19 18:44 : client: [220] opened from 127.0.0.1:41756
+Apr 19 18:44 : client: [220] closed
+Apr 19 18:47 : client: [221] opened from 127.0.0.1:41768
+Apr 19 18:47 : client: [221] closed
+Apr 19 18:48 : client: [208] closed
+Apr 19 18:49 : client: [207] closed
+Apr 19 19:06 : client: [222] opened from 127.0.0.1:42128
+Apr 19 19:18 : client: [222] closed
+Apr 19 19:18 : client: [223] opened from 127.0.0.1:42346
+Apr 19 20:01 : client: [223] closed
+Apr 19 20:01 : client: [224] opened from 127.0.0.1:43354
+Apr 19 20:04 : client: [224] closed
+Apr 19 20:04 : client: [225] opened from 127.0.0.1:43356
+Apr 19 20:08 : client: [225] closed
+Apr 19 20:09 : client: [226] opened from 127.0.0.1:43614
+Apr 19 20:10 : client: [226] closed
+Apr 19 22:14 : client: [227] opened from 127.0.0.1:44976
+Apr 19 22:33 : client: [227] closed
+Apr 19 22:33 : client: [228] opened from 127.0.0.1:45318
+Apr 19 22:34 : client: [228] closed
+Apr 19 22:34 : client: [229] opened from 127.0.0.1:45388
+Apr 19 22:35 : client: [229] closed
+Apr 19 22:35 : client: [230] opened from 127.0.0.1:45390
+Apr 19 22:35 : client: [230] closed
+Apr 19 22:35 : client: [231] opened from 127.0.0.1:45392
+Apr 19 22:35 : client: [231] closed
+Apr 19 22:35 : client: [232] opened from 127.0.0.1:45394
+Apr 19 23:38 : client: [233] opened from 127.0.0.1:46290
+Apr 19 23:38 : client: [233] closed
+Apr 19 23:38 : client: [234] opened from 127.0.0.1:46292
+Apr 19 23:38 : client: [234] closed
+Apr 19 23:39 : client: [235] opened from 127.0.0.1:46294
+Apr 19 23:39 : client: [235] closed
+Apr 19 23:43 : player: played "romantics/Ed Sheeran - Perfect (Official Music Video).mp3"
+Apr 19 23:47 : client: [236] opened from 127.0.0.1:46404
+Apr 19 23:47 : client: [236] closed
+Apr 19 23:47 : client: [237] opened from 127.0.0.1:46406
+Apr 19 23:47 : client: [237] closed
+Apr 19 23:52 : player: played "romantics/Enrique Iglesias - Hero.mp3"
+Apr 19 23:55 : player: played "romantics/James Arthur - Say You Won't Let Go.mp3"
+Apr 19 23:59 : player: played "romantics/Jason Mraz - I'm Yours (Official Video).mp3"
+Apr 19 23:59 : client: [238] opened from 127.0.0.1:46732
+Apr 19 23:59 : client: [238] closed
+Apr 20 00:03 : client: [239] opened from 127.0.0.1:47030
+Apr 20 00:03 : client: [239] closed
+Apr 20 00:07 : player: played "romantics/Jonah Mutono - 1949 [Live Session].mp3"
+Apr 20 00:10 : player: played "romantics/Jonas Brothers - Sucker (Official Video).mp3"
+Apr 20 00:19 : player: played "romantics/Justin Timberlake - Mirrors.mp3"
+Apr 20 00:23 : player: played "romantics/Justin Webber - Trying to Love (Official 2019 Music Video).mp3"
+Apr 20 00:27 : player: played "romantics/Katy Perry - Unconditionally (Official).mp3"
+Apr 20 00:31 : player: played "romantics/Labrinth - Beneath Your Beautiful ft. Emeli Sandé (Official Video).mp3"
+Apr 20 00:35 : player: played "romantics/Lady Gaga, Bradley Cooper - Shallow (from A Star Is Born) (Official Music Video).mp3"
+Apr 20 00:38 : player: played "romantics/Lars Fiero - Emily [Official Video].mp3"
+Apr 20 00:41 : client: [240] opened from 127.0.0.1:47438
+Apr 20 00:41 : client: [240] closed
+Apr 20 00:42 : client: [232] closed
+Apr 20 00:42 : player: played "romantics/Maroon 5 - She Will Be Loved (Official Music Video).mp3"
+Apr 20 08:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 20 08:53 : config: option 'mixer_device' on line 301 was not recognized
+Apr 20 08:53 : config: option 'mixer_control' on line 302 was not recognized
+Apr 20 08:53 : config: option 'mixer_index' on line 303 was not recognized
+Apr 20 08:53 : client: [0] opened from 127.0.0.1:33548
+Apr 20 08:53 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 20 08:53 : client: [1] opened from 127.0.0.1:33550
+Apr 20 08:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 20 08:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 20 08:53 : client: [2] opened from 127.0.0.1:33552
+Apr 20 08:53 : client: [2] closed
+Apr 20 08:58 : player: played "romantics/ABSquared, Chanique - Don't Break My Heart.mp3"
+Apr 20 08:58 : client: [3] opened from 127.0.0.1:33558
+Apr 20 08:58 : client: [3] closed
+Apr 20 09:02 : player: played "romantics/Beyoncé - Halo.mp3"
+Apr 20 09:02 : client: [4] opened from 127.0.0.1:33564
+Apr 20 09:02 : client: [4] closed
+Apr 20 09:06 : player: played "romantics/Bruno Mars - Just The Way You Are [Official Video].mp3"
+Apr 20 09:06 : client: [5] opened from 127.0.0.1:33578
+Apr 20 09:06 : client: [5] closed
+Apr 20 09:09 : player: played "romantics/Calum Scott - You Are The Reason (Official).mp3"
+Apr 20 09:09 : client: [6] opened from 127.0.0.1:33584
+Apr 20 09:09 : client: [6] closed
+Apr 20 09:13 : player: played "romantics/Charlie Puth - Marvin Gaye ft. Meghan Trainor [Official Video].mp3"
+Apr 20 09:13 : client: [7] opened from 127.0.0.1:33598
+Apr 20 09:13 : client: [7] closed
+Apr 20 09:17 : player: played "romantics/Charlie Puth - One Call Away [Official Video].mp3"
+Apr 20 09:17 : client: [8] opened from 127.0.0.1:33604
+Apr 20 09:17 : client: [8] closed
+Apr 20 09:22 : player: played "romantics/Christina Perri - A Thousand Years [Official Music Video].mp3"
+Apr 20 09:22 : client: [9] opened from 127.0.0.1:33618
+Apr 20 09:22 : client: [9] closed
+Apr 20 09:26 : player: played "romantics/Ed Sheeran - Give Me Love [Official Video].mp3"
+Apr 20 09:26 : client: [10] opened from 127.0.0.1:33622
+Apr 20 09:26 : client: [10] closed
+Apr 20 09:30 : player: played "romantics/Ed Sheeran - Lego House [Official Video].mp3"
+Apr 20 09:30 : client: [11] opened from 127.0.0.1:33632
+Apr 20 09:30 : client: [11] closed
+Apr 20 09:35 : player: played "romantics/Ed Sheeran - Perfect (Official Music Video).mp3"
+Apr 20 09:35 : client: [12] opened from 127.0.0.1:33638
+Apr 20 09:35 : client: [12] closed
+Apr 20 09:39 : player: played "romantics/Ed Sheeran - Photograph (Official Music Video).mp3"
+Apr 20 09:39 : client: [13] opened from 127.0.0.1:33654
+Apr 20 09:39 : client: [13] closed
+Apr 20 09:44 : player: played "romantics/Ed Sheeran - Thinking Out Loud [Official Video].mp3"
+Apr 20 09:44 : client: [14] opened from 127.0.0.1:33662
+Apr 20 09:44 : client: [14] closed
+Apr 20 09:49 : player: played "romantics/Enrique Iglesias - Hero.mp3"
+Apr 20 09:49 : client: [15] opened from 127.0.0.1:33676
+Apr 20 09:49 : client: [15] closed
+Apr 20 09:52 : player: played "romantics/James Arthur - Say You Won't Let Go.mp3"
+Apr 20 09:52 : client: [16] opened from 127.0.0.1:33688
+Apr 20 09:52 : client: [16] closed
+Apr 20 09:56 : player: played "romantics/Jason Mraz - I'm Yours (Official Video).mp3"
+Apr 20 09:56 : client: [17] opened from 127.0.0.1:33774
+Apr 20 09:56 : client: [17] closed
+Apr 20 09:59 : client: [18] opened from 127.0.0.1:33790
+Apr 20 09:59 : client: [18] closed
+Apr 20 15:58 : player: played "romantics/Jessie J - Flashlight (from Pitch Perfect 2) (Official Video).mp3"
+Apr 20 15:58 : client: [19] opened from 127.0.0.1:35368
+Apr 20 15:58 : client: [19] closed
+Apr 20 16:03 : player: played "romantics/John Legend - All of Me (Edited Video).mp3"
+Apr 20 16:03 : client: [20] opened from 127.0.0.1:35414
+Apr 20 16:03 : client: [20] closed
+Apr 20 16:07 : player: played "romantics/Jonah Mutono - 1949 [Live Session].mp3"
+Apr 20 16:07 : client: [21] opened from 127.0.0.1:35450
+Apr 20 16:07 : client: [21] closed
+Apr 20 16:10 : player: played "romantics/Jonas Brothers - Sucker (Official Video).mp3"
+Apr 20 16:10 : client: [22] opened from 127.0.0.1:35586
+Apr 20 16:10 : client: [22] closed
+Apr 20 16:19 : player: played "romantics/Justin Timberlake - Mirrors.mp3"
+Apr 20 16:19 : client: [23] opened from 127.0.0.1:35826
+Apr 20 16:19 : client: [23] closed
+Apr 20 16:23 : player: played "romantics/Justin Webber - Trying to Love (Official 2019 Music Video).mp3"
+Apr 20 16:23 : client: [24] opened from 127.0.0.1:35940
+Apr 20 16:23 : client: [24] closed
+Apr 20 16:27 : player: played "romantics/Katy Perry - Unconditionally (Official).mp3"
+Apr 20 16:27 : client: [25] opened from 127.0.0.1:35996
+Apr 20 16:27 : client: [25] closed
+Apr 20 16:31 : player: played "romantics/Labrinth - Beneath Your Beautiful ft. Emeli Sandé (Official Video).mp3"
+Apr 20 16:31 : client: [26] opened from 127.0.0.1:36208
+Apr 20 16:31 : client: [26] closed
+Apr 20 16:35 : player: played "romantics/Lady Gaga, Bradley Cooper - Shallow (from A Star Is Born) (Official Music Video).mp3"
+Apr 20 16:35 : client: [27] opened from 127.0.0.1:36228
+Apr 20 16:35 : client: [27] closed
+Apr 20 16:35 : client: [28] opened from 127.0.0.1:36326
+Apr 20 16:35 : client: [28] closed
+Apr 20 19:47 : client: [1] closed
+Apr 20 19:48 : client: [0] closed
+Apr 20 19:50 : client: [29] opened from 127.0.0.1:38264
+Apr 20 19:51 : client: [29] closed
+Apr 20 19:54 : client: [30] opened from 127.0.0.1:38266
+Apr 20 20:44 : client: [30] closed
+Apr 20 20:53 : client: [31] opened from 127.0.0.1:39008
+Apr 20 20:55 : client: [31] closed
+Apr 20 20:56 : client: [32] opened from 127.0.0.1:39028
+Apr 20 20:57 : client: [32] closed
+Apr 20 21:12 : client: [33] opened from 127.0.0.1:39366
+Apr 20 21:12 : client: [33] closed
+Apr 20 21:12 : client: [34] opened from 127.0.0.1:39368
+Apr 20 21:12 : client: [34] closed
+Apr 20 21:13 : client: [35] opened from 127.0.0.1:39370
+Apr 20 21:15 : client: [35] closed
+Apr 20 21:15 : client: [36] opened from 127.0.0.1:39376
+Apr 20 21:15 : client: [36] closed
+Apr 20 21:15 : client: [37] opened from 127.0.0.1:39378
+Apr 20 21:23 : client: [37] closed
+Apr 20 21:23 : client: [38] opened from 127.0.0.1:39394
+Apr 20 21:24 : client: [38] closed
+Apr 20 21:24 : client: [39] opened from 127.0.0.1:39404
+Apr 20 21:29 : client: [39] closed
+Apr 20 21:30 : client: [40] opened from 127.0.0.1:39488
+Apr 20 21:36 : client: [40] closed
+Apr 20 21:36 : client: [41] opened from 127.0.0.1:39578
+Apr 20 23:20 : client: [41] closed
+Apr 20 23:28 : client: [42] opened from 127.0.0.1:41044
+Apr 20 23:29 : client: [42] closed
+Apr 20 23:29 : client: [43] opened from 127.0.0.1:41046
+Apr 20 23:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 20 23:41 : config: option 'mixer_device' on line 301 was not recognized
+Apr 20 23:41 : config: option 'mixer_control' on line 302 was not recognized
+Apr 20 23:41 : config: option 'mixer_index' on line 303 was not recognized
+Apr 20 23:41 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 20 23:41 : client: [0] opened from 127.0.0.1:51882
+Apr 20 23:46 : client: [0] closed
+Apr 20 23:46 : client: [1] opened from 127.0.0.1:52060
+Apr 20 23:49 : client: [2] opened from 127.0.0.1:52114
+Apr 20 23:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 20 23:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 20 23:49 : client: [3] opened from 127.0.0.1:52116
+Apr 20 23:49 : client: [3] closed
+Apr 20 23:49 : client: [2] closed
+Apr 20 23:55 : client: [1] closed
+Apr 20 23:55 : client: [4] opened from 127.0.0.1:52340
+Apr 20 23:56 : client: [4] closed
+Apr 20 23:56 : client: [5] opened from 127.0.0.1:52342
+Apr 20 23:56 : client: [5] closed
+Apr 20 23:56 : client: [6] opened from 127.0.0.1:52344
+Apr 20 23:56 : client: [6] closed
+Apr 20 23:56 : client: [7] opened from 127.0.0.1:52350
+Apr 20 23:58 : client: [7] closed
+Apr 20 23:58 : client: [8] opened from 127.0.0.1:52370
+Apr 21 00:11 : client: [8] closed
+Apr 21 00:12 : client: [9] opened from 127.0.0.1:52558
+Apr 21 00:12 : player: played "romantics/ABSquared, Chanique - Don't Break My Heart.mp3"
+Apr 21 23:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 21 23:23 : config: option 'mixer_device' on line 301 was not recognized
+Apr 21 23:23 : config: option 'mixer_control' on line 302 was not recognized
+Apr 21 23:23 : config: option 'mixer_index' on line 303 was not recognized
+Apr 21 23:24 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 21 23:24 : client: [0] opened from 127.0.0.1:37756
+Apr 21 23:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 21 23:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 21 23:24 : client: [1] opened from 127.0.0.1:37770
+Apr 21 23:24 : client: [1] closed
+Apr 21 23:29 : player: played "romantics/ABSquared, Chanique - Don't Break My Heart.mp3"
+Apr 21 23:29 : client: [2] opened from 127.0.0.1:37998
+Apr 21 23:29 : client: [2] closed
+Apr 21 23:33 : player: played "romantics/Beyoncé - Halo.mp3"
+Apr 21 23:33 : client: [3] opened from 127.0.0.1:38116
+Apr 21 23:33 : client: [3] closed
+Apr 21 23:37 : player: played "romantics/Bruno Mars - Just The Way You Are [Official Video].mp3"
+Apr 21 23:37 : client: [4] opened from 127.0.0.1:38134
+Apr 21 23:37 : client: [4] closed
+Apr 21 23:40 : client: [0] closed
+Apr 21 23:40 : client: [5] opened from 127.0.0.1:38268
+Apr 21 23:45 : client: [5] closed
+Apr 21 23:45 : player: played "romantics/Calum Scott - You Are The Reason (Official).mp3"
+Apr 22 08:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 22 08:41 : config: option 'mixer_device' on line 301 was not recognized
+Apr 22 08:41 : config: option 'mixer_control' on line 302 was not recognized
+Apr 22 08:41 : config: option 'mixer_index' on line 303 was not recognized
+Apr 22 08:41 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 22 08:41 : client: [0] opened from 127.0.0.1:53196
+Apr 22 08:41 : client: [1] opened from 127.0.0.1:53198
+Apr 22 08:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 22 08:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 22 08:42 : client: [2] opened from 127.0.0.1:53200
+Apr 22 08:42 : client: [2] closed
+Apr 22 08:46 : player: played "romantics/ABSquared, Chanique - Don't Break My Heart.mp3"
+Apr 22 08:46 : client: [3] opened from 127.0.0.1:53220
+Apr 22 08:46 : client: [3] closed
+Apr 22 08:50 : player: played "romantics/Beyoncé - Halo.mp3"
+Apr 22 08:50 : client: [4] opened from 127.0.0.1:53222
+Apr 22 08:50 : client: [4] closed
+Apr 22 08:54 : player: played "romantics/Bruno Mars - Just The Way You Are [Official Video].mp3"
+Apr 22 08:54 : client: [5] opened from 127.0.0.1:53224
+Apr 22 08:54 : client: [5] closed
+Apr 22 08:58 : player: played "romantics/Calum Scott - You Are The Reason (Official).mp3"
+Apr 22 08:58 : client: [6] opened from 127.0.0.1:53226
+Apr 22 08:58 : client: [6] closed
+Apr 22 09:01 : player: played "romantics/Charlie Puth - Marvin Gaye ft. Meghan Trainor [Official Video].mp3"
+Apr 22 09:01 : client: [7] opened from 127.0.0.1:53228
+Apr 22 09:01 : client: [7] closed
+Apr 22 09:05 : player: played "romantics/Charlie Puth - One Call Away [Official Video].mp3"
+Apr 22 09:05 : client: [8] opened from 127.0.0.1:53230
+Apr 22 09:05 : client: [8] closed
+Apr 22 09:10 : player: played "romantics/Christina Perri - A Thousand Years [Official Music Video].mp3"
+Apr 22 09:10 : client: [9] opened from 127.0.0.1:53232
+Apr 22 09:10 : client: [9] closed
+Apr 22 09:14 : player: played "romantics/Ed Sheeran - Give Me Love [Official Video].mp3"
+Apr 22 09:14 : client: [10] opened from 127.0.0.1:53234
+Apr 22 09:14 : client: [10] closed
+Apr 22 09:18 : player: played "romantics/Ed Sheeran - Lego House [Official Video].mp3"
+Apr 22 09:18 : client: [11] opened from 127.0.0.1:53236
+Apr 22 09:18 : client: [11] closed
+Apr 22 09:23 : player: played "romantics/Ed Sheeran - Perfect (Official Music Video).mp3"
+Apr 22 09:23 : client: [12] opened from 127.0.0.1:53238
+Apr 22 09:23 : client: [12] closed
+Apr 22 09:28 : player: played "romantics/Ed Sheeran - Photograph (Official Music Video).mp3"
+Apr 22 09:28 : client: [13] opened from 127.0.0.1:53240
+Apr 22 09:28 : client: [13] closed
+Apr 22 09:32 : player: played "romantics/Ed Sheeran - Thinking Out Loud [Official Video].mp3"
+Apr 22 09:32 : client: [14] opened from 127.0.0.1:53242
+Apr 22 09:32 : client: [14] closed
+Apr 22 09:37 : player: played "romantics/Enrique Iglesias - Hero.mp3"
+Apr 22 09:37 : client: [15] opened from 127.0.0.1:53244
+Apr 22 09:37 : client: [15] closed
+Apr 22 09:48 : player: played "romantics/James Arthur - Say You Won't Let Go.mp3"
+Apr 22 09:48 : client: [16] opened from 127.0.0.1:53246
+Apr 22 09:48 : client: [16] closed
+Apr 22 09:52 : player: played "romantics/Jason Mraz - I'm Yours (Official Video).mp3"
+Apr 22 09:52 : client: [17] opened from 127.0.0.1:53248
+Apr 22 09:52 : client: [17] closed
+Apr 22 09:56 : player: played "romantics/Jessie J - Flashlight (from Pitch Perfect 2) (Official Video).mp3"
+Apr 22 09:56 : client: [18] opened from 127.0.0.1:53250
+Apr 22 09:56 : client: [18] closed
+Apr 22 10:01 : player: played "romantics/John Legend - All of Me (Edited Video).mp3"
+Apr 22 10:01 : client: [19] opened from 127.0.0.1:53252
+Apr 22 10:01 : client: [19] closed
+Apr 22 10:05 : player: played "romantics/Jonah Mutono - 1949 [Live Session].mp3"
+Apr 22 10:05 : client: [20] opened from 127.0.0.1:53254
+Apr 22 10:05 : client: [20] closed
+Apr 22 10:08 : player: played "romantics/Jonas Brothers - Sucker (Official Video).mp3"
+Apr 22 10:08 : client: [21] opened from 127.0.0.1:53256
+Apr 22 10:08 : client: [21] closed
+Apr 22 10:10 : client: [22] opened from 127.0.0.1:53258
+Apr 22 10:10 : client: [22] closed
+Apr 22 10:10 : client: [23] opened from 127.0.0.1:53260
+Apr 22 10:10 : client: [23] closed
+Apr 22 10:14 : player: played "romantics/Katy Perry - Unconditionally (Official).mp3"
+Apr 22 10:14 : client: [24] opened from 127.0.0.1:53344
+Apr 22 10:14 : client: [24] closed
+Apr 22 10:15 : client: [25] opened from 127.0.0.1:53346
+Apr 22 10:15 : client: [25] closed
+Apr 22 10:56 : client: [26] opened from 127.0.0.1:53692
+Apr 22 10:56 : client: [26] closed
+Apr 22 11:00 : player: played "romantics/Lady Gaga, Bradley Cooper - Shallow (from A Star Is Born) (Official Music Video).mp3"
+Apr 22 11:00 : client: [27] opened from 127.0.0.1:53748
+Apr 22 11:00 : client: [27] closed
+Apr 22 11:04 : player: played "romantics/Lars Fiero - Emily [Official Video].mp3"
+Apr 22 11:04 : client: [28] opened from 127.0.0.1:53868
+Apr 22 11:04 : client: [28] closed
+Apr 22 11:08 : player: played "romantics/Maroon 5 - She Will Be Loved (Official Music Video).mp3"
+Apr 22 11:08 : client: [29] opened from 127.0.0.1:53932
+Apr 22 11:08 : client: [29] closed
+Apr 22 11:12 : player: played "romantics/Meghan Trainor - Like I'm Gonna Lose You (Official Music Video) ft. John Legend.mp3"
+Apr 22 11:12 : client: [30] opened from 127.0.0.1:53950
+Apr 22 11:12 : client: [30] closed
+Apr 22 11:16 : player: played "romantics/One Direction - Little Things.mp3"
+Apr 22 11:16 : client: [31] opened from 127.0.0.1:54052
+Apr 22 11:16 : client: [31] closed
+Apr 22 11:20 : player: played "romantics/One Direction - Night Changes.mp3"
+Apr 22 11:20 : client: [32] opened from 127.0.0.1:54174
+Apr 22 11:20 : client: [32] closed
+Apr 22 11:24 : player: played "romantics/One Direction - You & I.mp3"
+Apr 22 11:24 : client: [33] opened from 127.0.0.1:54238
+Apr 22 11:24 : client: [33] closed
+Apr 22 11:27 : player: played "romantics/Pink Sweat$ - 17 [Official Music Video].mp3"
+Apr 22 11:27 : client: [34] opened from 127.0.0.1:54286
+Apr 22 11:27 : client: [34] closed
+Apr 22 11:31 : player: played "romantics/Rihanna - California King Bed.mp3"
+Apr 22 11:31 : client: [35] opened from 127.0.0.1:54394
+Apr 22 11:31 : client: [35] closed
+Apr 22 11:36 : player: played "romantics/Rihanna - Stay ft. Mikky Ekko.mp3"
+Apr 22 11:36 : client: [36] opened from 127.0.0.1:54456
+Apr 22 11:36 : client: [36] closed
+Apr 22 11:39 : player: played "romantics/Sam Smith - Stay With Me (Official Video).mp3"
+Apr 22 11:39 : client: [37] opened from 127.0.0.1:54502
+Apr 22 11:39 : client: [37] closed
+Apr 22 11:42 : player: played "romantics/Selena Gomez - Good For You.mp3"
+Apr 22 11:42 : client: [38] opened from 127.0.0.1:54512
+Apr 22 11:42 : client: [38] closed
+Apr 22 11:46 : player: played "romantics/Shane Filan - Beautiful In White (Official Video).mp3"
+Apr 22 11:46 : client: [39] opened from 127.0.0.1:54648
+Apr 22 11:46 : client: [39] closed
+Apr 22 11:50 : player: played "romantics/Shawn Mendes, Camila Cabello - Señorita.mp3"
+Apr 22 11:50 : client: [40] opened from 127.0.0.1:54784
+Apr 22 11:50 : client: [40] closed
+Apr 22 11:54 : player: played "romantics/Whitney Houston - I Will Always Love You (Official Video).mp3"
+Apr 22 11:54 : client: [41] opened from 127.0.0.1:54934
+Apr 22 11:54 : client: [41] closed
+Apr 22 11:58 : player: played "romantics/Zara Larsson - Uncover (Official Music Video).mp3"
+Apr 22 11:58 : client: [42] opened from 127.0.0.1:55020
+Apr 22 11:58 : client: [42] closed
+Apr 22 12:04 : player: played "romantics/ZAYN - Dusk Till Dawn ft. Sia (Official Music Video).mp3"
+Apr 22 12:04 : client: [43] opened from 127.0.0.1:55140
+Apr 22 12:04 : client: [43] closed
+Apr 22 12:08 : player: played "romantics/ZAYN, Taylor Swift - I Don’t Wanna Live Forever (Fifty Shades Darker).mp3"
+Apr 22 12:11 : client: [44] opened from 127.0.0.1:55172
+Apr 22 12:11 : client: [44] closed
+Apr 22 12:15 : player: played "2Scratch - Mamacita (ft. TAOG) (BASS BOOSTED).mp3"
+Apr 22 12:15 : client: [45] opened from 127.0.0.1:55182
+Apr 22 12:15 : client: [45] closed
+Apr 22 12:19 : player: played "3 Doors Down - Here Without You (Official Video).mp3"
+Apr 22 12:19 : client: [46] opened from 127.0.0.1:55196
+Apr 22 12:19 : client: [46] closed
+Apr 22 12:25 : player: played "3d Ivan Torrent - Masters of Time(Bass Boosted) _ EpicPrimeMusic.mp3"
+Apr 22 12:25 : client: [47] opened from 127.0.0.1:55214
+Apr 22 12:25 : client: [47] closed
+Apr 22 12:28 : player: played "Alec Benjamin - Let Me Down Slowly (feat. Alessia Cara) _Official Music Video_.mp3"
+Apr 22 12:28 : client: [48] opened from 127.0.0.1:55216
+Apr 22 12:28 : client: [48] closed
+Apr 22 12:32 : player: played "Alef - Sol.mp3"
+Apr 22 12:33 : client: [49] opened from 127.0.0.1:55238
+Apr 22 12:33 : client: [49] closed
+Apr 22 12:37 : player: played "Naomi Scott ft. Albert Vishi - Speechless (Remake).mp3"
+Apr 22 12:37 : client: [50] opened from 127.0.0.1:55250
+Apr 22 12:37 : client: [50] closed
+Apr 22 12:41 : player: played "Neoni - Never Say Die (official lyric video).mp3"
+Apr 22 12:41 : client: [51] opened from 127.0.0.1:55260
+Apr 22 12:41 : client: [51] closed
+Apr 22 12:45 : player: played "Neteta - Kissing Your Shadow (Roger Voka Remix).mp3"
+Apr 22 12:45 : client: [52] opened from 127.0.0.1:55286
+Apr 22 12:45 : client: [52] closed
+Apr 22 12:49 : player: played "Orheyn - Lai Lai Remix _Original_♛♛ _Joker Edition lai lai song.mp3"
+Apr 22 12:49 : client: [53] opened from 127.0.0.1:55304
+Apr 22 12:49 : client: [53] closed
+Apr 22 12:53 : player: played "Passenger - Let Her Go (Lyrics).mp3"
+Apr 22 12:53 : client: [54] opened from 127.0.0.1:55306
+Apr 22 12:53 : client: [54] closed
+Apr 22 16:02 : player: played "Poets of the Fall - Carnival of Rust (Official Video w_ Lyrics).mp3"
+Apr 22 16:02 : client: [55] opened from 127.0.0.1:56386
+Apr 22 16:02 : client: [55] closed
+Apr 22 16:06 : player: played "Post Malone - Circles.mp3"
+Apr 22 16:06 : client: [56] opened from 127.0.0.1:56396
+Apr 22 16:06 : client: [56] closed
+Apr 22 16:45 : client: [57] opened from 127.0.0.1:56928
+Apr 22 16:45 : client: [57] closed
+Apr 22 19:48 : client: [58] opened from 127.0.0.1:59774
+Apr 22 19:48 : client: [58] closed
+Apr 22 19:49 : client: [59] opened from 127.0.0.1:59776
+Apr 22 19:49 : client: [59] closed
+Apr 22 19:49 : client: [60] opened from 127.0.0.1:59778
+Apr 22 19:49 : client: [60] closed
+Apr 22 20:04 : client: [61] opened from 127.0.0.1:59902
+Apr 22 20:04 : client: [61] closed
+Apr 22 20:54 : client: [1] closed
+Apr 22 20:55 : client: [0] closed
+Apr 22 20:55 : client: [62] opened from 127.0.0.1:60164
+Apr 22 21:16 : client: [62] closed
+Apr 22 21:16 : player: played "Programming _ Coding _ Hacking music vol.17 (INFINITY)-UoPpxj77Vi0.mp3"
+Apr 23 11:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 23 11:19 : config: option 'mixer_device' on line 301 was not recognized
+Apr 23 11:19 : config: option 'mixer_control' on line 302 was not recognized
+Apr 23 11:19 : config: option 'mixer_index' on line 303 was not recognized
+Apr 23 11:19 : client: [0] opened from 127.0.0.1:46254
+Apr 23 11:19 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 23 11:20 : client: [1] opened from 127.0.0.1:46256
+Apr 23 11:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 23 11:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 23 11:20 : client: [2] opened from 127.0.0.1:46258
+Apr 23 11:20 : client: [2] closed
+Apr 23 12:19 : player: played "romantics/ABSquared, Chanique - Don't Break My Heart.mp3"
+Apr 23 12:19 : client: [3] opened from 127.0.0.1:46460
+Apr 23 12:19 : client: [3] closed
+Apr 23 12:23 : player: played "romantics/Beyoncé - Halo.mp3"
+Apr 23 12:23 : client: [4] opened from 127.0.0.1:46474
+Apr 23 12:23 : client: [4] closed
+Apr 23 12:27 : player: played "romantics/Bruno Mars - Just The Way You Are [Official Video].mp3"
+Apr 23 12:27 : client: [5] opened from 127.0.0.1:46484
+Apr 23 12:27 : client: [5] closed
+Apr 23 12:31 : player: played "romantics/Calum Scott - You Are The Reason (Official).mp3"
+Apr 23 12:31 : client: [6] opened from 127.0.0.1:46504
+Apr 23 12:31 : client: [6] closed
+Apr 23 12:34 : player: played "romantics/Charlie Puth - Marvin Gaye ft. Meghan Trainor [Official Video].mp3"
+Apr 23 12:34 : client: [7] opened from 127.0.0.1:46510
+Apr 23 12:34 : client: [7] closed
+Apr 23 12:38 : player: played "romantics/Charlie Puth - One Call Away [Official Video].mp3"
+Apr 23 12:38 : client: [8] opened from 127.0.0.1:46516
+Apr 23 12:38 : client: [8] closed
+Apr 23 12:43 : player: played "romantics/Christina Perri - A Thousand Years [Official Music Video].mp3"
+Apr 23 12:43 : client: [9] opened from 127.0.0.1:46526
+Apr 23 12:43 : client: [9] closed
+Apr 23 12:47 : player: played "romantics/Ed Sheeran - Give Me Love [Official Video].mp3"
+Apr 23 12:47 : client: [10] opened from 127.0.0.1:46542
+Apr 23 12:47 : client: [10] closed
+Apr 23 12:51 : player: played "romantics/Ed Sheeran - Lego House [Official Video].mp3"
+Apr 23 12:51 : client: [11] opened from 127.0.0.1:46556
+Apr 23 12:51 : client: [11] closed
+Apr 23 12:56 : player: played "romantics/Ed Sheeran - Perfect (Official Music Video).mp3"
+Apr 23 12:56 : client: [12] opened from 127.0.0.1:46566
+Apr 23 12:56 : client: [12] closed
+Apr 23 13:51 : player: played "romantics/Ed Sheeran - Photograph (Official Music Video).mp3"
+Apr 23 13:51 : client: [13] opened from 127.0.0.1:46820
+Apr 23 13:51 : client: [13] closed
+Apr 23 13:56 : player: played "romantics/Ed Sheeran - Thinking Out Loud [Official Video].mp3"
+Apr 23 13:56 : client: [14] opened from 127.0.0.1:46900
+Apr 23 13:56 : client: [14] closed
+Apr 23 14:00 : player: played "romantics/Enrique Iglesias - Hero.mp3"
+Apr 23 14:00 : client: [15] opened from 127.0.0.1:47092
+Apr 23 14:00 : client: [15] closed
+Apr 23 14:04 : player: played "romantics/James Arthur - Say You Won't Let Go.mp3"
+Apr 23 14:04 : client: [16] opened from 127.0.0.1:47126
+Apr 23 14:04 : client: [16] closed
+Apr 23 14:07 : player: played "romantics/Jason Mraz - I'm Yours (Official Video).mp3"
+Apr 23 14:07 : client: [17] opened from 127.0.0.1:47132
+Apr 23 14:07 : client: [17] closed
+Apr 23 14:11 : player: played "romantics/Jessie J - Flashlight (from Pitch Perfect 2) (Official Video).mp3"
+Apr 23 14:11 : client: [18] opened from 127.0.0.1:47222
+Apr 23 14:11 : client: [18] closed
+Apr 23 14:16 : player: played "romantics/John Legend - All of Me (Edited Video).mp3"
+Apr 23 14:16 : client: [19] opened from 127.0.0.1:47362
+Apr 23 14:16 : client: [19] closed
+Apr 23 14:20 : player: played "romantics/Jonah Mutono - 1949 [Live Session].mp3"
+Apr 23 14:20 : client: [20] opened from 127.0.0.1:47382
+Apr 23 14:20 : client: [20] closed
+Apr 23 14:23 : player: played "romantics/Jonas Brothers - Sucker (Official Video).mp3"
+Apr 23 14:23 : client: [21] opened from 127.0.0.1:47448
+Apr 23 14:23 : client: [21] closed
+Apr 23 14:26 : client: [22] opened from 127.0.0.1:47540
+Apr 23 14:26 : client: [22] closed
+Apr 23 17:25 : client: [23] opened from 127.0.0.1:48884
+Apr 23 17:25 : client: [23] closed
+Apr 23 17:25 : client: [24] opened from 127.0.0.1:48886
+Apr 23 17:25 : client: [24] closed
+Apr 23 17:25 : client: [25] opened from 127.0.0.1:48888
+Apr 23 17:25 : client: [25] closed
+Apr 23 17:25 : client: [26] opened from 127.0.0.1:48890
+Apr 23 17:25 : client: [26] closed
+Apr 23 17:25 : client: [27] opened from 127.0.0.1:48892
+Apr 23 17:25 : client: [27] closed
+Apr 23 17:25 : client: [28] opened from 127.0.0.1:48894
+Apr 23 17:25 : client: [28] closed
+Apr 23 17:25 : client: [29] opened from 127.0.0.1:48896
+Apr 23 17:25 : client: [29] closed
+Apr 23 17:26 : client: [30] opened from 127.0.0.1:48904
+Apr 23 17:26 : client: [30] closed
+Apr 23 19:51 : update: added hindi-chill/Aftermorning Chillout - Vol 2 - Bollywood-PbWlXbEF2bo.mp3
+Apr 23 19:51 : update: added hindi-chill/Aftermorning Chillout - Vol 1 - Bollywood-2LjX4ELHSOQ.mp3
+Apr 23 19:51 : update: added hindi-chill/Aftermorning Chillouts Bollywood-uMvH-hby1dc.mp3
+Apr 23 19:51 : client: [31] opened from 127.0.0.1:50788
+Apr 23 19:51 : client: [31] closed
+Apr 23 20:29 : client: [32] opened from 127.0.0.1:50934
+Apr 23 20:29 : client: [32] closed
+Apr 23 20:35 : client: [33] opened from 127.0.0.1:50956
+Apr 23 20:35 : client: [33] closed
+Apr 23 20:39 : client: [34] opened from 127.0.0.1:50966
+Apr 23 20:39 : client: [34] closed
+Apr 23 20:49 : client: [35] opened from 127.0.0.1:51096
+Apr 23 20:49 : client: [35] closed
+Apr 23 21:46 : client: [1] closed
+Apr 23 21:46 : client: [0] closed
+Apr 23 21:46 : client: [36] opened from 127.0.0.1:51554
+Apr 23 21:54 : client: [36] closed
+Apr 23 21:54 : client: [37] opened from 127.0.0.1:51934
+Apr 23 22:39 : player: played "hindi-chill/Aftermorning Chillout - Vol 1 - Bollywood-2LjX4ELHSOQ.mp3"
+Apr 24 10:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 24 10:56 : config: option 'mixer_device' on line 301 was not recognized
+Apr 24 10:56 : config: option 'mixer_control' on line 302 was not recognized
+Apr 24 10:56 : config: option 'mixer_index' on line 303 was not recognized
+Apr 24 10:56 : client: [0] opened from 127.0.0.1:37656
+Apr 24 10:56 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 24 10:56 : client: [1] opened from 127.0.0.1:37658
+Apr 24 10:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 24 10:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 24 10:56 : client: [2] opened from 127.0.0.1:37660
+Apr 24 10:56 : client: [2] closed
+Apr 24 12:23 : client: [1] closed
+Apr 24 12:23 : player: played "hindi-chill/Aftermorning Chillout - Vol 1 - Bollywood-2LjX4ELHSOQ.mp3"
+Apr 24 17:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 24 17:20 : config: option 'mixer_device' on line 301 was not recognized
+Apr 24 17:20 : config: option 'mixer_control' on line 302 was not recognized
+Apr 24 17:20 : config: option 'mixer_index' on line 303 was not recognized
+Apr 24 17:20 : client: [0] opened from 127.0.0.1:43028
+Apr 24 17:20 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 24 17:20 : client: [1] opened from 127.0.0.1:43030
+Apr 24 17:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 24 17:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 24 17:20 : client: [2] opened from 127.0.0.1:43032
+Apr 24 17:20 : client: [2] closed
+Apr 24 17:38 : player: played "hindi-chill/Aftermorning Chillout - Vol 2 - Bollywood-PbWlXbEF2bo.mp3"
+Apr 24 17:38 : client: [3] opened from 127.0.0.1:43114
+Apr 24 17:38 : client: [3] closed
+Apr 24 17:52 : client: [4] opened from 127.0.0.1:43470
+Apr 24 17:52 : client: [4] closed
+Apr 24 18:59 : client: [5] opened from 127.0.0.1:44210
+Apr 24 18:59 : client: [5] closed
+Apr 24 19:02 : player: played "hindi-chill/Aftermorning Chillouts Bollywood-uMvH-hby1dc.mp3"
+Apr 24 21:33 : client: [6] opened from 127.0.0.1:45860
+Apr 24 21:33 : client: [6] closed
+Apr 24 21:33 : client: [7] opened from 127.0.0.1:45862
+Apr 24 21:33 : client: [7] closed
+Apr 24 21:33 : client: [8] opened from 127.0.0.1:45864
+Apr 24 21:33 : client: [8] closed
+Apr 24 21:51 : player: played "hindi-chill/Aftermorning Chillout - Vol 2 - Bollywood-PbWlXbEF2bo.mp3"
+Apr 24 21:51 : client: [9] opened from 127.0.0.1:45932
+Apr 24 21:51 : client: [9] closed
+Apr 24 22:07 : player: played "hindi-chill/Aftermorning Chillouts Bollywood-uMvH-hby1dc.mp3"
+Apr 24 22:21 : client: [10] opened from 127.0.0.1:47314
+Apr 24 22:21 : client: [10] closed
+Apr 24 22:21 : client: [11] opened from 127.0.0.1:47316
+Apr 24 22:21 : client: [11] closed
+Apr 24 22:21 : client: [12] opened from 127.0.0.1:47318
+Apr 24 22:21 : client: [12] closed
+Apr 24 22:22 : client: [13] opened from 127.0.0.1:47320
+Apr 24 22:22 : client: [13] closed
+Apr 24 22:22 : client: [14] opened from 127.0.0.1:47322
+Apr 24 22:22 : client: [14] closed
+Apr 24 23:50 : client: [15] opened from 127.0.0.1:47816
+Apr 24 23:50 : client: [16] opened from 127.0.0.1:47818
+Apr 24 23:50 : client: [16] closed
+Apr 24 23:50 : client: [15] closed
+Apr 24 23:57 : client: [17] opened from 127.0.0.1:47916
+Apr 24 23:57 : client: [17] closed
+Apr 24 23:58 : player: played "2Scratch - Mamacita (ft. TAOG) (BASS BOOSTED).mp3"
+Apr 24 23:58 : client: [18] opened from 127.0.0.1:47918
+Apr 24 23:58 : client: [18] closed
+Apr 24 23:58 : client: [19] opened from 127.0.0.1:47920
+Apr 24 23:58 : client: [19] closed
+Apr 24 23:59 : client: [20] opened from 127.0.0.1:47922
+Apr 24 23:59 : client: [20] closed
+Apr 25 00:01 : client: [21] opened from 127.0.0.1:47936
+Apr 25 00:01 : client: [21] closed
+Apr 25 03:21 : client: [1] closed
+Apr 25 03:24 : player: played "romantics/Zara Larsson - Uncover (Official Music Video).mp3"
+Apr 26 11:38 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 26 11:38 : config: option 'mixer_device' on line 301 was not recognized
+Apr 26 11:38 : config: option 'mixer_control' on line 302 was not recognized
+Apr 26 11:38 : config: option 'mixer_index' on line 303 was not recognized
+Apr 26 11:38 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 26 11:38 : client: [0] opened from 127.0.0.1:43712
+Apr 26 11:38 : client: [1] opened from 127.0.0.1:43714
+Apr 26 11:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 26 11:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 26 11:38 : client: [2] opened from 127.0.0.1:43716
+Apr 26 11:38 : client: [2] closed
+Apr 26 12:07 : player: played "hindi-chill/Aftermorning Chillout - Vol 1 - Bollywood-2LjX4ELHSOQ.mp3"
+Apr 26 12:07 : client: [3] opened from 127.0.0.1:44582
+Apr 26 12:07 : client: [3] closed
+Apr 26 12:25 : player: played "hindi-chill/Aftermorning Chillout - Vol 2 - Bollywood-PbWlXbEF2bo.mp3"
+Apr 26 12:25 : client: [4] opened from 127.0.0.1:45200
+Apr 26 12:25 : client: [4] closed
+Apr 26 12:42 : player: played "hindi-chill/Aftermorning Chillouts Bollywood-uMvH-hby1dc.mp3"
+Apr 26 13:18 : client: [5] opened from 127.0.0.1:46740
+Apr 26 13:18 : client: [5] closed
+Apr 26 13:18 : client: [6] opened from 127.0.0.1:46742
+Apr 26 13:18 : client: [6] closed
+Apr 26 13:28 : client: [7] opened from 127.0.0.1:46858
+Apr 26 13:28 : client: [7] closed
+Apr 26 21:21 : client: [8] opened from 127.0.0.1:50512
+Apr 26 21:21 : client: [8] closed
+Apr 26 21:23 : client: [9] opened from 127.0.0.1:50532
+Apr 26 21:23 : client: [9] closed
+Apr 26 21:23 : client: [10] opened from 127.0.0.1:50534
+Apr 26 21:23 : client: [10] closed
+Apr 26 21:41 : player: played "hindi-chill/Aftermorning Chillout - Vol 2 - Bollywood-PbWlXbEF2bo.mp3"
+Apr 26 21:41 : client: [11] opened from 127.0.0.1:50710
+Apr 26 21:41 : client: [11] closed
+Apr 26 21:50 : client: [12] opened from 127.0.0.1:50766
+Apr 26 21:50 : client: [12] closed
+Apr 26 22:28 : client: [1] closed
+Apr 26 22:29 : client: [0] closed
+Apr 26 23:02 : player: played "hindi-chill/Aftermorning Chillouts Bollywood-uMvH-hby1dc.mp3"
+Apr 27 10:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 27 10:19 : config: option 'mixer_device' on line 301 was not recognized
+Apr 27 10:19 : config: option 'mixer_control' on line 302 was not recognized
+Apr 27 10:19 : config: option 'mixer_index' on line 303 was not recognized
+Apr 27 10:19 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 27 10:19 : client: [0] opened from 127.0.0.1:46290
+Apr 27 10:19 : client: [1] opened from 127.0.0.1:46292
+Apr 27 10:20 : update: updating hindi-chill/Aftermorning Chillout - Vol 2 - Bollywood-PbWlXbEF2bo.mp3
+Apr 27 10:20 : update: updating hindi-chill/Aftermorning Chillout - Vol 1 - Bollywood-2LjX4ELHSOQ.mp3
+Apr 27 10:20 : update: updating hindi-chill/Aftermorning Chillouts Bollywood-uMvH-hby1dc.mp3
+Apr 27 10:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 27 10:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 27 10:20 : client: [2] opened from 127.0.0.1:46294
+Apr 27 10:20 : client: [2] closed
+Apr 27 10:20 : client: [3] opened from 127.0.0.1:46296
+Apr 27 10:20 : client: [3] closed
+Apr 27 10:21 : client: [4] opened from 127.0.0.1:46298
+Apr 27 10:21 : client: [4] closed
+Apr 27 11:18 : client: [5] opened from 127.0.0.1:46454
+Apr 27 11:18 : client: [5] closed
+Apr 27 11:18 : client: [6] opened from 127.0.0.1:46456
+Apr 27 11:18 : client: [6] closed
+Apr 27 11:46 : player: played "hindi-chill/Aftermorning Chillout - Vol 1 - Bollywood-2LjX4ELHSOQ.mp3"
+Apr 27 11:46 : client: [7] opened from 127.0.0.1:46536
+Apr 27 11:46 : client: [7] closed
+Apr 27 12:04 : player: played "hindi-chill/Aftermorning Chillout - Vol 2 - Bollywood-PbWlXbEF2bo.mp3"
+Apr 27 12:04 : client: [8] opened from 127.0.0.1:46552
+Apr 27 12:04 : client: [8] closed
+Apr 27 12:19 : client: [9] opened from 127.0.0.1:46586
+Apr 27 12:19 : client: [9] closed
+Apr 27 15:44 : client: [10] opened from 127.0.0.1:48182
+Apr 27 15:44 : client: [10] closed
+Apr 27 15:45 : player: played "hindi-chill/Aftermorning Chillouts Bollywood-uMvH-hby1dc.mp3"
+Apr 27 15:45 : client: [11] opened from 127.0.0.1:48204
+Apr 27 15:45 : client: [11] closed
+Apr 27 16:29 : player: played "Alone _ A Chill Mix.mp3"
+Apr 27 16:29 : client: [0] closed
+Apr 27 16:29 : client: [1] closed
+Apr 27 23:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 27 23:02 : config: option 'mixer_device' on line 301 was not recognized
+Apr 27 23:02 : config: option 'mixer_control' on line 302 was not recognized
+Apr 27 23:02 : config: option 'mixer_index' on line 303 was not recognized
+Apr 27 23:02 : avahi: Service 'Music Player @ devops' successfully established.
+Apr 27 23:02 : client: [0] opened from 127.0.0.1:58774
+Apr 27 23:02 : client: [1] opened from 127.0.0.1:58776
+Apr 27 23:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 27 23:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 27 23:02 : client: [2] opened from 127.0.0.1:58778
+Apr 27 23:02 : client: [2] closed
+Apr 27 23:02 : client: [3] opened from 127.0.0.1:58780
+Apr 27 23:02 : client: [3] closed
+Apr 27 23:07 : player: played "romantics/Ed Sheeran - Perfect (Official Music Video).mp3"
+Apr 27 23:07 : client: [4] opened from 127.0.0.1:58782
+Apr 27 23:07 : client: [4] closed
+Apr 27 23:12 : player: played "romantics/Ed Sheeran - Photograph (Official Music Video).mp3"
+Apr 27 23:12 : client: [5] opened from 127.0.0.1:58816
+Apr 27 23:12 : client: [5] closed
+Apr 27 23:12 : client: [1] closed
+Apr 27 23:12 : client: [6] opened from 127.0.0.1:58818
+Apr 27 23:12 : client: [7] opened from 127.0.0.1:58820
+Apr 27 23:12 : client: [7] closed
+Apr 27 23:12 : client: [6] closed
+Apr 27 23:12 : player: played "romantics/Ed Sheeran - Thinking Out Loud [Official Video].mp3"
+May 02 11:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 02 11:57 : config: option 'mixer_device' on line 301 was not recognized
+May 02 11:57 : config: option 'mixer_control' on line 302 was not recognized
+May 02 11:57 : config: option 'mixer_index' on line 303 was not recognized
+May 02 11:57 : client: [0] opened from 127.0.0.1:42242
+May 02 11:57 : avahi: Service 'Music Player @ devops' successfully established.
+May 02 11:57 : client: [1] opened from 127.0.0.1:42244
+May 02 11:58 : update: added l/Lindsey Stirling - Lost Girls.mp3
+May 02 11:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 02 11:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 02 11:58 : client: [2] opened from 127.0.0.1:42246
+May 02 11:58 : client: [2] closed
+May 02 12:00 : client: [3] opened from 127.0.0.1:42286
+May 02 12:00 : client: [3] closed
+May 02 14:15 : client: [4] opened from 127.0.0.1:42992
+May 02 14:15 : client: [4] closed
+May 02 14:18 : client: [5] opened from 127.0.0.1:43036
+May 02 14:18 : client: [5] closed
+May 02 14:18 : client: [6] opened from 127.0.0.1:43038
+May 02 14:18 : client: [6] closed
+May 02 14:18 : client: [7] opened from 127.0.0.1:43040
+May 02 14:18 : player: played "l/Lindsey Stirling - Lost Girls.mp3"
+May 02 14:18 : client: [7] closed
+May 02 14:18 : client: [8] opened from 127.0.0.1:43042
+May 02 14:18 : client: [8] closed
+May 02 14:18 : client: [9] opened from 127.0.0.1:43044
+May 02 14:18 : client: [9] closed
+May 02 14:23 : player: played "l/Lindsey Stirling - Lost Girls.mp3"
+May 02 14:27 : client: [1] closed
+May 02 14:42 : client: [0] closed
+May 02 14:42 : client: [10] opened from 127.0.0.1:43192
+May 02 16:48 : client: [11] opened from 127.0.0.1:45346
+May 02 16:48 : client: [11] closed
+May 02 16:48 : client: [12] opened from 127.0.0.1:45396
+May 02 16:48 : client: [12] closed
+May 02 17:32 : client: [10] closed
+May 02 17:32 : player: played "l/Lindsey Stirling - Lost Girls.mp3"
+May 02 18:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 02 18:56 : config: option 'mixer_device' on line 301 was not recognized
+May 02 18:56 : config: option 'mixer_control' on line 302 was not recognized
+May 02 18:56 : config: option 'mixer_index' on line 303 was not recognized
+May 02 18:56 : client: [0] opened from 127.0.0.1:59536
+May 02 18:56 : avahi: Service 'Music Player @ devops' successfully established.
+May 02 18:56 : client: [1] opened from 127.0.0.1:59538
+May 02 18:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 02 18:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 02 18:56 : client: [2] opened from 127.0.0.1:59540
+May 02 18:56 : client: [2] closed
+May 02 19:01 : client: [3] opened from 127.0.0.1:59552
+May 02 19:01 : client: [3] closed
+May 02 19:32 : player: played "hindi-chill/Aftermorning Chillout - Vol 1 - Bollywood-2LjX4ELHSOQ.mp3"
+May 02 19:32 : client: [4] opened from 127.0.0.1:59622
+May 02 19:32 : client: [4] closed
+May 02 22:17 : client: [1] closed
+May 02 22:17 : client: [0] closed
+May 02 22:31 : client: [5] opened from 127.0.0.1:33006
+May 02 23:59 : player: played "hindi-chill/Aftermorning Chillout - Vol 2 - Bollywood-PbWlXbEF2bo.mp3"
+May 03 12:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 03 12:16 : config: option 'mixer_device' on line 301 was not recognized
+May 03 12:16 : config: option 'mixer_control' on line 302 was not recognized
+May 03 12:16 : config: option 'mixer_index' on line 303 was not recognized
+May 03 12:16 : avahi: Service 'Music Player @ devops' successfully established.
+May 03 12:16 : client: [0] opened from 127.0.0.1:53898
+May 03 12:16 : client: [1] opened from 127.0.0.1:53900
+May 03 12:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 03 12:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 03 12:16 : client: [2] opened from 127.0.0.1:53902
+May 03 12:16 : client: [2] closed
+May 03 12:50 : player: played "l/Lindsey Stirling - Lost Girls.mp3"
+May 03 12:51 : client: [3] opened from 127.0.0.1:54052
+May 03 12:51 : client: [3] closed
+May 03 12:55 : player: played "romantics/ABSquared, Chanique - Don't Break My Heart.mp3"
+May 03 12:55 : client: [4] opened from 127.0.0.1:54154
+May 03 12:55 : client: [4] closed
+May 03 12:59 : player: played "romantics/Beyoncé - Halo.mp3"
+May 03 12:59 : client: [5] opened from 127.0.0.1:54300
+May 03 12:59 : client: [5] closed
+May 03 13:03 : player: played "romantics/Bruno Mars - Just The Way You Are [Official Video].mp3"
+May 03 13:03 : client: [6] opened from 127.0.0.1:54442
+May 03 13:03 : client: [6] closed
+May 03 13:07 : player: played "romantics/Calum Scott - You Are The Reason (Official).mp3"
+May 03 13:07 : client: [7] opened from 127.0.0.1:54466
+May 03 13:07 : client: [7] closed
+May 03 13:10 : player: played "romantics/Charlie Puth - Marvin Gaye ft. Meghan Trainor [Official Video].mp3"
+May 03 13:10 : client: [8] opened from 127.0.0.1:54594
+May 03 13:10 : client: [8] closed
+May 03 13:14 : player: played "romantics/Charlie Puth - One Call Away [Official Video].mp3"
+May 03 13:14 : client: [9] opened from 127.0.0.1:54612
+May 03 13:14 : client: [9] closed
+May 03 13:19 : player: played "romantics/Christina Perri - A Thousand Years [Official Music Video].mp3"
+May 03 13:19 : client: [10] opened from 127.0.0.1:54630
+May 03 13:19 : client: [10] closed
+May 03 13:23 : player: played "romantics/Ed Sheeran - Give Me Love [Official Video].mp3"
+May 03 13:23 : client: [11] opened from 127.0.0.1:54648
+May 03 13:23 : client: [11] closed
+May 03 13:27 : player: played "romantics/Ed Sheeran - Lego House [Official Video].mp3"
+May 03 13:27 : client: [12] opened from 127.0.0.1:54664
+May 03 13:27 : client: [12] closed
+May 03 23:58 : client: [1] closed
+May 03 23:58 : player: played "romantics/Ed Sheeran - Perfect (Official Music Video).mp3"
+May 04 12:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 04 12:21 : config: option 'mixer_device' on line 301 was not recognized
+May 04 12:21 : config: option 'mixer_control' on line 302 was not recognized
+May 04 12:21 : config: option 'mixer_index' on line 303 was not recognized
+May 04 12:21 : avahi: Service 'Music Player @ devops' successfully established.
+May 04 12:21 : client: [0] opened from 127.0.0.1:44472
+May 04 12:21 : client: [1] opened from 127.0.0.1:44474
+May 04 12:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 04 12:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 04 12:21 : client: [2] opened from 127.0.0.1:44476
+May 04 12:21 : client: [2] closed
+May 04 12:26 : player: played "l/Lindsey Stirling - Lost Girls.mp3"
+May 04 12:27 : client: [3] opened from 127.0.0.1:44478
+May 04 12:27 : client: [3] closed
+May 04 12:32 : player: played "l/Lindsey Stirling - Lost Girls.mp3"
+May 04 12:32 : client: [4] opened from 127.0.0.1:44480
+May 04 12:32 : client: [4] closed
+May 04 13:01 : player: played "hindi-chill/Aftermorning Chillout - Vol 1 - Bollywood-2LjX4ELHSOQ.mp3"
+May 04 13:01 : client: [5] opened from 127.0.0.1:44482
+May 04 13:01 : client: [5] closed
+May 04 13:12 : client: [6] opened from 127.0.0.1:44484
+May 04 13:12 : client: [6] closed
+May 04 13:15 : client: [7] opened from 127.0.0.1:44486
+May 04 13:15 : client: [7] closed
+May 04 13:18 : client: [8] opened from 127.0.0.1:44488
+May 04 13:18 : client: [8] closed
+May 04 17:24 : client: [1] closed
+May 04 17:24 : client: [0] closed
+May 04 17:24 : client: [9] opened from 127.0.0.1:58280
+May 04 17:32 : client: [10] opened from 127.0.0.1:58520
+May 04 17:32 : client: [11] opened from 127.0.0.1:58522
+May 04 17:32 : client: [12] opened from 127.0.0.1:58524
+May 04 17:32 : client: [10] closed
+May 04 17:32 : client: [13] opened from 127.0.0.1:58526
+May 04 17:32 : client: [14] opened from 127.0.0.1:58528
+May 04 17:33 : client: [15] opened from 127.0.0.1:58536
+May 04 17:33 : client: [16] opened from 127.0.0.1:58538
+May 04 17:33 : client: [9] closed
+May 04 17:33 : client: [13] closed
+May 04 17:33 : client: [14] closed
+May 04 17:33 : client: [17] opened from 127.0.0.1:58540
+May 04 17:33 : client: [11] closed
+May 04 17:33 : client: [15] closed
+May 04 17:35 : client: [12] closed
+May 04 17:35 : client: [16] closed
+May 04 17:35 : client: [17] closed
+May 04 17:36 : client: [18] opened from 127.0.0.1:58554
+May 04 17:36 : client: [19] opened from 127.0.0.1:58556
+May 04 17:36 : client: [20] opened from 127.0.0.1:58558
+May 04 17:36 : client: [21] opened from 127.0.0.1:58562
+May 04 17:36 : client: [22] opened from 127.0.0.1:58564
+May 04 17:36 : client: [23] opened from 127.0.0.1:58566
+May 04 17:36 : client: [24] opened from 127.0.0.1:58560
+May 04 17:36 : client: [25] opened from 127.0.0.1:58568
+May 04 17:36 : client: [26] opened from 127.0.0.1:58570
+May 04 17:36 : client: [27] opened from 127.0.0.1:58572
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:36 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:37 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:38 : client: Max connections reached
+May 04 17:39 : client: Max connections reached
+May 04 17:39 : client: Max connections reached
+May 04 17:39 : client: Max connections reached
+May 04 17:39 : client: Max connections reached
+May 04 17:39 : client: Max connections reached
+May 04 17:39 : client: Max connections reached
+May 04 17:39 : client: Max connections reached
+May 04 17:39 : client: Max connections reached
+May 04 17:39 : client: Max connections reached
+May 04 17:39 : client: Max connections reached
+May 04 17:39 : client: Max connections reached
+May 04 17:39 : client: Max connections reached
+May 04 17:39 : client: Max connections reached
+May 04 17:39 : client: Max connections reached
+May 04 17:39 : client: [27] closed
+May 04 17:39 : client: [22] closed
+May 04 17:39 : client: [19] closed
+May 04 17:39 : client: [18] closed
+May 04 17:39 : client: [21] closed
+May 04 17:39 : client: [25] closed
+May 04 17:39 : client: [20] closed
+May 04 17:39 : client: [24] closed
+May 04 17:39 : client: [26] closed
+May 04 17:39 : client: [23] closed
+May 04 17:40 : client: [28] opened from 127.0.0.1:58982
+May 04 17:42 : client: [28] closed
+May 04 17:43 : client: [29] opened from 127.0.0.1:58984
+May 04 17:43 : client: [29] closed
+May 04 17:45 : client: [30] opened from 127.0.0.1:59146
+May 04 17:45 : client: [30] closed
+May 04 17:47 : client: [31] opened from 127.0.0.1:59148
+May 04 17:48 : client: [31] closed
+May 04 17:48 : client: [32] opened from 127.0.0.1:59150
+May 04 17:49 : client: [32] closed
+May 04 17:49 : client: [33] opened from 127.0.0.1:59160
+May 04 17:50 : client: [33] closed
+May 04 17:50 : client: [34] opened from 127.0.0.1:59162
+May 04 17:52 : client: [34] closed
+May 04 17:52 : client: [35] opened from 127.0.0.1:59164
+May 04 17:52 : client: [35] closed
+May 04 17:52 : client: [36] opened from 127.0.0.1:59166
+May 04 17:53 : client: [36] closed
+May 04 17:53 : client: [37] opened from 127.0.0.1:59168
+May 04 18:18 : client: [37] closed
+May 04 18:19 : client: [38] opened from 127.0.0.1:59230
+May 04 18:21 : client: [39] opened from 127.0.0.1:59344
+May 04 18:21 : client: [39] closed
+May 04 18:21 : client: [40] opened from 127.0.0.1:59390
+May 04 18:21 : client: [40] closed
+May 04 18:30 : client: [38] closed
+May 04 18:30 : client: [41] opened from 127.0.0.1:59428
+May 04 18:34 : client: [42] opened from 127.0.0.1:59430
+May 04 18:34 : client: [43] opened from 127.0.0.1:59432
+May 04 18:34 : client: [43] closed
+May 04 18:52 : player: played "hindi-chill/Aftermorning Chillout - Vol 2 - Bollywood-PbWlXbEF2bo.mp3"
+May 04 18:52 : client: [44] opened from 127.0.0.1:59438
+May 04 18:52 : client: [44] closed
+May 04 19:08 : player: played "hindi-chill/Aftermorning Chillouts Bollywood-uMvH-hby1dc.mp3"
+May 04 19:13 : client: [45] opened from 127.0.0.1:59840
+May 04 19:13 : client: [45] closed
+May 04 19:13 : client: [46] opened from 127.0.0.1:59842
+May 04 19:13 : client: [46] closed
+May 04 19:13 : client: [47] opened from 127.0.0.1:59844
+May 04 19:13 : client: [47] closed
+May 04 19:13 : client: [48] opened from 127.0.0.1:59928
+May 04 19:13 : client: [48] closed
+May 04 23:27 : client: [42] closed
+May 04 23:27 : client: [41] closed
+May 04 23:27 : player: played "l/Lindsey Stirling - Lost Girls.mp3"
+May 08 12:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 08 12:33 : config: option 'mixer_device' on line 301 was not recognized
+May 08 12:33 : config: option 'mixer_control' on line 302 was not recognized
+May 08 12:33 : config: option 'mixer_index' on line 303 was not recognized
+May 08 12:33 : avahi: Service 'Music Player @ devops' successfully established.
+May 08 12:33 : client: [0] opened from 127.0.0.1:55684
+May 08 12:33 : client: [1] opened from 127.0.0.1:55686
+May 08 12:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 08 12:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 08 12:33 : client: [2] opened from 127.0.0.1:55688
+May 08 12:33 : client: [2] closed
+May 08 13:02 : player: played "hindi-chill/Aftermorning Chillout - Vol 1 - Bollywood-2LjX4ELHSOQ.mp3"
+May 08 13:02 : client: [3] opened from 127.0.0.1:55794
+May 08 13:02 : client: [3] closed
+May 08 13:20 : player: played "hindi-chill/Aftermorning Chillout - Vol 2 - Bollywood-PbWlXbEF2bo.mp3"
+May 08 13:20 : client: [4] opened from 127.0.0.1:55844
+May 08 13:20 : client: [4] closed
+May 08 15:43 : client: [1] closed
+May 08 15:43 : client: [0] closed
+May 08 17:04 : client: [5] opened from 127.0.0.1:58048
+May 08 17:25 : client: [5] closed
+May 08 17:29 : client: [6] opened from 127.0.0.1:58912
+May 08 21:52 : client: [6] closed
+May 08 21:52 : client: [7] opened from 127.0.0.1:33804
+May 08 22:00 : client: [7] closed
+May 08 22:00 : player: played "hindi-chill/Aftermorning Chillouts Bollywood-uMvH-hby1dc.mp3"
+May 13 18:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 18:51 : config: option 'mixer_device' on line 301 was not recognized
+May 13 18:51 : config: option 'mixer_control' on line 302 was not recognized
+May 13 18:51 : config: option 'mixer_index' on line 303 was not recognized
+May 13 18:51 : client: [0] opened from 127.0.0.1:43784
+May 13 18:51 : avahi: Service 'Music Player @ devops' successfully established.
+May 13 18:51 : client: [1] opened from 127.0.0.1:43786
+May 13 18:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 18:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 18:51 : client: [2] opened from 127.0.0.1:43788
+May 13 18:51 : client: [2] closed
+May 13 18:51 : client: [3] opened from 127.0.0.1:43790
+May 13 18:51 : client: [3] closed
+May 13 18:52 : client: [4] opened from 127.0.0.1:43792
+May 13 18:52 : client: [4] closed
+May 13 18:55 : player: played "Kina- can we kiss forever (bass boosted).mp3"
+May 13 18:55 : client: [5] opened from 127.0.0.1:43938
+May 13 18:55 : client: [5] closed
+May 13 18:55 : client: [6] opened from 127.0.0.1:43940
+May 13 18:55 : client: [6] closed
+May 13 18:55 : client: [7] opened from 127.0.0.1:43942
+May 13 18:55 : client: [7] closed
+May 13 18:55 : client: [8] opened from 127.0.0.1:43944
+May 13 18:55 : client: [8] closed
+May 13 18:55 : client: [9] opened from 127.0.0.1:43946
+May 13 18:55 : client: [9] closed
+May 13 18:58 : player: played "Lily.mp3"
+May 13 18:58 : client: [10] opened from 127.0.0.1:44162
+May 13 18:58 : client: [10] closed
+May 13 18:59 : client: [11] opened from 127.0.0.1:44202
+May 13 18:59 : client: [11] closed
+May 13 18:59 : client: [12] opened from 127.0.0.1:44204
+May 13 18:59 : client: [12] closed
+May 13 19:00 : client: [13] opened from 127.0.0.1:44208
+May 13 19:00 : client: [13] closed
+May 13 19:00 : client: [14] opened from 127.0.0.1:44210
+May 13 19:00 : client: [14] closed
+May 13 19:01 : client: [15] opened from 127.0.0.1:44220
+May 13 19:01 : client: [15] closed
+May 13 19:02 : client: [16] opened from 127.0.0.1:44222
+May 13 19:02 : client: [16] closed
+May 13 19:05 : player: played "Serhat Durmus - Not Alone.mp3"
+May 13 19:05 : client: [17] opened from 127.0.0.1:44296
+May 13 19:05 : client: [17] closed
+May 13 19:07 : client: [18] opened from 127.0.0.1:44326
+May 13 19:07 : client: [18] closed
+May 13 19:07 : client: [19] opened from 127.0.0.1:44328
+May 13 19:07 : client: [19] closed
+May 13 19:10 : player: played "Kina- can we kiss forever (bass boosted).mp3"
+May 13 19:10 : client: [20] opened from 127.0.0.1:44462
+May 13 19:10 : client: [20] closed
+May 13 19:10 : client: [21] opened from 127.0.0.1:44464
+May 13 19:10 : client: [21] closed
+May 13 19:10 : client: [22] opened from 127.0.0.1:44466
+May 13 19:10 : client: [22] closed
+May 13 19:15 : player: played "Ivan Torrent - Vis Mortix (Epic Vocal Inspirational Electronic).mp3"
+May 13 19:15 : client: [23] opened from 127.0.0.1:44492
+May 13 19:15 : client: [23] closed
+May 13 19:19 : player: played "Jason Mraz - Lucky (feat. Colbie Caillat) _Official Video_.mp3"
+May 13 19:19 : client: [24] opened from 127.0.0.1:44502
+May 13 19:19 : client: [24] closed
+May 13 19:22 : player: played "Joker bad boy song.mp3"
+May 13 19:22 : client: [25] opened from 127.0.0.1:44512
+May 13 19:22 : client: [25] closed
+May 13 19:25 : player: played "Julius Dreisig & Zeus X Crona - Invisible _NCS Release_.mp3"
+May 13 19:25 : client: [26] opened from 127.0.0.1:44558
+May 13 19:25 : client: [26] closed
+May 13 19:28 : player: played "Kina- can we kiss forever (bass boosted).mp3"
+May 13 19:28 : client: [27] opened from 127.0.0.1:44566
+May 13 19:28 : client: [27] closed
+May 13 19:33 : player: played "Lady Antebellum - Need You Now (Official Music Video).mp3"
+May 13 19:33 : client: [28] opened from 127.0.0.1:44708
+May 13 19:33 : client: [28] closed
+May 13 19:38 : player: played "Léon_ The Professional_Sting - Shape of my heart..mp3"
+May 13 19:38 : client: [29] opened from 127.0.0.1:44724
+May 13 19:38 : client: [29] closed
+May 13 19:41 : player: played "Lily.mp3"
+May 13 19:41 : client: [30] opened from 127.0.0.1:44732
+May 13 19:41 : client: [30] closed
+May 13 19:41 : client: [31] opened from 127.0.0.1:44734
+May 13 19:41 : client: [31] closed
+May 13 19:41 : client: [32] opened from 127.0.0.1:44736
+May 13 19:41 : client: [32] closed
+May 13 19:47 : player: played "Serhat Durmus - La Câlin (JOKER).mp3"
+May 13 19:47 : client: [33] opened from 127.0.0.1:44756
+May 13 19:47 : client: [33] closed
+May 13 19:50 : player: played "Serhat Durmus - Not Alone.mp3"
+May 13 19:50 : client: [34] opened from 127.0.0.1:44766
+May 13 19:50 : client: [34] closed
+May 13 19:53 : player: played "Serhat Durmus - Sır (ft. Ecem Telli).mp3"
+May 13 19:53 : client: [35] opened from 127.0.0.1:44776
+May 13 19:53 : client: [35] closed
+May 13 19:57 : player: played "Serhat Durmus Ft. Zerrin - Hislerim (Mustafa Güney Remix).mp3"
+May 13 19:57 : client: [36] opened from 127.0.0.1:44842
+May 13 19:57 : client: [36] closed
+May 13 20:00 : player: played "Sing Me to Sleep.mp3"
+May 13 20:00 : client: [37] opened from 127.0.0.1:44850
+May 13 20:00 : client: [37] closed
+May 13 20:04 : client: [38] opened from 127.0.0.1:44866
+May 13 20:04 : client: [38] closed
+May 13 22:27 : client: [1] closed
+May 13 22:59 : client: [0] closed
+May 13 22:59 : client: [39] opened from 127.0.0.1:46116
+May 13 23:18 : client: [40] opened from 127.0.0.1:46118
+May 13 23:18 : client: [39] closed
+May 13 23:18 : client: [40] closed
+May 13 23:19 : client: [41] opened from 127.0.0.1:46120
+May 13 23:19 : client: [41] closed
+May 13 23:19 : client: [42] opened from 127.0.0.1:46122
+May 13 23:26 : client: [42] closed
+May 13 23:26 : client: [43] opened from 127.0.0.1:46260
+May 13 23:30 : player: played "Star Sky - Two Steps From Hell _Lyrics_ __ PizzaCat.mp3"
+May 15 11:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 11:19 : config: option 'mixer_device' on line 301 was not recognized
+May 15 11:19 : config: option 'mixer_control' on line 302 was not recognized
+May 15 11:19 : config: option 'mixer_index' on line 303 was not recognized
+May 15 11:19 : avahi: Service 'Music Player @ devops' successfully established.
+May 15 11:19 : client: [0] opened from 127.0.0.1:37412
+May 15 11:19 : client: [1] opened from 127.0.0.1:37414
+May 15 11:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 11:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 11:19 : client: [2] opened from 127.0.0.1:37416
+May 15 11:19 : client: [2] closed
+May 15 11:19 : client: [3] opened from 127.0.0.1:37422
+May 15 11:19 : client: [3] closed
+May 15 11:22 : player: played "Kina- can we kiss forever (bass boosted).mp3"
+May 15 11:22 : client: [4] opened from 127.0.0.1:37496
+May 15 11:22 : client: [4] closed
+May 15 11:23 : client: [5] opened from 127.0.0.1:37498
+May 15 11:23 : client: [5] closed
+May 15 11:27 : player: played "Orheyn - Lai Lai Remix _Original_♛♛ _Joker Edition lai lai song.mp3"
+May 15 11:27 : client: [6] opened from 127.0.0.1:37684
+May 15 11:27 : client: [6] closed
+May 15 11:27 : client: [7] opened from 127.0.0.1:37704
+May 15 11:27 : client: [7] closed
+May 15 11:27 : client: [8] opened from 127.0.0.1:37706
+May 15 11:27 : client: [8] closed
+May 15 11:31 : player: played "Serhat Durmus - Hislerim ft Zerrin.mp3"
+May 15 11:31 : client: [9] opened from 127.0.0.1:37812
+May 15 11:31 : client: [9] closed
+May 15 11:37 : player: played "Serhat Durmus - La Câlin (JOKER).mp3"
+May 15 11:37 : client: [10] opened from 127.0.0.1:38012
+May 15 11:37 : client: [10] closed
+May 15 11:40 : player: played "Serhat Durmus - Not Alone.mp3"
+May 15 11:40 : client: [11] opened from 127.0.0.1:38102
+May 15 11:40 : client: [11] closed
+May 15 11:43 : player: played "Serhat Durmus - Sır (ft. Ecem Telli).mp3"
+May 15 11:43 : client: [12] opened from 127.0.0.1:38216
+May 15 11:43 : client: [12] closed
+May 15 11:47 : player: played "Serhat Durmus Ft. Zerrin - Hislerim (Mustafa Güney Remix).mp3"
+May 15 11:47 : client: [13] opened from 127.0.0.1:38268
+May 15 11:47 : client: [13] closed
+May 15 11:50 : player: played "Sing Me to Sleep.mp3"
+May 15 11:50 : client: [14] opened from 127.0.0.1:38312
+May 15 11:50 : client: [14] closed
+May 15 11:55 : player: played "Star Sky - Two Steps From Hell _Lyrics_ __ PizzaCat.mp3"
+May 15 11:55 : client: [15] opened from 127.0.0.1:38328
+May 15 11:55 : client: [15] closed
+May 15 11:56 : client: [16] opened from 127.0.0.1:38334
+May 15 11:56 : client: [16] closed
+May 15 11:56 : client: [17] opened from 127.0.0.1:38336
+May 15 11:56 : client: [17] closed
+May 15 11:56 : client: [18] opened from 127.0.0.1:38342
+May 15 11:56 : client: [18] closed
+May 15 11:56 : client: [19] opened from 127.0.0.1:38344
+May 15 11:56 : client: [19] closed
+May 15 11:59 : player: played "Tamiga & 2Bad - Ayaya  _ Official Video.mp3"
+May 15 11:59 : client: [20] opened from 127.0.0.1:38358
+May 15 11:59 : client: [20] closed
+May 15 12:38 : client: [1] closed
+May 15 12:38 : client: [0] closed
+May 15 12:38 : client: [21] opened from 127.0.0.1:39400
+May 15 12:39 : client: [21] closed
+May 15 12:39 : client: [22] opened from 127.0.0.1:39402
+May 15 12:41 : client: [23] opened from 127.0.0.1:39472
+May 15 12:41 : client: [23] closed
+May 15 12:41 : client: [24] opened from 127.0.0.1:39474
+May 15 12:41 : client: [24] closed
+May 15 15:06 : client: [22] closed
+May 15 15:06 : player: played "The Cranberries - Zombie (Official Music Video).mp3"
+May 15 16:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 16:59 : config: option 'mixer_device' on line 301 was not recognized
+May 15 16:59 : config: option 'mixer_control' on line 302 was not recognized
+May 15 16:59 : config: option 'mixer_index' on line 303 was not recognized
+May 15 16:59 : client: [0] opened from 127.0.0.1:42788
+May 15 16:59 : avahi: Service 'Music Player @ devops' successfully established.
+May 15 17:07 : client: [1] opened from 127.0.0.1:42924
+May 15 17:07 : client: [1] closed
+May 15 17:08 : client: [2] opened from 127.0.0.1:42926
+May 15 17:08 : client: [2] closed
+May 15 17:09 : client: [3] opened from 127.0.0.1:42928
+May 15 17:09 : client: [3] closed
+May 15 17:11 : client: [4] opened from 127.0.0.1:42934
+May 15 17:11 : client: [4] closed
+May 15 17:11 : client: [5] opened from 127.0.0.1:42936
+May 15 17:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 17:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 17:11 : client: [6] opened from 127.0.0.1:42938
+May 15 17:11 : client: [6] closed
+May 15 17:12 : client: [5] closed
+May 15 17:12 : client: [7] opened from 127.0.0.1:42940
+May 15 17:12 : client: [8] opened from 127.0.0.1:42942
+May 15 17:12 : client: [8] closed
+May 15 17:16 : client: [7] closed
+May 15 17:22 : client: [0] closed
+May 15 17:22 : client: [9] opened from 127.0.0.1:43162
+May 15 23:33 : client: [9] closed
+May 15 23:33 : client: [10] opened from 127.0.0.1:45896
+May 15 23:36 : client: [10] closed
+May 15 23:36 : client: [11] opened from 127.0.0.1:45898
+May 15 23:43 : client: [11] closed
+May 15 23:43 : client: [12] opened from 127.0.0.1:45900
+May 15 23:48 : player: played "l/Lindsey Stirling - Lost Girls.mp3"
+May 16 23:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 23:12 : config: option 'mixer_device' on line 301 was not recognized
+May 16 23:12 : config: option 'mixer_control' on line 302 was not recognized
+May 16 23:12 : config: option 'mixer_index' on line 303 was not recognized
+May 16 23:12 : client: [0] opened from 127.0.0.1:46572
+May 16 23:12 : avahi: Service 'Music Player @ devops' successfully established.
+May 16 23:12 : client: [1] opened from 127.0.0.1:46574
+May 16 23:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 23:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 23:12 : client: [2] opened from 127.0.0.1:46576
+May 16 23:12 : client: [2] closed
+May 16 23:13 : client: [1] closed
+May 16 23:13 : client: [3] opened from 127.0.0.1:46586
+May 16 23:13 : client: [4] opened from 127.0.0.1:46588
+May 16 23:13 : client: [4] closed
+May 16 23:30 : client: [3] closed
+May 16 23:30 : player: played "romantics/ABSquared, Chanique - Don't Break My Heart.mp3"
+May 17 12:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 17 12:54 : config: option 'mixer_device' on line 301 was not recognized
+May 17 12:54 : config: option 'mixer_control' on line 302 was not recognized
+May 17 12:54 : config: option 'mixer_index' on line 303 was not recognized
+May 17 12:54 : client: [0] opened from 127.0.0.1:47474
+May 17 12:54 : avahi: Service 'Music Player @ devops' successfully established.
+May 17 12:54 : client: [1] opened from 127.0.0.1:47476
+May 17 12:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 17 12:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 17 12:54 : client: [2] opened from 127.0.0.1:47478
+May 17 12:54 : client: [2] closed
+May 17 13:24 : player: played "hindi-chill/Aftermorning Chillout - Vol 1 - Bollywood-2LjX4ELHSOQ.mp3"
+May 17 13:24 : client: [3] opened from 127.0.0.1:47504
+May 17 13:24 : client: [3] closed
+May 17 15:52 : client: [4] opened from 127.0.0.1:47634
+May 17 15:52 : client: [4] closed
+May 17 15:53 : client: [5] opened from 127.0.0.1:47644
+May 17 15:53 : client: [5] closed
+May 17 16:00 : client: [6] opened from 127.0.0.1:47756
+May 17 16:00 : client: [6] closed
+May 17 16:01 : client: [7] opened from 127.0.0.1:47758
+May 17 16:01 : client: [7] closed
+May 17 16:09 : player: played "hindi-chill/Aftermorning Chillouts Bollywood-uMvH-hby1dc.mp3"
+May 17 23:27 : client: [1] closed
+May 18 15:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 18 15:47 : config: option 'mixer_device' on line 301 was not recognized
+May 18 15:47 : config: option 'mixer_control' on line 302 was not recognized
+May 18 15:47 : config: option 'mixer_index' on line 303 was not recognized
+May 18 15:47 : client: [0] opened from 127.0.0.1:59154
+May 18 15:47 : avahi: Service 'Music Player @ devops' successfully established.
+May 18 15:47 : client: [1] opened from 127.0.0.1:59156
+May 18 15:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 18 15:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 18 15:47 : client: [2] opened from 127.0.0.1:59158
+May 18 15:47 : client: [2] closed
+May 18 15:52 : player: played "l/Lindsey Stirling - Lost Girls.mp3"
+May 18 16:33 : client: [3] opened from 127.0.0.1:59766
+May 18 16:33 : client: [3] closed
+May 18 16:33 : client: [4] opened from 127.0.0.1:59768
+May 18 16:33 : client: [4] closed
+May 18 16:36 : player: played "Kina- can we kiss forever (bass boosted).mp3"
+May 18 16:36 : client: [5] opened from 127.0.0.1:59806
+May 18 16:36 : client: [5] closed
+May 18 16:39 : client: [6] opened from 127.0.0.1:59862
+May 18 16:39 : client: [6] closed
+May 18 16:42 : player: played "Kina- can we kiss forever (bass boosted).mp3"
+May 18 16:42 : client: [7] opened from 127.0.0.1:59872
+May 18 16:42 : client: [7] closed
+May 18 16:47 : player: played "Lady Antebellum - Need You Now (Official Music Video).mp3"
+May 18 16:47 : client: [8] opened from 127.0.0.1:59892
+May 18 16:47 : client: [8] closed
+May 18 16:51 : player: played "Léon_ The Professional_Sting - Shape of my heart..mp3"
+May 18 16:51 : client: [9] opened from 127.0.0.1:59898
+May 18 16:51 : client: [9] closed
+May 18 16:54 : player: played "Lily.mp3"
+May 18 16:54 : client: [10] opened from 127.0.0.1:59960
+May 18 16:54 : client: [10] closed
+May 18 16:58 : player: played "Low _from Step Up 2 The Streets O.S.T. _ Mail On Sunday_ (st.mp3"
+May 18 16:58 : client: [11] opened from 127.0.0.1:59980
+May 18 16:58 : client: [11] closed
+May 18 17:03 : client: [0] closed
+May 18 17:03 : player: played "MAA - Elasia (Original Mix).mp3"
+May 18 17:03 : client: [12] opened from 127.0.0.1:60018
+May 18 17:03 : client: [12] closed
+May 18 17:03 : client: [13] opened from 127.0.0.1:60020
+May 18 17:04 : client: [13] closed
+May 18 17:04 : client: [14] opened from 127.0.0.1:60022
+May 18 17:07 : player: played "Marc Antony - When I Dream At Night.mp3"
+May 18 17:07 : client: [15] opened from 127.0.0.1:60118
+May 18 17:07 : client: [15] closed
+May 18 17:08 : client: [14] closed
+May 18 17:08 : client: [16] opened from 127.0.0.1:60120
+May 18 17:08 : client: [16] closed
+May 18 17:08 : client: [17] opened from 127.0.0.1:60122
+May 18 17:10 : client: [17] closed
+May 18 17:10 : client: [1] closed
+May 18 17:11 : client: [18] opened from 127.0.0.1:60126
+May 18 22:54 : player: played "Martin Garrix & Dua Lipa - Scared To Be Lonely (Drop G Remix) _Deep House_.mp3"
+May 22 15:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 22 15:58 : config: option 'mixer_device' on line 301 was not recognized
+May 22 15:58 : config: option 'mixer_control' on line 302 was not recognized
+May 22 15:58 : config: option 'mixer_index' on line 303 was not recognized
+May 22 15:58 : client: [0] opened from 127.0.0.1:50290
+May 22 15:58 : avahi: Service 'Music Player @ devops' successfully established.
+May 22 15:58 : client: [1] opened from 127.0.0.1:50292
+May 22 15:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 22 15:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 22 15:58 : client: [2] opened from 127.0.0.1:50294
+May 22 15:58 : client: [2] closed
+May 22 15:58 : client: [3] opened from 127.0.0.1:50296
+May 22 15:58 : client: [3] closed
+May 22 16:01 : player: played "Kina- can we kiss forever (bass boosted).mp3"
+May 22 16:01 : client: [4] opened from 127.0.0.1:50310
+May 22 16:01 : client: [4] closed
+May 22 16:02 : client: [5] opened from 127.0.0.1:50312
+May 22 16:02 : client: [5] closed
+May 22 16:07 : player: played "Serhat Durmus - La Câlin (JOKER).mp3"
+May 22 16:07 : client: [6] opened from 127.0.0.1:50330
+May 22 16:07 : client: [6] closed
+May 22 16:11 : player: played "Serhat Durmus - Not Alone.mp3"
+May 22 16:11 : client: [7] opened from 127.0.0.1:50332
+May 22 16:11 : client: [7] closed
+May 22 16:14 : player: played "Serhat Durmus - Sır (ft. Ecem Telli).mp3"
+May 22 16:14 : client: [8] opened from 127.0.0.1:50338
+May 22 16:14 : client: [8] closed
+May 22 16:18 : player: played "Serhat Durmus Ft. Zerrin - Hislerim (Mustafa Güney Remix).mp3"
+May 22 16:18 : client: [9] opened from 127.0.0.1:50352
+May 22 16:18 : client: [9] closed
+May 22 16:21 : player: played "Sing Me to Sleep.mp3"
+May 22 16:21 : client: [10] opened from 127.0.0.1:50376
+May 22 16:21 : client: [10] closed
+May 22 16:26 : player: played "Star Sky - Two Steps From Hell _Lyrics_ __ PizzaCat.mp3"
+May 22 16:26 : client: [11] opened from 127.0.0.1:50404
+May 22 16:26 : client: [11] closed
+May 22 16:34 : player: played "Stive Morgan - Ice and Fire (Music Video).mp3"
+May 22 16:34 : client: [12] opened from 127.0.0.1:50474
+May 22 16:34 : client: [12] closed
+May 22 16:34 : client: [13] opened from 127.0.0.1:50510
+May 22 16:34 : client: [13] closed
+May 22 17:35 : client: [14] opened from 127.0.0.1:50990
+May 22 17:35 : client: [14] closed
+May 22 17:40 : player: played "Stive Morgan - If Will Come Tomorrow.mp3"
+May 22 17:40 : client: [15] opened from 127.0.0.1:51004
+May 22 17:40 : client: [15] closed
+May 22 17:44 : client: [16] opened from 127.0.0.1:51020
+May 22 17:44 : client: [16] closed
+May 22 21:36 : client: [1] closed
+May 22 21:37 : client: [0] closed
+May 22 21:37 : client: [17] opened from 127.0.0.1:52718
+May 22 23:54 : player: played "Tamiga & 2Bad - Ayaya  _ Official Video.mp3"
+May 23 13:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 23 13:36 : config: option 'mixer_device' on line 301 was not recognized
+May 23 13:36 : config: option 'mixer_control' on line 302 was not recognized
+May 23 13:36 : config: option 'mixer_index' on line 303 was not recognized
+May 23 13:36 : client: [0] opened from 127.0.0.1:47460
+May 23 13:37 : avahi: Service 'Music Player @ devops' successfully established.
+May 23 13:37 : client: [1] opened from 127.0.0.1:47462
+May 23 13:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 23 13:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 23 13:37 : client: [2] opened from 127.0.0.1:47464
+May 23 13:37 : client: [2] closed
+May 23 13:37 : client: [1] closed
+May 23 13:37 : client: [0] closed
+May 23 13:37 : client: [3] opened from 127.0.0.1:47466
+May 23 13:58 : client: [3] closed
+May 23 13:58 : client: [4] opened from 127.0.0.1:47520
+May 23 13:58 : client: [4] closed
+May 23 13:59 : client: [5] opened from 127.0.0.1:47522
