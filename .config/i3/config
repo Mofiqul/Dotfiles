@@ -34,14 +34,14 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
 bindsym $mod+d exec ~/.config/rofi/launchers-git/launcher.sh
-bindsym Ctrl+space exec dmenu_run -nb '#212121' -sf '#212121' -sb '#82aaff' -nf '#eeffff' 
+bindsym Ctrl+space exec dmenu_run -nb '#424242' -sf '#424242' -sb '#82aaff' -nf '#eeffff' 
 bindsym F8 exec rofi -show drun window ssh -sidebar-mode ture -theme breeze-dark.rasi
 # Lockscreen
 bindsym $mod+Shift+x exec mantablockscreen
@@ -206,12 +206,12 @@ bindsym $mod+r mode "resize"
     #status_command i3status
 	#font pango: EnvyCodeR Nerd Font 10 
 	#colors {
-           #background #212121
+           #background #424242
         #statusline #ffffff
 
 		#focused_workspace  #82aaff #82aaff #eeffff
         ##active_workspace   #82aaff #82aaff #eeffff
-        ##inactive_workspace #ffcb6b #ffdb6b #212121
+        ##inactive_workspace #ffcb6b #ffdb6b #424242
         ##urgent_workspace   #f07178 #f07178 #eeffff
         ##binding_mode       #f07178 #f07178 #eeffff
 		
@@ -226,7 +226,7 @@ bindsym $mod+r mode "resize"
 
 workspace_auto_back_and_forth yes
 
-for_window [class=".*"] border pixel 2
+for_window [class=".*"] border pixel 1
 gaps inner 8
 gaps outer 0
 # print all window titles bold
@@ -235,8 +235,8 @@ for_window [class=".*"] title_format "<b> %title</b>"
 # Color settings
 # class                 border  backgr  text    indicator child_border
 client.focused 			#82aaff #82aaff #212121 #82aaff   #82aaff
-client.unfocused 		#212121 #212121 #eeffff #212121   #212121
-client.focused_inactive #212121 #212121 #eeffff #212121   #212121
+client.unfocused 		#424242 #212121 #eeffff #424242   #424242
+client.focused_inactive #424242 #212121 #eeffff #424242   #424242
 
 
 ####################
@@ -248,9 +248,9 @@ exec /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
 # Status bar
 exec ~/.config/polybar/launch.sh
 # Compositor
-exec picom --config ~/.config/compton/compton.i3.conf
+exec picom --config ~/.config/compton/compton.i3.conf &
 # Wallpaper 
-exec feh --bg-fill /home/devops/Pictures/fantasy-landscape-digital-art-scenery-uhdpaper.com-hd-4.999.jpg 
+exec feh --bg-fill /home/devops/Pictures/wallhaven-4dyzq3.png 
 # Birghtness
 exec xrandr --output LVDS-0 --brightness .6
 

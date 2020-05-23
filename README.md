@@ -1,4 +1,20 @@
-# My personal dotfiles for i3-gaps and kde plasma
+# My personal dotfiles for bspwm, i3-gaps and kde plasma
+
+## BSPWM
+![screenshot](./Pictures/Screenshots/bspwm/terms.png)
+![screenshot](./Pictures/Screenshots/bspwm/web.png)
+### Tools used 
+- Status bar - [Polybar](https://github.com/polybar/polybar)
+- Compositor - [Picom](https://github.com/ibhagwan/picom)
+- Lock screen - [i3lock-color](https://github.com/Raymo111/i3lock-color) and [mantablockscreen](https://github.com/reorr/mantablockscreen)
+- Battery popup - [i3-battery-popup](https://github.com/rjekker/i3-battery-popup/blob/master/i3-battery-popup)
+- Notification - [Dunst](https://github.com/dunst-project/dunst)
+- USB automount - [udiskie](https://github.com/coldfix/udiskie)
+- Application launcher - [Rofi](https://github.com/davatorium/rofi)
+
+
+Thanks to [Aditya Shakya](https://github.com/adi1090x) for his great looking rofi theme. 
+- Rofi theme https://github.com/adi1090x/rofi
 ## i3-gaps
 ![screenshot](./Pictures/Screenshots/i3wm/qutebrowser.png)
 ![screenshot](./Pictures/Screenshots/i3wm/vim.png)
@@ -6,19 +22,6 @@
 ![screenshot](./Pictures/Screenshots/i3wm/dolphin.png)
 ![screenshot](./Pictures/Screenshots/i3wm/notification.png)
 ![screenshot](./Pictures/Screenshots/i3wm/rofi.png)
-
-### Tools used 
-- Status bar - [Polybar](https://github.com/polybar/polybar)
-- Compositor - [Compton](https://github.com/tryone144/compton)
-- Lock screen - [i3lock-color](https://github.com/Raymo111/i3lock-color) and [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)
-- Battery popup - [i3-battery-popup](https://github.com/rjekker/i3-battery-popup/blob/master/i3-battery-popup)
-- Notification - [Linux Notification Center](https://github.com/phuhl/linux_notification_center)
-- USB automount - [udiskie](https://github.com/coldfix/udiskie)
-- Application launcher - [Rofi](https://github.com/davatorium/rofi)
-
-
-Thanks to [Aditya Shakya](https://github.com/adi1090x) for his great looking rofi theme. 
-- Rofi theme https://github.com/adi1090x/rofi
 
 
 ## KDE

@@ -156,7 +156,7 @@ type = custom/menu
 expand-left = true
 
 menu-0-0 = Logout
-menu-0-0-exec = bspc quit
+menu-0-0-exec = i3-msg exit
 menu-0-1 = Lock
 menu-0-1-exec = mantablockscreen
 menu-0-2 =  Poweroff
