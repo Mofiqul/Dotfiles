@@ -1,10 +1,13 @@
 #! /bin/sh
 
+dotfiles checkout bspwm
 # Autostarts
 sxhkd &
 dunst &
 picom &
 /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
+
+~/Github/compton/compton --config ~/.config/compton/compton.conf & 
 
 polybar -c ~/.config/polybar/config.bspwm fullbar &
 
@@ -14,20 +17,20 @@ xrandr --output LVDS-0 --brightness .6
 
 udiskie &
 
-~/.config/i3/scripts/xinput.sh
+~/.config/bspwm/xinput.sh
 
 # Wallpaper
-feh --bg-fill /home/devops/Pictures/wallhaven-4dyzq3.png
-#bspc monitor -d I II III IV V VI VII VIII IX X
+feh --bg-fill /home/devops/Pictures/XzE7WXs.jpg
 
-bspc monitor -d 1 2 3 4 5 6 7 8 9 
+bspc monitor -d I II III IV V VI VII VIII IX X
+
 bspc config border_width         1
 bspc config window_gap          8
 bspc config split_ratio          0.52
 bspc config gapless_monocle      false
 
 
-#bspc config focus_follows_pointer true
+bspc config focus_follows_pointer true
 bspc config auto_alternate true
 bspc config auto_cancel true
 #bspc config normal_border_color "#212121"
