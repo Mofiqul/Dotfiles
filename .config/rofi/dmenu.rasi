@@ -1,0 +1,72 @@
+/**
+ * ROFI Color theme
+ * Originally by: Qball
+ * Tweaked by: Euthanasia-Waltz
+ * Copyright: Dave Davenport
+ */
+configuration {
+    disable-history: true;
+    combi-modi: "run,drun";
+}
+
+* {
+    background-color:      #212121;
+    text-color:            #eeffff;
+    font:                  "Ubuntu 10";
+}
+
+
+window {
+    width:      100%;
+	x-offset:   0;
+	y-offset:   -746;
+    padding:    1px;
+    children:   [ horibox ];
+}
+
+#horibox {
+    orientation: horizontal;
+    children:   [ prompt, entry, listview ];
+}
+
+#listview {
+    layout:     horizontal;
+    spacing:    1px;
+    lines:      100;
+	expand: true;                                  
+    width:           100%; 
+}
+
+#entry {
+    padding: 2px 1px;
+    expand:     false;
+    width:      10em;
+}
+
+#prompt {
+    padding: 1px 5px;
+    background-color: #82aaff;
+    border: 1px;
+    border-color: #828fff;
+    color: #212121;
+}
+
+#element {
+	horizontal-align: 1; 
+    padding: 1px 5px;
+    background-color: #212121;
+    border: 1px;
+	width: 50;
+	len: 200;
+    border-color: #333333;
+}
+
+element-icon{
+size: 16;
+}
+#element selected {
+    background-color: #82aaff;
+    border: 1px;
+    border-color: #828fff;
+    color: #212121;
+}

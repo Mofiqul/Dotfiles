@@ -18,7 +18,7 @@ window {
   background-color: rgba(33, 33, 33, 0.75);
   transparency: "real";
   x-offset: -25%;
-  y-offset: -25%;
+  y-offset: -30%;
   height: 50%;
   width: 50%;
 }
@@ -33,7 +33,7 @@ listview {
 }
 
 element-icon {
-  size: 24px;
+  size: 46px;
   border: 0px;
 }
 

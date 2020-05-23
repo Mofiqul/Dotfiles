@@ -6,10 +6,9 @@ include-file = ~/.config/polybar/fullbar
 
 background = #bb212121
 foreground = #eeffff
-modules-left = i3 mpd title 
-modules-center =
-modules-right = memory cpu volume wlan battery updates date powermenu
-
+modules-left = i3 mpd separator title 
+modules-center = 
+modules-right = memory separator cpu separator volume separator wlan separator battery separator updates separator date separator powermenu
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -147,8 +146,9 @@ interval = 5
 
 [module/separator]
 type = custom/text
-content =  
-content-padding = 1
+content = | 
+content-padding = 0
+content-foreground = "#424242"
 
 [module/powermenu]
 type = custom/menu
@@ -156,7 +156,7 @@ type = custom/menu
 expand-left = true
 
 menu-0-0 = Logout
-menu-0-0-exec = i3-msg exit
+menu-0-0-exec = bspc quit
 menu-0-1 = Lock
 menu-0-1-exec = mantablockscreen
 menu-0-2 =  Poweroff
@@ -170,3 +170,47 @@ label-open = 
 label-close = 
 
 label-separator = |
+
+
+
+[module/workspaces]
+type = internal/bspwm
+pin-workspaces = false
+enable-click = true
+enable-scroll = true
+
+ws-icon-0 = 1;1: 
+ws-icon-1 = 2;2: 
+ws-icon-2 = 3;3: 
+ws-icon-3 = 4;4: 
+ws-icon-4 = 5;5: 
+ws-icon-5 = 6;6: 
+ws-icon-6 = 7;7: 
+ws-icon-7 = 8;8: 
+ws-icon-8 = 9;9: 
+ws-icon-default = 
+
+
+format = <label-state><label-mode>
+
+label-monitor = %icon%
+
+label-focused = %icon%
+label-focused-padding = 2
+label-focused-background = "#82aaff"
+label-focused-foreground = "#212121"
+
+label-occupied = %icon%
+label-occupied-padding = 2
+
+label-dimmed-foreground = #212121
+label-dimmed-underline = #82aaff
+label-dimmed-focused-background = #82aaff
+
+label-urgent = %icon%
+label-urgent-foreground = "#212121"
+label-urgent-background = "#f07178"
+label-urgent-underline = "#f07178"
+label-urgent-padding = 2
+
+label-empty =

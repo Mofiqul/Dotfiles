@@ -6,10 +6,9 @@ include-file = ~/.config/polybar/fullbar
 
 background = #bb212121
 foreground = #eeffff
-modules-left = workspaces mpd title 
+modules-left = workspaces mpd separator title 
 modules-center = 
-modules-right = memory cpu volume wlan battery updates date powermenu
-
+modules-right = memory separator cpu separator volume separator wlan separator battery separator updates separator date separator powermenu
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -147,8 +146,9 @@ interval = 5
 
 [module/separator]
 type = custom/text
-content =  
-content-padding = 1
+content = | 
+content-padding = 0
+content-foreground = "#424242"
 
 [module/powermenu]
 type = custom/menu
@@ -213,4 +213,4 @@ label-urgent-background = "#f07178"
 label-urgent-underline = "#f07178"
 label-urgent-padding = 2
 
-label-empty = 
+label-empty =

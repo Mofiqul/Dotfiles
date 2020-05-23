@@ -1,0 +1,136 @@
+
+* {
+    default-background: rgba(33, 33, 33, 0.75); 
+	default-foreground: #eeffff;
+	alt-foreground: #212121;
+    default-border: rgba(97, 101, 105, 100%);
+    alternative-background: rgba(35, 38, 41, 100%);
+    invisible: rgba(0, 0, 0, 0%);
+
+    hard-blue: #82aaff;
+    light-blue: #82aaff;
+
+    hard-red: #f07178;
+    light-red: #f07178;
+
+    hard-green: #c3e88d;
+    light-green: #c3e88d;
+
+    background-color: @invisible;
+	border-color: @default-border;
+  	font: "icomoon\-feather 10";
+    text-color: @default-foreground;
+ 	drun-display-format: "{icon} {name}";
+}
+
+#window {
+    background-color: @default-background;
+    /*border: 1;*/
+    /*border-color: @default-border;*/
+    padding: 7;
+	transparency: "real";
+  	x-offset: -70%;
+  	y-offset: -28;
+  	height: 740;
+  	width: 30%;
+}
+
+#mainbox {
+    border:  0;
+    padding: 0;
+}
+
+#message {
+    border: 1;
+    padding: 5;
+    background-color: @default-background;
+}
+
+#textbox {
+    background-color: @default-background;
+}
+
+#listview {
+    fixed-height: 0;
+    spacing: 2;
+    scrollbar: false;
+    padding: 2 0 0;
+}
+
+#element {
+    padding: 5;
+    border: 1;
+    border-color: @invisible;
+}
+
+#element-icon {
+	size: 24px;
+}
+#element.normal.normal {
+    background-color: @invisible;
+}
+
+#element.normal.urgent {
+    background-color: @light-red;
+}
+
+#element.normal.active {
+    background-color: @light-green;
+	color: @alt-foreground;
+}
+
+#element.selected.normal {
+    background-color: @light-blue;
+    border-color:     @hard-blue;
+	color: @alt-foreground;
+}
+
+#element.selected.urgent {
+    background-color: @light-red;
+    border-color:     @hard-red;
+}
+
+#element.selected.active {
+    background-color: @light-green;
+    border-color:     @hard-green;
+	color: @alt-foreground;
+}
+
+#mode-switcher {
+    spacing: 0;
+}
+
+#button {
+    border: 0 0 3 0;
+    border-color: @invisible;
+    padding: 3;
+}
+
+#button.selected {
+    border-color: @hard-blue;
+	background-color: @hard-blue;
+	color: @alt-foreground;
+}
+
+#inputbar {
+    spacing: 0;
+    padding: 1;
+}
+
+#case-indicator {
+    spacing: 0;
+    padding: 3px;
+    background-color: @default-background;
+    border: 1 1 1 0;
+}
+
+#entry {
+    background-color: @default-background;
+    padding: 3px;
+    border: 1 0 1 1;
+}
+
+#prompt {
+    padding: 3 7 3 0;
+}
+
