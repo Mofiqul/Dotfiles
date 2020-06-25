@@ -1,10 +1,10 @@
 width                    = 100%
-height                   = 22
+height                   = 20
 radius                   = 0
 line-size                = 0
 bottom                   = true
 border-top-size = 1
-border-bottom-size = 1
+border-bottom-size = 0
 border-color = "#313131"
 
 font-0 = "Ubuntu:size=10;2"
@@ -21,3 +21,8 @@ padding-left             = 0
 padding-right            = 0
 module-margin-left       = 1
 module-margin-right      = 1
+
+tray-position = right
+tray-padding = 2
+tray-detached = false
+

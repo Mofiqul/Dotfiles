@@ -17,12 +17,11 @@ udiskie &
 ~/.config/bspwm/xinput.sh
 
 # Wallpaper
-feh --bg-fill /home/devops/Pictures/wallhaven-4dyzq3.png
-
+feh --bg-fill /home/devops/Pictures/wallhaven-dgowdg.jpg
 bspc monitor -d 1 2 3 4 5 6 7 8 9
 
 bspc config border_width         1
-bspc config window_gap          8
+bspc config window_gap          4
 bspc config split_ratio          0.52
 bspc config gapless_monocle      false
 

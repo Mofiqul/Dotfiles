@@ -55,6 +55,14 @@ interval = 5
 label-connected =  %essid% 
 label-disconnected = 
 
+[module/wlanspeed]
+type = internal/network
+interface = wlp7s0
+interval = 1
+label-connected = %downspeed:9% 
+label-disconnected =  0 KB/s
+
+
 [module/volume]
 type = internal/alsa
 format-volume =   <ramp-volume>  <label-volume>

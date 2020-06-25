@@ -20,7 +20,7 @@ font:
     # style: Italic
 
 
-background_opacity: 1
+background_opacity: .9
 window:
   padding:
     x: 10

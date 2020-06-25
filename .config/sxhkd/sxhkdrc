@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	kitty
+	alacritty
 
 # program launcher
 ctrl + @space
@@ -170,3 +170,7 @@ super + alt + shift + {Left,Down,Up,Right}
 super + ctrl + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
+super + F11
+	bspc node -g hidden=on
+super + shift + F11
+	bspc node $(bspc query -N -n .hidden | tail -n1) -g hidden=off
