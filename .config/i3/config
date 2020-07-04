@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Ubuntu 10
+font pango:UbuntuMono Nerd Font 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -34,7 +34,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -121,7 +121,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle &&  $ref
 set $ws1 "1: "
 set $ws2 "2: "
 set $ws3 "3: "
-set $ws4 "4: "
+set $ws4 "4: "
 set $ws5 "5: "
 set $ws6 "6: "
 set $ws7 "7: "
@@ -157,10 +157,7 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
-# exit i3 (logs you out of your X session)
-#bindsym $mod+Shift+e exec "i3-nagbar -t warning -f 'EnvyCodeR Nerd Font' -m 'Please select' -B 'Logout' 'i3-msg exit' -B 'Suspend' 'systemctl suspend' -B 'Restart' 'restart' -B 'Shutdown' 'poweroff'"
 
-bindsym $mod+Shift+e qdbus org.kde.ksmserver/KSMServer org.kde.KSMServerInterface.logout -1 -1 -1
 
 # read 1 character and mark the current window with this character
 bindsym $mod+m exec i3-input -F 'mark %s' -l 1 -P 'Mark: '
@@ -171,6 +168,10 @@ bindsym $mod+u exec i3-input -F 'unmark %s' -l 1 -P 'Unmark:'
 
 # Swaps the focused container with the container marked »m«.
 bindsym $mod+Shift+Return swap container with mark m
+
+# Toggle border
+bindsym $mod+t border toggle
+
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -226,11 +227,15 @@ bindsym $mod+r mode "resize"
 
 workspace_auto_back_and_forth yes
 
-for_window [class=".*"] border pixel 1
-gaps inner 8
+for_window [class=".*"] border pixel 2
+gaps inner 4
 gaps outer 0
 # print all window titles bold
-for_window [class=".*"] title_format "<b> %title</b>"
+for_window [class=".*"] title_format "<b>   %title </b>"
+for_window [class="(?i)alacritty"] title_format "<b>   %title </b>"
+for_window [class="(?i)firefox"] title_format "<b>   %title</b>"
+for_window [class="(?i)Brave-browser"] title_format "<b> 爵  %title</b>"
+for_window [class="(?i)dolphin"] title_format "<b>   %title</b>"
 
 # Color settings
 # class                 border  backgr  text    indicator child_border
@@ -248,9 +253,9 @@ exec /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
 # Status bar
 exec ~/.config/polybar/launch.sh
 # Compositor
-exec picom --config ~/.config/compton/compton.i3.conf &
+exec picom & 
 # Wallpaper 
-exec feh --bg-fill /home/devops/Pictures/wallhaven-4dyzq3.png 
+exec feh --bg-fill /home/devops/Pictures/wallhaven-q6x2dd.jpg 
 # Birghtness
 exec xrandr --output LVDS-0 --brightness .6
 

@@ -4,8 +4,8 @@
 monitor = 
 include-file = ~/.config/polybar/fullbar
 
-background = #bb212121
-foreground = #eeffff
+background = #bb282A36
+foreground = #F8F8F2
 modules-left = workspaces mpd separator title 
 modules-center = 
 modules-right = memory separator cpu separator volume separator wlan separator battery separator updates separator date separator powermenu
@@ -99,34 +99,6 @@ icon-prev = 
 icon-next = 
 format-padding = 2
 
-[module/i3]
-type = internal/i3
-pin-workspace = false
-index-sort = true
-
-enable-click = true
-enable-scroll = true
-wrapping-scroll = false
-reverse-scroll = false
-format = <label-state> <label-mode>
-label-focused = %name%
-label-focused-padding = 3
-label-focused-background = "#82aaff"
-label-focused-foreground = "#212121"
-
-
-label-unfocused = %name%
-label-unfocused-padding = 3
-label-visible = %name%
-label-visible-padding = 2
-label-mode = %mode%
-
-Material theme
-label-mode-background = "#f07178"
-label-mode-foreground = "#212121"
-label-mode-padding = 2
-label-urgent = %name%
-label-urgent-padding = 3
 
 [module/title]
 type = internal/xwindow
@@ -156,7 +128,7 @@ interval = 5
 type = custom/text
 content = | 
 content-padding = 0
-content-foreground = "#424242"
+content-foreground = "#44475a"
 
 [module/powermenu]
 type = custom/menu
@@ -205,20 +177,20 @@ label-monitor = %icon%
 
 label-focused = %icon%
 label-focused-padding = 2
-label-focused-background = "#82aaff"
-label-focused-foreground = "#212121"
+label-focused-background = "#BD93F9"
+label-focused-foreground = "#282A36"
 
 label-occupied = %icon%
 label-occupied-padding = 2
 
-label-dimmed-foreground = #212121
-label-dimmed-underline = #82aaff
-label-dimmed-focused-background = #82aaff
+label-dimmed-foreground = #282A36
+label-dimmed-underline = #BD93F9
+label-dimmed-focused-background = #BD93F9
 
 label-urgent = %icon%
-label-urgent-foreground = "#212121"
-label-urgent-background = "#f07178"
-label-urgent-underline = "#f07178"
+label-urgent-foreground = "#282A36"
+label-urgent-background = "#FF5555"
+label-urgent-underline = "#FF5555"
 label-urgent-padding = 2
 
 label-empty =

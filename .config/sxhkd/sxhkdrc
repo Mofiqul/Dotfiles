@@ -149,6 +149,10 @@ super + ctrl + space
 super + ctrl + shift + space
 	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
 
+# Move node to preselect
+super + ctrl + p 
+	bspc node -n 'last.!automatic.local'
+
 #
 # move/resize
 #
