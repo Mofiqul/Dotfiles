@@ -55,4 +55,5 @@ bspc rule -a Zathura state=tiled
 bspc rule -a java-lang-Thread state=floating
 bspc rule -a Welcome to Android Studio state=floating
 bspc rule -a soffice.bin state=floating
+bspc rule -a mpv state=pseudo_tiled
 
