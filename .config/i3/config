@@ -41,7 +41,8 @@ bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
 bindsym $mod+d exec ~/.config/rofi/launchers-git/launcher.sh
-bindsym Ctrl+space exec dmenu_run -nb '#424242' -sf '#424242' -sb '#82aaff' -nf '#eeffff' 
+bindsym Ctrl+space exec dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#bd93f9' -sf '#F8F8F2' -p 'dmenu:' 
+ 
 bindsym F8 exec rofi -show drun window ssh -sidebar-mode ture -theme breeze-dark.rasi
 # Lockscreen
 bindsym $mod+Shift+x exec mantablockscreen
@@ -123,10 +124,10 @@ set $ws2 "2: "
 set $ws3 "3: "
 set $ws4 "4: "
 set $ws5 "5: "
-set $ws6 "6: "
+set $ws6 "6: "
 set $ws7 "7: "
-set $ws8 "8: "
-set $ws9 "9: "
+set $ws8 "8: "
+set $ws9 "9: "
 set $ws10 "10: "
 
 # switch to workspace
@@ -239,10 +240,15 @@ for_window [class="(?i)dolphin"] title_format "<b>   %title</b>"
 
 # Color settings
 # class                 border  backgr  text    indicator child_border
-client.focused 			#82aaff #82aaff #212121 #82aaff   #82aaff
-client.unfocused 		#424242 #212121 #eeffff #424242   #424242
-client.focused_inactive #424242 #212121 #eeffff #424242   #424242
+#client.focused 			#82aaff #82aaff #212121 #82aaff   #82aaff
+#client.unfocused 		#424242 #212121 #eeffff #424242   #424242
+#client.focused_inactive #424242 #212121 #eeffff #424242   #424242
 
+client.focused          #bd93f9 #bd93f9 #F8F8F2 #bd93f9   #bd93f9
+client.focused_inactive #ffb86c #ffb86c #F8F8F2 #ffb86c   #ffb86c
+client.unfocused        #44475A #44475A #BFBFBF #44475A   #44475A
+client.urgent           #FF5555 #FF5555 #F8F8F2 #FF5555   #FF5555
+client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A3
 
 ####################
 # Auto startup #####
@@ -251,21 +257,22 @@ client.focused_inactive #424242 #212121 #eeffff #424242   #424242
 exec /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
 
 # Status bar
-exec ~/.config/polybar/launch.sh
+exec --no-startup-id ~/.config/polybar/launch.sh
 # Compositor
-exec picom & 
+exec --no-startup-id picom & 
 # Wallpaper 
-exec feh --bg-fill /home/devops/Pictures/wallhaven-q6x2dd.jpg 
+exec feh --bg-fill /home/devops/Pictures/dracula-purplish.png
 # Birghtness
 exec xrandr --output LVDS-0 --brightness .6
 
 # Notification
-exec dunst
+exec --no-startup-id dunst
 # Battery low warning
-exec ~/Github/i3-battery-popup/i3-battery-popup -m "Low battery" -s ~/Github/i3-battery-popup/i3-battery-popup.wav -n -i ~/.local/share/icons/Newaita-dark/status/48/battery-low.svg &
+exec --no-startup-id ~/Github/i3-battery-popup/i3-battery-popup -m "Low battery" -s ~/Github/i3-battery-popup/i3-battery-popup.wav -n -i ~/.local/share/icons/Newaita-dark/status/48/battery-low.svg &
 # Auto usb mounting
-exec udiskie &
+exec --no-startup-id udiskie &
 # A better notification
 #exec /home/devops/.local/bin/deadd-notification-center &
 # Enable tap to touch (Only laptop)
 exec ~/.config/i3/scripts/xinput.sh
+exec xsetroot -cursor_name left_ptr &

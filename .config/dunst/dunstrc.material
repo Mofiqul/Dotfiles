@@ -9,7 +9,7 @@
     padding = 10
     horizontal_padding = 10
     frame_width = 2
-    frame_color = "#333333"
+    frame_color = "#424242"
     separator_color = frame
     sort = yes
     idle_threshold = 120
@@ -33,12 +33,12 @@
     always_run_script = true
     startup_notification = false
     verbosity = mesg
-   # corner_radius = 3
+    #corner_radius = 4.0
     force_xinerama = false
     mouse_left_click = do_action
     mouse_middle_click = close_all
     mouse_right_click = close_current
-	transparency = 40
+	transparency = 25
 
 
 [shortcuts]
@@ -51,18 +51,18 @@
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the '#' and following  would be interpreted as a comment.
     background="#212121"
-    foreground="#eeffff"
+    foreground="#EEFFFF"
     timeout = 2
 
 
 [urgency_normal]
     background="#212121" #3a3a3a
-    foreground="#eeffff"
+    foreground="#EEFFFF"
     timeout = 3
 
 
 [urgency_critical]
-    background="#FF5C57"
-    foreground="#eeffff"
+    background="#F07178"
+    foreground="#EEFFFF"
     timeout = 5
 

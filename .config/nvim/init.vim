@@ -2,7 +2,6 @@
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin()
-
 " Make sure you use single quotes
 
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
@@ -22,6 +21,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 "Vim Colorschemes
 Plug 'kaicataldo/material.vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 Plug 'benmills/vimux'
 Plug 'majutsushi/tagbar'
@@ -42,7 +42,6 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " COC extensions
 let g:coc_global_extensions = ['coc-json', 'coc-phpls', 'coc-xml', 'coc-python', 'coc-html', 'coc-tsserver', 'coc-vetur', 'coc-emmet', 'coc-spell-checker', 'coc-prettier', 'coc-snippets', 'coc-tailwindcss', 'coc-svelte', 'coc-clangd', 'coc-highlight', 'coc-explorer']
-
 
 
 "PHP support for vim
@@ -77,6 +76,7 @@ Plug 'mboughaba/i3config.vim'
 Plug 'tpope/vim-surround'
 Plug 'edkolev/tmuxline.vim'
 Plug 'mhinz/vim-startify'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 " Auto tag rename in additional files
@@ -112,23 +112,21 @@ endif
 
 
 " Material colorscheme settings
-let g:material_terminal_italics = 1
-let g:material_theme_style = 'darker'
-" Gruvbox Material colorscheme settings
-"set background=dark
-"let g:gruvbox_material_background = 'soft'
-"let g:gruvbox_material_enable_italic = 1
+"let g:material_terminal_italics = 1
+"let g:material_theme_style = 'darker'
+let g:dracula_italic = 0
+colorscheme dracula
 
-colorscheme material
 set cursorline
 
 hi Normal guibg=NONE ctermbg=NONE
 " Airline configueations
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'jsformatter'
-let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_sep = ''
 let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:airline_theme = 'material'
+
+let g:airline_theme = 'dracula'
 let g:airline_powerline_fonts = 1
 
 autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
@@ -179,7 +177,7 @@ set shiftwidth=4
 "COC configurations
 " TextEdit might fail if hidden is not set.
 set hidden
-
+"set colorcolumn=80
 " Some servers have issues with backup files, see #649.
 set nobackup
 set nowritebackup

@@ -22,8 +22,8 @@ visualizer_fifo_path = "~/.config/mpd/mpd.fifo"
 visualizer_output_name = "my_fifo"
 visualizer_sync_interval = "10"
 visualizer_type = "ellipse"
-visualizer_look = "▮"
-#visualizer_look = "▀▋"
+#visualizer_look = "▮"
+visualizer_look = "▮▋"
 #visualizer_look = "●▮"
 visualizer_color = "blue, cyan, green, yellow, magenta, red, black"
 
@@ -74,13 +74,13 @@ now_playing_suffix = "$8$/b"
 #now_playing_prefix = "$u$2"
 #now_playing_suffix = "$2$/u$2"
 
-song_columns_list_format = "(6)[]{} (23)[red]{a} (26)[yellow]{t|f} (40)[green]{b} (4)[blue]{l}"
+song_columns_list_format = "(6)[]{} (23)[red]{t|f} (26)[yellow]{a} (40)[green]{a} (4)[blue]{l}"
 
 #song_list_format = " $7%l  $2%t $R$5%a "
 #song_list_format = "$1> $2%a$8 - $3%b - $8%t $R $3%l  "
-song_list_format = "$1> $2%a$8 - $8%t $R $3%l  "
+song_list_format = "$1> $2%t$8 - $8%a $R $3%l  "
 
-song_status_format = "$b$7♫ $2%a $8- $3%b $8- $8%t "
+song_status_format = "$b$7♫ $2%t $8- $3%a $8- $8%b "
 song_window_title_format = " {%a} - {%t}"
 
 

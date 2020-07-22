@@ -1,9 +1,9 @@
-import material.draw
+import dracula.draw
 
 # Load existing settings made via :set
 config.load_autoconfig()
 
-material.draw.blood(c, {
+dracula.draw.blood(c, {
     'spacing': {
         'vertical': 2,
         'horizontal': 8

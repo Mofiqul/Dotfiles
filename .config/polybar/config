@@ -4,11 +4,11 @@
 monitor = 
 include-file = ~/.config/polybar/fullbar
 
-background = #bb212121
-foreground = #eeffff
-modules-left = i3 mpd separator title 
+background = #bb282a36
+foreground = #f8f8f2
+modules-left = i3 separator title separatordotted mpd 
 modules-center = 
-modules-right = memory separator cpu separator volume separator wlan separator battery separator updates separator date separator powermenu
+modules-right = memory spacing cpu separatordotted volume spacing wlan spacing battery spacing updates separatordotted date powermenu
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -30,10 +30,11 @@ type = internal/date
 interval = 60
 date = %a %d %b
 time = %l:%M %p
-label =  %date%   %time%
+#label =  %date%   %time%
+label = %date% %time%
 ;label =  %time%
 format-padding = 1
-
+label-font = 3
 
 [module/battery]
 type = internal/battery
@@ -79,11 +80,13 @@ format-padding = 1
 [module/mpd]
 type = internal/mpd
 interval = 2
-format-online = <toggle> <label-song> <icon-next>
+format-online = <icon-prev> <toggle> <icon-next> <label-song>
 label-song = %artist% - %title%
 label-song-maxlen = 20
 label-song-ellipsis = true
-label-online = "MPD is offline"
+format-online-foreground = "#bd93f9"
+label-offline =   Offline
+format-offline = <label-offline>
 icon-play = 
 icon-pause = 
 icon-stop = 
@@ -103,9 +106,8 @@ reverse-scroll = false
 format = <label-state> <label-mode>
 label-focused = %name%
 label-focused-padding = 3
-label-focused-background = "#82aaff"
+label-focused-background = "#bd93f9"
 label-focused-foreground = "#212121"
-
 
 label-unfocused = %name%
 label-unfocused-padding = 3
@@ -113,8 +115,7 @@ label-visible = %name%
 label-visible-padding = 2
 label-mode = %mode%
 
-Material theme
-label-mode-background = "#f07178"
+label-mode-background = "#ff5555"
 label-mode-foreground = "#212121"
 label-mode-padding = 2
 label-urgent = %name%
@@ -123,14 +124,24 @@ label-urgent-padding = 3
 [module/title]
 type = internal/xwindow
 format = <label>
-label =  %title%
-label-maxlen = 20
+label = %title:0:20:...%
+#label-maxlen = 20
+format-font = 3
+label-foreground = "#50fa7b"
 
 
 [module/notifications]
 type = custom/text
 content = 
 click-left = kill -s USR1 $(pidof deadd-notification-center)
+
+[module/quit]
+type = custom/text
+content = 
+click-left = i3-msg exit
+content-foreground = "#ff5555"
+content-padding = 2
+
 
 [module/menu]
 type = custom/text
@@ -146,9 +157,20 @@ interval = 5
 
 [module/separator]
 type = custom/text
-content = | 
+content =  
 content-padding = 0
-content-foreground = "#424242"
+content-foreground = "#ff5555"
+
+[module/spacing]
+type = custom/text
+content = " " 
+content-padding = 0
+
+[module/separatordotted]
+type = custom/text
+content =  
+content-padding = 0
+content-foreground = "#ff5555"
 
 [module/powermenu]
 type = custom/menu
@@ -197,20 +219,20 @@ label-monitor = %icon%
 
 label-focused = %icon%
 label-focused-padding = 2
-label-focused-background = "#82aaff"
+label-focused-background = "#bd93f9"
 label-focused-foreground = "#212121"
 
 label-occupied = %icon%
 label-occupied-padding = 2
 
 label-dimmed-foreground = #212121
-label-dimmed-underline = #82aaff
-label-dimmed-focused-background = #82aaff
+label-dimmed-underline = #bd93f9
+label-dimmed-focused-background = #bd93f9
 
 label-urgent = %icon%
 label-urgent-foreground = "#212121"
-label-urgent-background = "#f07178"
-label-urgent-underline = "#f07178"
+label-urgent-background = "#ff5555"
+label-urgent-underline = "#ff5555"
 label-urgent-padding = 2
 
 label-empty =

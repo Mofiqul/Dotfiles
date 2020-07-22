@@ -8,11 +8,15 @@ super + Return
 
 # program launcher
 ctrl + @space
-	dmenu_run -nb '#212121' -sf '#212121' -sb '#82aaff' -nf '#eeffff' 
+	dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#bd93f9' -sf '#F8F8F2' -p 'dmenu:' 
 
 super + d
 	~/.config/rofi/launchers-git/launcher.sh
 
+# Close screen
+super + shift + c
+    sleep 0.5; xset dpms force standby
+	
 # Lockscreen
 super + shift + x
 	mantablockscreen
@@ -31,7 +35,7 @@ XF86AudioMute
 
 # make sxhkd reload its configuration files:
 super + Escape
-	pkill -USR1 -x sxhkd
+	pkill -USR1 -x sxhkd; notify-send 'sxhkd' 'Reloaded config'
 
 #
 # bspwm hotkeys
@@ -39,7 +43,7 @@ super + Escape
 
 # quit/restart bspwm
 super + shift + r
-	bspc wm -r
+	bspc wm -r; notify-send 'BSPWM' 'Restarted BSPWM'
 
 # close and kill
 super + shift + q

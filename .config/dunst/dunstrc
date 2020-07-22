@@ -9,7 +9,7 @@
     padding = 10
     horizontal_padding = 10
     frame_width = 2
-    frame_color = "#424242"
+    frame_color = "#44475a"
     separator_color = frame
     sort = yes
     idle_threshold = 120
@@ -39,7 +39,7 @@
     mouse_middle_click = close_all
     mouse_right_click = close_current
 	transparency = 25
-
+	dmenu = "/usr/bin/dmenu -nf '#F7F8F2' -nb '#282A36' -sb '#bd93f9' -sf '#F8F8F2' -p 'Notification:'"
 
 [shortcuts]
     close =  ctrl+period
@@ -50,19 +50,19 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the '#' and following  would be interpreted as a comment.
-    background="#212121"
-    foreground="#EEFFFF"
+    background="#282a36"
+    foreground="#f8f8f2"
     timeout = 2
 
 
 [urgency_normal]
-    background="#212121" #3a3a3a
-    foreground="#EEFFFF"
+    background="#282a36" #3a3a3a
+    foreground="#f8f8f2"
     timeout = 3
 
 
 [urgency_critical]
-    background="#F07178"
-    foreground="#EEFFFF"
+    background="#ff5555"
+    foreground="#f8f8f2"
     timeout = 5
 

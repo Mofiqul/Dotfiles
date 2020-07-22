@@ -3,12 +3,13 @@ height                   = 20
 radius                   = 0
 line-size                = 0
 bottom                   = true
-border-top-size = 1
+border-top-size = 0
 border-bottom-size = 0
-border-color = "#313131"
+border-color = "#424242"
 
 font-0 = "Ubuntu:size=10;2"
 font-1 = "icomoon\-feather:size=10;2"
+font-2 = "Ubuntu:style=Bold:size=10;2"
 
 override-redirect = false
 ;offset-x = 1%

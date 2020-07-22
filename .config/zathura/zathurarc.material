@@ -1,0 +1,36 @@
+# Base16 Material Darker
+# Author: Nate Peterson
+
+set default-bg                  "#212121"
+set default-fg                  "#303030"
+
+set statusbar-fg                "#B2CCD6"
+set statusbar-bg                "#353535"
+
+set inputbar-bg                 "#212121"
+set inputbar-fg                 "#EEFFFF"
+
+set notification-bg             "#212121"
+set notification-fg             "#EEFFFF"
+
+set notification-error-bg       "#212121"
+set notification-error-fg       "#F07178"
+
+set notification-warning-bg     "#212121"
+set notification-warning-fg     "#F07178"
+
+set highlight-color             "#FFCB6B"
+set highlight-active-color      "#82AAFF"
+
+set completion-bg               "#303030"
+set completion-fg               "#82AAFF"
+
+set completion-highlight-fg     "#EEFFFF"
+set completion-highlight-bg     "#82AAFF"
+
+set recolor-lightcolor          "#212121"
+set recolor-darkcolor           "#EEFFFF"
+
+set recolor                     "true"
+set recolor-keephue             "false"
+set selection-clipboard clipboard

@@ -10,7 +10,7 @@
 configuration {
     font:                           "Ubuntu 10";
     show-icons:                     true;
-	icon-theme: 					"Newaita-dark";
+	icon-theme: 					"Flatery-Dark";
     drun-display-format:            "{name}";
     threads:                        0;
     scroll-method:                  0;
@@ -21,14 +21,14 @@ configuration {
 }
 
 * {
-    background:                     #21212100;
-    background-color:               #21212166;
+    background:                     #282a3600;
+    background-color:               #282a3666;
     background-entry:               #00000033;
-    background-alt:                 #82aaff22;
-    foreground:                     #eeffff;
-    foreground-selected:           	#eeffff;
-    urgent:                         #f0717866;
-    urgent-selected:                #f0717877;
+    background-alt:                 #bd93f944;
+    foreground:                     #f8f8f2;
+    foreground-selected:           	#f8f8f2;
+    urgent:                         #ff555566;
+    urgent-selected:                #ff555577;
 }
 
 window {
