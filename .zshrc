@@ -135,6 +135,7 @@ alias tmux="tmux -u"
 alias vim="nvim"
 alias music="ncmpcpp -q"
 alias b="~/.brightnes.sh"
+alias wget="wget -q --show-progress --progress=bar:force:noscroll"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_OPTS="--ansi --preview-window 'right:60%' --preview 'bat --color=always --style=full --line-range :300 {}'"
@@ -160,3 +161,4 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+

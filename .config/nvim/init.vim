@@ -6,12 +6,8 @@ call plug#begin()
 
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 
-" NERDTree
-Plug 'preservim/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
-" NERDTree file icon
+" Devicon
 Plug 'ryanoasis/vim-devicons'
 
 " Vim Satus line
@@ -40,12 +36,11 @@ Plug 'scrooloose/nerdcommenter'
 
 " Noevim COC
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" COC extensions
+"COC extensions
 let g:coc_global_extensions = ['coc-json', 'coc-phpls', 'coc-xml', 'coc-python', 'coc-html', 'coc-tsserver', 'coc-vetur', 'coc-emmet', 'coc-spell-checker', 'coc-prettier', 'coc-snippets', 'coc-tailwindcss', 'coc-svelte', 'coc-clangd', 'coc-highlight', 'coc-explorer']
 
 
 "PHP support for vim
-Plug 'stanangeloff/php.vim'
 Plug 'jwalton512/vim-blade'
 
 " Vue support for vim
@@ -57,8 +52,10 @@ Plug 'luochen1990/rainbow'
 Plug 'Yggdroot/indentLine'
 
 "Javascript/typescript support for vim
-Plug 'pangloss/vim-javascript'
-Plug 'leafgarland/typescript-vim'
+"Plug 'pangloss/vim-javascript'
+"Plug 'leafgarland/typescript-vim'
+"Plug 'othree/yajs.vim'
+"Plug 'HerringtonDarkholme/yats.vim'
 
 " Tag auto close 
 Plug 'AndrewRadev/tagalong.vim'
@@ -131,12 +128,6 @@ let g:airline_powerline_fonts = 1
 
 autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
 
-"NERDTree 
-let g:NERDTreeFileExtensionHighlightFullName = 1
-let g:NERDTreeExactMatchHighlightFullName = 1
-let g:NERDTreePatternMatchHighlightFullName = 1
-let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
-let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {}
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vue'] = '﵂'
 
@@ -151,7 +142,6 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 set number relativenumber
 
 " Kaymap shorcuts
-"map <C-n> :NERDTreeToggle<CR>
 map <C-m> :TagbarToggle<CR>
 nmap <C-n> :CocCommand explorer<CR>
 nmap <space>f :CocCommand explorer --preset floating<CR>

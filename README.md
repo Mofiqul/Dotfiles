@@ -1,8 +1,13 @@
 # My personal dotfiles for bspwm, i3-gaps and kde plasma
 
-## BSPWM
-![screenshot](./Pictures/Screenshots/bspwm/terms.png)
-![screenshot](./Pictures/Screenshots/bspwm/web.png)
+## Dracula theme
+![screenshot](./Pictures/Screenshots/dracula.png)
+![screenshot](./Pictures/Screenshots/application_menu.png)
+
+## Material Dark theme
+![Material Dark](./Pictures/Screenshots/material_1.png)
+![Material Dark](./Pictures/Screenshots/material_2.png)
+
 ### Tools used 
 - Status bar - [Polybar](https://github.com/polybar/polybar)
 - Compositor - [Picom](https://github.com/ibhagwan/picom)
@@ -11,29 +16,16 @@
 - Notification - [Dunst](https://github.com/dunst-project/dunst)
 - USB automount - [udiskie](https://github.com/coldfix/udiskie)
 - Application launcher - [Rofi](https://github.com/davatorium/rofi)
+- Gui Font - Ubuntu
+- Terminal Font - [UbuntuMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/UbuntuMono.zip) and [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip)
+- Polybar icon font - [feather](https://dropways.github.io/feathericons/) and [FontAwesome](https://fontawesome.com/)
 
 
-Thanks to [Aditya Shakya](https://github.com/adi1090x) for his great looking rofi theme. 
-- Rofi theme https://github.com/adi1090x/rofi
-## i3-gaps
-![screenshot](./Pictures/Screenshots/i3wm/qutebrowser.png)
-![screenshot](./Pictures/Screenshots/i3wm/vim.png)
-![screenshot](./Pictures/Screenshots/i3wm/music.png)
-![screenshot](./Pictures/Screenshots/i3wm/dolphin.png)
-![screenshot](./Pictures/Screenshots/i3wm/notification.png)
-![screenshot](./Pictures/Screenshots/i3wm/rofi.png)
-
-
-## KDE
-
-![screenshot](./Pictures/Screenshots/Kde/qutebrowser.png)
-![screenshot](./Pictures/Screenshots/Kde/vim.png)
-![screenshot](./Pictures/Screenshots/Kde/oklar-dolphin.png)
-![screenshot](./Pictures/Screenshots/Kde/ranger-ncmpcpp.png)
-![screenshot](./Pictures/Screenshots/Kde/bashtop-zsh-cmatrix.png)
-![screenshot](./Pictures/Screenshots/Kde/launchpad.png)
-
-- Plasma color scheme - Customized materia
-- Icon theme - [Newaita](https://github.com/cbrnix/Newaita)
-- App launcher - [Launchpad](https://store.kde.org/p/1364064/)
-- Tiling script - [Krohnkite](https://github.com/esjeon/krohnkite)
+## Applications
+- Editor: Neovim
+- Music player: ncmpcpp
+- File Manager: ranger with devicon
+- Web browser: qutebrowser
+- System Monitor: htop
+- Image viewer: feh
+- System details: modified ufetch 

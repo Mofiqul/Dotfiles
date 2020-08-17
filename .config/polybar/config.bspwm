@@ -7,7 +7,7 @@ foreground = #f8f8f2
 
 modules-left = workspaces separator title separatordotted mpd 
 modules-center = 
-modules-right = memory spacing cpu separatordotted volume spacing wlan spacing battery spacing updates separatordotted date powermenu
+modules-right = memory spacing cpu separatordotted volume spacing wlan spacing bluetooth spacing battery spacing updates separatordotted date powermenu
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -164,6 +164,12 @@ label-open = 
 label-close = 
 
 label-separator = |
+
+[module/bluetooth]
+type = custom/script
+exec = ~/.config/polybar/bluetooth.sh
+tail = true
+click-left = ~/.config/polybar/bluetooth.sh --toggle &
 
 
 [module/workspaces]

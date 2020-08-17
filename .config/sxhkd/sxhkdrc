@@ -8,10 +8,11 @@ super + Return
 
 # program launcher
 ctrl + @space
-	dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#bd93f9' -sf '#F8F8F2' -p 'dmenu:' 
+	dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#bd93f9' -sf '#F8F8F2' -p 'RUN:' 
 
 super + d
-	~/.config/rofi/launchers-git/launcher.sh
+	rofi -show drun -no-show-icons -theme dracula
+	#~/.config/rofi/launchers-git/launcher.sh
 
 # Close screen
 super + shift + c

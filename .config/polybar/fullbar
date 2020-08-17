@@ -10,6 +10,7 @@ border-color = "#424242"
 font-0 = "Ubuntu:size=10;2"
 font-1 = "icomoon\-feather:size=10;2"
 font-2 = "Ubuntu:style=Bold:size=10;2"
+font-3 = "UbuntuMono Nerd Font:size=10;2"
 
 override-redirect = false
 ;offset-x = 1%
