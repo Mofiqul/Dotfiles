@@ -138,7 +138,8 @@ alias b="~/.brightnes.sh"
 alias wget="wget -q --show-progress --progress=bar:force:noscroll"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-export FZF_DEFAULT_OPTS="--ansi --preview-window 'right:60%' --preview 'bat --color=always --style=full --line-range :300 {}'"
+export FZF_CTRL_T_OPTS="--ansi --preview-window 'right:60%' --preview 'bat --color=always --style=full --line-range :300 {}'"
+export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -200'"
 
 source ~/.fonts/*.sh
 

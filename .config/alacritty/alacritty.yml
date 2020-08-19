@@ -28,6 +28,10 @@ window:
 
   dynamic_padding: true
 
+  dimensions:
+    columns: 90
+    lines: 30
+
 # Colors (Dracula)
 colors:
   # Default colors
