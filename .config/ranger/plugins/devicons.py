@@ -188,7 +188,7 @@ dir_node_exact_matches = {
     'Pictures'                         : '',
     'Public'                           : '',
     'Templates'                        : '',
-    'Videos'                           : 'ﴼ',
+    'Videos'                           : '',
 # Spanish
     'Escritorio'                       : '',
     'Documentos'                       : '',
