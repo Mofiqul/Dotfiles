@@ -7,18 +7,37 @@
     "javascriptvue",
     "css",
     "vue",
-    "Markdown"
+    "Markdown",
+    "php"
   ],
   "vetur.trace.server": "verbose",
   "vetur.validation.template": false,
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
-  "explorer.icon.enableVimDevicons": true,
   "explorer.file.autoReveal": true,
   "explorer.file.showHiddenFiles": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
-  }
+  },
+  "python.pythonPath": "python3",
+  "suggest.completionItemKindLabels": {
+    "variable": "⬥",
+    "function": "",
+    "class": "↣",
+    "interface": "☍",
+    "module": "{}",
+    "keyword": "≔",
+    "property": "⚲",
+    "value": "◰",
+    "enum": "◰",
+    "field": "☐",
+    "method": "",
+    "file": "\uf24a",
+    "folder": "\uf114"
+  },
+  "diagnostic.displayByAle": true,
+  "diagnostic.checkCurrentLine": true,
+  "clangd.path": "/home/devops/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin/clangd"
 }

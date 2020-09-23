@@ -66,14 +66,13 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
-Plug 'metakirby5/codi.vim'
+"Plug 'metakirby5/codi.vim'
 Plug 'digitaltoad/vim-pug'
-Plug 'junegunn/goyo.vim'
+"Plug 'junegunn/goyo.vim'
 Plug 'mboughaba/i3config.vim'
 Plug 'tpope/vim-surround'
-Plug 'edkolev/tmuxline.vim'
+"Plug 'edkolev/tmuxline.vim'
 Plug 'mhinz/vim-startify'
-Plug 'tpope/vim-surround'
 call plug#end()
 
 " Auto tag rename in additional files
@@ -87,10 +86,8 @@ let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 filetype indent on
 
 " Ale icons
-"let g:ale_sign_error = ''
-"let g:ale_sign_warning = ''
-"let g:ale_sign_error = '✘'
-"let g:ale_sign_warning = '⚠'
+let g:ale_sign_error = ''
+let g:ale_sign_warning = ''
 "highlight ALEErrorSign ctermbg=red ctermfg=red
 "highlight ALEWarningSign ctermbg=yellow ctermfg=yellow
 
