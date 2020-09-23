@@ -21,6 +21,7 @@
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
+  "clangd.path": "/home/devops/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin/clangd",
   "python.pythonPath": "python3",
   "suggest.completionItemKindLabels": {
     "variable": "⬥",
@@ -37,7 +38,9 @@
     "file": "\uf24a",
     "folder": "\uf114"
   },
-  "diagnostic.displayByAle": true,
   "diagnostic.checkCurrentLine": true,
-  "clangd.path": "/home/devops/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin/clangd"
+  "diagnostic.errorSign": "",
+  "diagnostic.warningSign": "",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": "ﯦ"
 }

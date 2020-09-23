@@ -1,12 +1,4 @@
-" Specify a directory for plugins
-" - For Neovim: stdpath('data') . '/plugged'
-" - Avoid using standard Vim directory names like 'plugin'
 call plug#begin()
-" Make sure you use single quotes
-
-" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
-
-
 " Devicon
 Plug 'ryanoasis/vim-devicons'
 
@@ -16,90 +8,60 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 "Vim Colorschemes
-Plug 'kaicataldo/material.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
 
-Plug 'benmills/vimux'
-Plug 'majutsushi/tagbar'
 Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
-" Git supports for vim
+
+" Git support
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/gv.vim'
 
-" Syntax checker 
-Plug 'w0rp/ale'
-
 "Vim commenter
 Plug 'scrooloose/nerdcommenter'
 
-" Noevim COC
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-"COC extensions
-let g:coc_global_extensions = ['coc-json', 'coc-phpls', 'coc-xml', 'coc-python', 'coc-html', 'coc-tsserver', 'coc-vetur', 'coc-emmet', 'coc-spell-checker', 'coc-prettier', 'coc-snippets', 'coc-tailwindcss', 'coc-svelte', 'coc-clangd', 'coc-highlight', 'coc-explorer', 'coc-actions']
-
-
-"PHP support for vim
+"Template engines
 Plug 'jwalton512/vim-blade'
+Plug 'digitaltoad/vim-pug'
 
 " Vue support for vim
 Plug 'leafOfTree/vim-vue-plugin'
 
 Plug 'mattn/emmet-vim'
 
+" Productivity 
 Plug 'luochen1990/rainbow'
-Plug 'Yggdroot/indentLine'
-
-"Javascript/typescript support for vim
-"Plug 'pangloss/vim-javascript'
-"Plug 'leafgarland/typescript-vim'
-"Plug 'othree/yajs.vim'
-"Plug 'HerringtonDarkholme/yats.vim'
-
-" Tag auto close 
 Plug 'AndrewRadev/tagalong.vim'
-
-"Insert or delete brackets, parens, quotes in pair.
 Plug 'jiangmiao/auto-pairs'
-"All language syntax highlighting
-Plug 'sheerun/vim-polyglot'
-
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
-"Plug 'metakirby5/codi.vim'
-Plug 'digitaltoad/vim-pug'
-"Plug 'junegunn/goyo.vim'
+
 Plug 'mboughaba/i3config.vim'
 Plug 'tpope/vim-surround'
-"Plug 'edkolev/tmuxline.vim'
 Plug 'mhinz/vim-startify'
+Plug 'Yggdroot/indentLine'
+Plug 'luochen1990/rainbow'
+Plug 'mattn/emmet-vim'
+
+" Noevim COC
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"COC extensions
+let g:coc_global_extensions = ['coc-json', 'coc-phpls', 'coc-xml', 'coc-python', 'coc-html', 'coc-tsserver', 'coc-vetur', 'coc-emmet', 'coc-spell-checker', 'coc-prettier', 'coc-snippets', 'coc-tailwindcss', 'coc-svelte', 'coc-clangd', 'coc-highlight', 'coc-explorer', 'coc-actions']
+
+Plug 'sheerun/vim-polyglot'
 call plug#end()
+
+
+filetype indent on
 
 " Auto tag rename in additional files
 let g:tagalong_additional_filetypes = ['vue']
 
-let g:rainbow_active = 1
-let g:indentLine_enabled = 1
-let g:indentLine_setColors = 1
-let g:indentLine_char_list = ['|', '¦', '┆', '┊']
-
-filetype indent on
-
-" Ale icons
-let g:ale_sign_error = ''
-let g:ale_sign_warning = ''
-"highlight ALEErrorSign ctermbg=red ctermfg=red
-"highlight ALEWarningSign ctermbg=yellow ctermfg=yellow
-
 " Color themes
-" For Neovim 0.1.3 and 0.1.4 - https://github.com/neovim/neovim/pull/2198
 if (has('nvim'))
 	let $NVIM_TUI_ENABLE_TRUE_COLOR = 1
 endif
 
-" For Neovim > 0.1.5 and Vim > patch 7.4.1799 - https://github.com/vim/vim/commit/61be73bb0f965a895bfb064ea3e55476ac175162
-" Based on Vim patch 7.4.1770 (`guicolors` option) - https://github.com/vim/vim/commit/8a633e3427b47286869aa4b96f2bfc1fe65b25cd
-" https://github.com/neovim/neovim/wiki/Following-HEAD#20160511
 if (has('termguicolors'))
 	set termguicolors
 endif
@@ -110,61 +72,50 @@ endif
 "let g:material_theme_style = 'darker'
 let g:dracula_italic = 0
 colorscheme dracula
-
-set cursorline
-
 hi Normal guibg=NONE ctermbg=NONE
+
+
 " Airline configueations
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'jsformatter'
 let g:airline#extensions#tabline#left_sep = ''
 let g:airline#extensions#tabline#left_alt_sep = '|'
-
 let g:airline_theme = 'dracula'
 let g:airline_powerline_fonts = 1
 
-autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
 
+
+" Productivity configueations
+let g:rainbow_active = 1
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {}
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vue'] = '﵂'
-
 let g:mkdp_browser = 'qutebrowser'
+let g:user_emmet_leader_key=','
+let g:rainbow_active = 1
+let g:indentLine_enabled = 1
+let g:indentLine_setColors = 1
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
-" Html in php syntax
-"let php_htmlInStrings = 1
-autocmd FileType vue syntax sync fromstart	
-"Commands
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
-"set number
-set number relativenumber
+let g:gitgutter_sign_added = '▎'
+let g:gitgutter_sign_modified = '▎'
+let g:gitgutter_sign_removed = '▏'
+let g:gitgutter_sign_removed_first_line = '▔'
+let g:gitgutter_sign_modified_removed = '▋'
 
-" Kaymap shorcuts
-map <C-m> :TagbarToggle<CR>
 nmap <C-n> :CocCommand explorer<CR>
 nmap <space>f :CocCommand explorer --preset floating<CR>
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 
-let g:user_emmet_leader_key=','
-nmap <Tab> :bnext<CR>
-nmap <S-Tab> :bprevious<CR>
-
-
-
-nmap <expr> <silent> <C-d> <SID>select_current_word()
-function! s:select_current_word()
-  if !get(g:, 'coc_cursors_activated', 0)
-    return "\<Plug>(coc-cursors-word)"
-  endif
-  return "*\<Plug>(coc-cursors-word):nohlsearch\<CR>"
-endfunc
 
 set mouse=a
 set tabstop=4
 set shiftwidth=4
-"COC configurations
+set cursorline
+set number relativenumber
+"Coc Configurations
 " TextEdit might fail if hidden is not set.
 set hidden
-"set colorcolumn=80
+
 " Some servers have issues with backup files, see #649.
 set nobackup
 set nowritebackup
@@ -181,7 +132,12 @@ set shortmess+=c
 
 " Always show the signcolumn, otherwise it would shift the text each time
 " diagnostics appear/become resolved.
-set signcolumn=yes
+if has("patch-8.1.1564")
+  " Recently vim can merge signcolumn and number column into one
+  set signcolumn=number
+else
+  set signcolumn=yes
+endif
 
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
@@ -198,18 +154,23 @@ function! s:check_back_space() abort
 endfunction
 
 " Use <c-space> to trigger completion.
-inoremap <silent><expr> <c-space> coc#refresh()
+if has('nvim')
+  inoremap <silent><expr> <c-space> coc#refresh()
+else
+  inoremap <silent><expr> <c-@> coc#refresh()
+endif
 
 " Use <cr> to confirm completion, `<C-g>u` means break undo chain at current
 " position. Coc only does snippet and additional edit on confirm.
-"if has('patch8.1.1068')
-  " Use `complete_info` if your (Neo)Vim version supports it.
-"  inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
-"else
-"  imap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-"endif
+" <cr> could be remapped by other vim plugin, try `:verbose imap <CR>`.
+if exists('*complete_info')
+  inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
+else
+  inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+endif
 
 " Use `[g` and `]g` to navigate diagnostics
+" Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
 nmap <silent> [g <Plug>(coc-diagnostic-prev)
 nmap <silent> ]g <Plug>(coc-diagnostic-next)
 
@@ -226,7 +187,7 @@ function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
     execute 'h '.expand('<cword>')
   else
-    call CocAction('doHover')
+    call CocActionAsync('doHover')
   endif
 endfunction
 
@@ -253,23 +214,26 @@ augroup end
 xmap <leader>a  <Plug>(coc-codeaction-selected)
 nmap <leader>a  <Plug>(coc-codeaction-selected)
 
-" Remap keys for applying codeAction to the current line.
+" Remap keys for applying codeAction to the current buffer.
 nmap <leader>ac  <Plug>(coc-codeaction)
 " Apply AutoFix to problem on the current line.
 nmap <leader>qf  <Plug>(coc-fix-current)
 
-" Introduce function text object
+" Map function and class text objects
 " NOTE: Requires 'textDocument.documentSymbol' support from the language server.
 xmap if <Plug>(coc-funcobj-i)
-xmap af <Plug>(coc-funcobj-a)
 omap if <Plug>(coc-funcobj-i)
+xmap af <Plug>(coc-funcobj-a)
 omap af <Plug>(coc-funcobj-a)
+xmap ic <Plug>(coc-classobj-i)
+omap ic <Plug>(coc-classobj-i)
+xmap ac <Plug>(coc-classobj-a)
+omap ac <Plug>(coc-classobj-a)
 
-" Use <TAB> for selections ranges.
-" NOTE: Requires 'textDocument/selectionRange' support from the language server.
-" coc-tsserver, coc-python are the examples of servers that support it.
-nmap <silent> <TAB> <Plug>(coc-range-select)
-xmap <silent> <TAB> <Plug>(coc-range-select)
+" Use CTRL-S for selections ranges.
+" Requires 'textDocument/selectionRange' support of language server.
+nmap <silent> <C-s> <Plug>(coc-range-select)
+xmap <silent> <C-s> <Plug>(coc-range-select)
 
 " Add `:Format` command to format current buffer.
 command! -nargs=0 Format :call CocAction('format')
@@ -280,38 +244,51 @@ command! -nargs=? Fold :call     CocAction('fold', <f-args>)
 " Add `:OR` command for organize imports of the current buffer.
 command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
 
-
-
 " Add (Neo)Vim's native statusline support.
 " NOTE: Please see `:h coc-status` for integrations with external plugins that
 " provide custom statusline: lightline.vim, vim-airline.
 set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
-" Mappings using CoCList:
+" Mappings for CoCList
 " Show all diagnostics.
-nnoremap <silent> <space>a  :<C-u>CocList diagnostics<cr>
+nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>
 " Manage extensions.
-nnoremap <silent> <space>e  :<C-u>CocList extensions<cr>
+nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>
 " Show commands.
-nnoremap <silent> <space>c  :<C-u>CocList commands<cr>
+nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>
 " Find symbol of current document.
-nnoremap <silent> <space>o  :<C-u>CocList outline<cr>
+nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>
 " Search workspace symbols.
-nnoremap <silent> <space>s  :<C-u>CocList -I symbols<cr>
+nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>
 " Do default action for next item.
-nnoremap <silent> <space>j  :<C-u>CocNext<CR>
+nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 " Do default action for previous item.
-nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
+nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
-nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
+nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 
-" Remap for do codeAction of selected region
-function! s:cocActionsOpenFromSelected(type) abort
-  execute 'CocCommand actions.open ' . a:type
-endfunction
-xmap <silent> <leader>a :<C-u>execute 'CocCommand actions.open ' . visualmode()<CR>
-nmap <silent> <leader>a :<C-u>set operatorfunc=<SID>cocActionsOpenFromSelected<CR>g@
+let g:coc_explorer_global_presets = {
+\   '.vim': {
+\      'root-uri': '~/.vim',
+\   },
+\   'floating': {
+\      'position': 'floating',
+\   },
+\   'floatingLeftside': {
+\      'position': 'floating',
+\      'floating-position': 'left-center',
+\      'floating-width': 50,
+\   },
+\   'floatingRightside': {
+\      'position': 'floating',
+\      'floating-position': 'left-center',
+\      'floating-width': 50,
+\   },
+\   'simplify': {
+\     'file.child.template': '[selection | clip | 1] [indent][icon | 1] [filename omitCenter 1]'
+\   }
+\ }
 
 
 
@@ -381,40 +358,12 @@ map <C-p> :Files<CR>
 map <C-g> :BLines<CR>
 "map <C-S-r> :Lines<CR>
 
+autocmd FileType vue syntax sync fromstart	
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+nmap <Tab> :bnext<CR>
+nmap <S-Tab> :bprevious<CR>
 
 
-" Disable arrow keys
-"noremap <Up> <Nop>
-"noremap <Down> <Nop>
-"noremap <Left> <Nop>
-"noremap <Right> <Nop>
-
-
-let g:coc_explorer_global_presets = {
-\   '.vim': {
-\      'root-uri': '~/.vim',
-\   },
-\   'floating': {
-\      'position': 'floating',
-\   },
-\   'floatingLeftside': {
-\      'position': 'floating',
-\      'floating-position': 'left-center',
-\      'floating-width': 50,
-\   },
-\   'floatingRightside': {
-\      'position': 'floating',
-\      'floating-position': 'left-center',
-\      'floating-width': 50,
-\   },
-\   'simplify': {
-\     'file.child.template': '[selection | clip | 1] [indent][icon | 1] [filename omitCenter 1]'
-\   }
-\ }
-
-
-" Keybinding 
-map <Leader>tt :vnew term://zsh<CR>
 " Remap splits navigation to just CTRL + hjkl
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
@@ -435,3 +384,9 @@ function! StartifyEntryFormat()
 endfunction
 
 
+" Remap for do codeAction of selected region
+function! s:cocActionsOpenFromSelected(type) abort
+  execute 'CocCommand actions.open ' . a:type
+endfunction
+xmap <silent> <leader>a :<C-u>execute 'CocCommand actions.open ' . visualmode()<CR>
+nmap <silent> <leader>a :<C-u>set operatorfunc=<SID>cocActionsOpenFromSelected<CR>g@
