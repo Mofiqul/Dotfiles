@@ -7,7 +7,7 @@ foreground = #f8f8f2
 
 modules-left = workspaces separator title separatordotted mpd 
 modules-center = 
-modules-right = memory spacing cpu separatordotted volume spacing wlan spacing bluetooth spacing battery spacing updates separatordotted date powermenu
+modules-right = filesystem memory cpu separatordotted volume wlan bluetooth battery updates separatordotted date 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -15,34 +15,63 @@ modules-right = memory spacing cpu separatordotted volume spacing wlan spacing b
 [module/memory]
 type = internal/memory
 internal = 1
+format-prefix = 
+format-prefix-foreground = "#50fa7b"
 format = <label>
-label =   %mb_used%
+label = %mb_used%
+format-prefix-padding = 1
 
 [module/cpu]
 type = internal/cpu
 internal = 0.5
-format =   <label>%
-label = %percentage%
+format-prefix = ﬙  
+format-prefix-foreground = "#ff5555"
+format = <label>%
+label =  %percentage%
+format-prefix-padding = 1
+
+[module/filesystem]
+type = internal/fs
+mount-0 = /home
+interval = 10
+fixed-values = true
+format-mounted-prefix = 
+format-mounted-prefix-foreground = "#ff79c6"
+format-mounted = <label-mounted>
+format-unmounted-prefix = 
+format-unmounted-prefix-foreground = "#ff79c6"
+format-unmounted = <label-unmounted>
+label-mounted = %free%
+label-unmounted = %mountpoint%: not mounted
+
 
 [module/date]
 type = internal/date
 interval = 60
 date = %a %d %b
 time = %l:%M %p
-#label =  %date%   %time%
 label = %date% %time%
+;label = %date% %time%
 ;label =  %time%
+format-prefix = 
+format-prefix-padding = 1
+format-prefix-foreground = "#8be9fd"
 format-padding = 1
-label-font = 3
+label-font = 2
 
 [module/battery]
 type = internal/battery
 battery = BAT0
 adapter = ACAD
 poll-interval = 2
-format-discharging =  <label-discharging>%
-format-full =  <label-full>% 
-format-charging =   <label-charging>% 
+format-discharging-prefix = 
+;format-discharging-prefix-foreground = "#ffb86c"
+format-discharging = <label-discharging>%
+format-full-prefix = 
+format-full = <label-full>% 
+format-charging-prefix = 
+;format-charging-prefix-foreground = "#50fa7b"
+format-charging = <label-charging>% 
 label-charging = %percentage%
 label-discharging =  %percentage%
 label-full =  Fully Charged
@@ -52,16 +81,17 @@ time-format = %H:%M
 type = internal/network
 interface = wlp7s0
 interval = 5
-label-connected =  %essid% 
-label-disconnected = 
+label-connected = 直 %essid%
+label-disconnected = 睊
+content-padding = 2
 
 [module/volume]
 type = internal/alsa
-format-volume =   <ramp-volume>  <label-volume>
-format-muted =   Muted
-ramp-volume-0 = 
-ramp-volume-1 = 
-ramp-volume-2 = 
+format-volume = <ramp-volume> <label-volume>
+format-muted = 婢 Muted
+ramp-volume-0 = 
+ramp-volume-1 = 墳
+ramp-volume-2 = 
 
 
 [module/eth]
@@ -84,13 +114,13 @@ label-song = %artist% - %title%
 label-song-maxlen = 20
 label-song-ellipsis = true
 format-online-foreground = "#bd93f9"
-label-offline =   Offline
+label-offline = ﱘ Offline
 format-offline = <label-offline>
-icon-play = 
-icon-pause = 
-icon-stop = 
-icon-prev = 
-icon-next = 
+icon-play = 契
+icon-pause = 
+icon-stop = 栗
+icon-prev = 玲
+icon-next = 怜
 format-padding = 2
 
 [module/title]
@@ -104,12 +134,12 @@ label-foreground = "#50fa7b"
 
 [module/notifications]
 type = custom/text
-content = 
+content = 
 click-left = kill -s USR1 $(pidof deadd-notification-center)
 
 [module/quit]
 type = custom/text
-content = 
+content = 
 click-left = bspc quit
 content-foreground = "#ff5555"
 content-padding = 2
@@ -117,7 +147,7 @@ content-padding = 2
 
 [module/menu]
 type = custom/text
-content =   
+content = ⏻
 click-left = ~/.config/rofi/launchers-git/launcher.sh &
 content-padding = 2
 
@@ -129,18 +159,19 @@ interval = 5
 
 [module/separator]
 type = custom/text
-content =  
+content = 类 
 content-padding = 0
 content-foreground = "#ff5555"
 
 [module/spacing]
 type = custom/text
-content = " " 
+content = "|"  
 content-padding = 0
+content-foreground= "#282a36"
 
 [module/separatordotted]
 type = custom/text
-content =  
+content =  
 content-padding = 0
 content-foreground = "#ff5555"
 
@@ -149,19 +180,19 @@ type = custom/menu
 
 expand-left = true
 
-menu-0-0 = Logout
+menu-0-0 =  Logout
 menu-0-0-exec = i3-msg exit
-menu-0-1 = Lock
+menu-0-1 =  Lock
 menu-0-1-exec = mantablockscreen
-menu-0-2 =  Poweroff
+menu-0-2 =   Poweroff
 menu-0-2-exec = poweroff
-menu-0-3 =   Reboot
+menu-0-3 = 勒 Reboot
 menu-0-3-exec = reboot
 format-spacing = 1 
 format-padding = 2
 
-label-open = 
-label-close = 
+label-open = 
+label-close = 
 
 label-separator = |
 
@@ -178,16 +209,16 @@ pin-workspaces = false
 enable-click = true
 enable-scroll = true
 
-ws-icon-0 = 1;1: 
-ws-icon-1 = 2;2: 
-ws-icon-2 = 3;3: 
-ws-icon-3 = 4;4: 
-ws-icon-4 = 5;5: 
-ws-icon-5 = 6;6: 
-ws-icon-6 = 7;7: 
-ws-icon-7 = 8;8: 
-ws-icon-8 = 9;9: 
-ws-icon-default = 
+ws-icon-0 = 1;1: 爵
+ws-icon-1 = 2;2: 
+ws-icon-2 = 3;3: 
+ws-icon-3 = 4;4: 龎
+ws-icon-4 = 5;5: 奈
+ws-icon-5 = 6;6: 
+ws-icon-6 = 7;7: 
+ws-icon-7 = 8;8: 
+ws-icon-8 = 9;9: 﫸
+ws-icon-default = 
 
 
 format = <label-state> <label-mode>
