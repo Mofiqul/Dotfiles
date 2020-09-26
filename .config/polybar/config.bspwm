@@ -5,9 +5,9 @@ include-file = ~/.config/polybar/fullbar
 background = #bb282a36
 foreground = #f8f8f2
 
-modules-left = workspaces separator title separatordotted mpd 
+modules-left = workspaces separatordotted title separatordotted mpd 
 modules-center = 
-modules-right = filesystem memory cpu separatordotted volume wlan bluetooth battery updates separatordotted date 
+modules-right = filesystem memory cpu separatordotted system-usb-udev volume wlan bluetooth battery updates separatordotted date 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -44,6 +44,12 @@ format-unmounted = <label-unmounted>
 label-mounted = %free%
 label-unmounted = %mountpoint%: not mounted
 
+[module/system-usb-udev]
+type = custom/script
+exec = ~/.config/polybar/system-usb-udev.sh
+tail = true
+click-left = ~/.config/polybar/system-usb-udev.sh --mount &
+click-right = ~/.config/polybar/system-usb-udev.sh --unmount &
 
 [module/date]
 type = internal/date
@@ -53,9 +59,9 @@ time = %l:%M %p
 label = %date% %time%
 ;label = %date% %time%
 ;label =  %time%
-format-prefix = 
-format-prefix-padding = 1
-format-prefix-foreground = "#8be9fd"
+;format-prefix = 
+;format-prefix-padding = 1
+;format-prefix-foreground = "#8be9fd"
 format-padding = 1
 label-font = 2
 

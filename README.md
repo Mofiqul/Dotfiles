@@ -1,8 +1,7 @@
 # My personal dotfiles for bspwm, i3-gaps and kde plasma
 
 ## Dracula theme
-![screenshot](./Pictures/Screenshots/dracula.png)
-![screenshot](./Pictures/Screenshots/application_menu.png)
+![screenshot](./Pictures/Screenshots/updated.png)
 
 ## Material Dark theme
 ![Material Dark](./Pictures/Screenshots/material_1.png)
