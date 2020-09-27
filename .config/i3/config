@@ -40,10 +40,9 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
-bindsym $mod+d exec ~/.config/rofi/launchers-git/launcher.sh
+bindsym $mod+d exec rofi -show drun -theme dracula -no-show-icons
 bindsym Ctrl+space exec dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#bd93f9' -sf '#F8F8F2' -p 'dmenu:' 
  
-bindsym F8 exec rofi -show drun window ssh -sidebar-mode ture -theme breeze-dark.rasi
 # Lockscreen
 bindsym $mod+Shift+x exec mantablockscreen
 # There also is the (new) i3-dmenu-desktop which only displays applications
@@ -119,16 +118,16 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle &&  $ref
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1: "
-set $ws2 "2: "
-set $ws3 "3: "
-set $ws4 "4: "
-set $ws5 "5: "
-set $ws6 "6: "
-set $ws7 "7: "
-set $ws8 "8: "
-set $ws9 "9: "
-set $ws10 "10: "
+set $ws1 "1: 爵"
+set $ws2 "2: "
+set $ws3 "3: "
+set $ws4 "4: 龎"
+set $ws5 "5: 奈"
+set $ws6 "6: "
+set $ws7 "7: "
+set $ws8 "8: "
+set $ws9 "9: 﫸"
+set $ws10 "10: "
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
