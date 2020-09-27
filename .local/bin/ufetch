@@ -69,12 +69,12 @@ c0="${reset}${green}"              # first color
 cat <<EOF
 
 ${c0}           _   ${nc}${USER}${ic}@${nc}${host}${reset}
-${c0}       ---(_)  ${lc}OS:        ${ic}${os}${reset}
-${c0}   _/  ---  \\  ${lc}KERNEL:    ${ic}${kernel}${reset} 
-${c0}  (_) |   |    ${lc}UPTIME:    ${ic}${uptime}${reset}
-${c0}    \\  --- _/  ${lc}PACKAGES:  ${ic}${packages}${reset} 
-${c0}       ---(_)  ${lc}SHELL:     ${ic}${shell}${reset}
-${c0}               ${lc}${uitype}:        ${ic}${ui}${reset}
+${c0}       ---(_)  ${lc}漢OS:        ${ic}${os}${reset}
+${c0}   _/  ---  \\  ${lc} KERNEL:    ${ic}${kernel}${reset} 
+${c0}  (_) |   |    ${lc}神UPTIME:    ${ic}${uptime}${reset}
+${c0}    \\  --- _/  ${lc} PACKAGES:  ${ic}${packages}${reset} 
+${c0}       ---(_)  ${lc} SHELL:     ${ic}${shell}${reset}
+${c0}               ${lc} ${uitype}:        ${ic}${ui}${reset}
 EOF
 
 bars
