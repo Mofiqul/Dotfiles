@@ -17,8 +17,7 @@
 - Application launcher - [Rofi](https://github.com/davatorium/rofi)
 - Gui Font - Ubuntu
 - Terminal Font - [UbuntuMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/UbuntuMono.zip) and [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip)
-- Polybar icon font - [feather](https://dropways.github.io/feathericons/) and [FontAwesome](https://fontawesome.com/)
-
+- Polybar icon font - Ubuntu Nerd Font
 
 ## Applications
 - Editor: Neovim
@@ -27,4 +26,6 @@
 - Web browser: qutebrowser
 - System Monitor: htop
 - Image viewer: feh
+- PDF Reader: zathura
+- Terminal Browser: w3m
 - System details: modified ufetch 
