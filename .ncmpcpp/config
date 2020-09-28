@@ -68,17 +68,18 @@ statusbar_color = "white"
 
 enable_window_title = "yes"
 
-now_playing_prefix = "$b$1"
-now_playing_suffix = "$8$/b"
+now_playing_prefix = " $1"
+#now_playing_suffix = "$8$/b"
+
 
 #now_playing_prefix = "$u$2"
 #now_playing_suffix = "$2$/u$2"
 
-song_columns_list_format = "(6)[]{} (23)[red]{t|f} (26)[yellow]{a} (40)[green]{a} (4)[blue]{l}"
+song_columns_list_format = "(6)[]{} (23)[blue]{t|f} (26)[white]{a} (40)[green]{a} (4)[red]{l}"
 
 #song_list_format = " $7%l  $2%t $R$5%a "
 #song_list_format = "$1> $2%a$8 - $3%b - $8%t $R $3%l  "
-song_list_format = "$1> $2%t$8 - $8%a $R $3%l  "
+song_list_format = "$5$5%t$7 - $7%a $R $3%l  "
 
 song_status_format = "$b$7♫ $2%t $8- $3%a $8- $8%b "
 song_window_title_format = " {%a} - {%t}"
@@ -140,6 +141,6 @@ song_window_title_format = " {%a} - {%t}"
 #
 #execute_on_player_state_change = notify-send "$(mpc current)"
 
-startup_slave_screen=visualizer
+#startup_slave_screen=visualizer
 
-execute_on_song_change="notify-send "Now playing" "$(ncmpcpp -q --current-song="{%a - }{%t}|{%f}")""
+execute_on_song_change="notify-send -i ~/.local/share/icons/Flatery-Indigo/apps/64/gnome-music.svg "Now playing" "$(ncmpcpp -q --current-song="{%a - }{%t}|{%f}")""

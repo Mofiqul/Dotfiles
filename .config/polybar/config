@@ -7,10 +7,7 @@ foreground = #f8f8f2
 
 modules-left = i3 separatordotted title separatordotted mpd 
 modules-center = 
-modules-right = filesystem memory cpu separatordotted system-usb-udev volume wlan bluetooth battery updates separatordotted date 
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
+modules-right = filesystem memory cpu separatordotted system-usb-udev pulseaudio wlan bluetooth battery updates separatordotted date 
 
 [module/memory]
 type = internal/memory
@@ -99,6 +96,16 @@ ramp-volume-0 = 
 ramp-volume-1 = 墳
 ramp-volume-2 = 
 
+[module/pulseaudio]
+type = internal/pulseaudio
+sink = alsa_output.pci-0000_00_1b.0.analog-stereo
+use-ui-max = true
+interval = 5
+format-volume = <ramp-volume> <label-volume>
+format-muted = 婢 Muted
+ramp-volume-0 = 
+ramp-volume-1 = 墳
+ramp-volume-2 = 
 
 [module/eth]
 type = internal/network
@@ -110,7 +117,6 @@ label-connected = %downspeed:9%
 format-disconnected = <label-disconnected>
 label-disconnected = not connected
 format-padding = 1
-
 
 [module/mpd]
 type = internal/mpd
@@ -137,7 +143,6 @@ label = %title:0:20:...%
 format-font = 3
 label-foreground = "#50fa7b"
 
-
 [module/notifications]
 type = custom/text
 content = 
@@ -149,7 +154,6 @@ content = 
 click-left = bspc quit
 content-foreground = "#ff5555"
 content-padding = 2
-
 
 [module/menu]
 type = custom/text
@@ -183,9 +187,7 @@ content-foreground = "#ff5555"
 
 [module/powermenu]
 type = custom/menu
-
 expand-left = true
-
 menu-0-0 =  Logout
 menu-0-0-exec = i3-msg exit
 menu-0-1 =  Lock
@@ -196,10 +198,8 @@ menu-0-3 = 勒 Reboot
 menu-0-3-exec = reboot
 format-spacing = 1 
 format-padding = 2
-
 label-open = 
 label-close = 
-
 label-separator = |
 
 [module/bluetooth]
@@ -212,7 +212,6 @@ click-left = ~/.config/polybar/bluetooth.sh --toggle &
 type = internal/i3
 pin-workspace = false
 index-sort = true
-
 enable-click = true
 enable-scroll = true
 wrapping-scroll = false
@@ -222,13 +221,11 @@ label-focused = %name%
 label-focused-padding = 3
 label-focused-background = "#bd93f9"
 label-focused-foreground = "#212121"
-
 label-unfocused = %name%
 label-unfocused-padding = 3
 label-visible = %name%
 label-visible-padding = 2
 label-mode = %mode%
-
 label-mode-background = "#ff5555"
 label-mode-foreground = "#212121"
 label-mode-padding = 2
