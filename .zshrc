@@ -130,15 +130,29 @@ export PATH="$PATH:$HOME/.local/bin"
 
 export VISUAL=nvim
 export EDITOR="$VISUAL"
+export BAT_THEME="Dracula"
 
 alias tmux="tmux -u"
 alias vim="nvim"
-alias music="ncmpcpp -q"
+alias music="mpd && ncmpcpp -q"
 alias b="~/.brightnes.sh"
 alias wget="wget -q --show-progress --progress=bar:force:noscroll"
+alias ts-node="ts-node --project ~/.tsconfig.json"
+
+#export FZF_DEFAULT_OPTS='
+#  --color=fg:#f8f8f2,bg:#282a36,fg+:#282a36,bg+:#bd93f9,info:#ff79c6,hl:#50fa7b
+#  --color=hl+:#44475a,prompt:#6272a4,pointer:#282a36
+#  --color=marker:#ffb86c,border:#bd93f9,header:#50fa7b,preview-bg:#282a36
+#'
+
+export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
+--color=dark
+--color=fg:-1,bg:-1,hl:#5fff87,fg+:#bd93f9,bg+:-1,hl+:#ffaf5f,border:#bd93f9
+--color=info:#af87ff,prompt:#5fff87,pointer:#ff87d7,marker:#ff87d7,spinner:#ff87d7
+'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-export FZF_CTRL_T_OPTS="--ansi --preview-window 'right:60%' --preview 'bat --color=always --style=full --line-range :300 {}'"
+export FZF_CTRL_T_OPTS="--ansi --preview-window 'right:60%' --preview 'bat --theme=ansi-dark --color=always --style=full --line-range :300 {}'"
 export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -200'"
 
 source ~/.fonts/*.sh
@@ -150,9 +164,9 @@ MODE_INDICATOR_SEARCH='%F{13}%F{5}SEARCH%f'
 MODE_INDICATOR_VISUAL='%F{12}%F{4}VISUAL%f'
 MODE_INDICATOR_VLINE='%F{12}%F{4}V-LINE%f'
 
-MODE_CURSOR_VICMD="green block"
-MODE_CURSOR_VIINS="#20d08a blinking bar"
-MODE_CURSOR_SEARCH="#ff00ff steady underline"
+MODE_CURSOR_VICMD="#50fa7b block"
+MODE_CURSOR_VIINS="#bd93f9 blinking bar"
+MODE_CURSOR_SEARCH="##ff5555 steady underline"
 
 setopt PROMPT_SUBST
 # Note the single quotes
@@ -162,4 +176,21 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+# Provides an fzf menu to search through apt packages
+function searchPackage(){
+  apt list 2>/dev/null | cut -d'/' -f 1 |awk "{print \$1}" |  fzf -m --preview 'bat <(apt list 2>/dev/null | cut -d'/' -f 1 |awk "{print \$1}"| apt show {1} 2>/dev/null)' | xargs -ro sudo apt install; zle reset-prompt; zle redisplay
+}
+
+
+# Provides an fzf menu to find installed packages (apt only)
+function installedPackage(){
+  apt list --installed 2>/dev/null | cut -d'/' -f 1 |awk "{print \$1}" |  fzf -m --preview 'bat <(apt list 2>/dev/null | cut -d'/' -f 1 |awk "{print \$1}"| apt show {1} 2>/dev/null)' | xargs -ro sudo apt autoremove; zle reset-prompt; zle redisplay
+}
+
+zle -N searchPackage
+zle -N installedPackage
+bindkey '^xp' searchPackage
+bindkey '^xi' installedPackage
 

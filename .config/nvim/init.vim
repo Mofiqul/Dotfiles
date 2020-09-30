@@ -46,7 +46,7 @@ Plug 'mattn/emmet-vim'
 " Noevim COC
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "COC extensions
-let g:coc_global_extensions = ['coc-json', 'coc-phpls', 'coc-xml', 'coc-python', 'coc-html', 'coc-tsserver', 'coc-vetur', 'coc-emmet', 'coc-spell-checker', 'coc-prettier', 'coc-snippets', 'coc-tailwindcss', 'coc-svelte', 'coc-clangd', 'coc-highlight', 'coc-explorer', 'coc-actions']
+let g:coc_global_extensions = ['coc-json', 'coc-phpls', 'coc-xml', 'coc-python', 'coc-html', 'coc-tsserver', 'coc-vetur', 'coc-emmet', 'coc-spell-checker', 'coc-prettier', 'coc-snippets', 'coc-tailwindcss', 'coc-svelte', 'coc-clangd', 'coc-highlight', 'coc-explorer', 'coc-actions', 'coc-sql', 'coc-vimlsp', 'coc-sh']
 
 Plug 'sheerun/vim-polyglot'
 call plug#end()
@@ -102,6 +102,8 @@ let g:gitgutter_sign_removed = '▏'
 let g:gitgutter_sign_removed_first_line = '▔'
 let g:gitgutter_sign_modified_removed = '▋'
 
+let g:fzf_layout = {'down': '~40%'}
+
 nmap <C-n> :CocCommand explorer<CR>
 nmap <space>f :CocCommand explorer --preset floating<CR>
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
@@ -121,7 +123,7 @@ set nobackup
 set nowritebackup
 
 " Give more space for displaying messages.
-set cmdheight=2
+set cmdheight=1
 
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 " delays and poor user experience.
@@ -309,7 +311,7 @@ endif
 
 " Files + devicons
 function! Fzf_dev(qargs)
-  let l:fzf_files_options = '--preview "bat  --style=numbers,changes --color always {2..-1} | head -'.&lines.'" --expect=ctrl-t,ctrl-v,ctrl-x --multi --bind=ctrl-a:select-all,ctrl-d:deselect-all'
+  let l:fzf_files_options = '--preview "bat --theme=Dracula  --style=numbers,changes --color always {2..-1} | head -'.&lines.'" --expect=ctrl-t,ctrl-v,ctrl-x --multi --bind=ctrl-a:select-all,ctrl-d:deselect-all'
 
   function! s:files(dir)
     let l:cmd = $FZF_DEFAULT_COMMAND
