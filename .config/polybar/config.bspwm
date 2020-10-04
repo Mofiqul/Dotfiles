@@ -7,14 +7,15 @@ foreground = #f8f8f2
 
 modules-left = workspaces separatordotted mpd separatordotted title 
 modules-center = 
-modules-right = filesystem memory cpu separatordotted system-usb-udev pulseaudio wlan bluetooth battery updates separatordotted date 
+modules-right = memory cpu temperature separatordotted system-usb-udev pulseaudio wlan bluetooth battery updates separatordotted date 
 
 [module/memory]
 type = internal/memory
 internal = 1
 format-prefix = 
-format-prefix-foreground = "#50fa7b"
+format-prefix-foreground = "#8be9fd"
 format = <label>
+label-foreground = "#8be9fd"
 label = %mb_used%
 format-prefix-padding = 1
 
@@ -22,10 +23,28 @@ format-prefix-padding = 1
 type = internal/cpu
 internal = 0.5
 format-prefix = ﬙  
-format-prefix-foreground = "#ff5555"
+format-prefix-foreground = "#ff79c6"
 format = <label>%
 label =  %percentage%
+format-foreground = "#ff79c6"
 format-prefix-padding = 1
+
+[module/temperature]
+type = internal/temperature
+hwmon-path = /sys/devices/virtual/thermal/thermal_zone0/hwmon1/temp1_input 
+base-temperature = 20
+format = <ramp> <label>
+format-warn = <ramp> <label-warn>
+label = %temperature-c%
+label-foreground = "#50fa7b"
+label-warn = %temperature-c%
+label-warn-foreground = "#ffb86c"
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-0-foreground = "#50fa7b"
+ramp-1-foreground = "#50fa7b"
+ramp-2-foreground = "#ffb86c"
 
 [module/filesystem]
 type = internal/fs
