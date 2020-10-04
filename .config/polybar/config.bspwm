@@ -5,7 +5,7 @@ include-file = ~/.config/polybar/fullbar
 background = #bb282a36
 foreground = #f8f8f2
 
-modules-left = workspaces separatordotted title separatordotted mpd 
+modules-left = workspaces separatordotted mpd separatordotted title 
 modules-center = 
 modules-right = filesystem memory cpu separatordotted system-usb-udev pulseaudio wlan bluetooth battery updates separatordotted date 
 
