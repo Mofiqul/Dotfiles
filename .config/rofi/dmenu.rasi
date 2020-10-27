@@ -1,0 +1,49 @@
+configuration{
+	display-drun: " Apps  ";
+	display-run: " RUN גּ ";
+	drun-display-format: "{name}";
+}
+* {
+    background-color: #282a36;
+    border-color: #f8f8f2;
+    text-color: #f8f8f2;
+    font: "FiraCode Nerd Font 12";
+}
+
+#window {
+	anchor:center;
+	x-offset: -50%;
+	y-offset: -95%;
+    width: 90%;
+    children: [ horibox ];
+	border: 1px;
+	border-color: #44475a;
+}
+
+#horibox {
+    orientation: horizontal;
+    children: [ prompt, entry, listview ];
+}
+#prompt{
+	background-color: #bd93f9;
+	color: #282a36;
+}
+
+#listview {
+    layout: horizontal;
+    spacing: 5px;
+	width: 100%;
+}
+
+#entry {
+    expand: false;
+    width: 10em;
+}
+
+#element {
+    padding: 0px 2px;
+}
+#element selected {
+    background-color: #bd93f9;
+	color: #282a36;
+}
