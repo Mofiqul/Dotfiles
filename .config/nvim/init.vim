@@ -31,7 +31,6 @@ Plug 'leafOfTree/vim-vue-plugin'
 Plug 'mattn/emmet-vim'
 
 " Productivity 
-Plug 'luochen1990/rainbow'
 Plug 'AndrewRadev/tagalong.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
@@ -56,8 +55,9 @@ filetype indent on
 
 " Auto tag rename in additional files
 let g:tagalong_additional_filetypes = ['vue']
-
-" Color themes
+let g:vim_vue_plugin_use_typescript	= 1
+let g:vim_vue_plugin_use_scss = 1
+"Color themes
 if (has('nvim'))
 	let $NVIM_TUI_ENABLE_TRUE_COLOR = 1
 endif
@@ -86,7 +86,6 @@ let g:airline_powerline_fonts = 1
 
 
 " Productivity configueations
-let g:rainbow_active = 1
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {}
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vue'] = '﵂'
 let g:mkdp_browser = 'qutebrowser'
@@ -392,3 +391,9 @@ function! s:cocActionsOpenFromSelected(type) abort
 endfunction
 xmap <silent> <leader>a :<C-u>execute 'CocCommand actions.open ' . visualmode()<CR>
 nmap <silent> <leader>a :<C-u>set operatorfunc=<SID>cocActionsOpenFromSelected<CR>g@
+
+autocmd TermOpen * setlocal nonumber norelativenumber
+
+let g:WebDevIconsUnicodeGlyphDoubleWidth = 0
+
+
