@@ -21,23 +21,20 @@ xsetroot -cursor_name left_ptr &
 feh --bg-fill /home/devops/Pictures/dracula-purplish.png 
 bspc monitor -d 1 2 3 4 5 6 7 8 9
 
+gap=6
+PANEL_HEIGHT=22
+bspc config window_gap $gap;
+#bspc config top_padding $gap
+#bspc config left_padding $gap
+#bspc config right_padding $gap
+#bspc config bottom_padding $(($PANEL_HEIGHT+gap))
 bspc config border_width         2
-bspc config window_gap          6
 bspc config split_ratio          0.52
 bspc config gapless_monocle      false
-
-
 bspc config focus_follows_pointer false
 bspc config auto_alternate true
 bspc config auto_cancel true
 
-# Material Colors
-#bspc config normal_border_color "#313131"
-#bspc config active_border_color "#82aaff"
-#bspc config focused_border_color "#82aaff"
-#bspc config presel_border_color "#ffcb6b"
-#bspc config urgent_border_color "#f07178"
-#bspc config focused_locked_border_color "#ffcb6b"
 
 bspc config normal_border_color "#44475a"
 bspc config focused_border_color "#bd93f9"
@@ -46,14 +43,11 @@ bspc config presel_feedback_color "#6272a4"
 
 bspc config normal_frame_opacity 0.0
 
-
-#bspc rule -a Gimp desktop='^8' state=floating follow=on
-#bspc rule -a Chromium desktop='^2'
-#bspc rule -a mplayer2 state=floating
-#bspc rule -a Kupfer.py focus=on
 bspc rule -a Zathura state=tiled
 bspc rule -a java-lang-Thread state=floating
 bspc rule -a Welcome to Android Studio state=floating
 bspc rule -a soffice.bin state=floating
 bspc rule -a mpv state=pseudo_tiled
 
+# Specific widown position
+#bspc rule -a krunner state=floating center=true rectangle=1376+0+0

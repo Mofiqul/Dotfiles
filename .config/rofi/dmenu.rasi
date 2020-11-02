@@ -31,7 +31,7 @@ configuration{
 
 #listview {
     layout: horizontal;
-    spacing: 5px;
+    spacing: 15px;
 	width: 100%;
 }
 

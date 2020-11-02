@@ -1,30 +1,12 @@
-#######################################################################
-##   This is configuration file. Copy it to $HOME/.ncmpcpp/config    ##
-##  or $XDG_CONFIG_HOME/ncmpcpp/config and set up your preferences   ##
-#######################################################################
-
-### directories ###
-
 ncmpcpp_directory = ~/.ncmpcpp
-
-
-### Directory for storing downloaded lyrics ###
-
 lyrics_directory = ~/.lyrics
-
-
-################################
-
 % egrep -v '^#' .ncmpcpp/config
-
 visualizer_in_stereo = "no"
 visualizer_fifo_path = "~/.config/mpd/mpd.fifo"
 visualizer_output_name = "my_fifo"
 visualizer_sync_interval = "10"
 visualizer_type = "ellipse"
-#visualizer_look = "▮"
 visualizer_look = "▮▋"
-#visualizer_look = "●▮"
 visualizer_color = "blue, cyan, green, yellow, magenta, red, black"
 
 message_delay_time = "2"
@@ -32,57 +14,42 @@ message_delay_time = "2"
 playlist_shorten_total_times = "yes"
 playlist_display_mode = "classic"
 playlist_editor_display_mode = "columns"
-
 browser_display_mode = "columns"
-
 search_engine_display_mode = "columns"
-
 autocenter_mode = "yes"
-
-mouse_support = "yes"
-
 centered_cursor = "yes"
-
+mouse_support = "yes"
 user_interface = "classic"
-
 follow_now_playing_lyrics = "yes"
-
 locked_screen_width_part = "60"
-
 display_bitrate = "no"
-
 external_editor = "vim"
-
-progressbar_elapsed_color = "white"
-progressbar_color = "black"
-
-#progressbar_look = "▃▃▃"
-progressbar_look = "──"
-#progressbar_look = "==─"
-
 header_visibility = "no"
 statusbar_visibility = "yes"
 titles_visibility = "no"
-
-statusbar_color = "white"
-
+statusbar_color = "blue"
 enable_window_title = "yes"
 
-now_playing_prefix = " $1"
-#now_playing_suffix = "$8$/b"
+header_window_color = "blue"
+
+main_window_color = "blue"
+
+current_item_prefix = "$5$r"
 
 
-#now_playing_prefix = "$u$2"
-#now_playing_suffix = "$2$/u$2"
+now_playing_prefix = "$5$b $(9)"
+selected_item_prefix = "$(5)"
 
-song_columns_list_format = "(6)[]{} (23)[blue]{t|f} (26)[white]{a} (40)[green]{a} (4)[red]{l}"
+song_status_format = "{%t}"
+song_list_format = "$5{%a} - $3{%t}{ar}$R{%l}"
+song_columns_list_format = "(50)[blue]{ar}(50)[green] {t}"
+song_window_title_format = "{%a - }{%t}|{%f}"
 
-#song_list_format = " $7%l  $2%t $R$5%a "
-#song_list_format = "$1> $2%a$8 - $3%b - $8%t $R $3%l  "
-song_list_format = "$5$5%t$7 - $7%a $R $3%l  "
-
-song_status_format = "$b$7♫ $2%t $8- $3%a $8- $8%b "
-song_window_title_format = " {%a} - {%t}"
+progressbar_elapsed_color = "blue"
+progressbar_color = "black"
+progressbar_look = "━━━"
+alternative_ui_separator_color = "black"
+discard_colors_if_item_is_selected = "yes"
 
 
 ###################

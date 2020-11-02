@@ -215,5 +215,5 @@ exec --no-startup-id ~/Github/i3-battery-popup/i3-battery-popup -m "Low battery"
 # Auto usb mounting
 exec --no-startup-id udiskie &
 # Enable tap to touch (Only laptop)
-exec xinput-tab
+exec --no-startup-id  ~/.local/bin/xinput-tab
 exec xsetroot -cursor_name left_ptr &

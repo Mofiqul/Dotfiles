@@ -83,6 +83,8 @@ plugins=(
     thefuck
     k
 	zsh-vim-mode
+	dotbare
+	fzf-tab
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -138,7 +140,8 @@ alias music="mpd && ncmpcpp -q"
 alias b="~/.brightnes.sh"
 alias wget="wget -q --show-progress --progress=bar:force:noscroll"
 alias ts-node="ts-node --project ~/.tsconfig.json"
-
+alias open="xdg-open"
+alias ls='lsd'
 #export FZF_DEFAULT_OPTS='
 #  --color=fg:#f8f8f2,bg:#282a36,fg+:#282a36,bg+:#bd93f9,info:#ff79c6,hl:#50fa7b
 #  --color=hl+:#44475a,prompt:#6272a4,pointer:#282a36
@@ -172,12 +175,14 @@ setopt PROMPT_SUBST
 # Note the single quotes
 RPS1='${MODE_INDICATOR_PROMPT}' 
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
-#alias ls="lsd"
+
+export DOTBARE_DIR="$HOME/.dotfiles.git"
+export DOTBARE_TREE="$HOME"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-
+[[ ! -f $HOME/.oh-my-zsh/custom/plugins/forgit/forgit.plugin.zsh ]] || source $HOME/.oh-my-zsh/custom/plugins/forgit/forgit.plugin.zsh
 # Provides an fzf menu to search through apt packages
 function searchPackage(){
   apt list 2>/dev/null | cut -d'/' -f 1 |awk "{print \$1}" |  fzf -m --preview 'bat <(apt list 2>/dev/null | cut -d'/' -f 1 |awk "{print \$1}"| apt show {1} 2>/dev/null)' | xargs -ro sudo apt install; zle reset-prompt; zle redisplay
@@ -194,3 +199,6 @@ zle -N installedPackage
 bindkey '^xp' searchPackage
 bindkey '^xi' installedPackage
 
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
