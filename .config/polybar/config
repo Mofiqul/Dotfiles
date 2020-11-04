@@ -226,6 +226,7 @@ type = custom/script
 exec = ~/.config/polybar/bluetooth.sh
 tail = true
 click-left = ~/.config/polybar/bluetooth.sh --toggle &
+
 [module/i3]
 type = internal/i3
 pin-workspace = false
@@ -238,14 +239,14 @@ format = <label-state> <label-mode>
 label-focused = %name%
 label-focused-padding = 3
 label-focused-background = "#bd93f9"
-label-focused-foreground = "#212121"
+label-focused-foreground = "#282a36"
 label-unfocused = %name%
 label-unfocused-padding = 3
 label-visible = %name%
 label-visible-padding = 2
 label-mode = %mode%
 label-mode-background = "#ff5555"
-label-mode-foreground = "#212121"
+label-mode-foreground = "#282a36"
 label-mode-padding = 2
 label-urgent = %name%
 label-urgent-padding = 3
