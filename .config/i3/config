@@ -203,6 +203,8 @@ exec /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
 exec --no-startup-id ~/.config/polybar/launch.sh
 # Compositor
 exec --no-startup-id picom & 
+#Conky
+exec --no-startup-id conky & 
 # Wallpaper 
 exec feh --bg-fill /home/devops/Pictures/dracula-i3wm.png
 # Birghtness

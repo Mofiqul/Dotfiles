@@ -11,6 +11,7 @@ configuration {
     background-color: #282a36;
     active-background: #bd93f9;
     urgent-background: #ff5555;
+	window-bordercolor: #44475a;
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;
     selected-active-background: @active-background;
@@ -20,8 +21,8 @@ configuration {
 
 #window {
     background-color: @background;
-    border:          0 ;
-    border-color: @bordercolor;
+    border:          1 ;
+    border-color: @window-bordercolor;
     padding:          50;
 	location:         center;
     anchor:           center;

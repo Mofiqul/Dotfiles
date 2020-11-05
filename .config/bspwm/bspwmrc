@@ -13,6 +13,7 @@ xrandr --output LVDS-0 --brightness .6
 ~/Github/i3-battery-popup/i3-battery-popup -m "Low battery" -s ~/Github/i3-battery-popup/i3-battery-popup.wav -n -i ~/.local/share/icons/Newaita-dark/status/48/battery-low.svg &
 
 udiskie &
+conky &
 
 ~/.config/bspwm/xinput.sh
 xsetroot -cursor_name left_ptr &
