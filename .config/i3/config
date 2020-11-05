@@ -206,7 +206,7 @@ exec --no-startup-id picom &
 #Conky
 exec --no-startup-id conky & 
 # Wallpaper 
-exec feh --bg-fill /home/devops/Pictures/dracula-i3wm.png
+exec feh --bg-fill /home/devops/Pictures/dracula-bg.png
 # Birghtness
 exec xrandr --output LVDS-0 --brightness .6
 
