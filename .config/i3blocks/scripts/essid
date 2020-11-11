@@ -1,0 +1,12 @@
+#!/bin/bash
+
+ESSID=$(/sbin/iwconfig $INTERFACE | perl -n -e'/ESSID:"(.*?)"/ && print $1')
+
+if [[ ${#ESSID} -gt 0 ]]; then
+	echo "WIFI:" $ESSID # full text
+else 
+	echo "WIFI: NOT CONNECTED"
+	echo "WIFI: NOT CONNECTED"
+	echo "#ff5555"
+fi
+
