@@ -79,17 +79,13 @@ bindsym $mod+minus scratchpad show
 bindsym $mod+Shift+d focus child
 
 # Pulse Audio controls
-#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +1%
- #increase sound volume
-#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -1% 
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +1%
+#increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -1% 
 #decrease sound volume
-#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle 
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle 
 # mute sound
 
-# change volume or toggle mute
-bindsym XF86AudioRaiseVolume exec amixer -q -D pulse sset Master 3%+ && pkill -RTMIN+10 i3blocks 
-bindsym XF86AudioLowerVolume exec amixer -q -D pulse sset Master 3%- && pkill -RTMIN+10 i3blocks
-bindsym XF86AudioMute exec amixer -q -D pulse sset Master toggle && pkill -RTMIN+10 i3blocks
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -175,6 +171,32 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# redshift modes
+mode "$mode_redshift" {
+    bindsym 1 exec --no-startup-id "$kill_redshift redshift -l -26.1606468:91.7636191", mode "default"
+    bindsym 2 exec --no-startup-id "$kill_redshift", mode "default"
+ 
+    # back to normal: Enter or Escape or $mod+i
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+i mode "$mode_redshift"
+set $mode_redshift Redshift: [1]Start - [2]Stop
+set $kill_redshift killall redshift;
+
+# Powermenu mode
+mode "$power-menu" {
+	bindsym 1 exec i3-msg exit
+	bindsym 2 exec reboot
+	bindsym 3 exec poweroff
+        
+	# back to normal: Enter or Escape or $mod+Shift+e
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+} 
+
+set $power-menu Power: [1]Logout - [2]Reboot - [3]Shutdown
+bindsym $mod+Shift+e mode "$power-menu"
 
 workspace_auto_back_and_forth yes
 
@@ -185,29 +207,31 @@ focus_follows_mouse no
 
 
 # print all window titles bold
-for_window [class=".*"] title_format "   %title "
-for_window [class="(?i)alacritty"] title_format "   %title "
-for_window [class="(?i)kitty"] title_format "   %title "
-for_window [class="(?i)firefox"] title_format "   %title"
-for_window [class="(?i)Brave-browser"] title_format " 爵  %title"
-for_window [class="(?i)dolphin"] title_format "   %title"
-for_window [title="(?i)ranger"] title_format "   %title"
+#for_window [class=".*"] title_format "   %title "
+#for_window [class="(?i)alacritty"] title_format "   %title "
+#for_window [class="(?i)kitty"] title_format "   %title "
+#for_window [class="(?i)firefox"] title_format "   %title"
+#for_window [class="(?i)Brave-browser"] title_format " 爵  %title"
+#for_window [class="(?i)dolphin"] title_format "   %title"
+#for_window [title="(?i)ranger"] title_format "   %title"
+
+for_window [class="(?i)plasma.emojier"] floating enable
 
 # Bar settings
-bar {
-  status_command i3blocks
-  colors {
-		background #1e1f28
-		statusline #f8f8f2
-		separator  #44475a
-		#<colorclass>      <border> <background> <text>
-		focused_workspace  #44475a #bd93f9 #282a36
-		active_workspace   #44475a #282a36 #f8f8f2
-		inactive_workspace #44475a #282a36 #f8f8f2
-		urgent_workspace   #44475a #282a36 #ff5555
-		binding_mode       #44475a #282a36 #ff5555
-	}
-}
+#bar {
+  #status_command i3blocks
+  #colors {
+		#background #1e1f28
+		#statusline #f8f8f2
+		#separator  #44475a
+		##<colorclass>      <border> <background> <text>
+		#focused_workspace  #44475a #bd93f9 #282a36
+		#active_workspace   #44475a #282a36 #f8f8f2
+		#inactive_workspace #44475a #282a36 #f8f8f2
+		#urgent_workspace   #44475a #282a36 #ff5555
+		#binding_mode       #44475a #282a36 #ff5555
+	#}
+#}
 
 
 # Color settings
@@ -223,7 +247,7 @@ client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A3
 exec /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
 
 # Status bar
-#exec --no-startup-id ~/.config/polybar/launch.sh
+exec --no-startup-id polybar -c ~/.config/polybar/config.i3wm fullbar
 # Compositor
 exec --no-startup-id picom & 
 #Conky

@@ -1,7 +1,9 @@
 
 # Global properties
+command=~/.config/i3blocks/scripts/$BLOCK_NAME
 separator=true
 separator_block_width=8
+markup=none
 
 #[mediaplayer]
 #command=~/.config/i3blocks/scripts/mediaplayer
@@ -11,41 +13,35 @@ separator_block_width=8
 #signal=10
 
 [disk]
-command=~/.config/i3blocks/scripts/disk
 LABEL=HOME: 
 #DIR=$HOME
 #ALERT_LOW=10
 interval=300
 
-#[temperature]
-#command=~/.config/i3blocks/scripts/temperature
-#label=TEMP: 
-#interval=10
+[temperature]
+label=TEMP: 
+interval=15
 #T_WARN=70
 #T_CRIT=90
 #SENSOR_CHIP=""
 separator=false
 
 [memory]
-command=~/.config/i3blocks/scripts/memory
 label=MEM:
 interval=1
 separator=false
 
 [cpu_usage]
-command=~/.config/i3blocks/scripts/cpu_usage
 label=CPU:
 interval=1
 
 
 [apt-update]
-command=~/.config/i3blocks/scripts/apt-update
 label=PKG:
-interval=3600
+interval=120
 separator=false
 
 [volume]
-command=~/.config/i3blocks/scripts/volume
 #LABEL=♪ 
 LABEL=VOL: 
 interval=once
@@ -57,27 +53,23 @@ separator=false
 #NATURAL_MAPPING=0
 
 [bluetooth]
-command=~/.config/i3blocks/scripts/bluetooth
 interval=5
 separator=false
 
 [essid]
-command=~/.config/i3blocks/scripts/essid
 interval=5
 #INTERFACE=wlan0
 separator=false
 
-#[bandwidth]
-#command=~/.config/i3blocks/scripts/bandwidth
-#interval=5
-#INTERFACE=eth0
-#INLABEL=IN 
-#OUTLABEL=OUT 
-#TREAT_UNKNOWN_AS_UP=0
-#separator=false
+[bandwidth]
+interval=1
+INTERFACE=wlp7s0
+INLABEL=IN 
+OUTLABEL=OUT 
+TREAT_UNKNOWN_AS_UP=0
+separator=false
 
 [battery]
-command=~/.config/i3blocks/scripts/battery
 interval=30
 LABEL=BAT:
 ##LABEL=⚡

@@ -4,6 +4,8 @@ ESSID=$(/sbin/iwconfig $INTERFACE | perl -n -e'/ESSID:"(.*?)"/ && print $1')
 
 if [[ ${#ESSID} -gt 0 ]]; then
 	echo "WIFI:" $ESSID # full text
+	echo "WIFI:" $ESSID # full text
+	echo "#50fa7b"
 else 
 	echo "WIFI: NOT CONNECTED"
 	echo "WIFI: NOT CONNECTED"

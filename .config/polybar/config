@@ -126,6 +126,17 @@ ramp-volume-0 = 
 ramp-volume-1 = 墳
 ramp-volume-2 = 
 
+[module/pulseaudio-control]
+type = custom/script
+tail = true
+exec = pulseaudio-control --icons-volume " , " --icon-muted " " --sink-nicknames-from "device.description" --sink-nickname "alsa_output.pci-0000_00_1b.0.analog-stereo:蓼 Speakers" --sink-nickname "alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo: Headphones" listen
+click-right = exec pavucontrol &
+click-left = pulseaudio-control togmute
+click-middle = pulseaudio-control --sink-blacklist "alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2" next-sink
+scroll-up = pulseaudio-control --volume-max 130 up
+scroll-down = pulseaudio-control --volume-max 130 down
+
+
 [module/eth]
 type = internal/network
 interface = enp2s0
@@ -239,6 +250,8 @@ format = <label-state> <label-mode>
 label-focused = %name%
 label-focused-padding = 3
 label-focused-background = "#bd93f9"
+
+label-focused-border = "ff5555"
 label-focused-foreground = "#282a36"
 label-unfocused = %name%
 label-unfocused-padding = 3

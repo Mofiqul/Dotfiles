@@ -5,6 +5,10 @@ fi
 
 if [ "$updates" -gt 1 ]; then
 	echo " $(($updates - 1))"
+	echo " $(($updates - 1))"
+	echo "#ffb86c"
 else
 	echo " UP TO DATE"
+	echo " UP TO DATE"
+	echo "#50fa7b"
 fi

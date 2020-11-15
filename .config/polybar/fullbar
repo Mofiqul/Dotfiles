@@ -1,5 +1,5 @@
 width                    = 100%
-height                   = 22
+height                   = 18
 radius                   = 0
 line-size                = 0
 bottom                   = true
@@ -8,7 +8,7 @@ border-bottom-size = 0
 border-color = "#44475a"
 
 font-0 = "Ubuntu:size=10;2"
-font-1 = "Ubuntu:style=Bold:size=10;2"
+font-1 = "Ubuntu:style=Bold:size=11;2"
 font-2 = "Ubuntu Nerd Font:size=11;2"
 
 override-redirect = false

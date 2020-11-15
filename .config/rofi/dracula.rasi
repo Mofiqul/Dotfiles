@@ -5,7 +5,6 @@ configuration {
 }
 
 * {
-	display-drun: "Search";
     font: "Ubuntu 12";
     foreground: #f8f8f2;
     background-color: #282a36;

@@ -48,9 +48,7 @@ if ! [ -e "/sys/class/net/${INTERFACE}/operstate" ] || \
     (! [ "$TREAT_UNKNOWN_AS_UP" = "1" ] && 
     ! [ "`cat /sys/class/net/${INTERFACE}/operstate`" = "up" ])
 then
-    echo "$INTERFACE down"
-    echo "$INTERFACE down"
-    echo "#FF0000"
+    echo ""
     exit 0
 fi
 
