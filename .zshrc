@@ -16,7 +16,7 @@ export ZSH="/home/devops/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="powerlevel10k/powerlevel10k"
-ZSH_THEME="spaceship"
+#ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -142,6 +142,7 @@ alias wget="wget -q --show-progress --progress=bar:force:noscroll"
 alias ts-node="ts-node --project ~/.tsconfig.json"
 alias open="xdg-open"
 alias ls='lsd'
+alias vis="vim -u ~/.novimrc"
 #export FZF_DEFAULT_OPTS='
 #  --color=fg:#f8f8f2,bg:#282a36,fg+:#282a36,bg+:#bd93f9,info:#ff79c6,hl:#50fa7b
 #  --color=hl+:#44475a,prompt:#6272a4,pointer:#282a36
@@ -202,3 +203,12 @@ bindkey '^xi' installedPackage
 
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+PATH="/home/devops/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/devops/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/devops/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/devops/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/devops/perl5"; export PERL_MM_OPT;
+
+
+eval "$(starship init zsh)"

@@ -8,8 +8,8 @@ border-bottom-size = 0
 border-color = "#44475a"
 
 font-0 = "Ubuntu:size=10;2"
-font-1 = "Ubuntu:style=Bold:size=11;2"
-font-2 = "Ubuntu Nerd Font:size=11;2"
+font-1 = "Ubuntu:style=Bold:size=10;2"
+font-2 = "Ubuntu Nerd Font:size=10;2"
 
 override-redirect = false
 ;offset-x = 1%
@@ -20,8 +20,8 @@ throttle-output-for      = 10
 throttle-input-for       = 30
 padding-left             = 0
 padding-right            = 0
-module-margin-left       = 1
-module-margin-right      = 1
+module-margin-left       = 0
+module-margin-right      = 0
 
 tray-position = right
 tray-padding = 2

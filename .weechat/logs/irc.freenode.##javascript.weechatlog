@@ -1,0 +1,70 @@
+2020-03-16 23:31:17	-->	mofiqul (~devops@2409:4065:403:6d2a:a8ae:ec01:96d4:7d02) has joined ##javascript
+2020-03-16 23:31:17	--	Topic for ##javascript is "JavaScript is *not* Java. | Just ask your question. | Say "!mdn abc" for docs on "abc". | Don't paste code in the channel. | Can't talk? Get registered on freenode ( https://git.io/vaTS2 )"
+2020-03-16 23:31:17	--	Topic set by niggler (~niggler@unaffiliated/niggler) on Tue, 15 Jan 2019 11:46:23
+2020-03-16 23:31:17	--	Channel ##javascript: 1034 nicks (1 op, 0 voices, 1033 normals)
+2020-03-16 23:31:18	--	Channel created on Sun, 26 Nov 2006 12:12:45
+2020-03-16 23:31:43	zsoc	jesus
+2020-03-16 23:31:44	zsoc	yeah that worked
+2020-03-16 23:31:47	-->	falafel (~falafel@2600:1012:b04c:bb20:c952:45f4:1963:45f3) has joined ##javascript
+2020-03-16 23:32:23	niggler	what worked?
+2020-03-16 23:32:41	--	irc: disconnected from server
+2020-12-03 23:23:34	──>	devops (~devops@2409:4065:e87:405c:a85f:bac:6610:cc76) has joined ##javascript
+2020-12-03 23:23:34	 ──	Topic for ##javascript is "JavaScript is *not* Java. | Just ask your question. | Say "!mdn abc" for docs on "abc". | Don't paste code in the channel. | Can't talk? Get registered on freenode ( https://git.io/vaTS2 )"
+2020-12-03 23:23:34	 ──	Topic set by niggler on Sun, 08 Nov 2020 06:59:39
+2020-12-03 23:23:34	 ──	Channel ##javascript: 995 nicks (2 ops, 0 voices, 993 normals)
+2020-12-03 23:23:36	<──	ShadowKyogre (7358dd25f8@unaffiliated/shadowkyogre) has left ##javascript
+2020-12-03 23:23:37	 ──	Channel created on Sun, 26 Nov 2006 12:12:45
+2020-12-03 23:24:15	──>	hexfive (~hexfive@50-47-142-195.evrt.wa.frontiernet.net) has joined ##javascript
+2020-12-03 23:24:29	devops	?
+2020-12-03 23:24:29	 ──	##javascript: Cannot send to nick/channel
+2020-12-03 23:24:35	<──	paulcarroty (~paulcarro@93.75.237.215) has quit (Quit: Leaving)
+2020-12-03 23:26:02	 ──	irc: disconnected from server
+2020-12-03 23:27:46	-->	devops (~devops@2409:4065:e87:405c:a85f:bac:6610:cc76) has joined ##javascript
+2020-12-03 23:27:46	 ──	Topic for ##javascript is "JavaScript is *not* Java. | Just ask your question. | Say "!mdn abc" for docs on "abc". | Don't paste code in the channel. | Can't talk? Get registered on freenode ( https://git.io/vaTS2 )"
+2020-12-03 23:27:46	 ──	Topic set by niggler on Sun, 08 Nov 2020 06:59:39
+2020-12-03 23:27:46	 ──	Channel ##javascript: 994 nicks (2 ops, 0 voices, 992 normals)
+2020-12-03 23:27:48	 ──	Channel created on Sun, 26 Nov 2006 12:12:45
+2020-12-03 23:28:35	<--	pawn (~pawn@cpe-76-176-137-0.san.res.rr.com) has quit (Read error: Connection reset by peer)
+2020-12-03 23:29:10	-->	pawn (~pawn@cpe-76-176-137-0.san.res.rr.com) has joined ##javascript
+2020-12-03 23:29:12	-->	jonez (~jonez@unaffiliated/jonez) has joined ##javascript
+2020-12-03 23:29:27	-->	Donitzo (~Donitzo@85-156-203-108.elisa-laajakaista.fi) has joined ##javascript
+2020-12-03 23:30:41	 ──	irc: disconnected from server
+2020-12-03 23:31:05	-->	devops (~devops@2409:4065:e87:405c:a85f:bac:6610:cc76) has joined ##javascript
+2020-12-03 23:31:05	 ──	Topic for ##javascript is "JavaScript is *not* Java. | Just ask your question. | Say "!mdn abc" for docs on "abc". | Don't paste code in the channel. | Can't talk? Get registered on freenode ( https://git.io/vaTS2 )"
+2020-12-03 23:31:05	 ──	Topic set by niggler on Sun, 08 Nov 2020 06:59:39
+2020-12-03 23:31:06	 ──	Channel ##javascript: 996 nicks (2 ops, 0 voices, 994 normals)
+2020-12-03 23:31:08	 ──	Channel created on Sun, 26 Nov 2006 12:12:45
+2020-12-03 23:31:39	 ──	irc: disconnected from server
+2020-12-03 23:32:00	-->	devops (~devops@2409:4065:e87:405c:a85f:bac:6610:cc76) has joined ##javascript
+2020-12-03 23:32:00	 ──	Topic for ##javascript is "JavaScript is *not* Java. | Just ask your question. | Say "!mdn abc" for docs on "abc". | Don't paste code in the channel. | Can't talk? Get registered on freenode ( https://git.io/vaTS2 )"
+2020-12-03 23:32:00	 ──	Topic set by niggler on Sun, 08 Nov 2020 06:59:39
+2020-12-03 23:32:00	 ──	Channel ##javascript: 996 nicks (2 ops, 0 voices, 994 normals)
+2020-12-03 23:32:01	 ──	Channel created on Sun, 26 Nov 2006 12:12:45
+2020-12-03 23:32:05	<--	jomofcw (just@unaffiliated/jomofcw) has quit
+2020-12-03 23:33:25	 ──	irc: disconnected from server
+2020-12-03 23:33:48	-->	devops (~devops@2409:4065:e87:405c:a85f:bac:6610:cc76) has joined ##javascript
+2020-12-03 23:33:48	 ──	Topic for ##javascript is "JavaScript is *not* Java. | Just ask your question. | Say "!mdn abc" for docs on "abc". | Don't paste code in the channel. | Can't talk? Get registered on freenode ( https://git.io/vaTS2 )"
+2020-12-03 23:33:48	 ──	Topic set by niggler on Sun, 08 Nov 2020 06:59:39
+2020-12-03 23:33:49	 ──	Channel ##javascript: 995 nicks (2 ops, 0 voices, 993 normals)
+2020-12-03 23:33:50	-->	xekz (~kexmex@unaffiliated/kexmex) has joined ##javascript
+2020-12-03 23:33:51	 ──	Channel created on Sun, 26 Nov 2006 12:12:45
+2020-12-03 23:34:29	 ──	irc: disconnected from server
+2020-12-03 23:34:57	-->	devops (~devops@2409:4065:e87:405c:a85f:bac:6610:cc76) has joined ##javascript
+2020-12-03 23:34:57	 ──	Topic for ##javascript is "JavaScript is *not* Java. | Just ask your question. | Say "!mdn abc" for docs on "abc". | Don't paste code in the channel. | Can't talk? Get registered on freenode ( https://git.io/vaTS2 )"
+2020-12-03 23:34:57	 ──	Topic set by niggler on Sun, 08 Nov 2020 06:59:39
+2020-12-03 23:34:58	 ──	Channel ##javascript: 996 nicks (2 ops, 0 voices, 994 normals)
+2020-12-03 23:34:58	 ──	Channel created on Sun, 26 Nov 2006 12:12:45
+2020-12-03 23:36:32	-->	paulcarroty (~paulcarro@93.75.237.215) has joined ##javascript
+2020-12-03 23:36:38	<--	jabster28 (~jabster28@2a02:c7f:6063:e900:4088:d9b2:1094:9cda) has quit (Ping timeout: 246 seconds)
+2020-12-03 23:36:58	 ──	irc: disconnected from server
+2020-12-03 23:38:08	-->	devops (~devops@2409:4065:e87:405c:a85f:bac:6610:cc76) has joined ##javascript
+2020-12-03 23:38:08	 ──	Topic for ##javascript is "JavaScript is *not* Java. | Just ask your question. | Say "!mdn abc" for docs on "abc". | Don't paste code in the channel. | Can't talk? Get registered on freenode ( https://git.io/vaTS2 )"
+2020-12-03 23:38:08	 ──	Topic set by niggler on Sun, 08 Nov 2020 06:59:39
+2020-12-03 23:38:09	 ──	Channel ##javascript: 997 nicks (2 ops, 0 voices, 995 normals)
+2020-12-03 23:38:11	 ──	Channel created on Sun, 26 Nov 2006 12:12:45
+2020-12-03 23:41:28	-->	sillyslux_ (~sillyslux@unaffiliated/sillyslux) has joined ##javascript
+2020-12-03 23:42:16	<--	sneech (~deathstar@c-68-43-213-87.hsd1.mi.comcast.net) has quit (Ping timeout: 240 seconds)
+2020-12-03 23:42:37	-->	gambl0re (~rickyjw@unaffiliated/gambl0re) has joined ##javascript
+2020-12-03 23:43:17	devops	hi
+2020-12-03 23:43:17	 ──	##javascript: Cannot send to nick/channel
+2020-12-03 23:43:51	 ──	irc: disconnected from server

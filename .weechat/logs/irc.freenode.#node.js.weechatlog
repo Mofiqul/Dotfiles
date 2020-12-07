@@ -1,0 +1,102 @@
+2020-03-16 23:13:43	-->	mofiqul (~devops@2409:4065:403:6d2a:a8ae:ec01:96d4:7d02) has joined #Node.js
+2020-03-16 23:13:43	--	Topic for #Node.js is "Can't talk? Get registered on freenode ( https://git.io/vaTS2 ) | Latest: v13.11.0 (LTS: Erbium v12.16.1, Dubnium v10.19.0; EOL: Carbon v8.17.0, Boron v6.17.1, Argon v4.9.1, v11, v9, v7, <= v5) | Mission Statement: http://bit.ly/node-irc-mission-statement | Logs: http://logs.nodejs.org/node.js/index | On codes of conduct: http://j.mp/1RFlyvr https://blog.izs.me/2012/08/policy-on-trolling"
+2020-03-16 23:13:43	--	Topic set by MylesBorins (~MylesBori@pdpc/supporter/student/thealphanerd) on Thu, 12 Mar 2020 09:32:25
+2020-03-16 23:13:43	--	Channel #Node.js: 753 nicks (8 ops, 0 voices, 745 normals)
+2020-03-16 23:13:43	--	PvNotice(ChanServ): Node.js JavaScript runtime ✨ 🐢 🚀 ✨ https://nodejs.org
+2020-03-16 23:13:43	--	URL for #node.js: http://nodejs.org/
+2020-03-16 23:13:45	--	Channel created on Sat, 30 Jan 2010 13:18:24
+2020-03-16 23:14:06	jaawerth	have you tried hair of the dog
+2020-03-16 23:14:14	Kaivo	ThePendulum: Assuming you use a mind palace, return to where you were yesterday and follow the same path around until you find it. And IDK for you but personnaly, ideas I have at night seem good at the time but once I have had a few cups of coffee, I see how bad they were.
+2020-03-16 23:14:54	<--	bynx (~bynx@65.222.224.70) has quit (Remote host closed the connection)
+2020-03-16 23:15:40	ThePendulum	hmm I would describe it as a rusty filing cabinet with collapsed shelves
+2020-03-16 23:16:13	<--	cthulchu (~Cthulchu@69.172.160.196) has quit (Ping timeout: 246 seconds)
+2020-03-16 23:16:18	jaawerth	yeah I have more of a mind shanty
+2020-03-16 23:17:30	zsoc	kek
+2020-03-16 23:19:11	jaawerth	and as such my advice would be to check under the inexplicable pile of vhs tapes
+2020-03-16 23:19:31	Kaivo	Mine is just a pile of cardboard boxes half eaten by rats and there was some water leakage in the room. All good for the shredder.
+2020-03-16 23:20:22	-->	cthulchu (~Cthulchu@69.172.160.196) has joined #Node.js
+2020-03-16 23:20:27	Kaivo	But seriously, most of the time, if I don't remember something that seemed important at the time, I conclude it must not have been that important otherwise I'd remember.
+2020-03-16 23:23:13	<--	falafel (~falafel@2600:6c50:787f:e29b:1c67:2689:3f92:fcf9) has quit (Ping timeout: 246 seconds)
+2020-03-16 23:24:22	-->	falafel (~falafel@2600:1012:b04c:bb20:3981:160:5b9e:efdf) has joined #Node.js
+2020-03-16 23:25:23	-->	keith_miller (~keith_mil@c-67-188-146-110.hsd1.ca.comcast.net) has joined #Node.js
+2020-03-16 23:26:50	raj	what is with this convention of putting Passport.js's serializeUser/deserializeUser methods in a file named passport.js? https://github.com/mjhea0/passport-local-knex/blob/master/src/server/auth/passport.js  makes for awkward require statements in other files that will be importing both 'passport' and also './passport' https://github.com/mjhea0/passport-local-knex/blob/master/src/server/auth/local.js#L4 . Can someone please explain the logic behind doing it
+2020-03-16 23:26:51	raj	this way?
+2020-03-16 23:27:08	-->	Binero (~Binero@2a02:a03f:85fe:3e00:476c:1a19:5bbf:e008) has joined #Node.js
+2020-03-16 23:27:11	<--	lloydxmas (~lloydxmas@c-67-188-112-69.hsd1.ca.comcast.net) has quit (Ping timeout: 250 seconds)
+2020-03-16 23:27:17	<--	EREVAN (~aaa@87.241.143.42) has quit
+2020-03-16 23:29:35	<--	is_null (~jpic@pdpc/supporter/professional/is-null) has quit (Ping timeout: 256 seconds)
+2020-03-16 23:29:42	<--	falafel (~falafel@2600:1012:b04c:bb20:3981:160:5b9e:efdf) has quit (Read error: Connection reset by peer)
+2020-03-16 23:29:46	GreenJello	raj, this is a bit strange. I'm not even sure why these are two separate files
+2020-03-16 23:30:11	<--	keith_miller (~keith_mil@c-67-188-146-110.hsd1.ca.comcast.net) has quit (Client Quit)
+2020-03-16 23:30:12	raj	agreed
+2020-03-16 23:31:11	raj	I was looking for how others on github organized their methods and files and it seems that having the serialize portion in passport.js is common, though others also put the Strategy portion in passport.js as well
+2020-03-16 23:31:41	GreenJello	raj, I would probably do auth/init.js with module.exports = () => { /* passport.js init code */; /* local.js call to passport.use */ }
+2020-03-16 23:31:48	-->	falafel (~falafel@2600:1012:b04c:bb20:c952:45f4:1963:45f3) has joined #Node.js
+2020-03-16 23:32:13	GreenJello	const initAuth = require('./auth/init'); and call initAuth in the main server file
+2020-03-16 23:32:41	--	irc: disconnected from server
+2020-04-23 19:07:48	-->	mofiqul (~devops@2409:4065:e82:92f6:f05c:b2a:2222:3751) has joined #Node.js
+2020-04-23 19:07:48	--	Topic for #Node.js is "Can't talk? Get registered on freenode ( https://git.io/vaTS2 ) | Latest: v13.13.0 (LTS: Erbium v12.16.2, Dubnium v10.20.0; EOL: Carbon v8.17.0, Boron v6.17.1, Argon v4.9.1, v11, v9, v7, <= v5) | Mission Statement: http://bit.ly/node-irc-mission-statement | Logs: http://logs.nodejs.org/node.js/index | On codes of conduct: http://j.mp/1RFlyvr https://blog.izs.me/2012/08/policy-on-trolling"
+2020-04-23 19:07:48	--	Topic set by ljharb (sid43720@oftn/oswg-member/ljharb) on Wed, 15 Apr 2020 00:21:00
+2020-04-23 19:07:48	--	Channel #Node.js: 722 nicks (8 ops, 0 voices, 714 normals)
+2020-04-23 19:07:48	--	PvNotice(ChanServ): Node.js JavaScript runtime ✨ 🐢 🚀 ✨ https://nodejs.org
+2020-04-23 19:07:48	--	URL for #node.js: http://nodejs.org/
+2020-04-23 19:07:50	--	Channel created on Sat, 30 Jan 2010 13:18:24
+2020-04-23 19:07:50	<--	Naan` (~naanbot@li670-129.members.linode.com) has left #Node.js
+2020-04-23 19:07:57	-->	royal_screwup21 (~royal_scr@eduroam-wireless-pat7.nomadic.bris.ac.uk) has joined #Node.js
+2020-04-23 19:08:05	-->	Apocx (~quassel@50-206-139-102-static.hfc.comcastbusiness.net) has joined #Node.js
+2020-04-23 19:08:57	-->	perrier-jouet (~perrier-j@modemcable012.251-130-66.mc.videotron.ca) has joined #Node.js
+2020-04-23 19:09:56	-->	Naan (~naanbot@unaffiliated/naan) has joined #Node.js
+2020-04-23 19:09:56	dka	can I use both npm and yarn (ci)
+2020-04-23 19:11:03	<--	sickdyd_ (~Xenomorph@ai126201065169.63.access-internet.ne.jp) has quit (Quit: leaving)
+2020-04-23 19:11:13	-->	sickdyd_ (~Xenomorph@ai126201065169.63.access-internet.ne.jp) has joined #Node.js
+2020-04-23 19:11:25	<--	sickdyd_ (~Xenomorph@ai126201065169.63.access-internet.ne.jp) has quit (Client Quit)
+2020-04-23 19:11:50	JustTheDoctor	joepie91 its like its a hit or miss, now its giving me the error again
+2020-04-23 19:12:03	<--	tiin57 (~tiin57@ec2-3-94-63-186.compute-1.amazonaws.com) has quit (Read error: Connection reset by peer)
+2020-04-23 19:12:22	@joepie91	JustTheDoctor: you're going to have to debug your infrastructure then
+2020-04-23 19:12:31	@joepie91	because something is clearly wrong
+2020-04-23 19:12:37	JustTheDoctor	my server or my node.js?
+2020-04-23 19:12:52	-->	eck0 (uid375984@gateway/web/irccloud.com/x-xqgqelyrrdozcbrj) has joined #Node.js
+2020-04-23 19:15:40	-->	tiin57 (~tiin57@ec2-3-94-63-186.compute-1.amazonaws.com) has joined #Node.js
+2020-04-23 19:16:14	-->	jackedin (~jackedin@173.44.55.179) has joined #Node.js
+2020-04-23 19:16:27	<--	jackedin (~jackedin@173.44.55.179) has quit (Max SendQ exceeded)
+2020-04-23 19:16:57	-->	jackedin (~jackedin@173.44.55.179) has joined #Node.js
+2020-04-23 19:19:32	-->	mmmveggies (uid165464@gateway/web/irccloud.com/x-lodorapprnhoaott) has joined #Node.js
+2020-04-23 19:19:57	JustTheDoctor	seems a server restart fixed it
+2020-04-23 19:20:43	<--	zolokar (~quassel@c-24-23-251-254.hsd1.ca.comcast.net) has quit (Read error: Connection reset by peer)
+2020-04-23 19:20:51	<--	royal_screwup21 (~royal_scr@eduroam-wireless-pat7.nomadic.bris.ac.uk) has quit (Quit: zzzz)
+2020-04-23 19:21:05	-->	zolokar (~quassel@c-24-23-251-254.hsd1.ca.comcast.net) has joined #Node.js
+2020-04-23 19:22:12	<--	the_ant (~Thunderbi@104.37.169.72) has quit (Remote host closed the connection)
+2020-04-23 19:22:29	-->	the_ant (~Thunderbi@104.37.169.72) has joined #Node.js
+2020-04-23 19:26:03	<--	cnsvc (~cnsvc@gateway/tor-sasl/cnsvc) has quit (Ping timeout: 240 seconds)
+2020-04-23 19:26:26	dka	I have error 500 when trying to npm install this : https://codeload.github.com/expo/react-native/tar.gz/sdk-36.0.1
+2020-04-23 19:26:35	dka	and now I wonder if this is because of this that I can't nom i
+2020-04-23 19:26:43	dka	do you guys also have this error
+2020-04-23 19:27:05	mmmveggies	dka: how are you trying to install it?
+2020-04-23 19:27:11	dka	npm i
+2020-04-23 19:27:13	-->	urinal666 (~gdfgdfgfd@2001:999:85:3c72:3930:b860:c98a:8368) has joined #Node.js
+2020-04-23 19:27:13	--	Mode #Node.js [+b *!*@2001:999:85:3c72:3930:b860:c98a:8368] by ChanServ
+2020-04-23 19:27:13	<--	ChanServ has kicked urinal666 (Banned: Trolling and anti-semitism)
+2020-04-23 19:27:14	<--	sz0 (uid110435@gateway/web/irccloud.com/x-oqlfolainxzspefk) has quit (Quit: Connection closed for inactivity)
+2020-04-23 19:27:52	mmmveggies	dka: what does your dependency say in `pckage.json` ?
+2020-04-23 19:27:54	ThePendulum	did that happen /way/ earlier or is my client missing something?
+2020-04-23 19:28:37	dka	is it possible that codeload is having a timeout that would explain why all my CI fail randomly with it
+2020-04-23 19:28:57	dka	    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.1.tar.gz",
+2020-04-23 19:28:58	mmmveggies	dka: it could be, but I
+2020-04-23 19:29:25	<--	the_ant (~Thunderbi@104.37.169.72) has quit (Ping timeout: 265 seconds)
+2020-04-23 19:29:49	mmmveggies	dka: why aren't you just using the version and downloading from npm?
+2020-04-23 19:30:38	dka	it's how expo init the boiler plate
+2020-04-23 19:31:40	--	irc: disconnected from server
+2020-04-23 19:32:59	>	devops (~devops@2409:4065:e82:92f6:f05c:b2a:2222:3751) has joined #Node.js
+2020-04-23 19:32:59	⇄	Topic for #Node.js is "Can't talk? Get registered on freenode ( https://git.io/vaTS2 ) | Latest: v13.13.0 (LTS: Erbium v12.16.2, Dubnium v10.20.0; EOL: Carbon v8.17.0, Boron v6.17.1, Argon v4.9.1, v11, v9, v7, <= v5) | Mission Statement: http://bit.ly/node-irc-mission-statement | Logs: http://logs.nodejs.org/node.js/index | On codes of conduct: http://j.mp/1RFlyvr https://blog.izs.me/2012/08/policy-on-trolling"
+2020-04-23 19:32:59	⇄	Topic set by ljharb (sid43720@oftn/oswg-member/ljharb) on Wed, 15 Apr 2020 00:21:00
+2020-04-23 19:32:59	⇄	Channel #Node.js: 723 nicks (8 ops, 0 voices, 715 normals)
+2020-04-23 19:32:59	⇄	PvNotice(ChanServ): Node.js JavaScript runtime ✨ 🐢 🚀 ✨ https://nodejs.org
+2020-04-23 19:32:59	⇄	URL for #node.js: http://nodejs.org/
+2020-04-23 19:33:00	⇄	Channel created on Sat, 30 Jan 2010 13:18:24
+2020-04-23 19:33:32	dka	what'ß your point ?
+2020-04-23 19:34:15	dka	I need to find a copy of that file
+2020-04-23 19:34:20	dka	Does anybody know where I can get one ?
+2020-04-23 19:34:44	>	enriooooooo (~nanoz@unaffiliated/nanoz) has joined #Node.js
+2020-04-23 19:35:08	>	geoffo (~geoffo@c-75-71-161-152.hsd1.co.comcast.net) has joined #Node.js
+2020-04-23 19:35:12	<	geoffo (~geoffo@c-75-71-161-152.hsd1.co.comcast.net) has quit (Client Quit)
+2020-04-23 19:35:24	⇄	irc: disconnected from server

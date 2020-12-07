@@ -32,3 +32,5 @@ settings:
     global:
       DEFAULT: https://duckduckgo.com/?q={}
       g: https://google.com/search?q={}
+  url.start_pages:
+    global: https://cocky-fermat-c0aaaf.netlify.app/

@@ -173,7 +173,7 @@ bindsym $mod+r mode "resize"
 
 # redshift modes
 mode "$mode_redshift" {
-    bindsym 1 exec --no-startup-id "$kill_redshift redshift -l -26.1606468:91.7636191", mode "default"
+    bindsym 1 exec --no-startup-id "$kill_redshift redshift", mode "default"
     bindsym 2 exec --no-startup-id "$kill_redshift", mode "default"
  
     # back to normal: Enter or Escape or $mod+i
@@ -204,7 +204,7 @@ for_window [class=".*"] border pixel 1
 gaps inner 4
 gaps outer 8
 focus_follows_mouse no
-
+title_align center
 
 # print all window titles bold
 #for_window [class=".*"] title_format "   %title "

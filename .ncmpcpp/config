@@ -106,8 +106,8 @@ discard_colors_if_item_is_selected = "yes"
 ##     state (either unknown, play, pause, or stop) for its duration     ##
 ##
 #
-#execute_on_player_state_change = notify-send "$(mpc current)"
+execute_on_song_change="$HOME/.ncmpcpp/notify.sh"
 
 #startup_slave_screen=visualizer
 
-execute_on_song_change="notify-send -i ~/.local/share/icons/Flatery-Indigo/apps/64/gnome-music.svg "Now playing" "$(ncmpcpp -q --current-song="{%a - }{%t}|{%f}")""
+#execute_on_song_change="notify-send -i ~/.local/share/icons/Flatery-Indigo/apps/64/gnome-music.svg "Now playing" "$(ncmpcpp -q --current-song="{%a - }{%t}|{%f}")""
