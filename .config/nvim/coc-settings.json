@@ -16,7 +16,7 @@
   "explorer.file.autoReveal": true,
   "explorer.file.showHiddenFiles": true,
   "explorer.previewAction.onHover": false,
-  "explorer.keyMappings": {
+  "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
@@ -41,5 +41,5 @@
   "diagnostic.warningSign": "",
   "diagnostic.infoSign": "",
   "diagnostic.hintSign": "ﯦ",
-  "cSpell.userWords": ["endforeach"]
+  "cSpell.userWords": ["endforeach"],
 }

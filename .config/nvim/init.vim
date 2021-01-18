@@ -2,13 +2,16 @@ call plug#begin()
 " Devicon
 Plug 'ryanoasis/vim-devicons'
 
-" Vim Satus line
+" Vim Status line
 "Airline and airline themes
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 "Vim Colorschemes
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'tomasiser/vim-code-dark'
 
 Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
@@ -45,7 +48,7 @@ Plug 'mattn/emmet-vim'
 " Noevim COC
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "COC extensions
-let g:coc_global_extensions = ['coc-json', 'coc-phpls', 'coc-xml', 'coc-python', 'coc-html', 'coc-tsserver', 'coc-vetur', 'coc-emmet', 'coc-spell-checker', 'coc-prettier', 'coc-snippets', 'coc-tailwindcss', 'coc-svelte', 'coc-clangd', 'coc-highlight', 'coc-explorer', 'coc-actions', 'coc-sql', 'coc-vimlsp', 'coc-sh']
+let g:coc_global_extensions = ['coc-json', 'coc-phpls', 'coc-xml', 'coc-python', 'coc-html', 'coc-tsserver', 'coc-vetur', 'coc-emmet', 'coc-spell-checker', 'coc-prettier', 'coc-snippets', 'coc-tailwindcss', 'coc-svelte', 'coc-clangd', 'coc-highlight', 'coc-explorer', 'coc-sql', 'coc-vimlsp', 'coc-sh', 'coc-fzf-preview']
 
 Plug 'sheerun/vim-polyglot'
 call plug#end()
@@ -67,20 +70,13 @@ if (has('termguicolors'))
 endif
 
 
-" Material colorscheme settings
-"let g:material_terminal_italics = 1
-"let g:material_theme_style = 'darker'
-let g:dracula_italic = 0
-colorscheme dracula
-hi Normal guibg=NONE ctermbg=NONE
-
 
 " Airline configueations
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline#extensions#tabline#left_sep = ''
 let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:airline_theme = 'dracula'
+"let g:airline_theme = 'dracula'
 let g:airline_powerline_fonts = 1
 
 
@@ -88,7 +84,7 @@ let g:airline_powerline_fonts = 1
 " Productivity configueations
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {}
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vue'] = '﵂'
-let g:mkdp_browser = 'qutebrowser'
+let g:mkdp_browser = 'firefox'
 let g:user_emmet_leader_key=','
 let g:rainbow_active = 1
 let g:indentLine_enabled = 1
@@ -101,7 +97,8 @@ let g:gitgutter_sign_removed = '▏'
 let g:gitgutter_sign_removed_first_line = '▔'
 let g:gitgutter_sign_modified_removed = '▋'
 
-let g:fzf_layout = {'down': '~40%'}
+
+"let g:fzf_layout = {'down': '~40%'}
 
 nmap <C-n> :CocCommand explorer<CR>
 nmap <space>f :CocCommand explorer --preset floating<CR>
@@ -293,72 +290,6 @@ let g:coc_explorer_global_presets = {
 
 
 
-" FZF file preview with devicons
-if executable('rg')
-
-  let $FZF_DEFAULT_COMMAND = 'rg --files --hidden --follow --glob "!.git/*"'
-  set grepprg=rg\ --vimgrep
-  command! -bang -nargs=* Find call fzf#vim#grep('rg --column --line-number --no-heading --fixed-strings --ignore-case --hidden --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>).'| tr -d "\017"', 1, <bang>0)  
-  
-  " Overriding fzf.vim's default :Files command.
-  " Pass zero or one args to Files command (which are then passed to Fzf_dev). Support file path completion too.
-  command! -nargs=? -complete=file Files call Fzf_dev(<q-args>)
-
-  nnoremap <silent> <leader>e :Files<CR>
-
-endif
-
-" Files + devicons
-function! Fzf_dev(qargs)
-  let l:fzf_files_options = '--preview "bat --theme=Dracula  --style=numbers,changes --color always {2..-1} | head -'.&lines.'" --expect=ctrl-t,ctrl-v,ctrl-x --multi --bind=ctrl-a:select-all,ctrl-d:deselect-all'
-
-  function! s:files(dir)
-    let l:cmd = $FZF_DEFAULT_COMMAND
-    if a:dir != ''
-      let l:cmd .= ' ' . shellescape(a:dir)
-    endif
-    let l:files = split(system(l:cmd), '\n')
-    return s:prepend_icon(l:files)
-  endfunction
-
-  function! s:prepend_icon(candidates)
-    let l:result = []
-    for l:candidate in a:candidates
-      let l:filename = fnamemodify(l:candidate, ':p:t')
-      let l:icon = WebDevIconsGetFileTypeSymbol(l:filename, isdirectory(l:filename))
-      call add(l:result, printf('%s %s', l:icon, l:candidate))
-    endfor
-
-    return l:result
-  endfunction
-  
-  function! s:edit_file(lines)
-    if len(a:lines) < 2 | return | endif
-
-    let l:cmd = get({'ctrl-x': 'split',
-                 \ 'ctrl-v': 'vertical split',
-                 \ 'ctrl-t': 'tabe'}, a:lines[0], 'e')
-    
-    for l:item in a:lines[1:]
-      let l:pos = stridx(l:item, ' ')
-      let l:file_path = l:item[pos+1:-1]
-      execute 'silent '. l:cmd . ' ' . l:file_path
-    endfor
-  endfunction
-
-  call fzf#run({
-        \ 'source': <sid>files(a:qargs),
-        \ 'sink*':   function('s:edit_file'),
-        \ 'options': '-m ' . l:fzf_files_options,
-        \ 'down':    '40%' })
-endfunction
-
-" FZF key bindings
-map <C-p> :Files<CR>
-"map <C-S-p> :Commands<CR>
-map <C-g> :BLines<CR>
-"map <C-S-r> :Lines<CR>
-
 autocmd FileType vue syntax sync fromstart	
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 nmap <Tab> :bnext<CR>
@@ -384,15 +315,55 @@ function! StartifyEntryFormat()
     return 'WebDevIconsGetFileTypeSymbol(absolute_path) ." ". entry_path'
 endfunction
 
-
-" Remap for do codeAction of selected region
-function! s:cocActionsOpenFromSelected(type) abort
-  execute 'CocCommand actions.open ' . a:type
-endfunction
-xmap <silent> <leader>a :<C-u>execute 'CocCommand actions.open ' . visualmode()<CR>
-nmap <silent> <leader>a :<C-u>set operatorfunc=<SID>cocActionsOpenFromSelected<CR>g@
-
 autocmd TermOpen * setlocal nonumber norelativenumber
 
 let g:WebDevIconsUnicodeGlyphDoubleWidth = 0
 
+colorscheme codedark
+let g:airline_theme = 'codedark'
+
+" Fix for gitgutter color
+highlight GitGutterAdd    guifg=#608b4e ctermfg=2
+highlight GitGutterChange guifg=#d7ba7d ctermfg=3
+highlight GitGutterDelete guifg=#f44747 ctermfg=1
+"hi Normal guibg=NONE ctermbg=NONE
+"
+"
+let g:fzf_preview_use_dev_icons = 1
+let g:fzf_preview_grep_cmd = 'ag --line-number --no-heading' " 'rg --line-number --no-heading --color=never'
+
+
+nmap <Leader>f [fzf-p]
+xmap <Leader>f [fzf-p]
+
+nnoremap <silent> [fzf-p]p     :<C-u>CocCommand fzf-preview.FromResources project_mru git<CR>
+nnoremap <silent> [fzf-p]gs    :<C-u>CocCommand fzf-preview.GitStatus<CR>
+nnoremap <silent> [fzf-p]ga    :<C-u>CocCommand fzf-preview.GitActions<CR>
+nnoremap <silent> [fzf-p]b     :<C-u>CocCommand fzf-preview.Buffers<CR>
+nnoremap <silent> [fzf-p]B     :<C-u>CocCommand fzf-preview.AllBuffers<CR>
+nnoremap <silent> [fzf-p]o     :<C-u>CocCommand fzf-preview.FromResources buffer project_mru<CR>
+nnoremap <silent> [fzf-p]<C-o> :<C-u>CocCommand fzf-preview.Jumps<CR>
+nnoremap <silent> [fzf-p]g;    :<C-u>CocCommand fzf-preview.Changes<CR>
+nnoremap <silent> [fzf-p]/     :<C-u>CocCommand fzf-preview.Lines --add-fzf-arg=--no-sort --add-fzf-arg=--query="'"<CR>
+nnoremap <silent> [fzf-p]*     :<C-u>CocCommand fzf-preview.Lines --add-fzf-arg=--no-sort --add-fzf-arg=--query="'<C-r>=expand('<cword>')<CR>"<CR>
+nnoremap          [fzf-p]gr    :<C-u>CocCommand fzf-preview.ProjectGrep<Space>
+xnoremap          [fzf-p]gr    "sy:CocCommand   fzf-preview.ProjectGrep<Space>-F<Space>"<C-r>=substitute(substitute(@s, '\n', '', 'g'), '/', '\\/', 'g')<CR>"
+nnoremap <silent> [fzf-p]t     :<C-u>CocCommand fzf-preview.BufferTags<CR>
+nnoremap <silent> [fzf-p]q     :<C-u>CocCommand fzf-preview.QuickFix<CR>
+nnoremap <silent> [fzf-p]l     :<C-u>CocCommand fzf-preview.LocationList<CR>
+
+
+" FZF key bindings
+map <C-p> :CocCommand fzf-preview.ProjectFiles<CR>
+map <C-d> :CocCommand fzf-preview.DirectoryFiles<CR>
+map <C-b> :CocCommand fzf-preview.Buffers<CR>
+
+augroup fzf_preview
+  autocmd!
+  autocmd User fzf_preview#rpc#initialized call s:fzf_preview_settings() " fzf_preview#remote#initialized or fzf_preview#coc#initialized
+augroup END
+
+function! s:fzf_preview_settings() abort
+  let g:fzf_preview_command = 'COLORTERM=truecolor ' . g:fzf_preview_command
+  let g:fzf_preview_grep_preview_cmd = 'COLORTERM=truecolor ' . g:fzf_preview_grep_preview_cmd
+endfunction
