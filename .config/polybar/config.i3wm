@@ -1,0 +1,235 @@
+[bar/fullbar]
+monitor = 
+include-file = ~/.config/polybar/fullbar
+
+background = #1e1e1e
+foreground = #ffffff
+
+modules-left = i3 space mpd 
+modules-center = 
+modules-right = memory space cpu space temperature space space-bg space system-usb-udev space wlan space bluetooth space battery updates space date 
+
+[module/memory]
+type = internal/memory
+internal = 1
+format-prefix = MEM:
+format-prefix-foreground = "#56b6c2"
+format = <label>
+label-foreground = "#56b6c2"
+label = %gb_used%
+format-prefix-padding = 1
+
+[module/cpu]
+type = internal/cpu
+internal = 0.5
+format-prefix = CPU:  
+format-prefix-foreground = "#c678dd"
+format = <label>%
+label =  %percentage%
+format-foreground = "#c678dd"
+format-prefix-padding = 1
+
+[module/temperature]
+type = internal/temperature
+hwmon-path = /sys/devices/virtual/thermal/thermal_zone0/hwmon1/temp1_input 
+base-temperature = 20
+format = <label>
+format-warn = <label-warn>
+label = TEMP: %temperature-c%
+label-foreground = "#608b4e"
+label-warn = TEMP: %temperature-c%
+label-warn-foreground = "#dcdcaa"
+
+[module/filesystem]
+type = internal/fs
+mount-0 = /home
+interval = 10
+fixed-values = true
+format-mounted-prefix = HOME:
+format-mounted-prefix-foreground = "#ff79c6"
+format-mounted = <label-mounted>
+format-unmounted-prefix = HOME:
+format-unmounted-prefix-foreground = "#ff79c6"
+format-unmounted = <label-unmounted>
+label-mounted = %free%
+label-unmounted = %mountpoint%: not mounted
+
+[module/system-usb-udev]
+type = custom/script
+exec = ~/.config/polybar/system-usb-udev.sh
+tail = true
+click-left = ~/.config/polybar/system-usb-udev.sh --mount &
+click-right = ~/.config/polybar/system-usb-udev.sh --unmount &
+
+[module/date]
+type = internal/date
+interval = 60
+date = %a %d %b
+time = %l:%M %p
+label = %date% %time%
+format-padding = 2
+format-background = "#121213"
+label-font = 2
+
+[module/battery]
+type = internal/battery
+full-at = 99
+battery = BAT0
+adapter = ACAD
+poll-interval = 2
+#format-discharging-foreground = "#dcdcaa"
+format-discharging = <ramp-capacity>   <label-discharging>%
+
+format-full =  <label-full>% 
+#format-full-foreground = "#608b4e"
+format-charging = <animation-charging>   <label-charging>%
+#format-charging-foreground = "#569cd6"
+label-charging = %percentage%
+label-discharging =  %percentage%
+label-full =     %percentage%
+
+ramp-capacity-0 =  
+ramp-capacity-1 =  
+ramp-capacity-2 =  
+ramp-capacity-3 =  
+ramp-capacity-4 =  
+
+
+animation-charging-0 =   
+animation-charging-1 =  
+animation-charging-2 =  
+animation-charging-3 =  
+animation-charging-4 =  
+animation-charging-framerate = 500
+
+[module/wlan]
+type = internal/network
+interface = wlp7s0
+interval = 5
+label-connected = 直 %essid% 
+#label-connected-foreground = "#608b4e"
+label-disconnected = 睊
+#label-disconnected-foreground = "#f44747"
+content-padding = 2
+
+[module/bandwidth]
+type = internal/network
+interface = wlp7s0
+interval = 5
+label-connected = : %downspeed% : %upspeed% 
+label-disconnected =
+content-padding = 2
+
+[module/volume]
+type = internal/alsa
+format-volume = 墳 <label-volume>
+format-muted = 墳 Muted
+
+[module/pulseaudio]
+type = internal/pulseaudio
+sink = alsa_output.pci-0000_00_1b.0.analog-stereo
+use-ui-max = true
+interval = 5
+format-volume = 墳: <label-volume>
+format-muted = 墳: Muted
+
+[module/eth]
+type = internal/network
+interface = enp2s0
+interval = 3.0
+format-connected = <label-connected>
+format-connected-prefix = " ETH: "
+label-connected = %downspeed:9%
+format-disconnected = <label-disconnected>
+label-disconnected = ETH: NOT CONNECTED
+
+[module/mpd]
+type = internal/mpd
+interval = 2
+format-online = <icon-prev> <toggle> <icon-next> <label-song>
+label-song = %artist% - %title%
+label-song-maxlen = 20
+label-song-ellipsis = true
+format-online-foreground = "#608b4e"
+label-offline = MPD: OFFLINE
+format-offline = <label-offline>
+icon-play = 契
+icon-pause = 
+icon-stop = 栗
+icon-prev = 玲
+icon-next = 怜
+format-padding = 2
+
+[module/updates]
+type = custom/script
+label = %output%
+exec = ~/.config/polybar/updates.sh
+tail = true
+interval = 5 
+
+[module/space]
+type = custom/text
+content = "|" 
+content-padding = 1
+content-foreground= "#1e1e1e"
+content-background= "#1e1e1e"
+
+[module/space-bg]
+type = custom/text
+content = "|"  
+content-padding = 0
+content-foreground= "#3c3c3c"
+content-background= "#3c3c3c"
+
+[module/space-arrow-left]
+type = custom/text
+content = ""  
+content-padding = 0
+content-foreground= "#121213"
+
+[module/space-arrow-right]
+type = custom/text
+content = ""  
+content-padding = 0
+content-foreground= "#121213"
+
+[module/separatordotted]
+type = custom/text
+content =  
+content-padding = 0
+content-foreground = "#f44747"
+
+
+[module/bluetooth]
+type = custom/script
+label = %output%
+exec = ~/.config/polybar/bluetooth.sh
+tail = true
+click-left = ~/.config/polybar/bluetooth.sh --toggle &
+
+[module/i3]
+type = internal/i3
+pin-workspace = false
+index-sort = true
+enable-click = true
+enable-scroll = true
+wrapping-scroll = false
+reverse-scroll = false
+format = <label-state> <label-mode>
+label-focused = %name%
+label-focused-padding = 2
+label-focused-background = "#0a79c9"
+label-focused-foreground = "#ffffff"
+
+label-unfocused = %name%
+label-unfocused-padding = 2
+label-unfocused-background = "#3c3c3c"
+label-visible = %name%
+label-visible-padding = 2
+label-visible-background = "#3c3c3c"
+label-mode = %mode%
+label-mode-background = "#f44747"
+label-mode-foreground = "#1e1e1e"
+label-mode-padding = 1
+label-urgent = %name%
+label-urgent-padding = 2

@@ -1,0 +1,211 @@
+[bar/fullbar]
+monitor = 
+include-file = ~/.config/polybar/fullbar
+
+background = #bb282a36
+foreground = #f8f8f2
+wm-restack = i3
+
+modules-left = i3 mpd 
+modules-center = 
+modules-right = memory cpu temperature separatordotted system-usb-udev pulseaudio wlan bandwidth updates date 
+
+[module/memory]
+type = internal/memory
+internal = 1
+format-prefix = MEM:
+format-prefix-foreground = "#8be9fd"
+format = <label>
+label-foreground = "#8be9fd"
+label = %mb_used%
+format-prefix-padding = 1
+
+[module/cpu]
+type = internal/cpu
+internal = 0.5
+format-prefix = CPU:  
+format-prefix-foreground = "#ff79c6"
+format = <label>%
+label =  %percentage%
+format-foreground = "#ff79c6"
+format-prefix-padding = 1
+
+[module/temperature]
+type = internal/temperature
+hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon1/temp1_input 
+base-temperature = 20
+format = <label>
+format-warn = <label-warn>
+label = TEMP: %temperature-c%
+label-foreground = "#50fa7b"
+label-warn = TEMP: %temperature-c%
+label-warn-foreground = "#ffb86c"
+
+[module/filesystem]
+type = internal/fs
+mount-0 = /home
+interval = 10
+fixed-values = true
+format-mounted-prefix = 
+format-mounted-prefix-foreground = "#ff79c6"
+format-mounted = <label-mounted>
+format-unmounted-prefix = 
+format-unmounted-prefix-foreground = "#ff79c6"
+format-unmounted = <label-unmounted>
+label-mounted = %free%
+label-unmounted = %mountpoint%: not mounted
+
+[module/system-usb-udev]
+type = custom/script
+exec = ~/.config/polybar/system-usb-udev.sh
+tail = true
+click-left = ~/.config/polybar/system-usb-udev.sh --mount &
+click-right = ~/.config/polybar/system-usb-udev.sh --unmount &
+
+[module/date]
+type = internal/date
+interval = 60
+date = %a %d %b
+time = %l:%M %p
+label = %date% %time%
+format-padding = 2
+format-background = "#44475a"
+label-font = 2
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = ACAD
+poll-interval = 2
+format-discharging-prefix = 
+;format-discharging-prefix-foreground = "#ffb86c"
+format-discharging = <label-discharging>%
+format-full-prefix = 
+format-full = <label-full>% 
+format-charging-prefix = 
+;format-charging-prefix-foreground = "#50fa7b"
+format-charging = <label-charging>% 
+label-charging = %percentage%
+label-discharging =  %percentage%
+label-full =  Fully Charged
+time-format = %H:%M
+
+[module/wlan]
+type = internal/network
+interface = wlx00177c82587f
+interval = 5
+label-connected = 直: %essid% 
+label-connected-foreground = "#50fa7b"
+label-disconnected = 睊: NOT CONNECTED
+label-disconnected-foreground = "#ff5555"
+content-padding = 2
+
+[module/bandwidth]
+type = internal/network
+interface = wlx00177c82a328
+interval = 5
+label-connected = : %downspeed% : %upspeed% 
+label-disconnected =
+content-padding = 2
+
+[module/volume]
+type = internal/alsa
+format-volume = 墳: <label-volume>
+format-muted = 墳: Muted
+
+[module/pulseaudio]
+type = internal/pulseaudio
+sink = alsa_output.pci-0000_00_1b.0.analog-stereo
+use-ui-max = true
+interval = 5
+format-volume = 墳: <label-volume>
+format-muted = 墳: Muted
+
+[module/eth]
+type = internal/network
+interface = enp2s0
+interval = 3.0
+format-connected = <label-connected>
+format-connected-prefix = "  "
+label-connected = %downspeed:9%
+format-disconnected = <label-disconnected>
+label-disconnected = not connected
+format-padding = 1
+
+[module/mpd]
+type = internal/mpd
+interval = 2
+format-online = <icon-prev> <toggle> <icon-next> <label-song>
+label-song = %artist% - %title%
+label-song-maxlen = 20
+label-song-ellipsis = true
+format-online-foreground = "#bd93f9"
+label-offline = MPD: OFFLINE
+format-offline = <label-offline>
+icon-play = 契
+icon-pause = 
+icon-stop = 栗
+icon-prev = 玲
+icon-next = 怜
+format-padding = 2
+
+[module/title]
+type = internal/xwindow
+format = <label>
+label = %title:0:20:...%
+#label-maxlen = 20
+format-font = 3
+label-foreground = "#50fa7b"
+
+[module/updates]
+type = custom/script
+label = %output%
+exec = ~/.config/polybar/updates.sh
+tail = true
+interval = 5
+
+[module/separator]
+type = custom/text
+content = 类 
+content-padding = 0
+content-foreground = "#ff5555"
+
+[module/spacing]
+type = custom/text
+content = "|"  
+content-padding = 0
+content-foreground= "#282a36"
+
+[module/separatordotted]
+type = custom/text
+content =  
+content-padding = 0
+content-foreground = "#ff5555"
+
+[module/i3]
+type = internal/i3
+pin-workspace = false
+index-sort = true
+enable-click = true
+enable-scroll = true
+wrapping-scroll = false
+reverse-scroll = false
+format = <label-state> <label-mode>
+label-focused = %name%
+label-focused-padding = 2
+label-focused-background = "#bd93f9"
+label-focused-foreground = "#282a36"
+
+label-unfocused = %name%
+label-unfocused-padding = 2
+label-unfocused-background = "#44475a"
+label-visible = %name%
+label-visible-padding = 2
+label-visible-background = "#44475a"
+label-mode = %mode%
+label-mode-background = "#ff5555"
+label-mode-foreground = "#282a36"
+label-mode-padding = 1
+label-urgent = %name%
+label-urgent-padding = 2
+

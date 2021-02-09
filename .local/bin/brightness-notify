@@ -1,0 +1,8 @@
+#!/bin/bash
+msgID="2346"
+brightness="$(xbacklight -get)"
+
+dunstify "Brightness"  -t 800 -r $msgID -h int:value:$brightness
+
+# play sound
+paplay /usr/share/sounds/freedesktop/stereo/dialog-information.oga
