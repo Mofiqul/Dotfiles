@@ -1,11 +1,17 @@
 # My personal dotfiles for bspwm, i3-gaps and kde plasma
 
+## Code Dark theme
+![screenshot](./Pictures/Screenshots/codeDark.png)
+
 ## Dracula theme
 ![screenshot](./Pictures/Screenshots/updated.png)
+
+> For Dracula theme use dracula or .dracula named files
 
 ## Material Dark theme
 ![Material Dark](./Pictures/Screenshots/material_1.png)
 ![Material Dark](./Pictures/Screenshots/material_2.png)
+> For Material theme use material or .material named files
 
 ### Tools used 
 - Status bar - [Polybar](https://github.com/polybar/polybar)
