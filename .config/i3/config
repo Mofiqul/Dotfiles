@@ -234,6 +234,8 @@ exec --no-startup-id polybar -c ~/.config/polybar/config.i3wm fullbar
 exec --no-startup-id picom & 
 # Wallpaper 
 exec feh --bg-fill /home/devops/Pictures/fantasy-girl-oled-4k-e6.jpg 
+# Brightness
+exec --no-startup-id xbacklight -set 42
 # redshift
 exec --no-startup-id redshift
 

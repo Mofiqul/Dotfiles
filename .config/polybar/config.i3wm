@@ -7,7 +7,7 @@ foreground = #ffffff
 
 modules-left = i3 space mpd 
 modules-center = 
-modules-right = memory space cpu space temperature space space-bg space system-usb-udev space wlan space bluetooth space battery updates space date 
+modules-right = memory space cpu space temperature space space-bg space system-usb-udev space wlan space bluetooth space battery space updates space date 
 
 [module/memory]
 type = internal/memory

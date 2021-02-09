@@ -4,7 +4,7 @@ if ! updates=$(apt list --upgradable 2> /dev/null| awk '{print $1}' | wc -l); th
 fi
 
 if [ "$updates" -gt 1 ]; then
-	echo "%{F#ff5555}  : $(($updates - 1)) %{F-}"
+	echo " : $(($updates - 1))"
 else
-	echo ""
+	echo " : Up to date"
 fi
