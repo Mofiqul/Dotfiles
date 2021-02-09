@@ -25,9 +25,9 @@ settings:
     - xos4 Terminus
     - Terminus
   statusbar.hide:
-    global: true
+    global: false
   tabs.show:
-    global: never
+    global: multiple
   url.searchengines:
     global:
       DEFAULT: https://duckduckgo.com/?q={}

@@ -84,6 +84,7 @@ let g:airline_powerline_fonts = 1
 " Productivity configueations
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {}
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vue'] = '﵂'
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pug'] = ''
 let g:mkdp_browser = 'firefox'
 let g:user_emmet_leader_key=','
 let g:rainbow_active = 1

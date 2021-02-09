@@ -1,10 +1,13 @@
 #!/bin/bash
+img_active="/home/devops/.local/share/icons/Flatery-Indigo-Dark/panel/24@2x/blueman-active.svg"
 
+img_deactive="/home/devops/.local/share/icons/Flatery-Indigo-Dark/panel/24@2x/bluetooth-disabled.svg"
+
+img_conncet="/home/devops/.local/share/icons/Flatery-Indigo-Dark/panel/24@2x/bluetooth-paired.svg"
 bluetooth_print() {
     bluetoothctl | while read -r; do
     	if bluetoothctl show | grep -q "Powered: yes"; then
             printf ''
-
             devices_paired=$(bluetoothctl paired-devices | grep Device | cut -d ' ' -f 2)
             counter=0
 
@@ -15,9 +18,12 @@ bluetooth_print() {
                     device_alias=$(echo "$device_info" | grep "Alias" | cut -d ' ' -f 2-)
 
                     if [ $counter -gt 0 ]; then
-                        printf ", %s" "$device_alias"
+						printf ", %s" "$device_alias"
+
+						notify-send -i $img_conncet "Bluetooth" "$device_alias connected"
                     else
                         printf " %s" "$device_alias"
+						notify-send -i $img_conncet "Bluetooth" "$device_alias connected"
                     fi
 
                     counter=$((counter + 1))
@@ -26,7 +32,7 @@ bluetooth_print() {
 
             printf '\n'
         else
-            echo ""
+            echo ""``
         fi
     done
 }

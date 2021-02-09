@@ -2,7 +2,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango: Ubuntu Nerd Font 9
+font pango: Ubuntu Nerd Font 10
 #font pango: TerminessTTF Nerd Font 10
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -15,12 +15,11 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
-bindsym $mod+d exec rofi -show drun -theme dracula -no-show-icons
-#bindsym Ctrl+space exec dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#bd93f9' -sf '#F8F8F2' -p 'dmenu:' 
+bindsym $mod+d exec rofi -show drun -theme dracula -no-show-icons 
 bindsym Ctrl+space exec rofi -show run -theme dmenu -no-show-icons
 
 # Lockscreen
-bindsym $mod+Shift+x exec mantablockscreen
+bindsym $mod+Shift+x exec ~/.local/bin/i3lock-blur
 
 # change focus
 bindsym $mod+h focus left
@@ -79,13 +78,18 @@ bindsym $mod+minus scratchpad show
 bindsym $mod+Shift+d focus child
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +1%
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +3% & ~/.local/bin/volume-notify
 #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -1% 
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -3% & ~/.local/bin/volume-notify 
 #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle 
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle & ~/volumn-notify
 # mute sound
 
+# screen brightness
+# increase screen brightness
+bindsym XF86MonBrightnessUp exec xbacklight -inc 5 & ~/.local/bin/brightness-notify
+# decrease screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 5 & ~/.local/bin/brightness-notify
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -201,46 +205,24 @@ bindsym $mod+Shift+e mode "$power-menu"
 workspace_auto_back_and_forth yes
 
 for_window [class=".*"] border pixel 1
-gaps inner 4
-gaps outer 8
+smart_borders on
+gaps inner 2
+gaps outer 2
+smart_gaps on
 focus_follows_mouse no
 title_align center
 
-# print all window titles bold
-#for_window [class=".*"] title_format "   %title "
-#for_window [class="(?i)alacritty"] title_format "   %title "
-#for_window [class="(?i)kitty"] title_format "   %title "
-#for_window [class="(?i)firefox"] title_format "   %title"
-#for_window [class="(?i)Brave-browser"] title_format " 爵  %title"
-#for_window [class="(?i)dolphin"] title_format "   %title"
-#for_window [title="(?i)ranger"] title_format "   %title"
-
 for_window [class="(?i)plasma.emojier"] floating enable
-
-# Bar settings
-#bar {
-  #status_command i3blocks
-  #colors {
-		#background #1e1f28
-		#statusline #f8f8f2
-		#separator  #44475a
-		##<colorclass>      <border> <background> <text>
-		#focused_workspace  #44475a #bd93f9 #282a36
-		#active_workspace   #44475a #282a36 #f8f8f2
-		#inactive_workspace #44475a #282a36 #f8f8f2
-		#urgent_workspace   #44475a #282a36 #ff5555
-		#binding_mode       #44475a #282a36 #ff5555
-	#}
-#}
+for_window[class="Ulauncher"] border none
 
 
 # Color settings
 # class                 border  backgr  text    indicator child_border
-client.focused          #bd93f9 #bd93f9 #282A36 #bd93f9   #bd93f9
-client.focused_inactive #ffb86c #ffb86c #282A36 #ffb86c   #ffb86c
-client.unfocused        #44475A #44475A #F8F8F2 #44475A   #44475A
-client.urgent           #FF5555 #FF5555 #282A36 #FF5555   #FF5555
-client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A3
+client.focused          #0a7aca #0a7aca #ffffff #0a7aca   #0a7aca
+client.focused_inactive #ffaf00 #ffaf00 #1e1e1e #ffaf00   #ffaf00
+client.unfocused        #3c3c3c #3c3c3c #ffffff #3c3c3c   #3c3c3c
+client.urgent           #f44747 #f44747 #1e1e1e #f44747   #f44747
+client.placeholder      #1e1e1e #1e1e1e #ffffff #1e1e1e   #1e1e1e
 
 # Auto startup
 #polkit
@@ -250,12 +232,10 @@ exec /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
 exec --no-startup-id polybar -c ~/.config/polybar/config.i3wm fullbar
 # Compositor
 exec --no-startup-id picom & 
-#Conky
-exec --no-startup-id conky & 
 # Wallpaper 
-exec feh --bg-fill /home/devops/Pictures/dracula-bg.png
-# Birghtness
-exec xrandr --output LVDS-0 --brightness .6
+exec feh --bg-fill /home/devops/Pictures/fantasy-girl-oled-4k-e6.jpg 
+# redshift
+exec --no-startup-id redshift
 
 # Notification
 exec --no-startup-id dunst

@@ -7,7 +7,7 @@ configuration {
 * {
     font: "Ubuntu 12";
     foreground: #f8f8f2;
-    background-color: #282a36;
+    background-color: #1e1e1e;
     active-background: #bd93f9;
     urgent-background: #ff5555;
 	window-bordercolor: #44475a;

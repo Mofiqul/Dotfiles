@@ -132,7 +132,7 @@ export PATH="$PATH:$HOME/.local/bin"
 
 export VISUAL=nvim
 export EDITOR="$VISUAL"
-export BAT_THEME="Dracula"
+export BAT_THEME="base16"
 
 alias tmux="tmux -u"
 alias vim="nvim"
@@ -149,11 +149,11 @@ alias vis="vim -u ~/.novimrc"
 #  --color=marker:#ffb86c,border:#bd93f9,header:#50fa7b,preview-bg:#282a36
 #'
 
-export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
---color=dark
---color=fg:-1,bg:-1,hl:#5fff87,fg+:#bd93f9,bg+:-1,hl+:#ffaf5f,border:#bd93f9
---color=info:#af87ff,prompt:#5fff87,pointer:#ff87d7,marker:#ff87d7,spinner:#ff87d7
-'
+#export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
+#--color=dark
+#--color=fg:-1,bg:-1,hl:#5fff87,fg+:#bd93f9,bg+:-1,hl+:#ffaf5f,border:#bd93f9
+#--color=info:#af87ff,prompt:#5fff87,pointer:#ff87d7,marker:#ff87d7,spinner:#ff87d7
+#'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_CTRL_T_OPTS="--ansi --preview-window 'right:60%' --preview 'bat --theme=ansi-dark --color=always --style=full --line-range :300 {}'"
@@ -168,9 +168,9 @@ MODE_INDICATOR_SEARCH='%F{13}%F{5}SEARCH%f'
 MODE_INDICATOR_VISUAL='%F{12}%F{4}VISUAL%f'
 MODE_INDICATOR_VLINE='%F{12}%F{4}V-LINE%f'
 
-MODE_CURSOR_VICMD="#50fa7b block"
-MODE_CURSOR_VIINS="#bd93f9 blinking bar"
-MODE_CURSOR_SEARCH="##ff5555 steady underline"
+MODE_CURSOR_VICMD="#608b4e block"
+MODE_CURSOR_VIINS="#569cd6 blinking bar"
+MODE_CURSOR_SEARCH="#f44747 steady underline"
 
 setopt PROMPT_SUBST
 # Note the single quotes

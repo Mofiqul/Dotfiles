@@ -9,7 +9,7 @@
     padding = 10
     horizontal_padding = 10
     frame_width = 2
-    frame_color = "#44475a"
+    frame_color = "#3c3c3c"
     separator_color = frame
     sort = yes
     idle_threshold = 120
@@ -38,9 +38,25 @@
     mouse_left_click = do_action
     mouse_middle_click = close_all
     mouse_right_click = close_current
-	transparency = 25
-	dmenu = "/usr/bin/dmenu -nf '#F7F8F2' -nb '#282A36' -sb '#bd93f9' -sf '#F8F8F2' -p 'Notification:'"
+	transparency = 40
 
+	# Turn on the progess bar
+    progress_bar = true
+
+    # Set the progress bar height. This includes the frame, so make sure
+    # it's at least twice as big as the frame width.
+    progress_bar_height = 10
+
+    # Set the frame width of the progress bar
+    progress_bar_frame_width = 1
+
+    # Set the minimum width for the progress bar
+    progress_bar_min_width = 150
+
+    # Set the maximum width for the progress bar
+    progress_bar_max_width = 200
+
+	dmenu = "/usr/bin/dmenu -nf '#ffffff' -nb '#1e1e1e' -sb '#0A7ACA' -sf '#ffffff' -p 'Notification:'"
 [shortcuts]
     close =  ctrl+period
     history = ctrl+shift+period
@@ -50,19 +66,19 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the '#' and following  would be interpreted as a comment.
-    background="#282a36"
-    foreground="#f8f8f2"
+    background="#1e1e1e"
+    foreground="#d4d4d4"
     timeout = 2
 
 
 [urgency_normal]
-    background="#282a36" #3a3a3a
-    foreground="#f8f8f2"
+    background="#1e1e1e"
+    foreground="#d4d4d4"
     timeout = 3
 
 
 [urgency_critical]
-    background="#ff5555"
-    foreground="#f8f8f2"
+    background="#F44747"
+    foreground="#1e1e1e"
     timeout = 5
 

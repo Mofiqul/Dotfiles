@@ -26,3 +26,11 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+
+# Enable kde by default unless another PLATFORMTHEME option is set
+# or KDE is running.
+if [ -z "$QT_QPA_PLATFORMTHEME" ] && [ "$XDG_CURRENT_DESKTOP" != "KDE" ]
+then
+        export QT_QPA_PLATFORMTHEME=kde
+		export SAL_USE_VCLPLUGIN=kde5
+fi
