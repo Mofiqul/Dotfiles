@@ -15,7 +15,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
-bindsym $mod+d exec rofi -show drun -theme dracula -no-show-icons 
+bindsym $mod+d exec rofi -show drun -theme codeDark -no-show-icons 
 bindsym Ctrl+space exec rofi -show run -theme dmenu -no-show-icons
 
 # Lockscreen
