@@ -177,29 +177,29 @@ bindsym $mod+r mode "resize"
 
 # redshift modes
 mode "$mode_redshift" {
-    bindsym 1 exec --no-startup-id "$kill_redshift redshift", mode "default"
-    bindsym 2 exec --no-startup-id "$kill_redshift", mode "default"
+    bindsym s exec --no-startup-id "$kill_redshift  redshift -t 5700:3400", mode "default"
+    bindsym e exec --no-startup-id "$kill_redshift", mode "default"
  
     # back to normal: Enter or Escape or $mod+i
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
 bindsym $mod+i mode "$mode_redshift"
-set $mode_redshift Redshift: [1]Start - [2]Stop
+set $mode_redshift Redshift: [ s ] Start - [ e ] Stop
 set $kill_redshift killall redshift;
 
 # Powermenu mode
 mode "$power-menu" {
-	bindsym 1 exec i3-msg exit
-	bindsym 2 exec reboot
-	bindsym 3 exec poweroff
+	bindsym e exec i3-msg exit
+	bindsym r exec reboot
+	bindsym s exec poweroff
         
 	# back to normal: Enter or Escape or $mod+Shift+e
     bindsym Return mode "default"
     bindsym Escape mode "default"
 } 
 
-set $power-menu Power: [1]Logout - [2]Reboot - [3]Shutdown
+set $power-menu Power: [ e ] Logout - [ r ] Reboot - [ s ] Shutdown
 bindsym $mod+Shift+e mode "$power-menu"
 
 workspace_auto_back_and_forth yes
@@ -237,7 +237,7 @@ exec feh --bg-fill /home/devops/Pictures/fantasy-girl-oled-4k-e6.jpg
 # Brightness
 exec --no-startup-id xbacklight -set 42
 # redshift
-exec --no-startup-id redshift
+exec --no-startup-id  redshift -t 5700:3400  
 
 # Notification
 exec --no-startup-id dunst
