@@ -15,8 +15,8 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
-bindsym $mod+d exec rofi -show drun -theme codeDark -no-show-icons 
-bindsym Ctrl+space exec rofi -show run -theme dmenu -no-show-icons
+bindsym $mod+d exec rofi -show drun -columns 2 -theme codeDark -no-show-icons 
+bindsym Ctrl+space exec rofi -show run -columns 2 -theme codeDark -no-show-icons
 
 # Lockscreen
 bindsym $mod+Shift+x exec ~/.local/bin/i3lock-blur
@@ -217,12 +217,13 @@ for_window[class="Ulauncher"] border none
 
 
 # Color settings
-# class                 border  backgr  text    indicator child_border
-client.focused          #0a7aca #0a7aca #ffffff #0a7aca   #0a7aca
-client.focused_inactive #ffaf00 #ffaf00 #1e1e1e #ffaf00   #ffaf00
-client.unfocused        #3c3c3c #3c3c3c #ffffff #3c3c3c   #3c3c3c
-client.urgent           #f44747 #f44747 #1e1e1e #f44747   #f44747
-client.placeholder      #1e1e1e #1e1e1e #ffffff #1e1e1e   #1e1e1e
+# class                	 	border  backgr  text    indicator child_border
+client.focused          	#0a7aca #0a7aca #ffffff #0a7aca   #0a7aca
+client.focused_inactive 	#3c3c3c #3c3c3c #ffffff #3c3c3c   #3c3c3c
+#client.focused_inactive 	#ffaf00 #ffaf00 #1e1e1e #ffaf00   #ffaf00
+client.unfocused        	#3c3c3c #3c3c3c #ffffff #3c3c3c   #3c3c3c
+client.urgent           	#f44747 #f44747 #1e1e1e #f44747   #f44747
+client.placeholder      	#1e1e1e #1e1e1e #ffffff #1e1e1e   #1e1e1e
 
 # Auto startup
 #polkit
