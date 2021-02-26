@@ -7,7 +7,7 @@ foreground = #ffffff
 
 modules-left = i3 space mpd 
 modules-center = 
-modules-right = memory space cpu space temperature space space-bg space system-usb-udev space wlan space bluetooth space battery space updates space date 
+modules-right = memory space cpu space temperature space space-bg space volume space wlan space bluetooth space battery space updates space date 
 
 [module/memory]
 type = internal/memory
@@ -78,15 +78,15 @@ battery = BAT0
 adapter = ACAD
 poll-interval = 2
 #format-discharging-foreground = "#dcdcaa"
-format-discharging = <ramp-capacity>   <label-discharging>%
+format-discharging = BAT: <label-discharging>%
 
 format-full =  <label-full>% 
 #format-full-foreground = "#608b4e"
-format-charging = <animation-charging>   <label-charging>%
+format-charging = CHR: <label-charging>%
 #format-charging-foreground = "#569cd6"
 label-charging = %percentage%
 label-discharging =  %percentage%
-label-full =     %percentage%
+label-full =  FULL: %percentage%
 
 ramp-capacity-0 =  
 ramp-capacity-1 =  
@@ -106,9 +106,9 @@ animation-charging-framerate = 500
 type = internal/network
 interface = wlp7s0
 interval = 5
-label-connected = 直 %essid% 
+label-connected = WIFI: %essid% 
 #label-connected-foreground = "#608b4e"
-label-disconnected = 睊
+label-disconnected = OFFLINE
 #label-disconnected-foreground = "#f44747"
 content-padding = 2
 
@@ -122,8 +122,8 @@ content-padding = 2
 
 [module/volume]
 type = internal/alsa
-format-volume = 墳 <label-volume>
-format-muted = 墳 Muted
+format-volume = VOL: <label-volume>
+format-muted = VOL: Muted
 
 [module/pulseaudio]
 type = internal/pulseaudio

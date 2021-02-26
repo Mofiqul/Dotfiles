@@ -1,6 +1,7 @@
 call plug#begin()
 " Devicon
-Plug 'ryanoasis/vim-devicons'
+"Plug 'ryanoasis/vim-devicons'
+Plug 'kyazdani42/nvim-web-devicons'
 
 " Vim Status line
 "Airline and airline themes
@@ -12,9 +13,6 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'tomasiser/vim-code-dark'
-
-Plug 'junegunn/fzf', { 'do': './install --bin' }
-Plug 'junegunn/fzf.vim'
 
 " Git support
 Plug 'airblade/vim-gitgutter'
@@ -40,7 +38,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 
 Plug 'mboughaba/i3config.vim'
 Plug 'tpope/vim-surround'
-Plug 'mhinz/vim-startify'
+"Plug 'mhinz/vim-startify'
 Plug 'Yggdroot/indentLine'
 Plug 'luochen1990/rainbow'
 Plug 'mattn/emmet-vim'
@@ -48,9 +46,15 @@ Plug 'mattn/emmet-vim'
 " Noevim COC
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "COC extensions
-let g:coc_global_extensions = ['coc-json', 'coc-phpls', 'coc-xml', 'coc-python', 'coc-html', 'coc-tsserver', 'coc-vetur', 'coc-emmet', 'coc-spell-checker', 'coc-prettier', 'coc-snippets', 'coc-tailwindcss', 'coc-svelte', 'coc-clangd', 'coc-highlight', 'coc-explorer', 'coc-sql', 'coc-vimlsp', 'coc-sh', 'coc-fzf-preview']
+let g:coc_global_extensions = ['coc-json', 'coc-phpls', 'coc-xml', 'coc-python', 'coc-html', 'coc-tsserver', 'coc-vetur', 'coc-emmet', 'coc-spell-checker', 'coc-prettier', 'coc-snippets', 'coc-tailwindcss', 'coc-svelte', 'coc-clangd', 'coc-highlight', 'coc-explorer', 'coc-sql', 'coc-vimlsp', 'coc-sh']
 
 Plug 'sheerun/vim-polyglot'
+
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+
+Plug 'glepnir/dashboard-nvim'
 call plug#end()
 
 
@@ -69,28 +73,21 @@ if (has('termguicolors'))
 	set termguicolors
 endif
 
-
-
 " Airline configueations
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline#extensions#tabline#left_sep = ''
 let g:airline#extensions#tabline#left_alt_sep = '|'
-"let g:airline_theme = 'dracula'
 let g:airline_powerline_fonts = 1
 
-
-
 " Productivity configueations
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {}
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['vue'] = '﵂'
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pug'] = ''
-let g:mkdp_browser = 'firefox'
+let g:mkdp_browser = 'surf'
 let g:user_emmet_leader_key=','
 let g:rainbow_active = 1
 let g:indentLine_enabled = 1
 let g:indentLine_setColors = 1
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+let g:indentLine_fileTypeExclude = ['dashboard']
 
 let g:gitgutter_sign_added = '▎'
 let g:gitgutter_sign_modified = '▎'
@@ -312,13 +309,12 @@ noremap <silent> <C-Down> :resize -5<CR>
 map <Leader>th <C-w>t<C-w>H
 map <Leader>tv <C-w>t<C-w>K
 
-function! StartifyEntryFormat()
-    return 'WebDevIconsGetFileTypeSymbol(absolute_path) ." ". entry_path'
-endfunction
+"function! StartifyEntryFormat()
+    "return 'WebDevIconsGetFileTypeSymbol(absolute_path) ." ". entry_path'
+"endfunction
 
 autocmd TermOpen * setlocal nonumber norelativenumber
 
-let g:WebDevIconsUnicodeGlyphDoubleWidth = 0
 
 colorscheme codedark
 let g:airline_theme = 'codedark'
@@ -328,43 +324,41 @@ highlight GitGutterAdd    guifg=#608b4e ctermfg=2
 highlight GitGutterChange guifg=#d7ba7d ctermfg=3
 highlight GitGutterDelete guifg=#f44747 ctermfg=1
 "hi Normal guibg=NONE ctermbg=NONE
-"
-"
-let g:fzf_preview_use_dev_icons = 1
-let g:fzf_preview_grep_cmd = 'ag --line-number --no-heading' " 'rg --line-number --no-heading --color=never'
 
+
+
+
+" Telescope key bindings
+map <C-p> :Telescope find_files prompt_prefix=<CR>
+map <C-g> :Telescope git_files prompt_prefix=<CR>
+map <C-b> :Telescope buffers prompt_prefix=<CR>
+map <Leader>p :Telescope commands prompt_prefix=<CR>
+map <C-l> :Telescope live_grep prompt_prefix=<CR>
 
 nmap <Leader>f [fzf-p]
 xmap <Leader>f [fzf-p]
 
-nnoremap <silent> [fzf-p]p     :<C-u>CocCommand fzf-preview.FromResources project_mru git<CR>
-nnoremap <silent> [fzf-p]gs    :<C-u>CocCommand fzf-preview.GitStatus<CR>
-nnoremap <silent> [fzf-p]ga    :<C-u>CocCommand fzf-preview.GitActions<CR>
-nnoremap <silent> [fzf-p]b     :<C-u>CocCommand fzf-preview.Buffers<CR>
-nnoremap <silent> [fzf-p]B     :<C-u>CocCommand fzf-preview.AllBuffers<CR>
-nnoremap <silent> [fzf-p]o     :<C-u>CocCommand fzf-preview.FromResources buffer project_mru<CR>
-nnoremap <silent> [fzf-p]<C-o> :<C-u>CocCommand fzf-preview.Jumps<CR>
-nnoremap <silent> [fzf-p]g;    :<C-u>CocCommand fzf-preview.Changes<CR>
-nnoremap <silent> [fzf-p]/     :<C-u>CocCommand fzf-preview.Lines --add-fzf-arg=--no-sort --add-fzf-arg=--query="'"<CR>
-nnoremap <silent> [fzf-p]*     :<C-u>CocCommand fzf-preview.Lines --add-fzf-arg=--no-sort --add-fzf-arg=--query="'<C-r>=expand('<cword>')<CR>"<CR>
-nnoremap          [fzf-p]gr    :<C-u>CocCommand fzf-preview.ProjectGrep<Space>
-xnoremap          [fzf-p]gr    "sy:CocCommand   fzf-preview.ProjectGrep<Space>-F<Space>"<C-r>=substitute(substitute(@s, '\n', '', 'g'), '/', '\\/', 'g')<CR>"
-nnoremap <silent> [fzf-p]t     :<C-u>CocCommand fzf-preview.BufferTags<CR>
-nnoremap <silent> [fzf-p]q     :<C-u>CocCommand fzf-preview.QuickFix<CR>
-nnoremap <silent> [fzf-p]l     :<C-u>CocCommand fzf-preview.LocationList<CR>
+nnoremap <silent> [fzf-p]gs    :<C-u>Telescope git_status prompt_prefix=<CR>
+nnoremap <silent> [fzf-p]gc    :<C-u>Telescope git_commits prompt_prefix=<CR>
 
 
-" FZF key bindings
-map <C-p> :CocCommand fzf-preview.ProjectFiles<CR>
-map <C-d> :CocCommand fzf-preview.DirectoryFiles<CR>
-map <C-b> :CocCommand fzf-preview.Buffers<CR>
 
-augroup fzf_preview
-  autocmd!
-  autocmd User fzf_preview#rpc#initialized call s:fzf_preview_settings() " fzf_preview#remote#initialized or fzf_preview#coc#initialized
-augroup END
-
-function! s:fzf_preview_settings() abort
-  let g:fzf_preview_command = 'COLORTERM=truecolor ' . g:fzf_preview_command
-  let g:fzf_preview_grep_preview_cmd = 'COLORTERM=truecolor ' . g:fzf_preview_grep_preview_cmd
+autocmd Filetype markdown call DisableIndentLineAndSetConceal()
+function DisableIndentLineAndSetConceal()
+    let g:indentLine_enabled=0
+	set conceallevel=2
+	set concealcursor="nv"
 endfunction
+
+
+let g:dashboard_default_executive ='Telescope'
+let g:dashboard_custom_header = [
+\ ' ███╗   ██╗ ███████╗ ██████╗  ██╗   ██╗ ██╗ ███╗   ███╗',
+\ ' ████╗  ██║ ██╔════╝██╔═══██╗ ██║   ██║ ██║ ████╗ ████║',
+\ ' ██╔██╗ ██║ █████╗  ██║   ██║ ██║   ██║ ██║ ██╔████╔██║',
+\ ' ██║╚██╗██║ ██╔══╝  ██║   ██║ ╚██╗ ██╔╝ ██║ ██║╚██╔╝██║',
+\ ' ██║ ╚████║ ███████╗╚██████╔╝  ╚████╔╝  ██║ ██║ ╚═╝ ██║',
+\ ' ╚═╝  ╚═══╝ ╚══════╝ ╚═════╝    ╚═══╝   ╚═╝ ╚═╝     ╚═╝',
+\]
+
+luafile ~/.config/nvim/telescope.lua

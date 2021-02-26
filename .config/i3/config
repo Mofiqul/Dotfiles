@@ -93,16 +93,22 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 5 & ~/.local/bin/brightness-n
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1: 爵 "
-set $ws2 "2:  "
-set $ws3 "3:  "
-set $ws4 "4: 龎 "
-set $ws5 "5: 奈 "
-set $ws6 "6:  "
-set $ws7 "7:  "
-set $ws8 "8:  "
-set $ws9 "9: 﫸 "
-set $ws10 "10:  "
+#set $ws1 "1: 爵 "
+#set $ws2 "2:  "
+#set $ws3 "3:  "
+#set $ws4 "4: 龎 "
+#set $ws5 "5: 奈 "
+#set $ws6 "6:  "
+#set $ws7 "7:  "
+#set $ws8 "8:  "
+#set $ws9 "9: 﫸 "
+#set $ws10 "10:  "
+
+set $ws1 "1:WEB"
+set $ws2 "2:DEV"
+set $ws3 "3:TERM"
+set $ws4 "4:ETC"
+set $ws5 "5:EMG"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -110,11 +116,6 @@ bindsym $mod+2 workspace number $ws2
 bindsym $mod+3 workspace number $ws3
 bindsym $mod+4 workspace number $ws4
 bindsym $mod+5 workspace number $ws5
-bindsym $mod+6 workspace number $ws6
-bindsym $mod+7 workspace number $ws7
-bindsym $mod+8 workspace number $ws8
-bindsym $mod+9 workspace number $ws9
-bindsym $mod+0 workspace number $ws10
 
 # Move co to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
@@ -234,7 +235,7 @@ exec --no-startup-id polybar -c ~/.config/polybar/config.i3wm fullbar
 # Compositor
 exec --no-startup-id picom & 
 # Wallpaper 
-exec feh --bg-fill /home/devops/Pictures/fantasy-girl-oled-4k-e6.jpg 
+exec feh --bg-fill /home/devops/Pictures/colibri_bird.png 
 # Brightness
 exec --no-startup-id xbacklight -set 42
 # redshift
@@ -249,3 +250,9 @@ exec --no-startup-id udiskie &
 # Enable tap to touch (Only laptop)
 exec --no-startup-id  ~/.local/bin/xinput-tab
 exec xsetroot -cursor_name left_ptr &
+
+
+#exec --no-startup-id kitty --name dropdown
+#for_window [instance="dropdown"] floating enable, border none, move absolute \
+#position 100px 0px, resize set 1166 600px, move scratchpad
+#bindsym $mod+p [instance="dropdown"] scratchpad show

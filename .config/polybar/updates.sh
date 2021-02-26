@@ -4,7 +4,7 @@ if ! updates=$(apt list --upgradable 2> /dev/null| awk '{print $1}' | wc -l); th
 fi
 
 if [ "$updates" -gt 1 ]; then
-	echo " : $(($updates - 1))"
+	echo "PKG : $(($updates - 1))"
 else
-	echo " : Up to date"
+	echo "PKG: 0"
 fi

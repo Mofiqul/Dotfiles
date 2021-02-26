@@ -7,7 +7,7 @@ img_conncet="/home/devops/.local/share/icons/Flatery-Indigo-Dark/panel/24@2x/blu
 bluetooth_print() {
     bluetoothctl | while read -r; do
     	if bluetoothctl show | grep -q "Powered: yes"; then
-            printf ''
+            printf 'BLE: '
             devices_paired=$(bluetoothctl paired-devices | grep Device | cut -d ' ' -f 2)
             counter=0
 
@@ -18,21 +18,26 @@ bluetooth_print() {
                     device_alias=$(echo "$device_info" | grep "Alias" | cut -d ' ' -f 2-)
 
                     if [ $counter -gt 0 ]; then
-						printf ", %s" "$device_alias"
+						printf "%s" "$device_alias"
 
 						notify-send -i $img_conncet "Bluetooth" "$device_alias connected"
+						break
                     else
-                        printf " %s" "$device_alias"
+                        printf "%s" "$device_alias"
 						notify-send -i $img_conncet "Bluetooth" "$device_alias connected"
+						break;
                     fi
 
                     counter=$((counter + 1))
+				else 
+					printf "ON"
+					break
                 fi
             done
 
             printf '\n'
         else
-            echo ""``
+            echo "BLE: OFF"
         fi
     done
 }
