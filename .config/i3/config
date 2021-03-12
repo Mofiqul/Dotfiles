@@ -16,7 +16,7 @@ bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
 bindsym $mod+d exec rofi -show drun -columns 2 -theme codeDark -no-show-icons 
-bindsym Ctrl+space exec rofi -show run -columns 2 -theme codeDark -no-show-icons
+bindsym Ctrl+$mod+space exec rofi -show run -columns 2 -theme codeDark -no-show-icons
 
 # Lockscreen
 bindsym $mod+Shift+x exec ~/.local/bin/i3lock-blur

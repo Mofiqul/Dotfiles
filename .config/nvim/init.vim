@@ -12,7 +12,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
-Plug 'tomasiser/vim-code-dark'
 
 " Git support
 Plug 'airblade/vim-gitgutter'
@@ -53,8 +52,9 @@ Plug 'sheerun/vim-polyglot'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'glepnir/dashboard-nvim'
+Plug 'Mofiqul/codedark.nvim'
 call plug#end()
 
 
@@ -316,8 +316,19 @@ map <Leader>tv <C-w>t<C-w>K
 autocmd TermOpen * setlocal nonumber norelativenumber
 
 
-colorscheme codedark
+" configure treesitter
+lua << EOF
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  highlight = {
+    enable = true,              -- false will disable the whole extension
+  },
+}
+EOF
+
+let g:codedark_termcolors=256
 let g:airline_theme = 'codedark'
+colorscheme codedark
 
 " Fix for gitgutter color
 highlight GitGutterAdd    guifg=#608b4e ctermfg=2
@@ -325,21 +336,18 @@ highlight GitGutterChange guifg=#d7ba7d ctermfg=3
 highlight GitGutterDelete guifg=#f44747 ctermfg=1
 "hi Normal guibg=NONE ctermbg=NONE
 
-
-
-
 " Telescope key bindings
-map <C-p> :Telescope find_files prompt_prefix=<CR>
-map <C-g> :Telescope git_files prompt_prefix=<CR>
-map <C-b> :Telescope buffers prompt_prefix=<CR>
-map <Leader>p :Telescope commands prompt_prefix=<CR>
-map <C-l> :Telescope live_grep prompt_prefix=<CR>
+map <C-p> :Telescope find_files<CR>
+map <C-g> :Telescope git_files<CR>
+map <C-b> :Telescope buffers<CR>
+map <Leader>p :Telescope commands<CR>
+map <C-l> :Telescope live_grep<CR>
 
 nmap <Leader>f [fzf-p]
 xmap <Leader>f [fzf-p]
 
-nnoremap <silent> [fzf-p]gs    :<C-u>Telescope git_status prompt_prefix=<CR>
-nnoremap <silent> [fzf-p]gc    :<C-u>Telescope git_commits prompt_prefix=<CR>
+nnoremap <silent> [fzf-p]gs    :<C-u>Telescope git_status<CR>
+nnoremap <silent> [fzf-p]gc    :<C-u>Telescope git_commits<CR>
 
 
 
@@ -362,3 +370,5 @@ let g:dashboard_custom_header = [
 \]
 
 luafile ~/.config/nvim/telescope.lua
+
+
