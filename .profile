@@ -34,3 +34,4 @@ then
         export QT_QPA_PLATFORMTHEME=kde
 		export SAL_USE_VCLPLUGIN=kde5
 fi
+source "$HOME/.cargo/env"

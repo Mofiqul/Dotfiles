@@ -1,17 +1,10 @@
 call plug#begin()
 " Devicon
-"Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
 
-" Vim Status line
 "Airline and airline themes
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-
-"Vim Colorschemes
-Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'NLKNguyen/papercolor-theme'
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
 " Git support
 Plug 'airblade/vim-gitgutter'
@@ -37,7 +30,6 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 
 Plug 'mboughaba/i3config.vim'
 Plug 'tpope/vim-surround'
-"Plug 'mhinz/vim-startify'
 Plug 'Yggdroot/indentLine'
 Plug 'luochen1990/rainbow'
 Plug 'mattn/emmet-vim'
@@ -54,7 +46,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'glepnir/dashboard-nvim'
-Plug 'Mofiqul/codedark.nvim'
+Plug 'Mofiqul/vim-code-dark'
 call plug#end()
 
 
@@ -325,10 +317,9 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 EOF
-
-let g:codedark_termcolors=256
-let g:airline_theme = 'codedark'
+ 
 colorscheme codedark
+let g:airline_theme = 'codedark'
 
 " Fix for gitgutter color
 highlight GitGutterAdd    guifg=#608b4e ctermfg=2
